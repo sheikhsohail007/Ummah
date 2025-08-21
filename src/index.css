@@ -575,3 +575,312 @@ textarea:focus-visible {
 .back-to-top i {
   font-size: 1.2rem;
 }
+
+/* Loading Screen Styles */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 25%, #334155 50%, #1e293b 75%, #0f172a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.loading-screen::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 30%, rgba(16, 185, 129, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(168, 85, 247, 0.15) 0%, transparent 50%);
+  animation: backgroundShift 8s ease-in-out infinite;
+}
+
+@keyframes backgroundShift {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+.loading-container {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* Islamic Symbol Animation */
+.islamic-symbol {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 2rem;
+  animation: symbolFloat 3s ease-in-out infinite;
+}
+
+@keyframes symbolFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.crescent {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 4px solid #10b981;
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  top: 20px;
+  left: 20px;
+  animation: crescentRotate 4s linear infinite;
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+}
+
+@keyframes crescentRotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.crescent-inner {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #3b82f6;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  top: 6px;
+  left: 6px;
+  animation: crescentRotate 3s linear infinite reverse;
+}
+
+.star {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  animation: starPulse 2s ease-in-out infinite;
+}
+
+@keyframes starPulse {
+  0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.8; }
+  50% { transform: scale(1.2) rotate(180deg); opacity: 1; }
+}
+
+.star-point {
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  background: linear-gradient(to bottom, #fbbf24, #f59e0b);
+  border-radius: 2px;
+  top: 50%;
+  left: 50%;
+  transform-origin: center bottom;
+  box-shadow: 0 0 10px rgba(251, 191, 36, 0.6);
+}
+
+.star-point:nth-child(1) { transform: translate(-50%, -100%) rotate(0deg); }
+.star-point:nth-child(2) { transform: translate(-50%, -100%) rotate(72deg); }
+.star-point:nth-child(3) { transform: translate(-50%, -100%) rotate(144deg); }
+.star-point:nth-child(4) { transform: translate(-50%, -100%) rotate(216deg); }
+.star-point:nth-child(5) { transform: translate(-50%, -100%) rotate(288deg); }
+
+/* Loading Text */
+.loading-text {
+  margin-bottom: 3rem;
+}
+
+.brand-name {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #10b981, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+  animation: textGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes textGlow {
+  0% { filter: brightness(1); }
+  100% { filter: brightness(1.2); }
+}
+
+.tagline {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  font-style: italic;
+  opacity: 0;
+  animation: fadeInUp 1s ease-out 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading Progress */
+.loading-progress {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #3b82f6, #8b5cf6);
+  border-radius: 2px;
+  animation: progressFill 3s ease-in-out forwards;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+}
+
+@keyframes progressFill {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.loading-message {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 1s forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Floating Particles */
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #10b981;
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: particleFloat 6s linear infinite;
+}
+
+.particle:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
+  animation-duration: 6s;
+}
+
+.particle:nth-child(2) {
+  left: 20%;
+  animation-delay: 1s;
+  animation-duration: 8s;
+  background: #3b82f6;
+}
+
+.particle:nth-child(3) {
+  left: 30%;
+  animation-delay: 2s;
+  animation-duration: 7s;
+  background: #8b5cf6;
+}
+
+.particle:nth-child(4) {
+  left: 70%;
+  animation-delay: 0.5s;
+  animation-duration: 9s;
+  background: #fbbf24;
+}
+
+.particle:nth-child(5) {
+  left: 80%;
+  animation-delay: 1.5s;
+  animation-duration: 5s;
+  background: #10b981;
+}
+
+.particle:nth-child(6) {
+  left: 90%;
+  animation-delay: 2.5s;
+  animation-duration: 7s;
+  background: #3b82f6;
+}
+
+@keyframes particleFloat {
+  0% {
+    transform: translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-100vh) scale(0);
+    opacity: 0;
+  }
+}
+
+/* Responsive Design for Loading Screen */
+@media (max-width: 768px) {
+  .brand-name {
+    font-size: 2.5rem;
+  }
+  
+  .tagline {
+    font-size: 1rem;
+  }
+  
+  .islamic-symbol {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .crescent {
+    width: 70px;
+    height: 70px;
+    top: 15px;
+    left: 15px;
+  }
+  
+  .crescent-inner {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .progress-bar {
+    width: 250px;
+  }
+}

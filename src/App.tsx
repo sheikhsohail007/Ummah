@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Menu, X, Clock, Heart, BookOpen, Compass, MessageCircle, Smile } from 'lucide-react';
+import LoadingScreen from './components/LoadingScreen';
 import Header from './components/Header';
 import MoodSelector from './components/MoodSelector';
 import PrayerTimes from './components/PrayerTimes';
@@ -20,6 +21,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     if (darkMode) {
@@ -28,6 +30,19 @@ function App() {
       document.documentElement.classList.remove('dark');
     }
   }, [darkMode]);
+
+  useEffect(() => {
+    // Simulate loading time
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // 3 seconds loading time
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <LoadingScreen />;
+  }
 
   const navigationItems = [
     { id: 'home', label: 'Home', icon: <Compass className="w-5 h-5" /> },
@@ -38,18 +53,6 @@ function App() {
     { id: 'stories', label: 'Islamic Stories', icon: <MessageCircle className="w-5 h-5" /> },
     { id: 'mood', label: 'Mood Selector', icon: <Smile className="w-5 h-5" /> },
   ];
-
-  const getFeatureDescription = (id: string) => {
-    const descriptions: Record<string, string> = {
-      'salah': 'Learn the correct way to perform prayers with step-by-step guidance in multiple languages',
-      'prayer-times': 'Get accurate prayer times for your location with notifications and reminders',
-      'reflection': 'Daily spiritual reflections and motivational content tailored to your mood',
-      'quran': 'Beautiful verses from the Holy Quran for daily guidance and inspiration',
-      'stories': 'Inspiring stories from prophets and believers to strengthen your faith',
-      'mood': 'Select how you\'re feeling today to receive personalized spiritual content',
-    };
-    return descriptions[id] || '';
-  };
 
   const renderContent = () => {
     switch (activeSection) {
@@ -76,7 +79,7 @@ function App() {
                 Discover the beauty of Islam through prayer, reflection, and spiritual guidance
               </p>
             </div>
-
+            
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {navigationItems.slice(1).map((item) => (
                 <button
@@ -98,7 +101,7 @@ function App() {
                 </button>
               ))}
             </div>
-
+            
             {selectedMood && (
               <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-gray-800 dark:to-gray-700 p-6 rounded-xl border-l-4 border-amber-400">
                 <h3 className="text-lg font-semibold text-amber-800 dark:text-amber-300 mb-2">
@@ -114,9 +117,21 @@ function App() {
     }
   };
 
+  const getFeatureDescription = (id: string) => {
+    const descriptions = {
+      'salah': 'Learn the correct way to perform prayers with step-by-step guidance in multiple languages',
+      'prayer-times': 'Get accurate prayer times for your location with notifications and reminders',
+      'reflection': 'Daily spiritual reflections and motivational content tailored to your mood',
+      'quran': 'Beautiful verses from the Holy Quran for daily guidance and inspiration',
+      'stories': 'Inspiring stories from prophets and believers to strengthen your faith',
+      'mood': 'Select how you\'re feeling today to receive personalized spiritual content'
+    };
+    return descriptions[id as keyof typeof descriptions] || '';
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-      <Header
+      <Header 
         darkMode={darkMode}
         setDarkMode={setDarkMode}
         mobileMenuOpen={mobileMenuOpen}
@@ -130,7 +145,7 @@ function App() {
         {renderContent()}
       </main>
 
-       <footer className="luxury-footer">
+      <footer className="luxury-footer">
         <div className="footer-container">
           {/* Top Section */}
           <div className="footer-top">
