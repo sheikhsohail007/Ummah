@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { Heart, RefreshCw, Calendar, Star, BookOpen, Clock, User, Quote } from 'lucide-react';
 import { Mood } from '../App';
 
