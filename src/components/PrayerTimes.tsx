@@ -3,7 +3,7 @@ import { Clock, MapPin, Bell, Sun, Sunset } from 'lucide-react';
 
 interface PrayerTime {
   name: string;
-  nameArabic: string; 
+  nameArabic: string;
   time: string;
   icon: React.ReactElement;
   passed: boolean;
@@ -15,10 +15,19 @@ function PrayerTimes() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [location, setLocation] = useState({ city: 'Your Location', country: '' });
   const [notificationsEnabled, setNotificationsEnabled] = useState(false);
+  const [notificationPermission, setNotificationPermission] = useState<NotificationPermission>('default');
+  const [scheduledNotifications, setScheduledNotifications] = useState<Set<string>>(new Set());
 
-  /* -------- update clock every second -------- */
   useEffect(() => {
-    const timer = setInterval(() => setCurrentTime(new Date()), 1000);
+    const timer = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000);
+
+    // Check notification permission on component mount
+    if ('Notification' in window) {
+      setNotificationPermission(Notification.permission);
+    }
+
     return () => clearInterval(timer);
   }, []);
 
@@ -98,6 +107,70 @@ function PrayerTimes() {
     },
   ];
 
+  // Function to convert time string to minutes since midnight
+  const timeToMinutes = (timeStr: string): number => {
+    const [hours, minutes] = timeStr.split(':').map(Number);
+    return hours * 60 + minutes;
+  };
+
+  // Function to schedule notification
+  const scheduleNotification = (prayer: PrayerTime) => {
+    if (!notificationsEnabled || prayer.type !== 'fard') return;
+
+    const prayerMinutes = timeToMinutes(prayer.time);
+    const notificationMinutes = prayerMinutes - 10; // 10 minutes before
+    const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
+
+    // Calculate time until notification (in milliseconds)
+    let timeUntilNotification = (notificationMinutes - currentMinutes) * 60 * 1000;
+
+    // If the notification time has passed today, schedule for tomorrow
+    if (timeUntilNotification <= 0) {
+      timeUntilNotification += 24 * 60 * 60 * 1000; // Add 24 hours
+    }
+
+    const notificationId = `${prayer.name}-${new Date().toDateString()}`;
+
+    // Don't schedule if already scheduled
+    if (scheduledNotifications.has(notificationId)) return;
+
+    setTimeout(() => {
+      if (notificationsEnabled && Notification.permission === 'granted') {
+        new Notification(`Prayer Reminder - ${prayer.name}`, {
+          body: `${prayer.name} prayer (${prayer.nameArabic}) is in 10 minutes at ${prayer.time}`,
+          icon: '/vite.svg',
+          badge: '/vite.svg',
+          tag: prayer.name,
+          requireInteraction: true,
+          // @ts-ignore: actions is experimental
+          actions: [
+            { action: 'view', title: 'View Prayer Times' }
+          ]
+        });
+
+      }
+
+      // Remove from scheduled set after notification is sent
+      setScheduledNotifications(prev => {
+        const newSet = new Set(prev);
+        newSet.delete(notificationId);
+        return newSet;
+      });
+    }, timeUntilNotification);
+
+    // Add to scheduled set
+    setScheduledNotifications(prev => new Set(prev).add(notificationId));
+  };
+
+  // Schedule notifications for all Fard prayers
+  useEffect(() => {
+    if (notificationsEnabled) {
+      const fardPrayers = prayerTimes.filter(prayer => prayer.type === 'fard');
+      fardPrayers.forEach(prayer => {
+        scheduleNotification(prayer);
+      });
+    }
+  }, [notificationsEnabled, currentTime.getDate()]); // Re-run daily
 
   const getNextPrayer = () => {
     const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
@@ -122,13 +195,40 @@ function PrayerTimes() {
       default: return 'bg-gray-100 text-gray-800 dark:bg-gray-900/30 dark:text-gray-300';
     }
   };
+
   const nextPrayer = getNextPrayer();
 
   const enableNotifications = async () => {
-    if ('Notification' in window) {
-      const permission = await Notification.requestPermission();
-      setNotificationsEnabled(permission === 'granted');
+    if (!('Notification' in window)) {
+      alert('This browser does not support notifications');
+      return;
     }
+
+    try {
+      const permission = await Notification.requestPermission();
+      setNotificationPermission(permission);
+
+      if (permission === 'granted') {
+        setNotificationsEnabled(true);
+
+        // Show confirmation notification
+        new Notification('Prayer Notifications Enabled! 🕌', {
+          body: 'You will receive reminders 10 minutes before each Fard prayer',
+          icon: '/vite.svg',
+          tag: 'notification-enabled'
+        });
+      } else {
+        alert('Please allow notifications to receive prayer reminders');
+      }
+    } catch (error) {
+      console.error('Error requesting notification permission:', error);
+      alert('Failed to enable notifications. Please check your browser settings.');
+    }
+  };
+
+  const disableNotifications = () => {
+    setNotificationsEnabled(false);
+    setScheduledNotifications(new Set());
   };
 
   return (
@@ -201,6 +301,11 @@ function PrayerTimes() {
                   <span className={`px-2 py-1 rounded-full text-xs font-medium ${getTypeColor(prayer.type)}`}>
                     {prayer.type.charAt(0).toUpperCase() + prayer.type.slice(1)}
                   </span>
+                  {prayer.type === 'fard' && notificationsEnabled && (
+                    <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-xs font-medium">
+                      🔔 Reminder Set
+                    </span>
+                  )}
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   {prayer.description}
@@ -244,6 +349,11 @@ function PrayerTimes() {
           <p className="text-red-700 dark:text-red-400 text-sm">
             The five daily prayers that are mandatory for every Muslim
           </p>
+          {notificationsEnabled && (
+            <p className="text-red-600 dark:text-red-300 text-xs mt-2 font-medium">
+              🔔 10-minute reminders enabled
+            </p>
+          )}
         </div>
 
         <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-xl border border-green-200 dark:border-green-800">
@@ -340,20 +450,51 @@ function PrayerTimes() {
               Prayer Notifications
             </span>
           </div>
-          <button
-            onClick={enableNotifications}
-            disabled={notificationsEnabled}
-            className={`px-4 py-2 rounded-md font-medium transition-colors ${notificationsEnabled
-                ? 'bg-green-100 text-green-800 cursor-not-allowed'
-                : 'bg-emerald-600 text-white hover:bg-emerald-700'
-              }`}
-          >
-            {notificationsEnabled ? 'Enabled ✓' : 'Enable'}
-          </button>
+          <div className="flex gap-2">
+            {!notificationsEnabled ? (
+              <button
+                onClick={enableNotifications}
+                className="px-4 py-2 bg-emerald-600 text-white rounded-md font-medium hover:bg-emerald-700 transition-colors"
+              >
+                Enable Notifications
+              </button>
+            ) : (
+              <div className="flex gap-2">
+                <span className="px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-md font-medium">
+                  ✓ Enabled
+                </span>
+                <button
+                  onClick={disableNotifications}
+                  className="px-4 py-2 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 rounded-md font-medium hover:bg-red-200 dark:hover:bg-red-900/50 transition-colors"
+                >
+                  Disable
+                </button>
+              </div>
+            )}
+          </div>
         </div>
-        <p className="text-emerald-700 dark:text-emerald-400 text-sm">
-          Get notified for all prayer times including Fard, Sunnah, and Nafl prayers. Never miss your connection with Allah.
-        </p>
+        <div className="space-y-2">
+          <p className="text-emerald-700 dark:text-emerald-400 text-sm">
+            Get notified 10 minutes before each Fard prayer. Never miss your connection with Allah.
+          </p>
+          {notificationsEnabled && (
+            <div className="bg-emerald-100 dark:bg-emerald-900/30 p-3 rounded-lg">
+              <p className="text-emerald-800 dark:text-emerald-300 text-sm font-medium">
+                🔔 Active Reminders: Fajr, Dhuhr, Asr, Maghrib, Isha
+              </p>
+              <p className="text-emerald-700 dark:text-emerald-400 text-xs mt-1">
+                Notifications will appear 10 minutes before each prayer time
+              </p>
+            </div>
+          )}
+          {notificationPermission === 'denied' && (
+            <div className="bg-red-100 dark:bg-red-900/30 p-3 rounded-lg">
+              <p className="text-red-800 dark:text-red-300 text-sm font-medium">
+                ⚠️ Notifications are blocked. Please enable them in your browser settings.
+              </p>
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Islamic Quote */}
