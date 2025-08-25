@@ -111,9 +111,14 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
         {
           number: 5,
           arabic: 'أُولَٰئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ',
+          english: 'Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe.'
+        },
+         {
+          number: 6,
+          arabic: 'اِنَّ الَّذِيْنَ كَفَرُوْا سَوَآءٌ عَلَيْهِمْ ءَاَنْذَرْتَهُمْ اَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُوْنَ',
           english: 'Those are upon [right] guidance from their Lord, and it is those who are the successful.'
-        }
-      ]
+        },
+         ]
     },
     {
       number: 3,
