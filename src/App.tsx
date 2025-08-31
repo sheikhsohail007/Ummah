@@ -283,7 +283,7 @@ function App() {
 
               <div className="developer-credit">
                 <p>
-                  Developed with <i className="fas fa-heart" style={{color: '#ff6b9d'}}></i>
+                  Developed with Love
                   for the Muslim Ummah
                 </p>
               </div>
