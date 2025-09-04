@@ -1688,6 +1688,172 @@ function SalahGuide() {
           ]
         }
       }
+    },
+    {
+      id: 'istikhara',
+      nameEn: 'Istikhara',
+      nameAr: 'صلاة الاستخارة',
+      nameHi: 'इस्तिखारा',
+      nameBn: 'ইস্তিখারা',
+      category: 'sunnah',
+      rakats: '2 Rakat',
+      timing: 'When making decisions',
+      color: 'from-purple-500 to-pink-500',
+      videoId: 'dQw4w9WgXcQ',
+      content: {
+        en: {
+          description: 'Istikhara is a prayer of guidance performed when making important decisions, seeking Allah\'s guidance to choose what is best.',
+          method: [
+            'Perform ablution and pray 2 Rakats',
+            'Recite Surah Al-Kafirun in first Rakat',
+            'Recite Surah Al-Ikhlas in second Rakat',
+            'Make Istikhara dua after Salam'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ',
+              translation: 'O Allah, I seek Your guidance through Your knowledge, and I seek Your help through Your power, and I ask You from Your great bounty.'
+            }
+          ],
+          surahs: ['Al-Fatiha', 'Al-Kafirun', 'Al-Ikhlas'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'Glory be to Allah',
+              count: '33 times'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'All praise is due to Allah',
+              count: '33 times'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'Allah is the Greatest',
+              count: '34 times'
+            }
+          ],
+          benefits: [
+            'Receiving divine guidance for important decisions',
+            'Peace of heart',
+            'Blessings in choices made'
+          ]
+        },
+        ar: {
+          description: 'صلاة الاستخارة هي صلاة يصليها المسلم عندما يريد أن يختار بين أمرين أو أكثر، يطلب فيها من الله تعالى أن يختار له الخير',
+          method: [
+            'توضأ وصل ركعتين',
+            'اقرأ في الركعة الأولى سورة الكافرون',
+            'اقرأ في الركعة الثانية سورة الإخلاص',
+            'ادع بدعاء الاستخارة بعد السلام'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ',
+              translation: 'اللهم إني أستخيرك بعلمك، وأستقدرك بقدرتك، وأسألك من فضلك العظيم'
+            }
+          ],
+          surahs: ['الفاتحة', 'الكافرون', 'الإخلاص'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'سبحان الله',
+              count: '33 مرة'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'الحمد لله',
+              count: '33 مرة'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'الله أكبر',
+              count: '34 مرة'
+            }
+          ],
+          benefits: [
+            'الحصول على الهداية الإلهية في اتخاذ القرارات المهمة',
+            'السكينة في القلب',
+            'البركة في الاختيار'
+          ]
+        },
+        hi: {
+          description: 'इस्तिखारा एक मार्गदर्शन की नमाज़ है जो महत्वपूर्ण निर्णय लेते समय पढ़ी जाती है, अल्लाह से बेहतर चुनने की दुआ करते हुए।',
+          method: [
+            'वुज़ू करके 2 रकअत नमाज़ पढ़ें',
+            'पहली रकअत में सूरह अल-काफिरून पढ़ें',
+            'दूसरी रकअत में सूरह अल-इख़लास पढ़ें',
+            'सलाम के बाद इस्तिखारा की दुआ करें'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ',
+              translation: 'ऐ अल्लाह! मैं तेरे इल्म से तुझसे भलाई चाहता हूँ, तेरी कुदरत से ताकत माँगता हूँ, और तेरे महान फज़्ल से सवाल करता हूँ।'
+            }
+          ],
+          surahs: ['अल-फातिहा', 'अल-काफिरून', 'अल-इखलास'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'अल्लाह पाक है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'अल्लाह की हम्द है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'अल्लाह सबसे बड़ा है',
+              count: '34 बार'
+            }
+          ],
+          benefits: [
+            'महत्वपूर्ण निर्णयों के लिए दिव्य मार्गदर्शन प्राप्त करना',
+            'दिल की शांति',
+            'किए गए विकल्पों में बरकत'
+          ]
+        },
+        bn: {
+          description: 'ইস্তিখারা হল একটি পথনির্দেশনার নামাজ যা গুরুত্বপূর্ণ সিদ্ধান্ত নেওয়ার সময় পড়া হয়, আল্লাহর কাছে সর্বোত্তম বেছে নেওয়ার জন্য দোয়া করে।',
+          method: [
+            'অজু করে ২ রাকাত নামাজ পড়ুন',
+            'প্রথম রাকাতে সূরা আল-কাফিরুন পড়ুন',
+            'দ্বিতীয় রাকাতে সূরা আল-ইখলাস পড়ুন',
+            'সালামের পর ইস্তিখারার দোয়া করুন'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ',
+              translation: 'হে আল্লাহ! আমি তোমার জ্ঞানের মাধ্যমে তোমার কাছে কল্যাণ চাই, তোমার শক্তির মাধ্যমে সাহায্য চাই, এবং তোমার মহান অনুগ্রহ থেকে প্রার্থনা করি।'
+            }
+          ],
+          surahs: ['আল-ফাতিহা', 'আল-কাফিরুন', 'আল-ইখলাস'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'আল্লাহ পবিত্র',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'সমস্ত প্রশংসা আল্লাহর',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'আল্লাহ সবচেয়ে বড়',
+              count: '৩৪ বার'
+            }
+          ],
+          benefits: [
+            'গুরুত্বপূর্ণ সিদ্ধান্তের জন্য ইলাহী পথনির্দেশনা পাওয়া',
+            'হৃদয়ের শান্তি',
+            'গৃহীত পছন্দে বরকত'
+          ]
+        }
+      }
     }
   ];
 
