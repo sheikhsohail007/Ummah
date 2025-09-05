@@ -8,6 +8,7 @@ import SalahGuide from './components/SalahGuide';
 import DailyReflection from './components/DailyReflection';
 import QuranVerses from './components/QuranVerses';
 import IslamicStories from './components/IslamicStories';
+import DuaAndDhikr from './components/DuaAndDhikr';
 
 export interface Mood {
   id: string;
@@ -52,6 +53,7 @@ function App() {
     { id: 'quran', label: 'Quran Verses', icon: <BookOpen className="w-5 h-5" /> },
     { id: 'stories', label: 'Islamic Stories', icon: <MessageCircle className="w-5 h-5" /> },
     { id: 'mood', label: 'Mood Selector', icon: <Smile className="w-5 h-5" /> },
+    { id: 'dua-dhikr', label: 'Dua & Dhikr', icon: <Heart className="w-5 h-5" /> },
   ];
 
   const renderContent = () => {
@@ -68,6 +70,8 @@ function App() {
         return <IslamicStories selectedMood={selectedMood} />;
       case 'mood':
         return <MoodSelector selectedMood={selectedMood} onMoodSelect={setSelectedMood} />;
+      case 'dua-dhikr':
+        return <DuaAndDhikr />;
       default:
         return (
           <div className="space-y-8">
@@ -81,7 +85,7 @@ function App() {
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {navigationItems.slice(1).map((item) => (
+              {navigationItems.slice(1, -1).map((item) => (
                 <button
                   key={item.id}
                   onClick={() => setActiveSection(item.id)}
@@ -283,7 +287,7 @@ function App() {
 
               <div className="developer-credit">
                 <p>
-                  Developed with Love
+                  Developed with <i className="fas fa-heart" style={{color: '#ff6b9d'}}></i>
                   for the Muslim Ummah
                 </p>
               </div>
