@@ -281,6 +281,326 @@ function DuaAndDhikr() {
     }
   ];
 
+  const quranicDuas: DuaCategory = {
+    id: 'quranic-duas',
+    name: 'Quranic Duas',
+    icon: <BookOpen className="w-6 h-6" />,
+    color: 'from-purple-500 to-violet-600',
+    description: 'Beautiful supplications directly from the Holy Quran',
+    duas: [
+      {
+        id: 'quranic-1',
+        arabic: 'رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ',
+        transliteration: 'Rabbana atina fi\'d-dunya hasanatan wa fi\'l-akhirati hasanatan wa qina adhab an-nar',
+        translation: {
+          english: 'Our Lord, give us good in this world and good in the next world, and save us from the punishment of the Fire.',
+          hindi: 'ऐ हमारे रब! हमें दुनिया में भलाई दे और आखिरत में भी भलाई दे और हमें आग के अज़ाब से बचा।',
+          bengali: 'হে আমাদের রব! আমাদেরকে দুনিয়ায় কল্যাণ দিন এবং আখিরাতেও কল্যাণ দিন এবং আমাদেরকে জাহান্নামের আযাব থেকে রক্ষা করুন।'
+        },
+        reference: 'Quran 2:201',
+        context: 'A comprehensive dua for all good in this life and the hereafter',
+        benefits: 'Covers all aspects of worldly and spiritual well-being',
+        category: 'quranic-duas'
+      },
+      {
+        id: 'quranic-2',
+        arabic: 'رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي',
+        transliteration: 'Rabbi\'shrah li sadri wa yassir li amri wahlul uqdatan min lisani yafqahu qawli',
+        translation: {
+          english: 'My Lord, expand for me my breast and ease for me my task and untie the knot from my tongue that they may understand my speech.',
+          hindi: 'ऐ मेरे रब! मेरा सीना खोल दे और मेरा काम आसान कर दे और मेरी जुबान की गांठ खोल दे ताकि लोग मेरी बात समझ सकें।',
+          bengali: 'হে আমার রব! আমার বক্ষ প্রশস্ত করে দিন এবং আমার কাজ সহজ করে দিন এবং আমার জিহ্বার জড়তা দূর করে দিন যাতে তারা আমার কথা বুঝতে পারে।'
+        },
+        reference: 'Quran 20:25-28',
+        context: 'Dua of Prophet Musa (AS) for confidence and eloquence',
+        benefits: 'Helps with confidence, communication, and ease in tasks',
+        category: 'quranic-duas'
+      }
+    ]
+  };
+
+  const sunnahDuas: DuaCategory = {
+    id: 'sunnah-duas',
+    name: 'Sunnah Duas',
+    icon: <Star className="w-6 h-6" />,
+    color: 'from-amber-500 to-orange-600',
+    description: 'Authentic supplications from the Sunnah of Prophet Muhammad (PBUH)',
+    duas: [
+      {
+        id: 'sunnah-1',
+        arabic: 'اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ',
+        transliteration: 'Allahumma a\'inni ala dhikrika wa shukrika wa husni ibadatik',
+        translation: {
+          english: 'O Allah, help me to remember You, thank You, and worship You in the best manner.',
+          hindi: 'ऐ अल्लाह! मुझे अपनी याद, अपना शुक्र और अपनी बेहतरीन इबादत करने में मदद कर।',
+          bengali: 'হে আল্লাহ! আমাকে আপনার স্মরণ, আপনার কৃতজ্ঞতা এবং আপনার সুন্দর ইবাদতে সাহায্য করুন।'
+        },
+        reference: 'Abu Dawud 1522',
+        context: 'A comprehensive dua for spiritual improvement',
+        benefits: 'Helps in maintaining consistent worship and gratitude',
+        category: 'sunnah-duas'
+      }
+    ]
+  };
+
+  const wakingUpDuas: DuaCategory = {
+    id: 'waking-up',
+    name: 'Waking Up',
+    icon: <Sun className="w-6 h-6" />,
+    color: 'from-yellow-400 to-amber-500',
+    description: 'Duas to recite upon waking up from sleep',
+    duas: [
+      {
+        id: 'waking-1',
+        arabic: 'الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ',
+        transliteration: 'Alhamdu lillahil-ladhi ahyana ba\'da ma amatana wa ilayhin-nushur',
+        translation: {
+          english: 'All praise is for Allah who gave us life after having taken it from us and unto Him is the resurrection.',
+          hindi: 'सारी तारीफ अल्लाह के लिए है जिसने हमें मौत के बाद जिंदगी दी और उसी की तरफ हमारा उठना है।',
+          bengali: 'সমস্ত প্রশংসা আল্লাহর জন্য যিনি আমাদের মৃত্যুর পর জীবন দান করেছেন এবং তাঁর কাছেই আমাদের পুনরুত্থান।'
+        },
+        reference: 'Sahih Bukhari 6312',
+        context: 'First dua to recite upon waking up',
+        benefits: 'Starts the day with gratitude and remembrance of Allah',
+        category: 'waking-up'
+      }
+    ]
+  };
+
+  const nightmaresDuas: DuaCategory = {
+    id: 'nightmares',
+    name: 'Nightmares',
+    icon: <Moon className="w-6 h-6" />,
+    color: 'from-indigo-600 to-purple-700',
+    description: 'Protection from bad dreams and nightmares',
+    duas: [
+      {
+        id: 'nightmare-1',
+        arabic: 'أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ',
+        transliteration: 'A\'udhu bi kalimatillahit-tammati min sharri ma khalaq',
+        translation: {
+          english: 'I seek refuge in the perfect words of Allah from the evil of what He has created.',
+          hindi: 'मैं अल्लाह के पूर्ण कलिमों की पनाह मांगता हूं उसकी बनाई हुई चीजों की बुराई से।',
+          bengali: 'আমি আল্লাহর পূর্ণ বাণীসমূহের আশ্রয় চাই তাঁর সৃষ্ট বস্তুসমূহের অনিষ্ট থেকে।'
+        },
+        reference: 'Sahih Muslim 2708',
+        context: 'Recite when experiencing bad dreams or nightmares',
+        benefits: 'Provides protection from evil and bad dreams',
+        category: 'nightmares'
+      }
+    ]
+  };
+
+  const clothesDuas: DuaCategory = {
+    id: 'clothes',
+    name: 'Clothes',
+    icon: <Heart className="w-6 h-6" />,
+    color: 'from-pink-500 to-rose-600',
+    description: 'Duas for wearing and removing clothes',
+    duas: [
+      {
+        id: 'clothes-1',
+        arabic: 'الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا الثَّوْبَ وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ',
+        transliteration: 'Alhamdu lillahil-ladhi kasani hadha\'th-thawba wa razaqanihi min ghayri hawlin minni wa la quwwah',
+        translation: {
+          english: 'All praise is for Allah who has clothed me with this garment and provided it for me, with no power or might from myself.',
+          hindi: 'सारी तारीफ अल्लाह के लिए है जिसने मुझे यह कपड़ा पहनाया और मुझे यह दिया बिना मेरी कोई ताकत और कुव्वत के।',
+          bengali: 'সমস্ত প্রশংসা আল্লাহর জন্য যিনি আমাকে এই পোশাক পরিয়েছেন এবং আমার কোনো শক্তি ও সামর্থ্য ছাড়াই তা দান করেছেন।'
+        },
+        reference: 'Abu Dawud 4023',
+        context: 'When wearing new clothes',
+        benefits: 'Brings blessings and gratitude for Allah\'s provisions',
+        category: 'clothes'
+      }
+    ]
+  };
+
+  const lavatoryWuduDuas: DuaCategory = {
+    id: 'lavatory-wudu',
+    name: 'Lavatory & Wudu',
+    icon: <Heart className="w-6 h-6" />,
+    color: 'from-cyan-500 to-blue-600',
+    description: 'Duas for entering lavatory and performing wudu',
+    duas: [
+      {
+        id: 'lavatory-1',
+        arabic: 'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ',
+        transliteration: 'Allahumma inni a\'udhu bika minal-khubuthi wal-khaba\'ith',
+        translation: {
+          english: 'O Allah, I seek refuge with You from all evil and evil-doers.',
+          hindi: 'ऐ अल्लाह! मैं तुझसे सभी बुराइयों और बुरे जिन्नों से पनाह मांगता हूं।',
+          bengali: 'হে আল্লাহ! আমি আপনার কাছে সমস্ত অশুভ ও অশুভ শক্তি থেকে আশ্রয় চাই।'
+        },
+        reference: 'Sahih Bukhari 142',
+        context: 'Before entering the lavatory',
+        benefits: 'Protection from evil spirits in unclean places',
+        category: 'lavatory-wudu'
+      },
+      {
+        id: 'wudu-1',
+        arabic: 'أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ',
+        transliteration: 'Ashhadu an la ilaha illallahu wahdahu la sharika lahu wa ashhadu anna Muhammadan \'abduhu wa rasuluh',
+        translation: {
+          english: 'I bear witness that there is no deity except Allah, alone without partner, and I bear witness that Muhammad is His slave and Messenger.',
+          hindi: 'मैं गवाही देता हूं कि अल्लाह के सिवा कोई माबूद नहीं, वह अकेला है, उसका कोई साझीदार नहीं, और मैं गवाही देता हूं कि मुहम्मद उसके बंदे और रसूल हैं।',
+          bengali: 'আমি সাক্ষ্য দিচ্ছি যে, আল্লাহ ছাড়া কোনো ইলাহ নেই, তিনি একক, তাঁর কোনো শরীক নেই এবং আমি সাক্ষ্য দিচ্ছি যে মুহাম্মদ তাঁর বান্দা ও রাসূল।'
+        },
+        reference: 'Sahih Muslim 234',
+        context: 'After completing wudu',
+        benefits: 'Opens the gates of Paradise',
+        category: 'lavatory-wudu'
+      }
+    ]
+  };
+
+  const foodDrinksDuas: DuaCategory = {
+    id: 'food-drinks',
+    name: 'Food & Drinks',
+    icon: <Heart className="w-6 h-6" />,
+    color: 'from-green-500 to-teal-600',
+    description: 'Duas before and after eating and drinking',
+    duas: [
+      {
+        id: 'food-1',
+        arabic: 'بِسْمِ اللَّهِ',
+        transliteration: 'Bismillah',
+        translation: {
+          english: 'In the name of Allah.',
+          hindi: 'अल्लाह के नाम से।',
+          bengali: 'আল্লাহর নামে।'
+        },
+        reference: 'Abu Dawud 3767',
+        context: 'Before eating or drinking',
+        benefits: 'Brings blessings in food and drink',
+        category: 'food-drinks'
+      },
+      {
+        id: 'food-2',
+        arabic: 'الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِينَ',
+        transliteration: 'Alhamdu lillahil-ladhi at\'amana wa saqana wa ja\'alana muslimin',
+        translation: {
+          english: 'All praise is for Allah who has fed us and given us drink and made us Muslims.',
+          hindi: 'सारी तारीफ अल्लाह के लिए है जिसने हमें खाना खिलाया, पानी पिलाया और हमें मुसलमान बनाया।',
+          bengali: 'সমস্ত প্রশংসা আল্লাহর জন্য যিনি আমাদের খাওয়ালেন, পান করালেন এবং আমাদের মুসলিম বানালেন।'
+        },
+        reference: 'Abu Dawud 3850',
+        context: 'After finishing eating or drinking',
+        benefits: 'Expresses gratitude for Allah\'s sustenance',
+        category: 'food-drinks'
+      }
+    ]
+  };
+
+  const homeDuas: DuaCategory = {
+    id: 'home',
+    name: 'Home',
+    icon: <Heart className="w-6 h-6" />,
+    color: 'from-orange-500 to-red-600',
+    description: 'Duas for entering and leaving home',
+    duas: [
+      {
+        id: 'home-1',
+        arabic: 'بِسْمِ اللَّهِ وَلَجْنَا وَبِسْمِ اللَّهِ خَرَجْنَا وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا',
+        transliteration: 'Bismillahi walajna wa bismillahi kharajna wa \'alallahi rabbina tawakkalna',
+        translation: {
+          english: 'In the name of Allah we enter and in the name of Allah we leave, and upon Allah, our Lord, we place our trust.',
+          hindi: 'अल्लाह के नाम से हम दाखिल हुए और अल्लाह के नाम से हम निकले और अपने रब अल्लाह पर हमने भरोसा किया।',
+          bengali: 'আল্লাহর নামে আমরা প্রবেশ করলাম এবং আল্লাহর নামে আমরা বের হলাম এবং আমাদের রব আল্লাহর উপর আমরা ভরসা করলাম।'
+        },
+        reference: 'Abu Dawud 5096',
+        context: 'When entering home',
+        benefits: 'Brings blessings and protection to the household',
+        category: 'home'
+      }
+    ]
+  };
+
+  const adhanMasjidDuas: DuaCategory = {
+    id: 'adhan-masjid',
+    name: 'Adhan & Masjid',
+    icon: <BookOpen className="w-6 h-6" />,
+    color: 'from-emerald-600 to-green-700',
+    description: 'Duas related to adhan and entering masjid',
+    duas: [
+      {
+        id: 'adhan-1',
+        arabic: 'اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ',
+        transliteration: 'Allahumma rabba hadhihid-da\'watit-tammati was-salatil-qa\'imati ati Muhammadanil-wasilata wal-fadilata wab\'athhu maqaman mahmudan-alladhi wa\'adtah',
+        translation: {
+          english: 'O Allah, Lord of this perfect call and established prayer, grant Muhammad the intercession and favor, and raise him to the praised position which You have promised him.',
+          hindi: 'ऐ अल्लाह! इस पूर्ण दावत और स्थापित नमाज़ के रब, मुहम्मद को वसीला और फज़ीलत दे और उन्हें उस प्रशंसित स्थान पर पहुंचा जिसका तूने वादा किया है।',
+          bengali: 'হে আল্লাহ! এই পূর্ণ আহ্বান ও প্রতিষ্ঠিত সালাতের রব, মুহাম্মদকে ওসীলা ও মর্যাদা দান করুন এবং তাঁকে সেই প্রশংসিত স্থানে পৌঁছে দিন যার ওয়াদা আপনি করেছেন।'
+        },
+        reference: 'Sahih Bukhari 614',
+        context: 'After hearing the adhan',
+        benefits: 'Earns the intercession of Prophet Muhammad (PBUH)',
+        category: 'adhan-masjid'
+      },
+      {
+        id: 'masjid-1',
+        arabic: 'اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ',
+        transliteration: 'Allahummaftah li abwaba rahmatik',
+        translation: {
+          english: 'O Allah, open for me the doors of Your mercy.',
+          hindi: 'ऐ अल्लाह! मेरे लिए अपनी रहमत के दरवाज़े खोल दे।',
+          bengali: 'হে আল্লাহ! আমার জন্য আপনার রহমতের দরজাসমূহ খুলে দিন।'
+        },
+        reference: 'Sahih Muslim 713',
+        context: 'When entering the masjid',
+        benefits: 'Seeks Allah\'s mercy and blessings',
+        category: 'adhan-masjid'
+      }
+    ]
+  };
+
+  const istikharahDuas: DuaCategory = {
+    id: 'istikhara',
+    name: 'Istikhara',
+    icon: <Heart className="w-6 h-6" />,
+    color: 'from-purple-600 to-indigo-700',
+    description: 'Prayer for guidance in making decisions',
+    duas: [
+      {
+        id: 'istikhara-1',
+        arabic: 'اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ وَتَعْلَمُ وَلَا أَعْلَمُ وَأَنْتَ عَلَّامُ الْغُيُوبِ',
+        transliteration: 'Allahumma inni astakhiruka bi\'ilmika wa astaqdiruka bi qudratika wa as\'aluka min fadlikal-\'azimi fa\'innaka taqdiru wa la aqdiru wa ta\'lamu wa la a\'lamu wa anta \'allamul-ghuyub',
+        translation: {
+          english: 'O Allah, I seek guidance from Your knowledge, and Power from Your Might and I ask for Your great blessings. You are capable and I am not. You know and I do not and You are the Knower of the unseen.',
+          hindi: 'ऐ अल्लाह! मैं तेरे इल्म से भलाई चाहता हूं और तेरी कुदरत से ताकत मांगता हूं और तेरे बड़े फज़ल से सवाल करता हूं। तू कर सकता है और मैं नहीं कर सकता, तू जानता है और मैं नहीं जानता और तू गैब की बातों को जानने वाला है।',
+          bengali: 'হে আল্লাহ! আমি আপনার জ্ঞান দ্বারা কল্যাণ কামনা করি, আপনার শক্তি দ্বারা সামর্থ্য প্রার্থনা করি এবং আপনার মহান অনুগ্রহ থেকে প্রার্থনা করি। আপনি সক্ষম আমি অক্ষম, আপনি জানেন আমি জানি না এবং আপনি অদৃশ্যের জ্ঞানী।'
+        },
+        reference: 'Sahih Bukhari 1166',
+        context: 'When seeking guidance for important decisions',
+        benefits: 'Helps in making the right choice according to Allah\'s will',
+        category: 'istikhara'
+      }
+    ]
+  };
+
+  const gatheringsDuas: DuaCategory = {
+    id: 'gatherings',
+    name: 'Gatherings',
+    icon: <Heart className="w-6 h-6" />,
+    color: 'from-teal-500 to-cyan-600',
+    description: 'Duas for Islamic gatherings and meetings',
+    duas: [
+      {
+        id: 'gathering-1',
+        arabic: 'سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ',
+        transliteration: 'Subhanaka Allahumma wa bihamdika ashhadu an la ilaha illa anta astaghfiruka wa atubu ilayk',
+        translation: {
+          english: 'Glory is to You, O Allah, and praise is to You. I bear witness that there is no deity except You. I seek Your forgiveness and turn to You in repentance.',
+          hindi: 'ऐ अल्लाह! तू पाक है और तेरी तारीफ है। मैं गवाही देता हूं कि तेरे सिवा कोई माबूद नहीं। मैं तुझसे माफी मांगता हूं और तेरी तरफ तौबा करता हूं।',
+          bengali: 'হে আল্লাহ! আপনি পবিত্র এবং আপনার প্রশংসা। আমি সাক্ষ্য দিচ্ছি যে আপনি ছাড়া কোনো ইলাহ নেই। আমি আপনার কাছে ক্ষমা চাই এবং আপনার কাছে তওবা করি।'
+        },
+        reference: 'Abu Dawud 4859',
+        context: 'At the end of gatherings (Kaffarat al-Majlis)',
+        benefits: 'Expiates any sins committed during the gathering',
+        category: 'gatherings'
+      }
+    ]
+  };
+
   const languages = [
     { code: 'english' as Language, name: 'English', flag: '🇺🇸' },
     { code: 'hindi' as Language, name: 'हिंदी', flag: '🇮🇳' },
@@ -288,10 +608,10 @@ function DuaAndDhikr() {
   ];
 
   useEffect(() => {
-    let filtered = duaCategories;
+    let filtered = [...duaCategories, quranicDuas, sunnahDuas, wakingUpDuas, nightmaresDuas, clothesDuas, lavatoryWuduDuas, foodDrinksDuas, homeDuas, adhanMasjidDuas, istikharahDuas, gatheringsDuas];
     
     if (searchTerm) {
-      filtered = duaCategories.map(category => ({
+      filtered = filtered.map(category => ({
         ...category,
         duas: category.duas.filter(dua =>
           dua.arabic.includes(searchTerm) ||
@@ -309,7 +629,8 @@ function DuaAndDhikr() {
     setExpandedDua(expandedDua === duaId ? null : duaId);
   };
 
-  const selectedCategoryData = duaCategories.find(cat => cat.id === selectedCategory);
+  const allCategories = [...duaCategories, quranicDuas, sunnahDuas, wakingUpDuas, nightmaresDuas, clothesDuas, lavatoryWuduDuas, foodDrinksDuas, homeDuas, adhanMasjidDuas, istikharahDuas, gatheringsDuas];
+  const selectedCategoryData = allCategories.find(cat => cat.id === selectedCategory);
 
   if (selectedCategory && selectedCategoryData) {
     return (
