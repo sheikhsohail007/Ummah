@@ -278,6 +278,255 @@ function DuaAndDhikr() {
           category: 'all-time'
         }
       ]
+    },
+    {
+      id: 'difficult-situations',
+      name: 'Difficult Situations',
+      icon: <Heart className="w-6 h-6" />,
+      color: 'from-red-500 to-pink-600',
+      description: 'Duas for times of hardship and distress',
+      duas: [
+        {
+          id: 'distress-dua',
+          arabic: 'لَا إِلَهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمُ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ',
+          transliteration: 'La ilaha illa Allah al-Azeem al-Haleem, la ilaha illa Allah Rabb al-Arsh al-Azeem, la ilaha illa Allah Rabb as-samawati wa Rabb al-ard wa Rabb al-Arsh al-Kareem',
+          translation: {
+            english: 'There is no god but Allah, the Great, the Forbearing. There is no god but Allah, Lord of the Great Throne. There is no god but Allah, Lord of the heavens and Lord of the earth and Lord of the Noble Throne.',
+            hindi: 'अल्लाह के सिवा कोई पूज्य नहीं, वह महान और धैर्यवान है। अल्लाह के सिवा कोई पूज्य नहीं, वह महान सिंहासन का स्वामी है। अल्लाह के सिवा कोई पूज्य नहीं, वह आकाशों का स्वामी, पृथ्वी का स्वामी और महान सिंहासन का स्वामी है।',
+            bengali: 'আল্লাহ ছাড়া কোনো উপাস্য নেই, তিনি মহান ও ধৈর্যশীল। আল্লাহ ছাড়া কোনো উপাস্য নেই, তিনি মহান আরশের প্রভু। আল্লাহ ছাড়া কোনো উপাস্য নেই, তিনি আকাশসমূহের প্রভু, পৃথিবীর প্রভু এবং সম্মানিত আরশের প্রভু।'
+          },
+          reference: 'Sahih Bukhari 6346, Sahih Muslim 2730',
+          context: 'Recite during times of distress and hardship',
+          benefits: 'Brings relief from anxiety and difficulties',
+          category: 'difficult-situations'
+        },
+        {
+          id: 'anxiety-relief',
+          arabic: 'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَأَعُوذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ، وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ',
+          transliteration: 'Allahumma inni a\'udhu bika min al-hammi wal-hazan, wa a\'udhu bika min al-\'ajzi wal-kasal, wa a\'udhu bika min al-jubni wal-bukhl, wa a\'udhu bika min ghalabat ad-dayni wa qahr ar-rijal',
+          translation: {
+            english: 'O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from being overcome by debt and overpowered by men.',
+            hindi: 'हे अल्लाह! मैं तुझसे चिंता और दुःख से शरण मांगता हूं, असमर्थता और आलस्य से शरण मांगता हूं, कायरता और कंजूसी से शरण मांगता हूं, कर्ज के बोझ और लोगों के दबाव से शरण मांगता हूं।',
+            bengali: 'হে আল্লাহ! আমি তোমার কাছে দুশ্চিন্তা ও দুঃখ থেকে আশ্রয় চাই, অক্ষমতা ও অলসতা থেকে আশ্রয় চাই, কাপুরুষতা ও কৃপণতা থেকে আশ্রয় চাই, ঋণের বোঝা ও মানুষের অত্যাচার থেকে আশ্রয় চাই।'
+          },
+          reference: 'Sahih Bukhari 6369',
+          context: 'For relief from anxiety and worldly troubles',
+          benefits: 'Provides mental peace and strength',
+          category: 'difficult-situations'
+        }
+      ]
+    },
+    {
+      id: 'protection-iman',
+      name: 'Protection of Iman',
+      icon: <Heart className="w-6 h-6" />,
+      color: 'from-green-600 to-teal-700',
+      description: 'Duas to strengthen and protect faith',
+      duas: [
+        {
+          id: 'strengthen-faith',
+          arabic: 'يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ',
+          transliteration: 'Ya muqallib al-qulub thabbit qalbi \'ala dinik',
+          translation: {
+            english: 'O Turner of hearts, make my heart firm upon Your religion.',
+            hindi: 'हे दिलों को पलटने वाले! मेरे दिल को अपने दीन पर मजबूत रख।',
+            bengali: 'হে হৃদয় পরিবর্তনকারী! আমার হৃদয়কে তোমার দীনের উপর দৃঢ় রাখো।'
+          },
+          reference: 'Jami\' at-Tirmidhi 2140',
+          context: 'To strengthen faith and protect from doubts',
+          benefits: 'Keeps heart firm on Islamic faith',
+          category: 'protection-iman'
+        }
+      ]
+    },
+    {
+      id: 'hajj-umrah',
+      name: 'Hajj & Umrah',
+      icon: <Heart className="w-6 h-6" />,
+      color: 'from-yellow-500 to-orange-600',
+      description: 'Duas for pilgrimage to Mecca',
+      duas: [
+        {
+          id: 'talbiyah',
+          arabic: 'لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ',
+          transliteration: 'Labbayk Allahumma labbayk, labbayka la sharika laka labbayk, inna al-hamda wan-ni\'mata laka wal-mulk, la sharika lak',
+          translation: {
+            english: 'Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise, grace and sovereignty belong to You. You have no partner.',
+            hindi: 'हाजिर हूं हे अल्लाह, हाजिर हूं। हाजिर हूं, तेरा कोई साझीदार नहीं, हाजिर हूं। निश्चय ही सारी प्रशंसा, कृपा और राज्य तेरा है। तेरा कोई साझीदार नहीं।',
+            bengali: 'হাজির আছি হে আল্লাহ, হাজির আছি। হাজির আছি, তোমার কোনো অংশীদার নেই, হাজির আছি। নিশ্চয়ই সমস্ত প্রশংসা, অনুগ্রহ ও রাজত্ব তোমারই। তোমার কোনো অংশীদার নেই।'
+          },
+          reference: 'Sahih Bukhari 1549, Sahih Muslim 1184',
+          context: 'Recited during Hajj and Umrah pilgrimage',
+          benefits: 'Expression of devotion and submission to Allah',
+          category: 'hajj-umrah'
+        }
+      ]
+    },
+    {
+      id: 'travelling',
+      name: 'Travelling',
+      icon: <Plane className="w-6 h-6" />,
+      color: 'from-blue-500 to-indigo-600',
+      description: 'Duas for safe journeys',
+      duas: [
+        {
+          id: 'travel-dua',
+          arabic: 'سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنقَلِبُونَ',
+          transliteration: 'Subhan alladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila rabbina la munqalibun',
+          translation: {
+            english: 'Glory be to Him who has subjected this to us, and we could never have it (by our efforts). And verily, to our Lord we indeed are to return!',
+            hindi: 'पवित्र है वह जिसने इसे हमारे लिए वश में कर दिया, जबकि हम इसे काबू में नहीं कर सकते थे। और निश्चय ही हम अपने रब की ओर लौटने वाले हैं।',
+            bengali: 'পবিত্র তিনি যিনি এটিকে আমাদের অধীন করে দিয়েছেন, অথচ আমরা এটিকে নিয়ন্ত্রণ করতে পারতাম না। আর নিশ্চয়ই আমরা আমাদের রবের কাছে ফিরে যাবো।'
+          },
+          reference: 'Quran 43:13-14, Abu Dawud 2602',
+          context: 'Recite when boarding any vehicle for travel',
+          benefits: 'Ensures safe and blessed journey',
+          category: 'travelling'
+        }
+      ]
+    },
+    {
+      id: 'money-shopping',
+      name: 'Money & Shopping',
+      icon: <ShoppingCart className="w-6 h-6" />,
+      color: 'from-green-500 to-emerald-600',
+      description: 'Duas for business and transactions',
+      duas: [
+        {
+          id: 'market-dua',
+          arabic: 'لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لَا يَمُوتُ، بِيَدِهِ الْخَيْرُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ',
+          transliteration: 'La ilaha illa Allah wahdahu la sharika lah, lahu al-mulku wa lahu al-hamd, yuhyi wa yumit, wa huwa hayyun la yamut, biyadihi al-khayr, wa huwa \'ala kulli shay\'in qadir',
+          translation: {
+            english: 'There is no god but Allah alone, with no partner. His is the dominion and His is the praise. He gives life and causes death, and He is living and does not die. In His hand is all good, and He is able to do all things.',
+            hindi: 'अल्लाह के सिवा कोई पूज्य नहीं, वह अकेला है, उसका कोई साझीदार नहीं। उसी का राज्य है और उसी की प्रशंसा है। वह जिलाता और मारता है, और वह जीवित है, मरता नहीं। उसके हाथ में सारी भलाई है, और वह हर चीज़ पर सक्षम है।',
+            bengali: 'আল্লাহ ছাড়া কোনো উপাস্য নেই, তিনি একক, তাঁর কোনো অংশীদার নেই। তাঁরই রাজত্ব এবং তাঁরই প্রশংসা। তিনি জীবন দান করেন ও মৃত্যু দেন, আর তিনি চিরঞ্জীব, মরেন না। তাঁর হাতেই সমস্ত কল্যাণ, আর তিনি সব কিছুর উপর ক্ষমতাবান।'
+          },
+          reference: 'Jami\' at-Tirmidhi 3428',
+          context: 'Recite when entering marketplace or shopping',
+          benefits: 'Brings barakah in transactions and protects from cheating',
+          category: 'money-shopping'
+        }
+      ]
+    },
+    {
+      id: 'social-interactions',
+      name: 'Social Interactions',
+      icon: <Users className="w-6 h-6" />,
+      color: 'from-purple-500 to-pink-600',
+      description: 'Duas for meeting and interacting with people',
+      duas: [
+        {
+          id: 'meeting-people',
+          arabic: 'السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ',
+          transliteration: 'As-salamu \'alaykum wa rahmatullahi wa barakatuh',
+          translation: {
+            english: 'Peace be upon you and Allah\'s mercy and blessings.',
+            hindi: 'आप पर शांति हो और अल्लाह की दया और बरकतें हों।',
+            bengali: 'আপনার উপর শান্তি বর্ষিত হোক এবং আল্লাহর রহমত ও বরকত।'
+          },
+          reference: 'Quran 4:86, Abu Dawud 5195',
+          context: 'Islamic greeting when meeting people',
+          benefits: 'Spreads peace and earns reward',
+          category: 'social-interactions'
+        }
+      ]
+    },
+    {
+      id: 'marriage-children',
+      name: 'Marriage & Children',
+      icon: <Baby className="w-6 h-6" />,
+      color: 'from-pink-500 to-rose-600',
+      description: 'Duas for family life and children',
+      duas: [
+        {
+          id: 'righteous-offspring',
+          arabic: 'رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ',
+          transliteration: 'Rabbi hab li min ladunka dhurriyyatan tayyibah, innaka sami\' ad-du\'a',
+          translation: {
+            english: 'My Lord, grant me from Yourself a good offspring. Indeed, You are the Hearer of supplication.',
+            hindi: 'हे मेरे रब! मुझे अपनी ओर से अच्छी संतान प्रदान कर। निश्चय ही तू दुआ सुनने वाला है।',
+            bengali: 'হে আমার রব! তুমি আমাকে তোমার পক্ষ থেকে উত্তম সন্তান দান করো। নিশ্চয়ই তুমি দোয়া শ্রবণকারী।'
+          },
+          reference: 'Quran 3:38',
+          context: 'Dua for righteous children',
+          benefits: 'Blessed with pious offspring',
+          category: 'marriage-children'
+        }
+      ]
+    },
+    {
+      id: 'death',
+      name: 'Death',
+      icon: <Skull className="w-6 h-6" />,
+      color: 'from-gray-600 to-gray-800',
+      description: 'Duas related to death and the deceased',
+      duas: [
+        {
+          id: 'dying-person',
+          arabic: 'لَا إِلَهَ إِلَّا اللَّهُ',
+          transliteration: 'La ilaha illa Allah',
+          translation: {
+            english: 'There is no god but Allah.',
+            hindi: 'अल्लाह के सिवा कोई पूज्य नहीं।',
+            bengali: 'আল্লাহ ছাড়া কোনো উপাস্য নেই।'
+          },
+          reference: 'Sahih Muslim 916',
+          context: 'Last words to be recited before death',
+          benefits: 'Ensures entry into Paradise',
+          category: 'death'
+        },
+        {
+          id: 'deceased-dua',
+          arabic: 'اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ',
+          transliteration: 'Allahumma ighfir lahu warhamhu wa \'afihi wa\'fu \'anh',
+          translation: {
+            english: 'O Allah, forgive him, have mercy on him, give him strength, and pardon him.',
+            hindi: 'हे अल्लाह! इसे माफ कर दे, इस पर दया कर, इसे आफियत दे और इसे क्षमा कर दे।',
+            bengali: 'হে আল্লাহ! তাকে ক্ষমা করো, তার প্রতি দয়া করো, তাকে নিরাপত্তা দাও এবং তাকে মাফ করে দাও।'
+          },
+          reference: 'Sahih Muslim 963',
+          context: 'Dua for the deceased',
+          benefits: 'Seeks Allah\'s mercy for the departed soul',
+          category: 'death'
+        }
+      ]
+    },
+    {
+      id: 'nature',
+      name: 'Nature',
+      icon: <Leaf className="w-6 h-6" />,
+      color: 'from-green-400 to-blue-500',
+      description: 'Duas related to natural phenomena',
+      duas: [
+        {
+          id: 'rain-dua',
+          arabic: 'اللَّهُمَّ صَيِّبًا نَافِعًا',
+          transliteration: 'Allahumma sayyiban nafi\'a',
+          translation: {
+            english: 'O Allah, (send) beneficial rain.',
+            hindi: 'हे अल्लाह! लाभकारी बारिश भेज।',
+            bengali: 'হে আল্লাহ! উপকারী বৃষ্টি পাঠাও।'
+          },
+          reference: 'Sahih Bukhari 1032',
+          context: 'Dua when it rains',
+          benefits: 'Seeking beneficial rain from Allah',
+          category: 'nature'
+        },
+        {
+          id: 'thunder-dua',
+          arabic: 'سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلَائِكَةُ مِنْ خِيفَتِهِ',
+          transliteration: 'Subhan alladhi yusabbihu ar-ra\'du bihamdihi wal-mala\'ikatu min khifatih',
+          translation: {
+            english: 'Glory be to Him whom thunder glorifies with His praise, and the angels too, out of fear of Him.',
+            hindi: 'पवित्र है वह जिसकी प्रशंसा के साथ गर्जना तस्बीह करती है और फरिश्ते भी उसके डर से।',
+            bengali: 'পবিত্র তিনি যার প্রশংসাসহ বজ্রধ্বনি তাসবিহ পাঠ করে এবং ফেরেশতারাও তার ভয়ে।'
+          },
+          reference: 'Muwatta Malik 3641',
+          context: 'Recite when hearing thunder',
+          benefits: 'Protection from lightning and storms',
+          category: 'nature'
+        }
+      ]
     }
   ];
 
