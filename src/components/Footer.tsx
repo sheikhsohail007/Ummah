@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 
-const Footer: React.FC = () => {
+interface FooterProps {
+  setActiveSection: (section: string) => void;
+}
+
+const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [showTerms, setShowTerms] = useState(false);
   const [showCookies, setShowCookies] = useState(false);
