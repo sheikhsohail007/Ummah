@@ -291,6 +291,483 @@ His teachings emphasize the importance of maintaining moral integrity in all cir
       color: 'from-blue-500 to-cyan-600'
     },
     {
+      id: 'idris',
+      name: 'Idris (Enoch)',
+      arabicName: 'إدريس عليه السلام',
+      title: 'The First Scholar and Writer',
+      introduction: `Prophet Idris (AS) was among the earliest prophets and is known as the first person to write with a pen. He was blessed with extensive knowledge of astronomy, mathematics, and divine wisdom. Allah raised him to a high station, and he is mentioned in the Quran as being among the patient and righteous servants.
+
+Idris (AS) represents the perfect balance between spiritual devotion and intellectual pursuit. He spent his time in worship while also advancing human knowledge and civilization. His teachings emphasize the importance of seeking beneficial knowledge, using it to serve humanity, and maintaining constant remembrance of Allah.
+
+His legacy shows us that true scholarship in Islam combines both religious knowledge and worldly sciences, all directed toward understanding Allah's creation and serving His purpose.`,
+      keyTeachings: [
+        'Seek beneficial knowledge that serves both this world and the hereafter',
+        'Balance spiritual worship with intellectual pursuits',
+        'Use your knowledge and skills to benefit humanity',
+        'Maintain constant remembrance of Allah in all activities',
+        'Be patient and persevere in learning and teaching',
+        'Establish good practices that benefit future generations',
+        'Combine theoretical knowledge with practical application',
+        'Remember that all knowledge ultimately comes from Allah'
+      ],
+      hadithReferences: [
+        'Sahih Muslim: "Seek knowledge, for seeking knowledge is worship"',
+        'Tirmidhi: "The superiority of the learned over the devout worshipper is like my superiority over the least of you"',
+        'Abu Dawud: "When a man dies, his deeds come to an end except for three: ongoing charity, beneficial knowledge, or a righteous child"',
+        'Ibn Majah: "Seek knowledge from the cradle to the grave"'
+      ],
+      practicalTips: [
+        'Dedicate time daily for both religious and beneficial worldly learning',
+        'Teach others what you have learned, as teaching reinforces knowledge',
+        'Use modern technology and tools to spread beneficial knowledge',
+        'Always begin learning with Bismillah and seek Allah\'s guidance',
+        'Apply what you learn in practical ways to help your community',
+        'Maintain humility despite gaining knowledge and recognition',
+        'Document and preserve beneficial knowledge for future generations',
+        'Balance your time between worship, learning, and serving others'
+      ],
+      visualGuide: {
+        type: 'teachings',
+        title: 'Core Teachings of Prophet Idris (AS)',
+        description: 'The foundation of Islamic scholarship and learning',
+        elements: [
+          'Divine Knowledge',
+          'Written Wisdom',
+          'Astronomical Sciences',
+          'Mathematical Understanding',
+          'Spiritual Devotion',
+          'Teaching Others',
+          'Practical Application',
+          'Legacy Building'
+        ]
+      },
+      color: 'from-indigo-500 to-purple-600'
+    },
+    {
+      id: 'hud',
+      name: 'Hud',
+      arabicName: 'هود عليه السلام',
+      title: 'The Warner Against Arrogance',
+      introduction: `Prophet Hud (AS) was sent to the people of Aad, who were blessed with great physical strength and architectural skills but had become arrogant and oppressive. His mission teaches us about the dangers of pride and the importance of using our blessings responsibly.
+
+Hud (AS) demonstrated remarkable patience and persistence in calling his people to the truth despite facing constant rejection and mockery. His approach was balanced - he reminded them of Allah's blessings while warning them of the consequences of their arrogance and idol worship.
+
+His story provides timeless lessons about leadership, humility, and the proper use of power and resources. It shows us that no matter how advanced or powerful a civilization becomes, it cannot survive without moral foundations and submission to Allah.`,
+      keyTeachings: [
+        'Use your strength and abilities to serve Allah and help others',
+        'Remain humble despite your achievements and blessings',
+        'Persist in doing good even when facing rejection',
+        'Remember that all power and strength come from Allah',
+        'Build your civilization on moral and spiritual foundations',
+        'Be grateful for Allah\'s blessings and use them wisely',
+        'Stand against oppression and injustice in society',
+        'Warn people with wisdom and patience, not harshness'
+      ],
+      hadithReferences: [
+        'Sahih Bukhari: "Whoever humbles himself for Allah, Allah will elevate him"',
+        'Sahih Muslim: "Pride is to reject the truth and look down upon people"',
+        'Tirmidhi: "The most beloved of people to Allah are those most beneficial to people"',
+        'Abu Dawud: "Allah does not look at your bodies or appearances, but He looks at your hearts and deeds"'
+      ],
+      practicalTips: [
+        'Use your talents and skills to help those less fortunate',
+        'Regularly remind yourself that all abilities come from Allah',
+        'Stand up against injustice even when it\'s difficult',
+        'Practice gratitude daily for your physical and mental abilities',
+        'Be patient when advising others and don\'t give up easily',
+        'Build your success on ethical and moral foundations',
+        'Help create a just and compassionate society',
+        'Remember that worldly power is temporary and will be questioned'
+      ],
+      visualGuide: {
+        type: 'lessons',
+        title: 'Key Lessons from Prophet Hud (AS)',
+        description: 'Learning humility and responsibility in leadership',
+        elements: [
+          'Humble Leadership',
+          'Grateful Heart',
+          'Patient Persistence',
+          'Moral Foundation',
+          'Social Justice',
+          'Wise Warning',
+          'Divine Accountability',
+          'Righteous Legacy'
+        ]
+      },
+      color: 'from-yellow-500 to-red-600'
+    },
+    {
+      id: 'salih',
+      name: 'Salih',
+      arabicName: 'صالح عليه السلام',
+      title: 'The Prophet of Divine Signs',
+      introduction: `Prophet Salih (AS) was sent to the people of Thamud, who were skilled in carving homes from mountains but had become arrogant and rebellious. His story centers around the miraculous she-camel, which served as a clear sign from Allah that his people ultimately rejected.
+
+Salih (AS) teaches us about the importance of respecting Allah's signs and creation. His approach was to provide clear evidence of Allah's power while giving his people ample opportunity to repent and reform. The miraculous camel was not just a sign but also a test of their obedience and respect for Allah's creation.
+
+His story emphasizes that when Allah provides clear signs and guidance, rejecting them leads to severe consequences. It also shows us the importance of environmental stewardship and treating Allah's creation with respect and care.`,
+      keyTeachings: [
+        'Respect and protect Allah\'s creation and the environment',
+        'Recognize and appreciate the signs Allah shows you',
+        'Use your skills and talents for righteous purposes',
+        'Don\'t let worldly achievements make you arrogant',
+        'Take divine warnings seriously and act upon them',
+        'Treat animals and nature with kindness and care',
+        'Stand firm for truth even when facing opposition',
+        'Provide clear guidance and evidence when teaching others'
+      ],
+      hadithReferences: [
+        'Sahih Bukhari: "Whoever is kind to the creatures of Allah, Allah is kind to him"',
+        'Sahih Muslim: "There is a reward for serving any animate being"',
+        'Abu Dawud: "The world is green and beautiful, and Allah has appointed you as His stewards"',
+        'Tirmidhi: "Allah has prescribed excellence in everything"'
+      ],
+      practicalTips: [
+        'Practice environmental conservation and avoid waste',
+        'Be kind to animals and protect them from harm',
+        'Look for Allah\'s signs in nature and reflect upon them',
+        'Use your professional skills to benefit society and environment',
+        'Take warnings about climate change and environmental damage seriously',
+        'Teach others about the importance of environmental stewardship',
+        'Support conservation efforts and sustainable practices',
+        'Remember that you are a trustee of Allah\'s creation'
+      ],
+      visualGuide: {
+        type: 'teachings',
+        title: 'Core Teachings of Prophet Salih (AS)',
+        description: 'Environmental stewardship and respect for Allah\'s signs',
+        elements: [
+          'Environmental Care',
+          'Divine Signs Recognition',
+          'Animal Welfare',
+          'Sustainable Living',
+          'Natural Resources',
+          'Creation Respect',
+          'Warning Heeded',
+          'Stewardship Responsibility'
+        ]
+      },
+      color: 'from-orange-500 to-red-600'
+    },
+    {
+      id: 'ismail',
+      name: 'Ismail (Ishmael)',
+      arabicName: 'إسماعيل عليه السلام',
+      title: 'The Obedient Son and Builder',
+      introduction: `Prophet Ismail (AS) exemplifies complete obedience to Allah and respect for parents. His willingness to be sacrificed when his father Ibrahim received the divine command shows the highest level of submission and trust in Allah's wisdom.
+
+Ismail (AS) also played a crucial role in building the Kaaba with his father, establishing the foundation for Islamic pilgrimage that continues today. His life demonstrates the importance of family cooperation in serving Allah and building lasting institutions for worship.
+
+His teachings emphasize obedience, sacrifice, hard work, and the importance of building something that benefits future generations. Through his lineage came Prophet Muhammad (PBUH), making him a key figure in Islamic history.`,
+      keyTeachings: [
+        'Show complete obedience to Allah\'s commands',
+        'Respect and obey your parents in righteous matters',
+        'Be willing to sacrifice for Allah\'s sake',
+        'Work hard to build lasting beneficial institutions',
+        'Cooperate with family members in righteous projects',
+        'Trust in Allah\'s wisdom even in difficult situations',
+        'Build foundations that will benefit future generations',
+        'Maintain strong family bonds and traditions'
+      ],
+      hadithReferences: [
+        'Sahih Bukhari: "Paradise lies at the feet of your mother"',
+        'Sahih Muslim: "The best of deeds is to bring happiness to your parents"',
+        'Tirmidhi: "Whoever obeys his parents, Allah will be pleased with him"',
+        'Abu Dawud: "When you build, build to last; when you plant, plant for the future"'
+      ],
+      practicalTips: [
+        'Always prioritize obedience to Allah over personal desires',
+        'Show respect and kindness to your parents daily',
+        'Be willing to make sacrifices for your family and community',
+        'Participate in building projects that benefit your community',
+        'Work together with family members on meaningful projects',
+        'Think long-term when making decisions and investments',
+        'Maintain family traditions that bring you closer to Allah',
+        'Teach your children the importance of obedience and sacrifice'
+      ],
+      visualGuide: {
+        type: 'journey',
+        title: 'Ismail\'s Journey of Obedience and Building',
+        description: 'From sacrifice to construction of the sacred Kaaba',
+        elements: [
+          'Divine Test',
+          'Complete Submission',
+          'Parental Obedience',
+          'Family Cooperation',
+          'Sacred Construction',
+          'Foundation Building',
+          'Legacy Creation',
+          'Prophetic Lineage'
+        ]
+      },
+      color: 'from-green-500 to-teal-600'
+    },
+    {
+      id: 'ishaq',
+      name: 'Ishaq (Isaac)',
+      arabicName: 'إسحاق عليه السلام',
+      title: 'The Blessed Continuation',
+      introduction: `Prophet Ishaq (AS) represents the fulfillment of Allah's promise and the continuation of prophetic lineage. Born to Ibrahim and Sarah in their old age, his birth was a miracle that demonstrated Allah's power over natural limitations.
+
+Ishaq (AS) continued his father's mission of spreading monotheism and established a righteous lineage through which many prophets would come. His life shows us the importance of maintaining family traditions of faith and passing them on to future generations.
+
+His teachings emphasize gratitude for Allah's blessings, the importance of raising righteous children, and maintaining the covenant with Allah across generations. He represents stability, continuity, and the faithful preservation of divine guidance.`,
+      keyTeachings: [
+        'Be grateful for Allah\'s miraculous blessings in your life',
+        'Continue the righteous traditions of your predecessors',
+        'Raise your children with strong Islamic values',
+        'Maintain your covenant and relationship with Allah',
+        'Pass on beneficial knowledge to future generations',
+        'Show patience in fulfilling long-term responsibilities',
+        'Build upon the foundation laid by previous generations',
+        'Trust in Allah\'s promises and perfect timing'
+      ],
+      hadithReferences: [
+        'Sahih Bukhari: "Every child is born upon fitrah (natural state of faith)"',
+        'Sahih Muslim: "When a person dies, his deeds come to an end except for three: ongoing charity, beneficial knowledge, or a righteous child who prays for him"',
+        'Tirmidhi: "The best gift a parent can give their child is good education and moral training"',
+        'Abu Dawud: "Command your children to pray when they are seven years old"'
+      ],
+      practicalTips: [
+        'Teach your children Islamic values from an early age',
+        'Continue the good traditions established by your parents',
+        'Be patient in long-term projects that benefit future generations',
+        'Express daily gratitude for the blessings in your family',
+        'Maintain regular family prayers and Islamic practices',
+        'Document and preserve your family\'s Islamic heritage',
+        'Support Islamic education and institutions in your community',
+        'Make dua regularly for your parents and children'
+      ],
+      visualGuide: {
+        type: 'legacy',
+        title: 'The Blessed Legacy of Prophet Ishaq (AS)',
+        description: 'Continuing prophetic traditions across generations',
+        elements: [
+          'Miraculous Birth',
+          'Prophetic Lineage',
+          'Family Traditions',
+          'Covenant Maintenance',
+          'Righteous Children',
+          'Knowledge Transfer',
+          'Faith Continuity',
+          'Divine Promise'
+        ]
+      },
+      color: 'from-blue-500 to-indigo-600'
+    },
+    {
+      id: 'shuaib',
+      name: 'Shuaib',
+      arabicName: 'شعيب عليه السلام',
+      title: 'The Eloquent Speaker and Business Ethics Teacher',
+      introduction: `Prophet Shuaib (AS) was known as "Khatib al-Anbiya" (the Speaker of the Prophets) due to his exceptional eloquence. He was sent to the people of Madyan who were dishonest in their business dealings, cheating in weights and measures.
+
+Shuaib (AS) established the fundamental principles of business ethics in Islam. His teachings emphasize honesty, fairness, and justice in all commercial transactions. He showed that economic prosperity must be built on moral foundations to be sustainable and blessed by Allah.
+
+His approach combined powerful speech with practical guidance, showing us how to effectively communicate important messages while providing concrete solutions to social problems. His legacy teaches us that true success in business comes through ethical practices and divine blessing.`,
+      keyTeachings: [
+        'Maintain complete honesty in all business dealings',
+        'Give people their full rights and don\'t cheat in measurements',
+        'Use eloquent and persuasive speech to promote good',
+        'Build economic success on ethical foundations',
+        'Speak against corruption and dishonest practices',
+        'Combine spiritual guidance with practical solutions',
+        'Stand for justice even when it affects your business',
+        'Remember that Allah is watching all your transactions'
+      ],
+      hadithReferences: [
+        'Sahih Bukhari: "The truthful and trustworthy merchant will be with the prophets, the truthful, and the martyrs"',
+        'Sahih Muslim: "Allah has mercy on the person who is easy-going when he sells, buys, and asks for payment"',
+        'Tirmidhi: "The two parties in a business transaction have the right to cancel it as long as they have not separated"',
+        'Ibn Majah: "Whoever cheats us is not one of us"'
+      ],
+      practicalTips: [
+        'Always be honest about the quality and quantity of your products',
+        'Use accurate weights and measures in all transactions',
+        'Develop your communication skills to effectively convey important messages',
+        'Speak out against corruption and unethical practices in your workplace',
+        'Build your business reputation on trust and reliability',
+        'Treat customers fairly regardless of their social status',
+        'Seek Allah\'s blessing in your business through honest practices',
+        'Educate others about Islamic business ethics'
+      ],
+      visualGuide: {
+        type: 'teachings',
+        title: 'Core Teachings of Prophet Shuaib (AS)',
+        description: 'Islamic business ethics and eloquent communication',
+        elements: [
+          'Honest Trading',
+          'Fair Measurements',
+          'Eloquent Speech',
+          'Business Ethics',
+          'Social Justice',
+          'Economic Morality',
+          'Trust Building',
+          'Divine Blessing'
+        ]
+      },
+      color: 'from-teal-500 to-green-600'
+    },
+    {
+      id: 'ayyub',
+      name: 'Ayyub (Job)',
+      arabicName: 'أيوب عليه السلام',
+      title: 'The Master of Patience and Gratitude',
+      introduction: `Prophet Ayyub (AS) is the ultimate example of patience (sabr) in Islamic tradition. Despite losing his wealth, health, and family, he never complained against Allah or lost his faith. His story teaches us how to maintain our relationship with Allah during the most difficult trials.
+
+Ayyub (AS) shows us that true faith is not dependent on external circumstances but on our inner connection with Allah. His patience was not passive resignation but active trust in Allah's wisdom and continued worship despite suffering.
+
+His teachings emphasize that trials are tests of faith, opportunities for spiritual growth, and means of purification. His example shows us how to turn suffering into spiritual strength and how to emerge from difficulties with even stronger faith.`,
+      keyTeachings: [
+        'Maintain patience and faith during severe trials',
+        'Accept both good times and hardships as tests from Allah',
+        'Never lose hope in Allah\'s mercy during difficulties',
+        'Continue worshipping Allah regardless of your circumstances',
+        'Be grateful for what remains when you lose something',
+        'Trust that Allah\'s wisdom is perfect even when you don\'t understand',
+        'Use trials as opportunities for spiritual growth',
+        'Remember that this life\'s difficulties are temporary'
+      ],
+      hadithReferences: [
+        'Sahih Bukhari: "No fatigue, disease, sorrow, sadness, hurt, or distress befalls a Muslim, not even if it were the prick he receives from a thorn, but that Allah expiates some of his sins for that"',
+        'Sahih Muslim: "How wonderful is the affair of the believer, for his affairs are all good"',
+        'Tirmidhi: "The greatest reward comes with the greatest trial"',
+        'Abu Dawud: "Whoever Allah wants good for, He tests him"'
+      ],
+      practicalTips: [
+        'Practice gratitude daily, especially during difficult times',
+        'Maintain your prayers and dhikr even when you\'re suffering',
+        'Seek support from righteous friends and family during trials',
+        'Remember that every difficulty is followed by ease',
+        'Use your experiences to help others going through similar trials',
+        'Make sincere dua but also accept Allah\'s decree',
+        'Focus on what you can control and leave the rest to Allah',
+        'See trials as opportunities to draw closer to Allah'
+      ],
+      visualGuide: {
+        type: 'journey',
+        title: 'Ayyub\'s Journey Through Trial to Triumph',
+        description: 'The path of patience leading to divine reward',
+        elements: [
+          'Blessed Beginning',
+          'Severe Testing',
+          'Unwavering Faith',
+          'Continued Worship',
+          'Patient Endurance',
+          'Divine Mercy',
+          'Complete Restoration',
+          'Eternal Example'
+        ]
+      },
+      color: 'from-gray-500 to-blue-600'
+    },
+    {
+      id: 'dhulkifl',
+      name: 'Dhul-kifl',
+      arabicName: 'ذو الكفل عليه السلام',
+      title: 'The Guarantor of Justice',
+      introduction: `Prophet Dhul-kifl (AS) is mentioned in the Quran among the patient and righteous servants of Allah. His name means "the one who guarantees" or "the one with a portion," indicating his role as someone who took responsibility for ensuring justice and fulfilling commitments.
+
+Dhul-kifl (AS) represents the importance of reliability, trustworthiness, and taking responsibility for the welfare of others. His inclusion among the patient prophets suggests that he faced significant challenges while maintaining his commitment to justice and righteousness.
+
+His teachings emphasize the importance of being dependable, fulfilling your promises, and taking responsibility for the welfare of your community. He shows us that leadership is about service and guarantee of justice for all.`,
+      keyTeachings: [
+        'Be reliable and trustworthy in all your commitments',
+        'Take responsibility for the welfare of others',
+        'Ensure justice and fairness in all your dealings',
+        'Be patient when fulfilling difficult responsibilities',
+        'Keep your promises no matter how challenging',
+        'Stand as a guarantor for truth and righteousness',
+        'Serve your community with dedication and integrity',
+        'Maintain righteousness even under pressure'
+      ],
+      hadithReferences: [
+        'Sahih Bukhari: "The signs of a hypocrite are three: when he speaks, he lies; when he promises, he breaks his promise; and when he is entrusted with something, he betrays that trust"',
+        'Sahih Muslim: "Whoever guarantees what is between his jaws and what is between his legs, I guarantee Paradise for him"',
+        'Tirmidhi: "The believer is not one who eats his fill while his neighbor goes hungry"',
+        'Abu Dawud: "Each of you is a shepherd and each of you is responsible for his flock"'
+      ],
+      practicalTips: [
+        'Always keep your promises and commitments',
+        'Take responsibility for those under your care',
+        'Be a reliable person that others can depend on',
+        'Stand up for justice even when it\'s difficult',
+        'Help resolve disputes fairly in your community',
+        'Be patient when fulfilling long-term responsibilities',
+        'Guarantee the rights of those who cannot protect themselves',
+        'Build a reputation for trustworthiness and integrity'
+      ],
+      visualGuide: {
+        type: 'teachings',
+        title: 'Core Teachings of Prophet Dhul-kifl (AS)',
+        description: 'Responsibility, reliability, and guaranteed justice',
+        elements: [
+          'Reliable Character',
+          'Promise Keeping',
+          'Justice Guarantee',
+          'Community Service',
+          'Patient Leadership',
+          'Trustworthy Dealings',
+          'Righteous Responsibility',
+          'Welfare Assurance'
+        ]
+      },
+      color: 'from-purple-500 to-pink-600'
+    },
+    {
+      id: 'yunus',
+      name: 'Yunus (Jonah)',
+      arabicName: 'يونس عليه السلام',
+      title: 'The Repentant and Forgiven',
+      introduction: `Prophet Yunus (AS), known as Dhun-Nun (Companion of the Whale), teaches us about the power of sincere repentance and Allah's infinite mercy. His experience in the whale's belly became a symbol of hope for all who seek Allah's forgiveness.
+
+Yunus (AS) initially left his mission in frustration, but his experience taught him patience and complete reliance on Allah. His famous dua from the depths of the whale has become one of the most powerful supplications for those in distress.
+
+His story shows us that even prophets can make mistakes, but sincere repentance leads to Allah's forgiveness and mercy. It also demonstrates that Allah's mercy can reach us in the darkest and most hopeless situations.`,
+      keyTeachings: [
+        'Never despair of Allah\'s mercy no matter how grave your situation',
+        'Sincere repentance can transform any situation',
+        'Be patient with your mission and don\'t abandon it hastily',
+        'Turn to Allah in times of distress with complete humility',
+        'Remember that Allah\'s mercy is greater than any sin',
+        'Use your experiences of forgiveness to help others',
+        'Maintain hope even in the darkest circumstances',
+        'Acknowledge your mistakes and seek Allah\'s forgiveness'
+      ],
+      hadithReferences: [
+        'Sahih Bukhari: "All the sons of Adam are sinners, but the best of sinners are those who repent"',
+        'Sahih Muslim: "Allah is more pleased with the repentance of His servant than one of you would be with finding his camel"',
+        'Tirmidhi: "The supplication of Dhun-Nun when he was in the belly of the whale was: \'There is no god but You, glory be to You, indeed I was among the wrongdoers\'"',
+        'Ibn Majah: "Whoever says this dua, Allah will answer him"'
+      ],
+      practicalTips: [
+        'Make sincere tawbah (repentance) regularly, especially after mistakes',
+        'Use Yunus\'s dua when you\'re in distress or difficulty',
+        'Never give up on people or situations too quickly',
+        'Help others who are seeking forgiveness and redemption',
+        'Remember Allah\'s mercy when you feel overwhelmed by guilt',
+        'Be patient with long-term projects and commitments',
+        'Turn every difficulty into an opportunity for spiritual growth',
+        'Share your experiences of Allah\'s mercy to inspire others'
+      ],
+      visualGuide: {
+        type: 'journey',
+        title: 'Yunus\'s Journey from Despair to Hope',
+        description: 'The transformative power of repentance and divine mercy',
+        elements: [
+          'Initial Mission',
+          'Hasty Departure',
+          'Divine Test',
+          'Depths of Despair',
+          'Sincere Repentance',
+          'Divine Mercy',
+          'Second Chance',
+          'Successful Mission'
+        ]
+      },
+      color: 'from-cyan-500 to-blue-600'
+    },
+    {
       id: 'sulaiman',
       name: 'Sulaiman (Solomon)',
       arabicName: 'سليمان عليه السلام',

@@ -60,6 +60,41 @@ Adam (AS) and Hawwa were then tasked with populating the Earth and worshipping A
       color: 'from-green-500 to-emerald-600'
     },
     {
+      id: 'idris',
+      name: 'Idris (Enoch)',
+      arabicName: 'إدريس عليه السلام',
+      title: 'The First to Write with a Pen',
+      period: 'Before Prophet Nuh (AS)',
+      location: 'Ancient Babylon/Egypt',
+      story: `Prophet Idris (AS) was one of the earliest prophets sent by Allah to guide humanity. He was the first person to write with a pen and was blessed with extensive knowledge of astronomy, mathematics, and divine wisdom. The Quran mentions that Allah raised him to a high station.
+
+Idris (AS) was known for his righteousness, wisdom, and dedication to worship. He spent most of his time in prayer, fasting, and teaching people about Allah. According to Islamic tradition, he was the first to establish the practice of wearing sewn clothes and was granted knowledge of various sciences.
+
+Allah honored Idris (AS) by raising him to the heavens while he was still alive, similar to Prophet Isa (AS). His life serves as an example of complete devotion to Allah and the pursuit of beneficial knowledge. He is mentioned in the Quran as being among the patient and righteous servants of Allah.`,
+      keyLessons: [
+        'The importance of seeking and spreading beneficial knowledge',
+        'Dedication to worship and remembrance of Allah',
+        'Using knowledge and skills to serve humanity',
+        'Patience and perseverance in following Allah\'s guidance',
+        'The value of righteous deeds and moral conduct'
+      ],
+      quranicReferences: [
+        'Quran 19:56-57 - Mention of Idris and his high station',
+        'Quran 21:85-86 - Listed among the patient and righteous'
+      ],
+      importantEvents: [
+        'Being granted extensive knowledge by Allah',
+        'First to write with a pen and teach writing',
+        'Establishing practices of civilization and learning',
+        'Dedication to worship and teaching people',
+        'Being raised to a high station by Allah',
+        'Recognition as one of the patient servants'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Idris (AS) - The Scholar and Righteous Servant',
+      color: 'from-indigo-500 to-purple-600'
+    },
+    {
       id: 'nuh',
       name: 'Nuh (Noah)',
       arabicName: 'نوح عليه السلام',
@@ -97,6 +132,80 @@ When Allah informed Nuh (AS) that no more people would believe, He commanded him
       color: 'from-blue-500 to-cyan-600'
     },
     {
+      id: 'hud',
+      name: 'Hud',
+      arabicName: 'هود عليه السلام',
+      title: 'The Warner to the People of Aad',
+      period: 'After Prophet Nuh (AS)',
+      location: 'Arabian Peninsula (Al-Ahqaf)',
+      story: `Prophet Hud (AS) was sent to the people of Aad, who lived in the region of Al-Ahqaf in the Arabian Peninsula. The people of Aad were known for their physical strength, architectural skills, and prosperity, but they had become arrogant and turned away from Allah.
+
+Hud (AS) called his people to worship Allah alone and abandon their idol worship. He reminded them of Allah's blessings upon them - their strength, their beautiful land, and their prosperity. However, the majority of his people rejected his message and mocked him, claiming that their gods would protect them.
+
+When they persisted in their disbelief and arrogance, Allah sent a severe windstorm that lasted for seven nights and eight days, destroying the entire civilization except for Hud (AS) and the few believers who followed him. This serves as a powerful reminder that no matter how strong or advanced a civilization becomes, it cannot escape Allah's punishment if it turns away from His guidance.`,
+      keyLessons: [
+        'Arrogance and pride lead to destruction',
+        'Physical strength and prosperity are tests from Allah',
+        'The importance of gratitude for Allah\'s blessings',
+        'Persistence in calling people to truth despite rejection',
+        'Divine justice will eventually prevail over oppression'
+      ],
+      quranicReferences: [
+        'Quran 7:65-72 - The story of Hud and the people of Aad',
+        'Quran 11:50-60 - Detailed account of Hud\'s mission',
+        'Quran 26:123-140 - Hud\'s call to his people',
+        'Quran 46:21-26 - The destruction of Aad'
+      ],
+      importantEvents: [
+        'Being sent to the prosperous people of Aad',
+        'Calling his people to abandon idol worship',
+        'Warning them about Allah\'s punishment',
+        'Facing mockery and rejection from his people',
+        'The great windstorm that destroyed Aad',
+        'Salvation of Hud and the believers'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Hud (AS) - The Destruction of the Arrogant Aad',
+      color: 'from-yellow-500 to-red-600'
+    },
+    {
+      id: 'salih',
+      name: 'Salih',
+      arabicName: 'صالح عليه السلام',
+      title: 'The Prophet with the Miraculous She-Camel',
+      period: 'After Prophet Hud (AS)',
+      location: 'Al-Hijr (Northern Arabia)',
+      story: `Prophet Salih (AS) was sent to the people of Thamud, who lived in the rocky region of Al-Hijr in northern Arabia. The Thamud were skilled in carving homes and structures out of mountains and rocks, and they were prosperous and advanced in their civilization.
+
+Like their predecessors, the people of Aad, the Thamud had turned to idol worship and became arrogant due to their skills and prosperity. Salih (AS) called them to worship Allah alone, but they demanded a miracle as proof of his prophethood.
+
+Allah granted Salih (AS) a miraculous she-camel that emerged from a rock. This camel was a sign from Allah, and the people were warned not to harm it. The camel would drink from their well on alternate days, and on those days, the people could milk it for their needs. However, some of the arrogant leaders conspired and killed the camel. As a result, Allah's punishment came upon them in the form of a mighty earthquake and thunderbolt that destroyed their entire civilization, except for Salih (AS) and the believers.`,
+      keyLessons: [
+        'Miracles are signs from Allah that should increase faith',
+        'Arrogance and defiance of Allah\'s signs lead to destruction',
+        'The importance of respecting Allah\'s creation and signs',
+        'Prosperity and skills are tests from Allah',
+        'Divine warnings should be taken seriously'
+      ],
+      quranicReferences: [
+        'Quran 7:73-79 - The story of Salih and Thamud',
+        'Quran 11:61-68 - Salih\'s mission and the she-camel',
+        'Quran 26:141-159 - The miraculous camel and its killing',
+        'Quran 27:45-53 - The destruction of Thamud'
+      ],
+      importantEvents: [
+        'Being sent to the skilled people of Thamud',
+        'Calling them to abandon idol worship',
+        'The miracle of the she-camel emerging from rock',
+        'Warning the people not to harm the camel',
+        'The conspiracy and killing of the miraculous camel',
+        'Divine punishment through earthquake and thunderbolt'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Salih (AS) - The Miracle of the She-Camel',
+      color: 'from-orange-500 to-red-600'
+    },
+    {
       id: 'ibrahim',
       name: 'Ibrahim (Abraham)',
       arabicName: 'إبراهيم عليه السلام',
@@ -132,6 +241,263 @@ Ibrahim (AS) was tested in many ways - leaving his homeland, the command to sacr
       videoId: 'dQw4w9WgXcQ',
       videoTitle: 'Prophet Ibrahim (AS) - The Friend of Allah and Father of Prophets',
       color: 'from-amber-500 to-orange-600'
+    },
+    {
+      id: 'ismail',
+      name: 'Ismail (Ishmael)',
+      arabicName: 'إسماعيل عليه السلام',
+      title: 'The Sacrificed Son and Father of Arabs',
+      period: 'Son of Prophet Ibrahim (AS)',
+      location: 'Mecca, Arabian Peninsula',
+      story: `Prophet Ismail (AS) was the eldest son of Prophet Ibrahim (AS) and Hajar (Hagar). His story is one of complete submission to Allah's will and is commemorated annually during Hajj. When Ismail was still a child, Allah commanded Ibrahim to leave him and his mother in the barren valley of Mecca.
+
+As Ismail grew up, Allah tested both father and son through a dream in which Ibrahim was commanded to sacrifice his beloved son. Both Ibrahim and Ismail showed complete submission to Allah's command. When Ibrahim was about to sacrifice his son, Allah replaced Ismail with a ram, as this was a test of their faith and obedience.
+
+Ismail (AS) helped his father Ibrahim build the Kaaba, the first house of worship dedicated to Allah. He became a prophet himself and is considered the forefather of the Arab people. His descendants include Prophet Muhammad (PBUH). Ismail's life exemplifies patience, obedience, and complete trust in Allah's wisdom.`,
+      keyLessons: [
+        'Complete submission to Allah\'s will, even in difficult tests',
+        'The importance of obedience to parents in righteous matters',
+        'Trust in Allah\'s wisdom and perfect timing',
+        'Building and maintaining places of worship',
+        'Patience during trials and hardships'
+      ],
+      quranicReferences: [
+        'Quran 37:99-113 - The sacrifice of Ismail',
+        'Quran 2:125-129 - Building the Kaaba with Ibrahim',
+        'Quran 14:35-41 - Ibrahim\'s prayer for his descendants',
+        'Quran 19:54-55 - Ismail\'s truthfulness and devotion'
+      ],
+      importantEvents: [
+        'Birth to Ibrahim and Hajar',
+        'Being left in Mecca as a child with his mother',
+        'The miracle of Zamzam water',
+        'The test of sacrifice and Allah\'s intervention',
+        'Helping Ibrahim build the Kaaba',
+        'Becoming a prophet and father of Arab nations'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Ismail (AS) - The Ultimate Test of Submission',
+      color: 'from-green-500 to-teal-600'
+    },
+    {
+      id: 'ishaq',
+      name: 'Ishaq (Isaac)',
+      arabicName: 'إسحاق عليه السلام',
+      title: 'The Blessed Son and Father of Prophets',
+      period: 'Son of Prophet Ibrahim (AS)',
+      location: 'Palestine/Canaan',
+      story: `Prophet Ishaq (AS) was the second son of Prophet Ibrahim (AS), born to his wife Sarah in their old age as a miraculous blessing from Allah. His birth was foretold by angels who visited Ibrahim, and Sarah laughed with joy when she received the glad tidings.
+
+Ishaq (AS) grew up to be a righteous prophet, continuing his father's mission of calling people to worship Allah alone. He was blessed with two sons, Yaqub (Jacob) and Esau. Yaqub later became known as Israel and was also chosen as a prophet by Allah.
+
+Ishaq (AS) lived a life of devotion to Allah, following in the footsteps of his father Ibrahim. He maintained the covenant with Allah and passed on the teachings of monotheism to his descendants. Through his lineage came many prophets, including Yaqub (AS), Yusuf (AS), Musa (AS), Dawud (AS), Sulaiman (AS), and Isa (AS). His life represents the fulfillment of Allah's promise to Ibrahim about making his descendants into great nations.`,
+      keyLessons: [
+        'Allah\'s promises are always fulfilled in His perfect timing',
+        'The importance of continuing the mission of previous prophets',
+        'Raising righteous children who follow Allah\'s guidance',
+        'Maintaining the covenant and teachings of monotheism',
+        'The blessing of being part of Allah\'s chosen lineage'
+      ],
+      quranicReferences: [
+        'Quran 11:69-73 - The glad tidings of Ishaq\'s birth',
+        'Quran 21:72-73 - Ishaq as a righteous leader',
+        'Quran 37:112-113 - Allah\'s blessing upon Ishaq',
+        'Quran 2:133 - Ishaq in the lineage of prophets'
+      ],
+      importantEvents: [
+        'Miraculous birth to Ibrahim and Sarah in old age',
+        'Angels giving glad tidings of his birth',
+        'Growing up in a prophetic household',
+        'Receiving prophethood and divine guidance',
+        'Marriage and having righteous children',
+        'Continuing Ibrahim\'s mission of monotheism'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Ishaq (AS) - The Blessed Son and Prophetic Legacy',
+      color: 'from-blue-500 to-indigo-600'
+    },
+    {
+      id: 'shuaib',
+      name: 'Shuaib',
+      arabicName: 'شعيب عليه السلام',
+      title: 'The Eloquent Speaker (Khatib al-Anbiya)',
+      period: 'Contemporary of Prophet Musa (AS)',
+      location: 'Madyan (Northwestern Arabia)',
+      story: `Prophet Shuaib (AS) was sent to the people of Madyan, who were known for their dishonesty in trade and business dealings. They would cheat in weights and measures, give less than what was due, and take more than what they deserved. Despite their economic prosperity, they had become morally corrupt.
+
+Shuaib (AS) was known as "Khatib al-Anbiya" (the Speaker of the Prophets) due to his eloquence and powerful speech. He called his people to worship Allah alone and to be honest and fair in their business dealings. He emphasized the importance of justice, honesty, and giving people their due rights.
+
+However, the majority of his people rejected his message and threatened to expel him from their city. They were so attached to their dishonest practices that they couldn't accept the call to righteousness. Eventually, Allah's punishment came upon them in the form of a mighty earthquake and a day of overshadowing gloom that destroyed the entire community, except for Shuaib (AS) and those who believed in his message.`,
+      keyLessons: [
+        'Honesty and fairness in business dealings are essential',
+        'Economic prosperity without moral values leads to destruction',
+        'The importance of giving people their due rights',
+        'Eloquent speech should be used to call people to truth',
+        'Justice in society is a fundamental requirement'
+      ],
+      quranicReferences: [
+        'Quran 7:85-93 - Shuaib\'s mission to Madyan',
+        'Quran 11:84-95 - The call to honesty in trade',
+        'Quran 26:176-191 - The people of the thicket',
+        'Quran 29:36-37 - The destruction of Madyan'
+      ],
+      importantEvents: [
+        'Being sent to the dishonest people of Madyan',
+        'Calling them to worship Allah and be honest in trade',
+        'Warning against cheating in weights and measures',
+        'Facing rejection and threats of expulsion',
+        'Divine punishment through earthquake and gloom',
+        'Salvation of Shuaib and the believers'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Shuaib (AS) - The Call to Honesty and Justice',
+      color: 'from-teal-500 to-green-600'
+    },
+    {
+      id: 'yusuf',
+      name: 'Yusuf (Joseph)',
+      arabicName: 'يوسف عليه السلام',
+      title: 'The Truthful and Beautiful',
+      period: 'Son of Prophet Yaqub (AS)',
+      location: 'Canaan, then Egypt',
+      story: `Prophet Yusuf (AS) was the beloved son of Prophet Yaqub (Jacob). His story, called "the best of stories" in the Quran, is filled with trials, patience, and ultimate triumph. As a young boy, Yusuf saw a dream of eleven stars, the sun, and moon prostrating to him, which his father interpreted as a sign of his future greatness.
+
+His brothers, jealous of their father's love for Yusuf, plotted against him and threw him into a well. He was then sold into slavery in Egypt, where he served in the house of a nobleman. When the nobleman's wife tried to seduce him, Yusuf refused and was falsely accused and imprisoned.
+
+In prison, Yusuf interpreted dreams for fellow prisoners, including the king's cupbearer. When the king had troubling dreams, Yusuf was called to interpret them, predicting seven years of abundance followed by seven years of famine. Impressed by his wisdom, the king appointed Yusuf as treasurer of Egypt. Eventually, his family came to Egypt during the famine, and Yusuf forgave his brothers, reuniting with his beloved father.`,
+      keyLessons: [
+        'Patience and trust in Allah during trials and hardships',
+        'Maintaining moral integrity even when facing temptation',
+        'Forgiveness and mercy toward those who wrong us',
+        'Using our abilities and knowledge to serve others',
+        'Allah\'s plans are always perfect, even when we don\'t understand them'
+      ],
+      quranicReferences: [
+        'Quran 12:1-111 - The complete story of Yusuf',
+        'Quran 12:3 - Called "the best of stories"',
+        'Quran 12:21 - Yusuf\'s wisdom and knowledge',
+        'Quran 12:90 - The reward for patience and righteousness'
+      ],
+      importantEvents: [
+        'The prophetic dream of eleven stars, sun, and moon',
+        'Being thrown into the well by his jealous brothers',
+        'Sold into slavery and serving in Egypt',
+        'Resisting temptation and being falsely imprisoned',
+        'Interpreting the king\'s dreams and becoming treasurer',
+        'Reunion with family and forgiveness of his brothers'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Yusuf (AS) - The Best of Stories',
+      color: 'from-purple-500 to-indigo-600'
+    },
+    {
+      id: 'ayyub',
+      name: 'Ayyub (Job)',
+      arabicName: 'أيوب عليه السلام',
+      title: 'The Patient and Steadfast Servant',
+      period: 'Ancient times',
+      location: 'Land of Uz (possibly Jordan/Syria)',
+      story: `Prophet Ayyub (AS) is renowned for his extraordinary patience and unwavering faith during severe trials. He was a wealthy man blessed with large flocks, vast lands, and a loving family. However, Allah tested him by taking away his wealth, health, and children, leaving him with a painful illness that lasted for years.
+
+Despite losing everything he held dear and suffering from a debilitating disease, Ayyub (AS) never complained against Allah or lost his faith. His wife and friends sometimes urged him to curse Allah, but he remained steadfast, saying that if he could accept good times from Allah, he should also accept the difficult times.
+
+His patience and continued worship during extreme hardship became legendary. Eventually, Allah restored his health, wealth, and family, giving him even more than he had before. Ayyub's story teaches us that trials are tests of faith, and those who remain patient and grateful will be rewarded by Allah both in this life and the hereafter.`,
+      keyLessons: [
+        'Patience during trials is a sign of strong faith',
+        'Accept both good times and hardships as tests from Allah',
+        'Never lose hope in Allah\'s mercy during difficulties',
+        'Gratitude should be maintained even in suffering',
+        'Allah rewards those who remain steadfast in faith'
+      ],
+      quranicReferences: [
+        'Quran 21:83-84 - Ayyub\'s patience and Allah\'s mercy',
+        'Quran 38:41-44 - Ayyub\'s prayer and restoration',
+        'Quran 4:163 - Listed among the prophets',
+        'Quran 6:84 - Among the righteous guided by Allah'
+      ],
+      importantEvents: [
+        'Living as a prosperous and righteous man',
+        'Losing wealth, health, and family as a test',
+        'Maintaining faith despite severe illness',
+        'Rejecting suggestions to curse Allah',
+        'Making sincere dua for relief from suffering',
+        'Allah\'s restoration of health, wealth, and family'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Ayyub (AS) - The Ultimate Example of Patience',
+      color: 'from-gray-500 to-blue-600'
+    },
+    {
+      id: 'dhulkifl',
+      name: 'Dhul-kifl',
+      arabicName: 'ذو الكفل عليه السلام',
+      title: 'The Truthful and Patient',
+      period: 'Ancient times',
+      location: 'Mesopotamia/Babylon',
+      story: `Prophet Dhul-kifl (AS) is mentioned in the Quran as one of the righteous and patient servants of Allah. While detailed stories about him are limited in Islamic sources, he is recognized as a prophet who was blessed with patience and righteousness.
+
+According to Islamic tradition, Dhul-kifl (AS) was known for his commitment to justice and his ability to resolve disputes fairly among people. He was called "Dhul-kifl" which means "the one with a portion" or "the one who guarantees," possibly referring to his role in ensuring justice and taking responsibility for the welfare of his people.
+
+He is mentioned alongside other patient prophets in the Quran, indicating that he faced trials and difficulties with remarkable steadfastness. His inclusion among the prophets in the Quran emphasizes the importance of patience, justice, and fulfilling one's responsibilities toward both Allah and humanity.`,
+      keyLessons: [
+        'Patience and steadfastness in fulfilling responsibilities',
+        'The importance of justice and fair dealing',
+        'Taking responsibility for the welfare of others',
+        'Maintaining righteousness in all circumstances',
+        'Being trustworthy and reliable in commitments'
+      ],
+      quranicReferences: [
+        'Quran 21:85-86 - Listed among the patient ones',
+        'Quran 38:48 - Mentioned with other righteous prophets'
+      ],
+      importantEvents: [
+        'Being chosen as a prophet by Allah',
+        'Demonstrating exceptional patience in trials',
+        'Serving as a just leader among his people',
+        'Fulfilling his responsibilities with dedication',
+        'Being recognized for his righteousness',
+        'Inclusion among the patient servants of Allah'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Dhul-kifl (AS) - The Patient and Just Leader',
+      color: 'from-purple-500 to-pink-600'
+    },
+    {
+      id: 'yunus',
+      name: 'Yunus (Jonah)',
+      arabicName: 'يونس عليه السلام',
+      title: 'The Companion of the Whale (Dhun-Nun)',
+      period: 'Ancient times',
+      location: 'Nineveh (Modern-day Iraq)',
+      story: `Prophet Yunus (AS), also known as Dhun-Nun (Companion of the Whale), was sent to the people of Nineveh, a large city known for its wickedness and corruption. He called his people to worship Allah and abandon their evil ways, but they initially rejected his message.
+
+Feeling frustrated with his people's rejection, Yunus (AS) left the city without Allah's permission, thinking that Allah's punishment would surely come upon them. He boarded a ship, but during the journey, a storm arose. The sailors cast lots to determine who was causing their misfortune, and the lot fell upon Yunus (AS).
+
+He was thrown into the sea and was swallowed by a large whale. In the darkness of the whale's belly, Yunus (AS) realized his mistake and made sincere repentance to Allah, reciting the famous dua: "La ilaha illa anta, subhanaka, inni kuntu mina adh-dhalimin" (There is no god but You, glory be to You, indeed I was among the wrongdoers). Allah accepted his repentance and commanded the whale to release him. Meanwhile, his people had repented and believed, so Allah saved them from punishment.`,
+      keyLessons: [
+        'The importance of patience and not leaving one\'s mission',
+        'Sincere repentance can lead to Allah\'s forgiveness',
+        'Allah\'s mercy extends to all who turn to Him',
+        'Sometimes apparent failure can lead to greater success',
+        'The power of dua in times of distress'
+      ],
+      quranicReferences: [
+        'Quran 37:139-148 - The story of Yunus and the whale',
+        'Quran 21:87-88 - Yunus\'s dua and Allah\'s response',
+        'Quran 10:98 - The belief of Yunus\'s people',
+        'Quran 68:48-50 - Patience and Allah\'s choice'
+      ],
+      importantEvents: [
+        'Being sent to the corrupt people of Nineveh',
+        'Initial rejection of his message by the people',
+        'Leaving the city without Allah\'s permission',
+        'Being thrown into the sea and swallowed by whale',
+        'Making sincere repentance in the whale\'s belly',
+        'Being released and finding his people had believed'
+      ],
+      videoId: 'dQw4w9WgXcQ',
+      videoTitle: 'Prophet Yunus (AS) - The Story of Repentance and Mercy',
+      color: 'from-cyan-500 to-blue-600'
     },
     {
       id: 'musa',
@@ -303,11 +669,10 @@ In just 23 years, the message of Islam spread throughout the Arabian Peninsula. 
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center px-6 py-4 border-b-2 transition-colors whitespace-nowrap ${
-                  activeTab === tab.id
+                className={`flex items-center px-6 py-4 border-b-2 transition-colors whitespace-nowrap ${activeTab === tab.id
                     ? 'border-emerald-500 text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-900/20'
                     : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400'
-                }`}
+                  }`}
               >
                 <tab.icon className="w-4 h-4 mr-2" />
                 {tab.label}
@@ -448,12 +813,12 @@ In just 23 years, the message of Islam spread throughout the Arabian Peninsula. 
                 </div>
               </div>
             </div>
-            
+
             <div className="p-6">
               <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
                 {prophet.title}
               </h4>
-              
+
               <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400 mb-4">
                 <div className="flex items-center">
                   <Clock className="w-4 h-4 mr-2" />
@@ -485,7 +850,7 @@ In just 23 years, the message of Islam spread throughout the Arabian Peninsula. 
             Learn from the Best Examples
           </h3>
           <p className="text-emerald-700 dark:text-emerald-400 max-w-3xl mx-auto leading-relaxed">
-            The stories of the prophets are not just historical accounts, but timeless lessons for humanity. 
+            The stories of the prophets are not just historical accounts, but timeless lessons for humanity.
             Each prophet faced unique challenges and demonstrated unwavering faith, patience, and dedication to Allah's message.
           </p>
           <blockquote className="mt-6 text-lg italic text-emerald-600 dark:text-emerald-400">
