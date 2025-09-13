@@ -111,14 +111,9 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
         {
           number: 5,
           arabic: 'أُولَٰئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ',
-          english: 'Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe.'
-        },
-         {
-          number: 6,
-          arabic: 'اِنَّ الَّذِيْنَ كَفَرُوْا سَوَآءٌ عَلَيْهِمْ ءَاَنْذَرْتَهُمْ اَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُوْنَ',
           english: 'Those are upon [right] guidance from their Lord, and it is those who are the successful.'
-        },
-         ]
+        }
+      ]
     },
     {
       number: 3,
@@ -418,6 +413,336 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
           number: 3,
           arabic: 'ذَرْهُمْ يَأْكُلُوا وَيَتَمَتَّعُوا وَيُلْهِهِمُ الْأَمَلُ ۖ فَسَوْفَ يَعْلَمُونَ',
           english: 'Let them eat and enjoy themselves and be diverted by [false] hope, for they are going to know.'
+        }
+      ]
+    },
+    {
+      number: 16,
+      name: 'An-Nahl',
+      arabicName: 'النحل',
+      englishName: 'The Bee',
+      verses: 128,
+      revelation: 'Meccan',
+      meaning: 'The Bee',
+      description: 'Named after the bee, this Surah discusses Allah\'s countless blessings in nature and the importance of gratitude.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'أَتَىٰ أَمْرُ اللَّهِ فَلَا تَسْتَعْجِلُوهُ ۚ سُبْحَانَهُ وَتَعَالَىٰ عَمَّا يُشْرِكُونَ',
+          english: 'The command of Allah is coming, so do not be impatient for it. Exalted is He and high above what they associate with Him.'
+        },
+        {
+          number: 2,
+          arabic: 'يُنَزِّلُ الْمَلَائِكَةَ بِالرُّوحِ مِنْ أَمْرِهِ عَلَىٰ مَن يَشَاءُ مِنْ عِبَادِهِ أَنْ أَنذِرُوا أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاتَّقُونِ',
+          english: 'He sends down the angels, with the inspiration of His command, upon whom He wills of His servants, [telling them], "Warn that there is no deity except Me; so fear Me."'
+        },
+        {
+          number: 68,
+          arabic: 'وَأَوْحَىٰ رَبُّكَ إِلَى النَّحْلِ أَنِ اتَّخِذِي مِنَ الْجِبَالِ بُيُوتًا وَمِنَ الشَّجَرِ وَمِمَّا يَعْرِشُونَ',
+          english: 'And your Lord inspired to the bee, "Take for yourself among the hills and among the trees and in that which they construct."'
+        }
+      ]
+    },
+    {
+      number: 17,
+      name: 'Al-Isra',
+      arabicName: 'الإسراء',
+      englishName: 'The Night Journey',
+      verses: 111,
+      revelation: 'Meccan',
+      meaning: 'The Night Journey',
+      description: 'Named after the Prophet\'s miraculous night journey from Mecca to Jerusalem, containing moral and spiritual guidance.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ لِنُرِيَهُ مِنْ آيَاتِنَا ۚ إِنَّهُ هُوَ السَّمِيعُ الْبَصِيرُ',
+          english: 'Exalted is He who took His Servant by night from al-Masjid al-Haram to al-Masjid al- Aqsa, whose surroundings We have blessed, to show him of Our signs. Indeed, He is the Hearing, the Seeing.'
+        },
+        {
+          number: 23,
+          arabic: 'وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ الْكِبَرَ أَحَدُهُمَا أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا كَرِيمًا',
+          english: 'And your Lord has decreed that you not worship except Him, and to parents, good treatment. Whether one or both of them reach old age [while] with you, say not to them [so much as], "uff," and do not repel them but speak to them a noble word.'
+        }
+      ]
+    },
+    {
+      number: 18,
+      name: 'Al-Kahf',
+      arabicName: 'الكهف',
+      englishName: 'The Cave',
+      verses: 110,
+      revelation: 'Meccan',
+      meaning: 'The Cave',
+      description: 'Contains the story of the People of the Cave, Dhul-Qarnayn, and other parables about faith and divine protection.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'الْحَمْدُ لِلَّهِ الَّذِي أَنزَلَ عَلَىٰ عَبْدِهِ الْكِتَابَ وَلَمْ يَجْعَل لَّهُ عِوَجًا',
+          english: 'All praise is due to Allah, who has sent down upon His Servant the Book and has not made therein any deviance.'
+        },
+        {
+          number: 10,
+          arabic: 'إِذْ أَوَى الْفِتْيَةُ إِلَى الْكَهْفِ فَقَالُوا رَبَّنَا آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا',
+          english: 'When the youths retreated to the cave and said, "Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance."'
+        }
+      ]
+    },
+    {
+      number: 19,
+      name: 'Maryam',
+      arabicName: 'مريم',
+      englishName: 'Mary',
+      verses: 98,
+      revelation: 'Meccan',
+      meaning: 'Mary',
+      description: 'Named after Mary, the mother of Jesus, containing stories of various prophets and their devotion to Allah.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'كهيعص',
+          english: 'Kaf, Ha, Ya, Ayn, Sad.'
+        },
+        {
+          number: 16,
+          arabic: 'وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ إِذِ انتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا',
+          english: 'And mention, [O Muhammad], in the Book [the story of] Mary, when she withdrew from her family to a place toward the east.'
+        }
+      ]
+    },
+    {
+      number: 20,
+      name: 'Ta-Ha',
+      arabicName: 'طه',
+      englishName: 'Ta-Ha',
+      verses: 135,
+      revelation: 'Meccan',
+      meaning: 'Ta-Ha',
+      description: 'Named after the mysterious letters Ta-Ha, containing the detailed story of Prophet Moses and Pharaoh.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'طه',
+          english: 'Ta, Ha.'
+        },
+        {
+          number: 2,
+          arabic: 'مَا أَنزَلْنَا عَلَيْكَ الْقُرْآنَ لِتَشْقَىٰ',
+          english: 'We have not sent down to you the Qur\'an that you be distressed.'
+        }
+      ]
+    },
+    {
+      number: 21,
+      name: 'Al-Anbiya',
+      arabicName: 'الأنبياء',
+      englishName: 'The Prophets',
+      verses: 112,
+      revelation: 'Meccan',
+      meaning: 'The Prophets',
+      description: 'Contains stories of various prophets and emphasizes the unity of their message of monotheism.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'اقْتَرَبَ لِلنَّاسِ حِسَابُهُمْ وَهُمْ فِي غَفْلَةٍ مُّعْرِضُونَ',
+          english: 'Their account has approached for the people, while they are in heedlessness turning away.'
+        },
+        {
+          number: 25,
+          arabic: 'وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ',
+          english: 'And We sent not before you any messenger except that We revealed to him that, "There is no deity except Me, so worship Me."'
+        }
+      ]
+    },
+    {
+      number: 22,
+      name: 'Al-Hajj',
+      arabicName: 'الحج',
+      englishName: 'The Pilgrimage',
+      verses: 78,
+      revelation: 'Medinan',
+      meaning: 'The Pilgrimage',
+      description: 'Contains detailed guidance about the Hajj pilgrimage and its spiritual significance.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمْ ۚ إِنَّ زَلْزَلَةَ السَّاعَةِ شَيْءٌ عَظِيمٌ',
+          english: 'O mankind, fear your Lord. Indeed, the convulsion of the [final] Hour is a terrible thing.'
+        },
+        {
+          number: 27,
+          arabic: 'وَأَذِّن فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍ',
+          english: 'And proclaim to the people the Hajj [pilgrimage]; they will come to you on foot and on every lean camel; they will come from every distant pass.'
+        }
+      ]
+    },
+    {
+      number: 23,
+      name: 'Al-Mu\'minun',
+      arabicName: 'المؤمنون',
+      englishName: 'The Believers',
+      verses: 118,
+      revelation: 'Meccan',
+      meaning: 'The Believers',
+      description: 'Describes the characteristics of true believers and their ultimate success in the Hereafter.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'قَدْ أَفْلَحَ الْمُؤْمِنُونَ',
+          english: 'Certainly will the believers have succeeded:'
+        },
+        {
+          number: 2,
+          arabic: 'الَّذِينَ هُمْ فِي صَلَاتِهِمْ خَاشِعُونَ',
+          english: 'They who are during their prayer humbly submissive'
+        }
+      ]
+    },
+    {
+      number: 24,
+      name: 'An-Nur',
+      arabicName: 'النور',
+      englishName: 'The Light',
+      verses: 64,
+      revelation: 'Medinan',
+      meaning: 'The Light',
+      description: 'Contains important social and moral guidance, including the famous Light Verse.',
+      verses_data: [
+        {
+          number: 35,
+          arabic: 'اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ ۚ مَثَلُ نُورِهِ كَمِشْكَاةٍ فِيهَا مِصْبَاحٌ ۖ الْمِصْبَاحُ فِي زُجَاجَةٍ ۖ الزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّيٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَارَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِيءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِي اللَّهُ لِنُورِهِ مَن يَشَاءُ',
+          english: 'Allah is the light of the heavens and the earth. The example of His light is like a niche within which is a lamp, the lamp is within glass, the glass as if it were a brilliant star lit from [the oil of] a blessed olive tree, neither of the east nor of the west, whose oil would almost glow even if untouched by fire. Light upon light. Allah guides to His light whom He wills.'
+        }
+      ]
+    },
+    {
+      number: 25,
+      name: 'Al-Furqan',
+      arabicName: 'الفرقان',
+      englishName: 'The Criterion',
+      verses: 77,
+      revelation: 'Meccan',
+      meaning: 'The Criterion',
+      description: 'Named after the Quran as the criterion between right and wrong, containing stories of previous prophets.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'تَبَارَكَ الَّذِي نَزَّلَ الْفُرْقَانَ عَلَىٰ عَبْدِهِ لِيَكُونَ لِلْعَالَمِينَ نَذِيرًا',
+          english: 'Blessed is He who sent down the Criterion upon His Servant that he may be to the worlds a warner.'
+        }
+      ]
+    },
+    {
+      number: 26,
+      name: 'Ash-Shu\'ara',
+      arabicName: 'الشعراء',
+      englishName: 'The Poets',
+      verses: 227,
+      revelation: 'Meccan',
+      meaning: 'The Poets',
+      description: 'Contains stories of various prophets and their struggles with their peoples, ending with guidance about poetry.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'طسم',
+          english: 'Ta, Seen, Meem.'
+        },
+        {
+          number: 2,
+          arabic: 'تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ',
+          english: 'These are the verses of the clear Book.'
+        }
+      ]
+    },
+    {
+      number: 27,
+      name: 'An-Naml',
+      arabicName: 'النمل',
+      englishName: 'The Ants',
+      verses: 93,
+      revelation: 'Meccan',
+      meaning: 'The Ants',
+      description: 'Named after the story of Prophet Solomon and the ants, containing stories of various prophets.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'طس ۚ تِلْكَ آيَاتُ الْقُرْآنِ وَكِتَابٍ مُّبِينٍ',
+          english: 'Ta, Seen. These are the verses of the Qur\'an and a clear Book.'
+        },
+        {
+          number: 18,
+          arabic: 'حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ',
+          english: 'Until, when they came upon the valley of the ants, an ant said, "O ants, enter your dwellings that you not be crushed by Solomon and his soldiers while they perceive not."'
+        }
+      ]
+    },
+    {
+      number: 28,
+      name: 'Al-Qasas',
+      arabicName: 'القصص',
+      englishName: 'The Stories',
+      verses: 88,
+      revelation: 'Meccan',
+      meaning: 'The Stories',
+      description: 'Contains detailed stories, particularly the story of Prophet Moses from his birth to his prophethood.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'طسم',
+          english: 'Ta, Seen, Meem.'
+        },
+        {
+          number: 2,
+          arabic: 'تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ',
+          english: 'These are the verses of the clear Book.'
+        }
+      ]
+    },
+    {
+      number: 29,
+      name: 'Al-Ankabut',
+      arabicName: 'العنكبوت',
+      englishName: 'The Spider',
+      verses: 69,
+      revelation: 'Meccan',
+      meaning: 'The Spider',
+      description: 'Named after the parable of the spider\'s web, discussing trials, faith, and the weakness of false gods.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'الم',
+          english: 'Alif, Lam, Meem.'
+        },
+        {
+          number: 2,
+          arabic: 'أَحَسِبَ النَّاسُ أَن يُتْرَكُوا أَن يَقُولُوا آمَنَّا وَهُمْ لَا يُفْتَنُونَ',
+          english: 'Do the people think that they will be left to say, "We believe" and they will not be tried?'
+        }
+      ]
+    },
+    {
+      number: 30,
+      name: 'Ar-Rum',
+      arabicName: 'الروم',
+      englishName: 'The Romans',
+      verses: 60,
+      revelation: 'Meccan',
+      meaning: 'The Romans',
+      description: 'Named after the Romans, containing prophecy about their victory and signs of Allah in creation.',
+      verses_data: [
+        {
+          number: 1,
+          arabic: 'الم',
+          english: 'Alif, Lam, Meem.'
+        },
+        {
+          number: 2,
+          arabic: 'غُلِبَتِ الرُّومُ',
+          english: 'The Byzantines have been defeated'
+        },
+        {
+          number: 3,
+          arabic: 'فِي أَدْنَى الْأَرْضِ وَهُم مِّن بَعْدِ غَلَبِهِمْ سَيَغْلِبُونَ',
+          english: 'In the nearest land. But they, after their defeat, will overcome.'
         }
       ]
     },

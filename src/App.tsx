@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Menu, X, Clock, Heart, BookOpen, Compass, MessageCircle, Smile } from 'lucide-react';
+import { Bot } from 'lucide-react';
 import LoadingScreen from './components/LoadingScreen';
 import Header from './components/Header';
 import MoodSelector from './components/MoodSelector';
@@ -12,6 +13,7 @@ import DuaAndDhikr from './components/DuaAndDhikr';
 import Footer from './components/Footer';
 import ProphetStories from './components/ProphetStories';
 import PropheticWisdom from './components/PropheticWisdom';
+import IslamicAI from './components/IslamicAI.tsx';
 
 
 export interface Mood {
@@ -60,6 +62,8 @@ function App() {
     { id: 'prophetic-wisdom', label: 'Prophetic Wisdom', icon: <Heart className="w-5 h-5" /> },
     { id: 'mood', label: 'Mood Selector', icon: <Smile className="w-5 h-5" /> },
     { id: 'dua-dhikr', label: 'Dua & Dhikr', icon: <Heart className="w-5 h-5" /> },
+    { id: 'islamic-ai', label: 'Islamic AI', icon: <Bot className="w-5 h-5" /> },
+
   ];
 
   const renderContent = () => {
@@ -82,6 +86,10 @@ function App() {
         return <MoodSelector selectedMood={selectedMood} onMoodSelect={setSelectedMood} />;
       case 'dua-dhikr':
         return <DuaAndDhikr />;
+     case 'islamic-ai':
+  return <IslamicAI onBack={() => setActiveSection('home')} />;
+
+
       default:
         return (
           <div className="space-y-8">
@@ -93,7 +101,7 @@ function App() {
                 Discover the beauty of Islam through prayer, reflection, and spiritual guidance
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {navigationItems.slice(1, -2).map((item) => (
                 <button
@@ -115,7 +123,25 @@ function App() {
                 </button>
               ))}
             </div>
-            
+
+            <button
+              onClick={() => setActiveSection('islamic-ai')}
+              className="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-left group hover:scale-105"
+            >
+              <div className="flex items-center mb-4">
+                <div className="p-3 bg-emerald-100 dark:bg-emerald-900 rounded-lg group-hover:bg-emerald-200 dark:group-hover:bg-emerald-800 transition-colors">
+                  <Bot className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
+                Islamic AI
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">
+                Ask your personal Islamic questions and get guidance in a humble and polite tone.
+              </p>
+            </button>
+
+
             {selectedMood && (
               <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-gray-800 dark:to-gray-700 p-6 rounded-xl border-l-4 border-amber-400">
                 <h3 className="text-lg font-semibold text-amber-800 dark:text-amber-300 mb-2">
@@ -140,14 +166,16 @@ function App() {
       'stories': 'Inspiring stories from prophets and believers to strengthen your faith',
       'prophet-stories': 'Discover the complete stories of 20 Prophets with lessons and Quranic references',
       'prophetic-wisdom': 'Learn from the teachings and wisdom of 20 Prophets with practical guidance',
-      'mood': 'Select how you\'re feeling today to receive personalized spiritual content'
+      'mood': 'Select how you\'re feeling today to receive personalized spiritual content',
+      'islamic-ai': 'Ask your personal Islamic questions and get humble, polite guidance'
+
     };
     return descriptions[id as keyof typeof descriptions] || '';
   };
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-      <Header 
+      <Header
         darkMode={darkMode}
         setDarkMode={setDarkMode}
         mobileMenuOpen={mobileMenuOpen}
@@ -161,7 +189,7 @@ function App() {
         {renderContent()}
       </main>
 
-      <Footer 
+      <Footer
         setActiveSection={setActiveSection}
       />
     </div>

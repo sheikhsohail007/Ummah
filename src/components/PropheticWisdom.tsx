@@ -185,6 +185,336 @@ His teachings emphasize the importance of standing against oppression, trusting 
       color: 'from-purple-500 to-indigo-600'
     },
     {
+      id: 'hizqeel',
+      name: 'Hizqeel (Ezekiel)',
+      arabicName: 'حزقيال عليه السلام',
+      title: 'The Visionary Prophet',
+      period: 'Around 6th century BCE',
+      location: 'Babylon',
+      introduction: 'Prophet Hizqeel (AS) was known for his powerful visions and ability to provide hope during the darkest times of exile. His wisdom centered on spiritual resurrection, individual responsibility, and maintaining faith during trials.',
+      keyTeachings: [
+        'Individual Accountability: Each person is responsible for their own actions before Allah',
+        'Spiritual Resurrection: Just as dry bones can live again, hearts can be revived through faith',
+        'Hope in Exile: Maintain faith and hope even when separated from home and comfort',
+        'Divine Justice: Allah\'s justice is perfect and will ultimately prevail',
+        'Prophetic Vision: Sometimes Allah shows us the future to strengthen our present faith'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "Every soul will be held responsible for what it has earned." - Related to individual accountability',
+        'The Prophet (PBUH) said: "Allah does not look at your bodies or your wealth, but He looks at your hearts and your deeds." - Sahih Muslim',
+        'The Prophet (PBUH) said: "The believer is not one who eats his fill while his neighbor goes hungry." - Social responsibility'
+      ],
+      practicalTips: [
+        'Take personal responsibility for your spiritual growth and actions',
+        'During difficult times, remember that Allah can revive what seems dead',
+        'Maintain regular prayer and dhikr even when away from familiar surroundings',
+        'Help fellow believers who are going through trials and exile',
+        'Study the Quran to understand Allah\'s promises of restoration'
+      ],
+      visualGuide: 'Prophet\'s Journey',
+      color: 'from-violet-500 to-purple-600'
+    },
+    {
+      id: 'elyas',
+      name: 'Elyas (Elijah)',
+      arabicName: 'إلياس عليه السلام',
+      title: 'The Zealous Defender',
+      period: 'Around 9th century BCE',
+      location: 'Northern Israel',
+      introduction: 'Prophet Elyas (AS) was known for his unwavering commitment to monotheism and his powerful confrontation of idol worship. His wisdom teaches us about courage, faith, and the power of sincere prayer.',
+      keyTeachings: [
+        'Monotheistic Zeal: Defend the oneness of Allah with unwavering commitment',
+        'Courage Against Falsehood: Stand firm against idol worship and false beliefs',
+        'Power of Prayer: Sincere supplication can bring miraculous results',
+        'Divine Miracles: Allah demonstrates His power through His chosen servants',
+        'Fearless Preaching: Deliver Allah\'s message regardless of opposition'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "Whoever among you sees a wrong action, let him change it with his hand." - Sahih Muslim',
+        'The Prophet (PBUH) said: "The supplication of a Muslim for his brother in his absence is readily accepted." - Sahih Muslim',
+        'The Prophet (PBUH) said: "Nothing can change the Divine decree except dua." - Tirmidhi'
+      ],
+      practicalTips: [
+        'Stand up against shirk and false beliefs in your community',
+        'Make sincere dua during times of drought (spiritual or physical)',
+        'Don\'t compromise your Islamic principles for social acceptance',
+        'Use your influence to guide others toward monotheism',
+        'Trust in Allah\'s power to demonstrate truth over falsehood'
+      ],
+      visualGuide: 'Key Lessons',
+      color: 'from-red-500 to-pink-600'
+    },
+    {
+      id: 'shammil',
+      name: 'Shammil (Samuel)',
+      arabicName: 'شمويل عليه السلام',
+      title: 'The Prophet-Judge',
+      period: 'Around 11th century BCE',
+      location: 'Ancient Israel',
+      introduction: 'Prophet Shammil (AS) served as both prophet and judge, bridging the gap between theocracy and monarchy. His wisdom focuses on divine authority, righteous leadership, and the dangers of worldly power.',
+      keyTeachings: [
+        'Divine Authority: True leadership comes from Allah, not human desires',
+        'Righteous Judgment: Make decisions based on Allah\'s guidance, not personal preference',
+        'Warning Against Worldliness: Beware of prioritizing worldly power over spiritual duty',
+        'Early Dedication: Dedicate yourself to Allah\'s service from a young age',
+        'Obedience to Allah: Divine commands take precedence over human wishes'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "Each of you is a shepherd and each of you is responsible for his flock." - Sahih Bukhari',
+        'The Prophet (PBUH) said: "Whoever Allah appoints as a leader and he does not advise them sincerely, he will not smell the fragrance of Paradise." - Sahih Muslim',
+        'The Prophet (PBUH) said: "The just ruler will be brought on the Day of Judgment and placed on a pulpit of light." - Tirmidhi'
+      ],
+      practicalTips: [
+        'Seek Allah\'s guidance before making important decisions',
+        'Prioritize spiritual responsibilities over worldly ambitions',
+        'Advise leaders with wisdom and sincerity',
+        'Dedicate time daily for worship and spiritual reflection',
+        'Remember that all authority ultimately belongs to Allah'
+      ],
+      visualGuide: 'Core Teachings',
+      color: 'from-indigo-500 to-blue-600'
+    },
+    {
+      id: 'dawood',
+      name: 'Dawood (David)',
+      arabicName: 'داود عليه السلام',
+      title: 'The Psalmist King',
+      period: 'Around 1000 BCE',
+      location: 'Kingdom of Israel',
+      introduction: 'Prophet Dawood (AS) combined worldly kingship with spiritual devotion. His wisdom teaches us about praising Allah, just leadership, and using our talents for divine service.',
+      keyTeachings: [
+        'Melodious Worship: Use your voice and talents to praise Allah beautifully',
+        'Just Leadership: Combine worldly authority with spiritual responsibility',
+        'Faith Over Strength: Victory comes from Allah, not physical power',
+        'Artistic Devotion: Express your love for Allah through creative arts',
+        'Humble Service: Use your skills and position to serve Allah and humanity'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "Allah loves, when one of you does a job, that he does it with excellence." - Al-Bayhaqi',
+        'The Prophet (PBUH) said: "Verily, Allah has written excellence upon all things." - Sahih Muslim',
+        'The Prophet (PBUH) said: "The best of people are those who benefit others." - Ahmad'
+      ],
+      practicalTips: [
+        'Develop your natural talents and use them to serve Allah',
+        'Combine your worldly responsibilities with spiritual devotion',
+        'Practice regular dhikr and praise of Allah',
+        'Lead with justice and fairness in all your dealings',
+        'Remember that true strength comes from faith, not physical ability'
+      ],
+      visualGuide: 'Legacy and Impact',
+      color: 'from-yellow-500 to-orange-600'
+    },
+    {
+      id: 'sulaiman',
+      name: 'Sulaiman (Solomon)',
+      arabicName: 'سليمان عليه السلام',
+      title: 'The Wise King',
+      period: 'Around 970-931 BCE',
+      location: 'Kingdom of Israel',
+      introduction: 'Prophet Sulaiman (AS) was granted unprecedented wisdom and dominion over all creation. His teachings focus on gratitude, justice, and using power responsibly.',
+      keyTeachings: [
+        'Divine Wisdom: True wisdom comes from Allah and should be used for justice',
+        'Grateful Leadership: Use your blessings to serve Allah and benefit others',
+        'Universal Communication: Respect and understand all of Allah\'s creation',
+        'Magnificent Worship: Build and maintain beautiful places of worship',
+        'Humble Power: Great authority requires even greater humility'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "He who does not thank people, does not thank Allah." - Abu Dawud',
+        'The Prophet (PBUH) said: "Whoever is given authority over the Muslims\' affairs and does not strive for their betterment, Allah will not let him smell the fragrance of Paradise." - Sahih Muslim',
+        'The Prophet (PBUH) said: "The world is green and beautiful, and Allah has appointed you as His stewards over it." - Sahih Muslim'
+      ],
+      practicalTips: [
+        'Express gratitude for every blessing, no matter how small',
+        'Use your position and influence to help others',
+        'Treat all of Allah\'s creation with respect and kindness',
+        'Invest in building and maintaining places of worship',
+        'Remain humble despite worldly success and recognition'
+      ],
+      visualGuide: 'Prophet\'s Journey',
+      color: 'from-purple-500 to-indigo-600'
+    },
+    {
+      id: 'shia',
+      name: 'Shia (Isaiah)',
+      arabicName: 'أشعياء عليه السلام',
+      title: 'The Prophet of Comfort',
+      period: 'Around 8th-7th century BCE',
+      location: 'Kingdom of Judah',
+      introduction: 'Prophet Shia (AS) balanced warnings of divine justice with messages of hope and comfort. His wisdom teaches us about social justice, pure worship, and Allah\'s mercy.',
+      keyTeachings: [
+        'Social Justice: Care for the poor, oppressed, and marginalized in society',
+        'Pure Worship: Worship Allah alone without associating any partners',
+        'Balanced Message: Combine warnings of consequences with hope and mercy',
+        'Divine Mercy: Allah\'s forgiveness is always available to those who repent',
+        'Prophetic Hope: Trust in Allah\'s promises of restoration and peace'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "Whoever relieves a Muslim of a burden from the burdens of the world, Allah will relieve him of a burden from the burdens of the Hereafter." - Sahih Muslim',
+        'The Prophet (PBUH) said: "The believer is not one who eats his fill while his neighbor goes hungry." - Al-Adab Al-Mufrad',
+        'The Prophet (PBUH) said: "All the sons of Adam are sinners, but the best of sinners are those who repent." - Tirmidhi'
+      ],
+      practicalTips: [
+        'Actively work to help the poor and oppressed in your community',
+        'Maintain pure monotheistic worship without any shirk',
+        'Balance your advice to others with both warning and encouragement',
+        'Always offer hope and the possibility of Allah\'s forgiveness',
+        'Trust in Allah\'s promises even during difficult times'
+      ],
+      visualGuide: 'Key Lessons',
+      color: 'from-teal-500 to-cyan-600'
+    },
+    {
+      id: 'aramaya',
+      name: 'Aramaya (Jeremiah)',
+      arabicName: 'إرميا عليه السلام',
+      title: 'The Weeping Prophet',
+      period: 'Around 7th-6th century BCE',
+      location: 'Kingdom of Judah',
+      introduction: 'Prophet Aramaya (AS) demonstrated unwavering faithfulness despite decades of rejection. His wisdom teaches us about perseverance, compassion, and sincere repentance.',
+      keyTeachings: [
+        'Faithful Perseverance: Continue delivering Allah\'s message despite rejection',
+        'Compassionate Warning: Feel genuine sorrow for those who reject guidance',
+        'Sincere Repentance: Turn to Allah with complete sincerity of heart',
+        'Long-term Commitment: Serve Allah\'s cause for decades, not just moments',
+        'Hope in Restoration: Trust in Allah\'s promises of mercy and renewal'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "The example of the believers in their affection, mercy, and compassion for each other is that of a body. When a limb suffers, the whole body responds to it with wakefulness and fever." - Sahih Bukhari',
+        'The Prophet (PBUH) said: "Whoever guides someone to virtue will be rewarded equivalent to him who practices that virtue." - Sahih Muslim',
+        'The Prophet (PBUH) said: "The believer who mixes with people and bears their annoyance with patience will have a greater reward than the believer who does not mix with people." - Tirmidhi'
+      ],
+      practicalTips: [
+        'Continue doing good even when others don\'t appreciate your efforts',
+        'Feel genuine concern and compassion for those who are misguided',
+        'Make sincere tawbah (repentance) regularly, not just during crises',
+        'Commit to long-term service to Allah, not just temporary enthusiasm',
+        'Maintain hope in Allah\'s mercy even during dark times'
+      ],
+      visualGuide: 'Core Teachings',
+      color: 'from-gray-500 to-slate-600'
+    },
+    {
+      id: 'daniel',
+      name: 'Daniel',
+      arabicName: 'دانيال عليه السلام',
+      title: 'The Faithful in Exile',
+      period: 'Around 6th century BCE',
+      location: 'Babylon',
+      introduction: 'Prophet Daniel (AS) maintained his faith and principles in a hostile environment. His wisdom teaches us about integrity, divine protection, and unwavering commitment to Allah.',
+      keyTeachings: [
+        'Principled Living: Maintain your Islamic values regardless of environment',
+        'Divine Protection: Allah protects those who remain faithful to Him',
+        'Regular Worship: Continue your prayers and worship despite opposition',
+        'Interpreting Signs: Use Allah-given talents to serve His cause',
+        'Courage in Faith: Stand firm in your beliefs even when threatened'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "Whoever fears Allah, Allah will make a way out for him from every difficulty." - Related to Quran 65:2-3',
+        'The Prophet (PBUH) said: "Be mindful of Allah and you will find Him before you." - Tirmidhi',
+        'The Prophet (PBUH) said: "The strong believer is better and more beloved to Allah than the weak believer." - Sahih Muslim'
+      ],
+      practicalTips: [
+        'Maintain your Islamic practices even in non-Muslim environments',
+        'Trust that Allah will protect you when you stand for what\'s right',
+        'Never compromise your prayer schedule for worldly convenience',
+        'Use your skills and talents to demonstrate Islam\'s truth and beauty',
+        'Be courageous in expressing your faith when challenged'
+      ],
+      visualGuide: 'Legacy and Impact',
+      color: 'from-amber-500 to-yellow-600'
+    },
+    {
+      id: 'uzair',
+      name: 'Uzair (Ezra)',
+      arabicName: 'عزير عليه السلام',
+      title: 'The Scholar-Restorer',
+      period: 'Around 5th century BCE',
+      location: 'Jerusalem and Babylon',
+      introduction: 'Prophet Uzair (AS) dedicated his life to preserving and teaching Allah\'s revelations. His wisdom focuses on scholarship, community building, and the importance of religious education.',
+      keyTeachings: [
+        'Preserving Knowledge: Dedicate yourself to learning and teaching Allah\'s revelations',
+        'Community Restoration: Work to rebuild both physical and spiritual communities',
+        'Avoiding Excess: Maintain proper respect without falling into extremism',
+        'Educational Leadership: Lead by teaching and demonstrating Islamic principles',
+        'Scholarly Devotion: Use your knowledge to serve Allah and benefit humanity'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "Seek knowledge from the cradle to the grave." - Al-Bayhaqi',
+        'The Prophet (PBUH) said: "The best of people are those who benefit others." - Ahmad',
+        'The Prophet (PBUH) said: "Whoever teaches some knowledge will have the reward of the one who acts upon it, without that detracting from his reward in the slightest." - Ibn Majah'
+      ],
+      practicalTips: [
+        'Dedicate time daily to studying and memorizing the Quran',
+        'Teach Islamic knowledge to others in your community',
+        'Work to strengthen Islamic institutions and communities',
+        'Maintain balanced respect for scholars without excessive reverence',
+        'Use your education and skills to serve the Muslim ummah'
+      ],
+      visualGuide: 'Prophet\'s Journey',
+      color: 'from-green-500 to-emerald-600'
+    },
+    {
+      id: 'zakariyah',
+      name: 'Zakariyah (Zacharias)',
+      arabicName: 'زكريا عليه السلام',
+      title: 'The Devoted Worshipper',
+      period: 'Around 1st century BCE',
+      location: 'Palestine',
+      introduction: 'Prophet Zakariyah (AS) exemplified constant worship and sincere supplication. His wisdom teaches us about the power of prayer, patience, and trust in Allah\'s timing.',
+      keyTeachings: [
+        'Persistent Prayer: Continue making dua even when the answer seems impossible',
+        'Constant Worship: Maintain regular worship and devotion throughout life',
+        'Trusting Allah\'s Timing: Have faith that Allah answers prayers in perfect timing',
+        'Righteous Parenting: Raise children to be servants of Allah',
+        'Humble Service: Serve Allah and His creation with humility and dedication'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "Nothing can change the Divine decree except dua." - Tirmidhi',
+        'The Prophet (PBUH) said: "The supplication of a Muslim for his brother in his absence is readily accepted." - Sahih Muslim',
+        'The Prophet (PBUH) said: "When a man dies, his deeds come to an end except for three things: ongoing charity, beneficial knowledge, or a righteous child who prays for him." - Sahih Muslim'
+      ],
+      practicalTips: [
+        'Make sincere dua regularly, especially during times of need',
+        'Maintain consistent worship habits regardless of your age',
+        'Trust Allah\'s wisdom when prayers aren\'t answered immediately',
+        'Focus on raising righteous children who will serve Allah',
+        'Serve in your community with humility and dedication'
+      ],
+      visualGuide: 'Key Lessons',
+      color: 'from-blue-500 to-indigo-600'
+    },
+    {
+      id: 'yahya',
+      name: 'Yahya (John the Baptist)',
+      arabicName: 'يحيى عليه السلام',
+      title: 'The Young Prophet',
+      period: 'Around 1st century CE',
+      location: 'Palestine',
+      introduction: 'Prophet Yahya (AS) demonstrated that age is no barrier to wisdom and righteousness. His teachings focus on courage, truth, and preparing others for Allah\'s message.',
+      keyTeachings: [
+        'Youthful Wisdom: Age is no barrier to receiving Allah\'s guidance and wisdom',
+        'Courageous Truth: Speak truth against injustice regardless of consequences',
+        'Simple Living: Live simply and focus on spiritual rather than material wealth',
+        'Preparing Others: Help prepare people to receive Allah\'s guidance',
+        'Martyrdom for Truth: Be willing to sacrifice everything for Allah\'s truth'
+      ],
+      hadithReferences: [
+        'The Prophet (PBUH) said: "Whoever among you sees a wrong action, let him change it with his hand; if he cannot, then with his tongue; if he cannot, then with his heart - and that is the weakest of faith." - Sahih Muslim',
+        'The Prophet (PBUH) said: "The best jihad is a word of truth spoken before a tyrannical ruler." - Abu Dawud',
+        'The Prophet (PBUH) said: "The world is green and beautiful, and Allah has appointed you as His stewards over it." - Sahih Muslim'
+      ],
+      practicalTips: [
+        'Don\'t let your young age prevent you from speaking truth and doing good',
+        'Stand up against injustice even when it\'s difficult or dangerous',
+        'Live simply and avoid excessive attachment to material possessions',
+        'Help prepare others to receive and understand Islamic teachings',
+        'Be willing to make sacrifices for the sake of Allah\'s truth'
+      ],
+      visualGuide: 'Core Teachings',
+      color: 'from-cyan-500 to-blue-600'
+    },
+    {
       id: 'isa',
       name: 'Isa (Jesus)',
       arabicName: 'عيسى عليه السلام',

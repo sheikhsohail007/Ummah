@@ -55,7 +55,7 @@ Adam (AS) and Hawwa were then tasked with populating the Earth and worshipping A
         'Sincere repentance and Allah\'s forgiveness',
         'Descent to Earth and beginning of human civilization'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '4mE3N-HURC8',
       videoTitle: 'The Story of Prophet Adam (AS) - First Human and Prophet',
       color: 'from-green-500 to-emerald-600'
     },
@@ -90,7 +90,7 @@ Allah honored Idris (AS) by raising him to the heavens while he was still alive,
         'Being raised to a high station by Allah',
         'Recognition as one of the patient servants'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '2TkfoSofcbw',
       videoTitle: 'Prophet Idris (AS) - The Scholar and Righteous Servant',
       color: 'from-indigo-500 to-purple-600'
     },
@@ -127,7 +127,7 @@ When Allah informed Nuh (AS) that no more people would believe, He commanded him
         'Salvation of believers and animal species',
         'New beginning for humanity after the flood'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '75Tb6zDJAqA',
       videoTitle: 'Prophet Nuh (AS) - The Great Flood and Divine Justice',
       color: 'from-blue-500 to-cyan-600'
     },
@@ -164,7 +164,7 @@ When they persisted in their disbelief and arrogance, Allah sent a severe windst
         'The great windstorm that destroyed Aad',
         'Salvation of Hud and the believers'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'HktWxYR5HRg',
       videoTitle: 'Prophet Hud (AS) - The Destruction of the Arrogant Aad',
       color: 'from-yellow-500 to-red-600'
     },
@@ -201,7 +201,7 @@ Allah granted Salih (AS) a miraculous she-camel that emerged from a rock. This c
         'The conspiracy and killing of the miraculous camel',
         'Divine punishment through earthquake and thunderbolt'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '2dYqwL6T2wc',
       videoTitle: 'Prophet Salih (AS) - The Miracle of the She-Camel',
       color: 'from-orange-500 to-red-600'
     },
@@ -238,7 +238,7 @@ Ibrahim (AS) was tested in many ways - leaving his homeland, the command to sacr
         'The test of sacrificing his son Ismail',
         'Building the Kaaba with Ismail in Mecca'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'EumXW3fCvWE',
       videoTitle: 'Prophet Ibrahim (AS) - The Friend of Allah and Father of Prophets',
       color: 'from-amber-500 to-orange-600'
     },
@@ -275,7 +275,7 @@ Ismail (AS) helped his father Ibrahim build the Kaaba, the first house of worshi
         'Helping Ibrahim build the Kaaba',
         'Becoming a prophet and father of Arab nations'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'jHg2FaAmDYY',
       videoTitle: 'Prophet Ismail (AS) - The Ultimate Test of Submission',
       color: 'from-green-500 to-teal-600'
     },
@@ -312,7 +312,7 @@ Ishaq (AS) lived a life of devotion to Allah, following in the footsteps of his 
         'Marriage and having righteous children',
         'Continuing Ibrahim\'s mission of monotheism'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'rh8vJY-axXk',
       videoTitle: 'Prophet Ishaq (AS) - The Blessed Son and Prophetic Legacy',
       color: 'from-blue-500 to-indigo-600'
     },
@@ -349,7 +349,7 @@ However, the majority of his people rejected his message and threatened to expel
         'Divine punishment through earthquake and gloom',
         'Salvation of Shuaib and the believers'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'xqLwCD8Dvec',
       videoTitle: 'Prophet Shuaib (AS) - The Call to Honesty and Justice',
       color: 'from-teal-500 to-green-600'
     },
@@ -386,7 +386,7 @@ In prison, Yusuf interpreted dreams for fellow prisoners, including the king's c
         'Interpreting the king\'s dreams and becoming treasurer',
         'Reunion with family and forgiveness of his brothers'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'OdqRnfVHob8',
       videoTitle: 'Prophet Yusuf (AS) - The Best of Stories',
       color: 'from-purple-500 to-indigo-600'
     },
@@ -423,7 +423,7 @@ His patience and continued worship during extreme hardship became legendary. Eve
         'Making sincere dua for relief from suffering',
         'Allah\'s restoration of health, wealth, and family'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'wbx74Cfzy80',
       videoTitle: 'Prophet Ayyub (AS) - The Ultimate Example of Patience',
       color: 'from-gray-500 to-blue-600'
     },
@@ -458,7 +458,7 @@ He is mentioned alongside other patient prophets in the Quran, indicating that h
         'Being recognized for his righteousness',
         'Inclusion among the patient servants of Allah'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '_KPFH13KxAc',
       videoTitle: 'Prophet Dhul-kifl (AS) - The Patient and Just Leader',
       color: 'from-purple-500 to-pink-600'
     },
@@ -495,7 +495,7 @@ He was thrown into the sea and was swallowed by a large whale. In the darkness o
         'Making sincere repentance in the whale\'s belly',
         'Being released and finding his people had believed'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'SVdMtINYIJY',
       videoTitle: 'Prophet Yunus (AS) - The Story of Repentance and Mercy',
       color: 'from-cyan-500 to-blue-600'
     },
@@ -532,9 +532,409 @@ Despite witnessing clear miracles, Pharaoh refused to believe and continued his 
         'Confronting Pharaoh with miraculous signs',
         'Leading the Exodus and the parting of the Red Sea'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '-ZUsijg_vEQ',
       videoTitle: 'Prophet Musa (AS) - The Exodus and Liberation from Oppression',
       color: 'from-purple-500 to-indigo-600'
+    },
+    {
+      id: 'hizqeel',
+      name: 'Hizqeel (Ezekiel)',
+      arabicName: 'حزقيال عليه السلام',
+      title: 'The Prophet of Vision and Restoration',
+      period: 'Around 6th century BCE',
+      location: 'Babylon (Modern-day Iraq)',
+      story: `Prophet Hizqeel (AS), known as Ezekiel in other traditions, was sent to the Children of Israel during their exile in Babylon. He was known for his powerful visions and prophecies about the restoration of Jerusalem and the Temple. His mission was to guide the exiled Israelites and give them hope during their darkest period.
+
+Hizqeel (AS) received remarkable visions from Allah, including the famous vision of the valley of dry bones, which symbolized the spiritual resurrection of the nation of Israel. He taught his people about Allah's justice, mercy, and the importance of following His commandments even in exile.
+
+His prophecies included detailed descriptions of the future Temple and the return of the Israelites to their homeland. He emphasized individual responsibility before Allah and the importance of sincere repentance. His teachings provided comfort and guidance to a displaced people, reminding them that Allah's promises are always fulfilled.`,
+      keyLessons: [
+        'Hope and faith must be maintained even in the darkest times',
+        'Individual responsibility and accountability before Allah',
+        'The importance of sincere repentance and turning back to Allah',
+        'Allah\'s promises of restoration and mercy are always true',
+        'Spiritual guidance is essential during times of trial and exile'
+      ],
+      quranicReferences: [
+        'Quran 6:84 - Listed among the righteous prophets',
+        'Quran 4:163 - Mentioned among the messengers',
+        'Quran 21:85 - Among those who were patient'
+      ],
+      importantEvents: [
+        'Receiving the call to prophethood during Babylonian exile',
+        'The vision of the valley of dry bones',
+        'Prophecies about the restoration of Jerusalem',
+        'Teaching the exiled Israelites about Allah\'s justice',
+        'Providing hope and guidance during national crisis',
+        'Detailed visions of the future Temple'
+      ],
+      videoId: 'drahS-JcORc',
+      videoTitle: 'Prophet Hizqeel (AS) - Visions of Hope and Restoration',
+      color: 'from-violet-500 to-purple-600'
+    },
+    {
+      id: 'elyas',
+      name: 'Elyas (Elijah)',
+      arabicName: 'إلياس عليه السلام',
+      title: 'The Zealous Defender of Monotheism',
+      period: 'Around 9th century BCE',
+      location: 'Northern Kingdom of Israel',
+      story: `Prophet Elyas (AS), known as Elijah in other traditions, was sent to the Children of Israel during a time when they had fallen into idol worship, particularly the worship of Baal. He was known for his unwavering commitment to monotheism and his powerful miracles that demonstrated Allah's supremacy over false gods.
+
+Elyas (AS) challenged the prophets of Baal in a famous contest on Mount Carmel, where he called upon Allah to send fire from heaven to consume his sacrifice, while the prophets of Baal failed to get any response from their false deity. This miracle convinced many people to return to the worship of Allah alone.
+
+He performed many miracles, including bringing rain after years of drought, multiplying food for a widow, and even raising her son from the dead. His life was marked by complete dedication to Allah's cause and fearless confrontation of those who promoted idol worship. According to Islamic tradition, he was taken up to heaven while still alive, similar to Prophet Isa (AS).`,
+      keyLessons: [
+        'Unwavering commitment to monotheism despite opposition',
+        'The power of sincere prayer and trust in Allah',
+        'Courage to stand against falsehood and idol worship',
+        'Allah\'s miracles demonstrate His power over all creation',
+        'Dedication to Allah\'s cause requires sacrifice and perseverance'
+      ],
+      quranicReferences: [
+        'Quran 37:123-132 - The story of Elyas and his people',
+        'Quran 6:85 - Listed among the righteous',
+        'Quran 37:130 - Peace upon Elyas among all the worlds'
+      ],
+      importantEvents: [
+        'Confronting the worship of Baal among Israelites',
+        'The contest with Baal\'s prophets on Mount Carmel',
+        'Calling down fire from heaven to prove Allah\'s power',
+        'Bringing rain after years of drought through prayer',
+        'Performing miracles of healing and resurrection',
+        'Being taken up to heaven while still alive'
+      ],
+      videoId: 'CzLbTjT0dhY',
+      videoTitle: 'Prophet Elyas (AS) - The Zealous Defender of Faith',
+      color: 'from-red-500 to-pink-600'
+    },
+    {
+      id: 'shammil',
+      name: 'Shammil (Samuel)',
+      arabicName: 'شمويل عليه السلام',
+      title: 'The Prophet-Judge and Kingmaker',
+      period: 'Around 11th century BCE',
+      location: 'Ancient Israel',
+      story: `Prophet Shammil (AS), known as Samuel in other traditions, was the last of the judges of Israel and the first of the prophets in the monarchical period. He was dedicated to Allah's service from childhood and grew up in the temple under the guidance of the priest Eli.
+
+Shammil (AS) served as both prophet and judge, providing spiritual and legal guidance to the Children of Israel. When the people demanded a king to rule over them like other nations, Allah instructed Shammil to anoint Saul (Talut) as their first king, despite his own reservations about monarchy.
+
+Later, when Saul disobeyed Allah's commands, Shammil was instructed to anoint David (Dawud) as the future king. Throughout his life, he emphasized the importance of obedience to Allah over human authority and warned against the dangers of following worldly desires over divine guidance.`,
+      keyLessons: [
+        'Dedication to Allah\'s service from an early age brings great blessings',
+        'True leadership comes from Allah, not from human desires',
+        'Obedience to Allah is more important than pleasing people',
+        'Warning against the dangers of prioritizing worldly power',
+        'The importance of seeking Allah\'s guidance in all decisions'
+      ],
+      quranicReferences: [
+        'Quran 2:246-248 - The story of the Israelites asking for a king',
+        'Quran 2:249-251 - The appointment of Talut as king',
+        'Quran 4:163 - Listed among the messengers'
+      ],
+      importantEvents: [
+        'Dedication to temple service from childhood',
+        'Receiving the call to prophethood',
+        'Serving as judge and spiritual leader of Israel',
+        'Anointing Saul (Talut) as the first king',
+        'Warning about the consequences of monarchy',
+        'Later anointing David (Dawud) as future king'
+      ],
+      videoId: 'Under_construction',
+      videoTitle: 'Prophet Shammil (AS) - The Last Judge and First Prophet-King Maker',
+      color: 'from-indigo-500 to-blue-600'
+    },
+    {
+      id: 'dawood',
+      name: 'Dawood (David)',
+      arabicName: 'داود عليه السلام',
+      title: 'The Psalmist King',
+      period: 'Around 1000 BCE',
+      location: 'Kingdom of Israel',
+      story: `Prophet Dawood (AS), known as David, was both a prophet and a king, blessed with a beautiful voice for praising Allah. He was given the Zabur (Psalms) and was known for his devotion to worship and his just rule over the Children of Israel.
+
+As a young shepherd, Dawood defeated the giant Goliath (Jalut) with a single stone, demonstrating that victory comes from Allah, not from physical strength. He later became king and established Jerusalem as his capital, making it a center of worship and justice.
+
+Dawood (AS) was blessed with a melodious voice that could move mountains and make birds join in his praise of Allah. He was also skilled in making armor and was known for his fair judgment in legal matters. His psalms continue to be recited as beautiful expressions of devotion to Allah.`,
+      keyLessons: [
+        'True strength comes from faith in Allah, not physical power',
+        'Combining worldly leadership with spiritual devotion',
+        'The importance of praising Allah with sincerity and beauty',
+        'Justice and fairness are essential qualities of leadership',
+        'Using one\'s talents and abilities to serve Allah and humanity'
+      ],
+      quranicReferences: [
+        'Quran 21:78-80 - Dawood\'s wisdom and judgment',
+        'Quran 34:10-11 - The mountains and birds praising with him',
+        'Quran 38:17-26 - His patience and excellent service',
+        'Quran 2:251 - Victory over Jalut (Goliath)'
+      ],
+      importantEvents: [
+        'Defeating Goliath (Jalut) as a young shepherd',
+        'Being chosen as king of Israel',
+        'Receiving the Zabur (Psalms) from Allah',
+        'Establishing Jerusalem as capital and center of worship',
+        'Mountains and birds joining in his praise of Allah',
+        'Demonstrating excellent judgment in legal matters'
+      ],
+      videoId: 'DA4-HNc8h_Y',
+      videoTitle: 'Prophet Dawood (AS) - The Psalmist King and Warrior of Faith',
+      color: 'from-yellow-500 to-orange-600'
+    },
+    {
+      id: 'sulaiman',
+      name: 'Sulaiman (Solomon)',
+      arabicName: 'سليمان عليه السلام',
+      title: 'The Wise King with Dominion over All Creation',
+      period: 'Around 970-931 BCE',
+      location: 'Kingdom of Israel',
+      story: `Prophet Sulaiman (AS), son of Dawood (AS), was granted by Allah a kingdom unlike any other. He had dominion over humans, jinn, animals, and even the wind. His wisdom was legendary, and his court was a center of justice, learning, and magnificent architecture.
+
+Sulaiman (AS) could understand the language of all creatures. The famous story of the hoopoe bird bringing news of the Queen of Sheba (Bilqis) demonstrates his unique relationship with the animal kingdom. He invited the Queen to Islam, and she eventually accepted the faith and married him.
+
+He built the magnificent Temple in Jerusalem and was known for his fair judgment, including the famous case of two women claiming the same baby. His kingdom was prosperous and peaceful, and he used his wealth and power to worship Allah and spread His message. Despite his worldly success, he remained humble and devoted to Allah.`,
+      keyLessons: [
+        'True wisdom comes from Allah and should be used for justice',
+        'Great power and wealth are tests that require humility',
+        'Understanding and respecting all of Allah\'s creation',
+        'Using worldly success to serve Allah and spread His message',
+        'The importance of gratitude for Allah\'s countless blessings'
+      ],
+      quranicReferences: [
+        'Quran 27:15-44 - The story of Sulaiman and Queen of Sheba',
+        'Quran 21:78-82 - His wisdom and control over creation',
+        'Quran 34:12-14 - The jinn working under his command',
+        'Quran 38:30-40 - His devotion and Allah\'s blessings'
+      ],
+      importantEvents: [
+        'Inheriting prophethood and kingdom from Dawood (AS)',
+        'Being granted dominion over jinn, animals, and wind',
+        'The famous judgment between two women and a baby',
+        'Communication with the hoopoe and Queen of Sheba',
+        'Building the magnificent Temple in Jerusalem',
+        'Demonstrating gratitude and humility despite great power'
+      ],
+      videoId: 'TecXMOlJY7o',
+      videoTitle: 'Prophet Sulaiman (AS) - The Wise King with Dominion over Creation',
+      color: 'from-purple-500 to-indigo-600'
+    },
+    {
+      id: 'shia',
+      name: 'Shia (Isaiah)',
+      arabicName: 'أشعياء عليه السلام',
+      title: 'The Prophet of Comfort and Messianic Prophecies',
+      period: 'Around 8th-7th century BCE',
+      location: 'Kingdom of Judah',
+      story: `Prophet Shia (AS), known as Isaiah in other traditions, was one of the major prophets sent to the Children of Israel. He prophesied during the reigns of several kings of Judah and was known for his powerful messages of both warning and comfort.
+
+Shia (AS) warned the people about the consequences of their disobedience to Allah and their worship of idols. He prophesied about the coming destruction of Jerusalem due to the people's sins, but also gave them hope by promising Allah's mercy and eventual restoration.
+
+His prophecies included detailed descriptions of the coming of a righteous servant of Allah who would bring justice and peace to the world. He emphasized the importance of social justice, caring for the poor and oppressed, and maintaining pure worship of Allah alone. His messages provided both warning and hope to his people.`,
+      keyLessons: [
+        'Balance between warning of consequences and offering hope',
+        'The importance of social justice and caring for the oppressed',
+        'Pure worship of Allah without associating partners',
+        'Allah\'s mercy and forgiveness are always available to those who repent',
+        'Prophecies of Allah always come to pass in His perfect timing'
+      ],
+      quranicReferences: [
+        'Quran 4:163 - Listed among the messengers',
+        'Quran 6:84 - Among the righteous guided by Allah',
+        'Quran 21:85 - Listed among the patient ones'
+      ],
+      importantEvents: [
+        'Receiving the call to prophethood in the Temple',
+        'Warning the people of Judah about their disobedience',
+        'Prophecies about the destruction and restoration of Jerusalem',
+        'Messages about social justice and care for the poor',
+        'Prophecies about the coming righteous servant',
+        'Providing comfort and hope during difficult times'
+      ],
+      videoId: 'under_construction',
+      videoTitle: 'Prophet Shia (AS) - The Prophet of Warning and Comfort',
+      color: 'from-teal-500 to-cyan-600'
+    },
+    {
+      id: 'aramaya',
+      name: 'Aramaya (Jeremiah)',
+      arabicName: 'إرميا عليه السلام',
+      title: 'The Weeping Prophet',
+      period: 'Around 7th-6th century BCE',
+      location: 'Kingdom of Judah',
+      story: `Prophet Aramaya (AS), known as Jeremiah in other traditions, was called the "Weeping Prophet" because of his deep sorrow over the sins of his people and the coming destruction of Jerusalem. He prophesied for over 40 years, warning the Children of Israel about the consequences of their disobedience.
+
+Aramaya (AS) witnessed the destruction of Jerusalem and the Temple by the Babylonians, exactly as he had prophesied. Despite facing persecution, imprisonment, and rejection by his own people, he continued to deliver Allah's message with unwavering faithfulness.
+
+His prophecies included not only warnings of destruction but also promises of restoration and a new covenant with Allah. He emphasized the importance of sincere repentance and turning back to Allah with the whole heart. His life exemplified complete dedication to Allah's mission despite personal suffering and rejection.`,
+      keyLessons: [
+        'Faithfulness to Allah\'s message despite persecution and rejection',
+        'The importance of sincere repentance and turning to Allah',
+        'Compassion and sorrow for those who reject Allah\'s guidance',
+        'Perseverance in delivering Allah\'s message for decades',
+        'Hope in Allah\'s promises of restoration and mercy'
+      ],
+      quranicReferences: [
+        'Quran 4:163 - Listed among the messengers',
+        'Quran 6:84 - Among the righteous guided by Allah',
+        'Quran 21:85 - Listed among the patient ones'
+      ],
+      importantEvents: [
+        'Receiving the call to prophethood at a young age',
+        'Prophesying the destruction of Jerusalem for 40+ years',
+        'Facing persecution and imprisonment for his message',
+        'Witnessing the fulfillment of his prophecies',
+        'Providing comfort and hope during the Babylonian exile',
+        'Prophecies about the new covenant and restoration'
+      ],
+      videoId: 'Under_construction',
+      videoTitle: 'Prophet Aramaya (AS) - The Faithful Warner and Weeping Prophet',
+      color: 'from-gray-500 to-slate-600'
+    },
+    {
+      id: 'daniel',
+      name: 'Daniel',
+      arabicName: 'دانيال عليه السلام',
+      title: 'The Prophet of Dreams and Visions',
+      period: 'Around 6th century BCE',
+      location: 'Babylon (Modern-day Iraq)',
+      story: `Prophet Daniel (AS) was among the noble youth of Israel taken into Babylonian captivity. Despite being in a foreign land with different customs and beliefs, he maintained his faith in Allah and refused to compromise his religious principles.
+
+Daniel (AS) was blessed with the ability to interpret dreams and visions. He interpreted King Nebuchadnezzar's dreams, including the famous dream of the great statue representing different kingdoms. His interpretations always came true, demonstrating Allah's power and knowledge.
+
+He and his companions (Shadrach, Meshach, and Abednego) refused to worship the golden idol and were thrown into a fiery furnace, but Allah protected them from harm. Later, Daniel was thrown into a den of lions for continuing to pray to Allah, but again Allah protected him. His life exemplified unwavering faith and trust in Allah despite extreme trials.`,
+      keyLessons: [
+        'Maintaining faith and principles even in hostile environments',
+        'Allah protects those who remain faithful to Him',
+        'The importance of regular prayer and worship regardless of circumstances',
+        'Using Allah-given talents to serve His cause',
+        'Trust in Allah\'s protection during times of persecution'
+      ],
+      quranicReferences: [
+        'Quran 4:163 - Listed among the messengers',
+        'Quran 6:84 - Among the righteous guided by Allah',
+        'Quran 21:85 - Listed among the patient ones'
+      ],
+      importantEvents: [
+        'Being taken into Babylonian captivity as a youth',
+        'Refusing to eat forbidden food and maintaining dietary laws',
+        'Interpreting King Nebuchadnezzar\'s dreams',
+        'Surviving the fiery furnace with his companions',
+        'Continuing to pray despite the king\'s prohibition',
+        'Being protected in the lions\' den'
+      ],
+      videoId: 'Under_construction',
+      videoTitle: 'Prophet Daniel (AS) - Faith and Protection in Babylon',
+      color: 'from-amber-500 to-yellow-600'
+    },
+    {
+      id: 'uzair',
+      name: 'Uzair (Ezra)',
+      arabicName: 'عزير عليه السلام',
+      title: 'The Restorer of the Torah',
+      period: 'Around 5th century BCE',
+      location: 'Jerusalem and Babylon',
+      story: `Prophet Uzair (AS), known as Ezra in other traditions, was a priest and scribe who played a crucial role in the restoration of Jewish religious life after the Babylonian exile. He was known for his deep knowledge of the Torah and his dedication to teaching Allah's law to the people.
+
+According to Islamic tradition, Uzair (AS) was blessed with an extraordinary memory and was able to rewrite the Torah from memory after the original scrolls were lost or destroyed during the exile. This miraculous ability led some people to revere him excessively, which the Quran warns against.
+
+He led a group of exiles back to Jerusalem and worked to rebuild not just the physical structures but also the spiritual and religious life of the community. He emphasized the importance of following Allah's law and maintaining the purity of worship. His efforts helped preserve the religious traditions and teachings for future generations.`,
+      keyLessons: [
+        'The importance of preserving and teaching Allah\'s revelations',
+        'Dedication to rebuilding both physical and spiritual communities',
+        'Warning against excessive reverence of religious leaders',
+        'The value of knowledge and scholarship in serving Allah',
+        'Leading by example in following Allah\'s commandments'
+      ],
+      quranicReferences: [
+        'Quran 9:30 - Warning against excessive reverence',
+        'Quran 4:163 - Listed among the messengers',
+        'Quran 6:84 - Among the righteous guided by Allah'
+      ],
+      importantEvents: [
+        'Studying and mastering the Torah during exile',
+        'Leading exiles back to Jerusalem',
+        'Rewriting the Torah from memory',
+        'Rebuilding the Temple and religious institutions',
+        'Teaching and interpreting Allah\'s law to the people',
+        'Establishing religious reforms and practices'
+      ],
+      videoId: 'Under_construction',
+      videoTitle: 'Prophet Uzair (AS) - The Scholar and Restorer of Divine Law',
+      color: 'from-green-500 to-emerald-600'
+    },
+    {
+      id: 'zakariyah',
+      name: 'Zakariyah (Zacharias)',
+      arabicName: 'زكريا عليه السلام',
+      title: 'The Devoted Worshipper and Father of Yahya',
+      period: 'Around 1st century BCE',
+      location: 'Palestine',
+      story: `Prophet Zakariyah (AS) was a righteous priest who served in the Temple and was the guardian of Maryam (Mary), the mother of Isa (AS). Despite his advanced age and his wife's barrenness, he prayed to Allah for a righteous heir who would continue his mission.
+
+Allah answered his prayer and blessed him with a son, Yahya (John the Baptist), in his old age. When the angel gave him the good news, Zakariyah asked for a sign, and Allah made him unable to speak to people for three days except through gestures, while he could still praise Allah.
+
+Zakariyah (AS) was known for his constant worship, humility, and dedication to serving Allah. He raised Yahya to be a righteous prophet and continued his own mission of calling people to Allah until his death. His life exemplifies the power of sincere prayer and trust in Allah's ability to grant what seems impossible.`,
+      keyLessons: [
+        'The power of sincere prayer and supplication to Allah',
+        'Allah can grant what seems impossible to human understanding',
+        'The importance of raising righteous children who serve Allah',
+        'Constant worship and humility are signs of true faith',
+        'Trust in Allah\'s wisdom and timing in answering prayers'
+      ],
+      quranicReferences: [
+        'Quran 3:37-41 - Zakariyah\'s prayer and the birth of Yahya',
+        'Quran 19:2-15 - Detailed account of his story',
+        'Quran 21:89-90 - His prayer and Allah\'s response',
+        'Quran 6:85 - Listed among the righteous'
+      ],
+      importantEvents: [
+        'Serving as priest in the Temple',
+        'Being appointed guardian of Maryam (Mary)',
+        'Praying for a righteous heir despite old age',
+        'Receiving the good news of Yahya\'s birth',
+        'The miraculous sign of being unable to speak',
+        'Raising Yahya as a righteous prophet'
+      ],
+      videoId: '77lCvOdq1dI',
+      videoTitle: 'Prophet Zakariyah (AS) - The Power of Prayer and Divine Miracles',
+      color: 'from-blue-500 to-indigo-600'
+    },
+    {
+      id: 'yahya',
+      name: 'Yahya (John the Baptist)',
+      arabicName: 'يحيى عليه السلام',
+      title: 'The Forerunner and Witness to Truth',
+      period: 'Around 1st century CE',
+      location: 'Palestine',
+      story: `Prophet Yahya (AS), son of Zakariyah (AS), was born as a miracle to elderly parents. From childhood, he was blessed with wisdom, knowledge of the scriptures, and a deep connection with Allah. He was known for his ascetic lifestyle and powerful preaching.
+
+Yahya (AS) served as a forerunner to Isa (AS), preparing the people for his message. He called people to repentance, baptized them in the Jordan River, and fearlessly spoke against corruption and injustice, even when it involved powerful rulers.
+
+His unwavering commitment to truth led to his martyrdom when he spoke against the unlawful marriage of King Herod. Despite his young age, Yahya (AS) demonstrated extraordinary courage, piety, and dedication to Allah's message. The Quran praises him as being dutiful to his parents and free from arrogance.`,
+      keyLessons: [
+        'Wisdom and righteousness can manifest from a young age',
+        'Speaking truth against injustice requires great courage',
+        'Simple living and asceticism can bring one closer to Allah',
+        'Preparing others for Allah\'s message is a noble mission',
+        'Martyrdom in the path of truth is the highest honor'
+      ],
+      quranicReferences: [
+        'Quran 19:12-15 - His wisdom, piety, and righteousness',
+        'Quran 3:39 - Confirming the word of Allah',
+        'Quran 6:85 - Listed among the righteous',
+        'Quran 21:90 - Among those who competed in good deeds'
+      ],
+      importantEvents: [
+        'Miraculous birth to elderly parents',
+        'Receiving wisdom and prophethood at a young age',
+        'Preaching repentance and righteousness',
+        'Baptizing people in the Jordan River',
+        'Preparing the way for Prophet Isa (AS)',
+        'Martyrdom for speaking truth against injustice'
+      ],
+      videoId: 'dSWu36q2mn8',
+      videoTitle: 'Prophet Yahya (AS) - The Young Prophet and Martyr for Truth',
+      color: 'from-cyan-500 to-blue-600'
     },
     {
       id: 'isa',
@@ -569,7 +969,7 @@ According to Islamic belief, Isa (AS) will return before the Day of Judgment to 
         'Facing rejection and persecution from his people',
         'Being raised to heaven by Allah before crucifixion'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '5HNenkAD5hA',
       videoTitle: 'Prophet Isa (AS) - The Messiah and His Miraculous Life',
       color: 'from-rose-500 to-pink-600'
     },
@@ -606,7 +1006,7 @@ In just 23 years, the message of Islam spread throughout the Arabian Peninsula. 
         'The Hijra (migration) to Medina',
         'Establishment of the Islamic state and spread of Islam'
       ],
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'CSd1oh3Wvik',
       videoTitle: 'Prophet Muhammad (PBUH) - The Final Messenger and Perfect Example',
       color: 'from-emerald-500 to-teal-600'
     }
@@ -756,27 +1156,18 @@ In just 23 years, the message of Islam spread throughout the Arabian Peninsula. 
                 </div>
               </div>
             )}
-
             {activeTab === 'video' && (
-              <div>
-                <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">
-                  Watch & Learn
-                </h3>
-                <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg mb-4 flex items-center justify-center">
-                  <div className="text-center">
-                    <Play className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                    <p className="text-gray-500 text-lg">Video Player</p>
-                    <p className="text-gray-400 text-sm mt-2">
-                      {selectedProphet.videoTitle}
-                    </p>
-                  </div>
-                </div>
-                <h4 className="text-lg font-semibold text-gray-800 dark:text-white">
-                  {selectedProphet.videoTitle}
-                </h4>
-                <p className="text-gray-600 dark:text-gray-400 mt-2">
-                  Learn more about Prophet {selectedProphet.name} through this comprehensive video guide.
-                </p>
+              <div className="aspect-video rounded-lg mb-4 overflow-hidden">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src={`https://www.youtube.com/embed/${selectedProphet.videoId}`}
+                  title={selectedProphet.videoTitle || "Prophet Video"}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full rounded-lg shadow-md"
+                ></iframe>
               </div>
             )}
           </div>
