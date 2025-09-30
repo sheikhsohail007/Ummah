@@ -1,11 +1,22 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { ArrowLeft, Send, Bot, User, Loader } from 'lucide-react';
-import OpenAI from 'openai';
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const openai = new OpenAI({
-  apiKey: import.meta.env.VITE_OPENAI_API_KEY,
-  dangerouslyAllowBrowser: true, // 🚨 sirf dev ke liye
-});
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
+
+async function generateAIResponse(userMessage: string) {
+  try {
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
+    const result = await model.generateContent(userMessage);
+    return result.response.text();
+  } catch (error) {
+    console.error("Error calling Gemini API:", error);
+    return "⚠️ Sorry, I'm having trouble right now. Please try again later. Its Under Construction";
+  }
+}
+
+
 
 interface Message {
   id: string;
@@ -32,10 +43,7 @@ const IslamicAI: React.FC<IslamicAIProps> = ({ onBack }) => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const openai = new OpenAI({
-    apiKey: import.meta.env.VITE_OPENAI_API_KEY,
-    dangerouslyAllowBrowser: true // Note: This is for development only
-  });
+ 
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -64,28 +72,15 @@ const IslamicAI: React.FC<IslamicAIProps> = ({ onBack }) => {
     setIsLoading(true);
 
     try {
-      const completion = await openai.chat.completions.create({
-        model: 'gpt-4o-mini',
-        messages: [
-          {
-            role: 'system',
-            content: 'You are an Islamic AI assistant. Always answer politely, humbly, and with kindness. Use Quran and Hadith references if possible. If something is unclear, advise the user to consult a scholar. Always start responses with appropriate Islamic greetings when relevant. Keep responses concise but informative.'
-          },
-          {
-            role: 'user',
-            content: userMessage.text
-          }
-        ],
-        max_tokens: 1000,
-        temperature: 0.7
-      });
+     const reply = await generateAIResponse(userMessage.text);
 
-      const aiResponse: Message = {
-        id: (Date.now() + 1).toString(),
-        text: completion.choices[0]?.message?.content || 'I apologize, but I encountered an issue processing your question. Please try again.',
-        isUser: false,
-        timestamp: new Date()
-      };
+const aiResponse: Message = {
+  id: (Date.now() + 1).toString(),
+  text: reply,
+  isUser: false,
+  timestamp: new Date()
+};
+
 
       setMessages(prev => [...prev, aiResponse]);
     } catch (error) {
