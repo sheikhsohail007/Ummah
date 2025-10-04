@@ -34,7 +34,7 @@ function Header({
             onClick={() => setActiveSection('home')}
             className="text-2xl font-bold text-emerald-800 dark:text-emerald-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
           >
-            ☪ Islamic Pearls
+            ☪ Faith Lines
           </button>
 
           {/* Desktop Navigation */}

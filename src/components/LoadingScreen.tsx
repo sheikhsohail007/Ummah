@@ -20,7 +20,7 @@ function LoadingScreen() {
 
         {/* Loading Text */}
         <div className="loading-text">
-          <h1 className="brand-name">Islamic Pearls</h1>
+          <h1 className="brand-name">Faith Lines</h1>
           <p className="tagline">Discover wisdom, find peace, embrace faith</p>
         </div>
 

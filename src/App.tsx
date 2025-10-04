@@ -95,7 +95,7 @@ function App() {
           <div className="space-y-8">
             <div className="text-center py-16 bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl">
               <h1 className="text-5xl font-bold text-emerald-800 dark:text-emerald-300 mb-4">
-                Islamic Pearls
+                Faith Lines
               </h1>
               <p className="text-xl text-emerald-600 dark:text-emerald-400 max-w-2xl mx-auto">
                 Discover the beauty of Islam through prayer, reflection, and spiritual guidance
