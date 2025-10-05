@@ -4875,7 +4875,6 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
           arabic: "وَهُوَ الَّذِي جَعَلَكُمْ خَلَائِفَ الْأَرْضِ وَرَفَعَ بَعْضَكُمْ فَوْقَ بَعْضٍ دَرَجَاتٍ لِيَبْلُوَكُمْ فِي مَا آتَاكُمْ إِنَّ رَبَّكَ سَرِيعُ الْعِقَابِ وَإِنَّهُ لَغَفُورٌ رَحِيمٌ",
           english: "It is He who made you successors on the earth, and raised some of you in ranks over others, in order to test you through what He has given you. Your Lord is Quick in retribution, and He is Forgiving and Merciful."
         }
-
       ]
     },
     {

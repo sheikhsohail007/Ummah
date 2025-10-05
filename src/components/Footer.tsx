@@ -106,8 +106,8 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
           {/* Bottom Section */}
           <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-300 text-sm mb-4 md:mb-0">
-              © 2025 Faith Lines | All rights reserved | developed by Sheikh Sohail | Design by Huma Qureashi<br />
-              <span className="text-xs">Inspired by Ummah
+              © 2025 Faith Lines | All rights reserved | developed by Sheikh Sohail | Design by Huma Qureshi<br />
+              <span className="text-xs"> Built with Faith, for the Ummah 
               </span>
             </div>
             <div className="flex space-x-6 text-sm">
