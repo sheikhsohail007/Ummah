@@ -5917,7 +5917,7 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
           arabic: "إِنَّ الَّذِينَ عِنْدَ رَبِّكَ لَا يَسْتَكْبِرُونَ عَنْ عِبَادَتِهِ وَيُسَبِّحُونَهُ وَلَهُ يَسْجُدُونَ",
           english: "Those who are in the presence of your Lord are not too proud to worship Him. They recite His praises, and to Him they bow down."
         }
-       ]
+      ]
     },
     {
       number: 8,
@@ -5938,7 +5938,373 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
           number: 2,
           arabic: 'إِنَّمَا الْمُؤْمِنُونَ الَّذِينَ إِذَا ذُكِرَ اللَّهُ وَجِلَتْ قُلُوبُهُمْ وَإِذَا تُلِيَتْ عَلَيْهِمْ آيَاتُهُ زَادَتْهُمْ إِيمَانًا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ',
           english: 'The believers are only those who, when Allah is mentioned, their hearts become fearful, and when His verses are recited to them, it increases them in faith; and upon their Lord they rely.'
+        },
+        {
+          number: 3,
+          arabic: "الَّذِينَ يُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+          english: "Those who perform the prayer; and from Our provisions to them, they spend."
+        },
+        {
+          number: 4,
+          arabic: "أُولَئِكَ هُمُ الْمُؤْمِنُونَ حَقًّا لَهُمْ دَرَجَاتٌ عِنْدَ رَبِّهِمْ وَمَغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+          english: "These are the true believers. They have high standing with their Lord, and forgiveness, and a generous provision."
+        },
+        {
+          number: 5,
+          arabic: "كَمَا أَخْرَجَكَ رَبُّكَ مِنْ بَيْتِكَ بِالْحَقِّ وَإِنَّ فَرِيقًا مِنَ الْمُؤْمِنِينَ لَكَارِهُونَ",
+          english: "Even as your Lord brought you out of your home with the truth, some believers were reluctant."
+        },
+        {
+          number: 6,
+          arabic: "يُجَادِلُونَكَ فِي الْحَقِّ بَعْدَمَا تَبَيَّنَ كَأَنَّمَا يُسَاقُونَ إِلَى الْمَوْتِ وَهُمْ يَنْظُرُونَ",
+          english: "Arguing with you about the truth after it was made clear, as if they were being driven to death as they looked on."
+        },
+        {
+          number: 7,
+          arabic: "وَإِذْ يَعِدُكُمُ اللَّهُ إِحْدَى الطَّائِفَتَيْنِ أَنَّهَا لَكُمْ وَتَوَدُّونَ أَنَّ غَيْرَ ذَاتِ الشَّوْكَةِ تَكُونُ لَكُمْ وَيُرِيدُ اللَّهُ أَنْ يُحِقَّ الْحَقَّ بِكَلِمَاتِهِ وَيَقْطَعَ دَابِرَ الْكَافِرِينَ",
+          english: "God has promised you one of the two groups—that it would be yours—but you wanted the unarmed group to be yours. God intends to prove the truth with His words, and to uproot the disbelievers."
+        },
+        {
+          number: 8,
+          arabic: "لِيُحِقَّ الْحَقَّ وَيُبْطِلَ الْبَاطِلَ وَلَوْ كَرِهَ الْمُجْرِمُونَ",
+          english: "In order to confirm the truth and nullify falsehood, even though the guilty dislike it."
+        },
+        {
+          number: 9,
+          arabic: "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَاسْتَجَابَ لَكُمْ أَنِّي مُمِدُّكُمْ بِأَلْفٍ مِنَ الْمَلَائِكَةِ مُرْدِفِينَ",
+          english: "When you appealed to your Lord for help, He answered you, 'I am reinforcing you with one thousand angels in succession.'"
+        },
+        {
+          number: 10,
+          arabic: "وَمَا جَعَلَهُ اللَّهُ إِلَّا بُشْرَى وَلِتَطْمَئِنَّ بِهِ قُلُوبُكُمْ وَمَا النَّصْرُ إِلَّا مِنْ عِنْدِ اللَّهِ إِنَّ اللَّهَ عَزِيزٌ حَكِيمٌ",
+          english: "God only made it a message of hope, and to set your hearts at rest. Victory comes only from God. God is Mighty and Wise."
+        },
+        {
+          number: 11,
+          arabic: "إِذْ يُغَشِّيكُمُ النُّعَاسَ أَمَنَةً مِنْهُ وَيُنَزِّلُ عَلَيْكُمْ مِنَ السَّمَاءِ مَاءً لِيُطَهِّرَكُمْ بِهِ وَيُذْهِبَ عَنْكُمْ رِجْزَ الشَّيْطَانِ وَلِيَرْبِطَ عَلَى قُلُوبِكُمْ وَيُثَبِّتَ بِهِ الْأَقْدَامَ",
+          english: "He made drowsiness overcome you, as a security from Him. And He sent down upon you water from the sky, to cleanse you with it, and to rid you of Satan's pollution, and to fortify your hearts, and to strengthen your foothold."
+        },
+        {
+          number: 12,
+          arabic: "إِذْ يُوحِي رَبُّكَ إِلَى الْمَلَائِكَةِ أَنِّي مَعَكُمْ فَثَبِّتُوا الَّذِينَ آمَنُوا سَأُلْقِي فِي قُلُوبِ الَّذِينَ كَفَرُوا الرُّعْبَ فَاضْرِبُوا فَوْقَ الْأَعْنَاقِ وَاضْرِبُوا مِنْهُمْ كُلَّ بَنَانٍ",
+          english: "Your Lord inspired the angels: 'I am with you, so support those who believe. I will cast terror into the hearts of those who disbelieve. So strike above the necks, and strike off every fingertip of theirs.'"
+        },
+        {
+          number: 13,
+          arabic: "ذَلِكَ بِأَنَّهُمْ شَاقُّوا اللَّهَ وَرَسُولَهُ وَمَنْ يُشَاقِقِ اللَّهَ وَرَسُولَهُ فَإِنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
+          english: "That is because they opposed God and His Messenger. Whoever opposes God and His Messenger—God is severe in retribution."
+        },
+        {
+          number: 14,
+          arabic: "ذَلِكُمْ فَذُوقُوهُ وَأَنَّ لِلْكَافِرِينَ عَذَابَ النَّارِ",
+          english: "'Here it is; so taste it.' For the disbelievers there is the suffering of the Fire."
+        },
+        {
+          number: 15,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا لَقِيتُمُ الَّذِينَ كَفَرُوا زَحْفًا فَلَا تُوَلُّوهُمُ الْأَدْبَارَ",
+          english: "O you who believe! When you meet those who disbelieve on the march, never turn your backs on them."
+        },
+        {
+          number: 16,
+          arabic: "وَمَنْ يُوَلِّهِمْ يَوْمَئِذٍ دُبُرَهُ إِلَّا مُتَحَرِّفًا لِقِتَالٍ أَوْ مُتَحَيِّزًا إِلَى فِئَةٍ فَقَدْ بَاءَ بِغَضَبٍ مِنَ اللَّهِ وَمَأْوَاهُ جَهَنَّمُ وَبِئْسَ الْمَصِيرُ",
+          english: "Anyone who turns his back on them on that Day, except while maneuvering for battle, or to join another group, has incurred wrath from God, and his abode is Hell—what a miserable destination!"
+        },
+        {
+          number: 17,
+          arabic: "فَلَمْ تَقْتُلُوهُمْ وَلَكِنَّ اللَّهَ قَتَلَهُمْ وَمَا رَمَيْتَ إِذْ رَمَيْتَ وَلَكِنَّ اللَّهَ رَمَى وَلِيُبْلِيَ الْمُؤْمِنِينَ مِنْهُ بَلَاءً حَسَنًا إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
+          english: "It was not you who killed them, but it was God who killed them. And it was not you who launched when you launched, but it was God who launched. That He may bestow upon the believers an excellent reward. God is Hearing and Knowing."
+        },
+        {
+          number: 18,
+          arabic: "ذَلِكُمْ وَأَنَّ اللَّهَ مُوهِنُ كَيْدِ الْكَافِرِينَ",
+          english: "Such is the case. God will undermine the strategy of the disbelievers."
+        },
+        {
+          number: 19,
+          arabic: "إِنْ تَسْتَفْتِحُوا فَقَدْ جَاءَكُمُ الْفَتْحُ وَإِنْ تَنْتَهُوا فَهُوَ خَيْرٌ لَكُمْ وَإِنْ تَعُودُوا نَعُدْ وَلَنْ تُغْنِيَ عَنْكُمْ فِئَتُكُمْ شَيْئًا وَلَوْ كَثُرَتْ وَأَنَّ اللَّهَ مَعَ الْمُؤْمِنِينَ",
+          english: "If you desire a verdict, the verdict has come to you. And if you desist, it would be best for you. And if you return, We will return; and your troops, however numerous, will not benefit you. God is with the believers."
+        },
+        {
+          number: 20,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَرَسُولَهُ وَلَا تَوَلَّوْا عَنْهُ وَأَنْتُمْ تَسْمَعُونَ",
+          english: "O you who believe! Obey God and His Messenger, and do not turn away from him when you hear."
+        },
+        {
+          number: 21,
+          arabic: "وَلَا تَكُونُوا كَالَّذِينَ قَالُوا سَمِعْنَا وَهُمْ لَا يَسْمَعُونَ",
+          english: "And be not like those who say, 'We hear,' when they do not hear."
+        },
+        {
+          number: 22,
+          arabic: "إِنَّ شَرَّ الدَّوَابِّ عِنْدَ اللَّهِ الصُّمُّ الْبُكْمُ الَّذِينَ لَا يَعْقِلُونَ",
+          english: "The worst of animals to God are the deaf and dumb—those who do not reason."
+        },
+        {
+          number: 23,
+          arabic: "وَلَوْ عَلِمَ اللَّهُ فِيهِمْ خَيْرًا لَأَسْمَعَهُمْ وَلَوْ أَسْمَعَهُمْ لَتَوَلَّوْا وَهُمْ مُعْرِضُونَ",
+          english: "Had God recognized any good in them, He would have made them hear; and had He made them hear, they would have turned away defiantly."
+        },
+        {
+          number: 24,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَجِيبُوا لِلَّهِ وَلِلرَّسُولِ إِذَا دَعَاكُمْ لِمَا يُحْيِيكُمْ وَاعْلَمُوا أَنَّ اللَّهَ يَحُولُ بَيْنَ الْمَرْءِ وَقَلْبِهِ وَأَنَّهُ إِلَيْهِ تُحْشَرُونَ",
+          english: "O you who believe! Respond to God and to the Messenger when He calls you to what will revive you. And know that God stands between a man and his heart, and that to Him you will be gathered."
+        },
+        {
+          number: 25,
+          arabic: "وَاتَّقُوا فِتْنَةً لَا تُصِيبَنَّ الَّذِينَ ظَلَمُوا مِنْكُمْ خَاصَّةً وَاعْلَمُوا أَنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
+          english: "And beware of discord which does not afflict the wrongdoers among you exclusively; and know that God is severe in retribution."
+        },
+        {
+          number: 26,
+          arabic: "وَاذْكُرُوا إِذْ أَنْتُمْ قَلِيلٌ مُسْتَضْعَفُونَ فِي الْأَرْضِ تَخَافُونَ أَنْ يَتَخَطَّفَكُمُ النَّاسُ فَآوَاكُمْ وَأَيَّدَكُمْ بِنَصْرِهِ وَرَزَقَكُمْ مِنَ الطَّيِّبَاتِ لَعَلَّكُمْ تَشْكُرُونَ",
+          english: "And remember when you were few, oppressed in the land, fearing that people may capture you; but He sheltered you, and supported you with His victory, and provided you with good things—so that you may be thankful."
+        },
+        {
+          number: 27,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَخُونُوا اللَّهَ وَالرَّسُولَ وَتَخُونُوا أَمَانَاتِكُمْ وَأَنْتُمْ تَعْلَمُونَ",
+          english: "O you who believe! Do not betray God and the Messenger, nor betray your trusts, while you know."
+        },
+        {
+          number: 28,
+          arabic: "وَاعْلَمُوا أَنَّمَا أَمْوَالُكُمْ وَأَوْلَادُكُمْ فِتْنَةٌ وَأَنَّ اللَّهَ عِنْدَهُ أَجْرٌ عَظِيمٌ",
+          english: "And know that your possessions and your children are a test, and that God possesses an immense reward."
+        },
+        {
+          number: 29,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ تَتَّقُوا اللَّهَ يَجْعَلْ لَكُمْ فُرْقَانًا وَيُكَفِّرْ عَنْكُمْ سَيِّئَاتِكُمْ وَيَغْفِرْ لَكُمْ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
+          english: "O you who believe! If you remain conscious of God, He will give you a criterion, and will remit from you your sins, and will forgive you. God is possessor of infinite grace."
+        },
+        {
+          number: 30,
+          arabic: "وَإِذْ يَمْكُرُ بِكَ الَّذِينَ كَفَرُوا لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ وَيَمْكُرُونَ وَيَمْكُرُ اللَّهُ وَاللَّهُ خَيْرُ الْمَاكِرِينَ",
+          english: "When the disbelievers plotted against you, to imprison you, or kill you, or expel you. They planned, and God planned, but God is the Best of planners."
+        },
+        {
+          number: 31,
+          arabic: "وَإِذَا تُتْلَى عَلَيْهِمْ آيَاتُنَا قَالُوا قَدْ سَمِعْنَا لَوْ نَشَاءُ لَقُلْنَا مِثْلَ هَذَا إِنْ هَذَا إِلَّا أَسَاطِيرُ الْأَوَّلِينَ",
+          english: "And when Our revelations are recited to them, they say, 'We have heard. Had we wanted, we could have said the like of this; these are nothing but myths of the ancients.'"
+        },
+        {
+          number: 32,
+          arabic: "وَإِذْ قَالُوا اللَّهُمَّ إِنْ كَانَ هَذَا هُوَ الْحَقَّ مِنْ عِنْدِكَ فَأَمْطِرْ عَلَيْنَا حِجَارَةً مِنَ السَّمَاءِ أَوِ ائْتِنَا بِعَذَابٍ أَلِيمٍ",
+          english: "And they said, 'Our God, if this is the truth from You, then rain down on us stones from the sky, or visit us with a painful affliction.'"
+        },
+        {
+          number: 33,
+          arabic: "وَمَا كَانَ اللَّهُ لِيُعَذِّبَهُمْ وَأَنْتَ فِيهِمْ وَمَا كَانَ اللَّهُ مُعَذِّبَهُمْ وَهُمْ يَسْتَغْفِرُونَ",
+          english: "But God would not punish them while you are amongst them. And God would not punish them as long as they seek forgiveness."
+        },
+        {
+          number: 34,
+          arabic: "وَمَا لَهُمْ أَلَّا يُعَذِّبَهُمُ اللَّهُ وَهُمْ يَصُدُّونَ عَنِ الْمَسْجِدِ الْحَرَامِ وَمَا كَانُوا أَوْلِيَاءَهُ إِنْ أَوْلِيَاؤُهُ إِلَّا الْمُتَّقُونَ وَلَكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+          english: "Yet why should God not punish them, when they are turning others away from the Sacred Mosque, although they are not its custodians? Its rightful custodians are the pious; but most of them do not know."
+        },
+        {
+          number: 35,
+          arabic: "وَمَا كَانَ صَلَاتُهُمْ عِنْدَ الْبَيْتِ إِلَّا مُكَاءً وَتَصْدِيَةً فَذُوقُوا الْعَذَابَ بِمَا كُنْتُمْ تَكْفُرُونَ",
+          english: "Their prayer at the House was nothing but whistling and clapping—so taste the punishment for your blasphemy."
+        },
+        {
+          number: 36,
+          arabic: "إِنَّ الَّذِينَ كَفَرُوا يُنْفِقُونَ أَمْوَالَهُمْ لِيَصُدُّوا عَنْ سَبِيلِ اللَّهِ فَسَيُنْفِقُونَهَا ثُمَّ تَكُونُ عَلَيْهِمْ حَسْرَةً ثُمَّ يُغْلَبُونَ وَالَّذِينَ كَفَرُوا إِلَى جَهَنَّمَ يُحْشَرُونَ",
+          english: "Those who disbelieve spend their wealth to repel from God's path. They will spend it, then it will become a source of sorrow for them, and then they will be defeated. Those who disbelieve will be herded into Hell."
+        },
+        {
+          number: 37,
+          arabic: "لِيَمِيزَ اللَّهُ الْخَبِيثَ مِنَ الطَّيِّبِ وَيَجْعَلَ الْخَبِيثَ بَعْضَهُ عَلَى بَعْضٍ فَيَرْكُمَهُ جَمِيعًا فَيَجْعَلَهُ فِي جَهَنَّمَ أُولَئِكَ هُمُ الْخَاسِرُونَ",
+          english: "That God may distinguish the bad from the good, and heap the bad on top of one another, and pile them together, and throw them in Hell. These are the losers."
+        },
+        {
+          number: 38,
+          arabic: "قُلْ لِلَّذِينَ كَفَرُوا إِنْ يَنْتَهُوا يُغْفَرْ لَهُمْ مَا قَدْ سَلَفَ وَإِنْ يَعُودُوا فَقَدْ مَضَتْ سُنَّتُ الْأَوَّلِينَ",
+          english: "Say to those who disbelieve: if they desist, their past will be forgiven. But if they persist—the practice of the ancients has passed away."
+        },
+        {
+          number: 39,
+          arabic: "وَقَاتِلُوهُمْ حَتَّى لَا تَكُونَ فِتْنَةٌ وَيَكُونَ الدِّينُ كُلُّهُ لِلَّهِ فَإِنِ انْتَهَوْا فَإِنَّ اللَّهَ بِمَا يَعْمَلُونَ بَصِيرٌ",
+          english: "Fight them until there is no more persecution, and religion becomes exclusively for God. But if they desist—God is Seeing of what they do."
+        },
+        {
+          number: 40,
+          arabic: "وَإِنْ تَوَلَّوْا فَاعْلَمُوا أَنَّ اللَّهَ مَوْلَاكُمْ نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيرُ",
+          english: "And if they turn away, know that God is your Protector. The Best Protector, and the Best Supporter."
+        },
+        {
+          number: 41,
+          arabic: "وَاعْلَمُوا أَنَّمَا غَنِمْتُمْ مِنْ شَيْءٍ فَأَنَّ لِلَّهِ خُمُسَهُ وَلِلرَّسُولِ وَلِذِي الْقُرْبَى وَالْيَتَامَى وَالْمَسَاكِينِ وَابْنِ السَّبِيلِ إِنْ كُنْتُمْ آمَنْتُمْ بِاللَّهِ وَمَا أَنْزَلْنَا عَلَى عَبْدِنَا يَوْمَ الْفُرْقَانِ يَوْمَ الْتَقَى الْجَمْعَانِ وَاللَّهُ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          english: "And know that whatever spoils you gain, to God belongs its fifth, and to the Messenger, and the relatives, and the orphans, and the poor, and to the wayfarer, provided you believe in God and in what We revealed to Our servant on the Day of Distinction, the day when the two armies met. God is Capable of everything."
+        },
+        {
+          number: 42,
+          arabic: "إِذْ أَنْتُمْ بِالْعُدْوَةِ الدُّنْيَا وَهُمْ بِالْعُدْوَةِ الْقُصْوَى وَالرَّكْبُ أَسْفَلَ مِنْكُمْ وَلَوْ تَوَاعَدْتُمْ لَاخْتَلَفْتُمْ فِي الْمِيعَادِ وَلَكِنْ لِيَقْضِيَ اللَّهُ أَمْرًا كَانَ مَفْعُولًا لِيَهْلِكَ مَنْ هَلَكَ عَنْ بَيِّنَةٍ وَيَحْيَى مَنْ حَيَّ عَنْ بَيِّنَةٍ وَإِنَّ اللَّهَ لَسَمِيعٌ عَلِيمٌ",
+          english: "Recall when you were on the nearer bank, and they were on the further bank, and the caravan was below you. Had you planned for this meeting, you would have disagreed on the timing, but God was to carry out a predetermined matter, so that those who perish would perish by clear evidence, and those who survive would survive by clear evidence. God is Hearing and Knowing."
+        },
+        {
+          number: 43,
+          arabic: "إِذْ يُرِيكَهُمُ اللَّهُ فِي مَنَامِكَ قَلِيلًا وَلَوْ أَرَاكَهُمْ كَثِيرًا لَفَشِلْتُمْ وَلَتَنَازَعْتُمْ فِي الْأَمْرِ وَلَكِنَّ اللَّهَ سَلَّمَ إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ",
+          english: "God made them appear in your dream as few. Had He made them appear as many, you would have lost heart, and disputed in the matter. But God saved the situation. He knows what the hearts contain."
+        },
+        {
+          number: 44,
+          arabic: "وَإِذْ يُرِيكُمُوهُمْ إِذِ الْتَقَيْتُمْ فِي أَعْيُنِكُمْ قَلِيلًا وَيُقَلِّلُكُمْ فِي أَعْيُنِهِمْ لِيَقْضِيَ اللَّهُ أَمْرًا كَانَ مَفْعُولًا وَإِلَى اللَّهِ تُرْجَعُ الْأُمُورُ",
+          english: "When you met, He made them appear as few in your eyes, and made you appear fewer in their eyes, so that God may conclude a predetermined matter. To God all matters revert."
+        },
+        {
+          number: 45,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا لَقِيتُمْ فِئَةً فَاثْبُتُوا وَاذْكُرُوا اللَّهَ كَثِيرًا لَعَلَّكُمْ تُفْلِحُونَ",
+          english: "O you who believe! When you meet a force, stand firm, and remember God much, so that you may prevail."
+        },
+        {
+          number: 46,
+          arabic: "وَأَطِيعُوا اللَّهَ وَرَسُولَهُ وَلَا تَنَازَعُوا فَتَفْشَلُوا وَتَذْهَبَ رِيحُكُمْ وَاصْبِرُوا إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+          english: "And obey God and His Messenger, and do not dispute, lest you falter and lose your courage. And be steadfast. God is with the steadfast."
+        },
+        {
+          number: 47,
+          arabic: "وَلَا تَكُونُوا كَالَّذِينَ خَرَجُوا مِنْ دِيَارِهِمْ بَطَرًا وَرِئَاءَ النَّاسِ وَيَصُدُّونَ عَنْ سَبِيلِ اللَّهِ وَاللَّهُ بِمَا يَعْمَلُونَ مُحِيطٌ",
+          english: "And do not be like those who left their homes boastfully, showing off before the people, and barring others from the path of God. God comprehends what they do."
+        },
+        {
+          number: 48,
+          arabic: "وَإِذْ زَيَّنَ لَهُمُ الشَّيْطَانُ أَعْمَالَهُمْ وَقَالَ لَا غَالِبَ لَكُمُ الْيَوْمَ مِنَ النَّاسِ وَإِنِّي جَارٌ لَكُمْ فَلَمَّا تَرَاءَتِ الْفِئَتَانِ نَكَصَ عَلَى عَقِبَيْهِ وَقَالَ إِنِّي بَرِيءٌ مِنْكُمْ إِنِّي أَرَى مَا لَا تَرَوْنَ إِنِّي أَخَافُ اللَّهَ وَاللَّهُ شَدِيدُ الْعِقَابِ",
+          english: "Satan made their deeds appear good to them, and said, 'You cannot be defeated by any people today, and I am at your side.' But when the two armies came in sight of one another, he turned on his heels, and said, 'I am innocent of you; I see what you do not see; I fear God; God is severe in punishment.'"
+        },
+        {
+          number: 49,
+          arabic: "إِذْ يَقُولُ الْمُنَافِقُونَ وَالَّذِينَ فِي قُلُوبِهِمْ مَرَضٌ غَرَّ هَؤُلَاءِ دِينُهُمْ وَمَنْ يَتَوَكَّلْ عَلَى اللَّهِ فَإِنَّ اللَّهَ عَزِيزٌ حَكِيمٌ",
+          english: "The hypocrites and those in whose hearts is sickness said, 'Their religion has deluded these people.' But whoever puts his trust in God—God is Mighty and Wise."
+        },
+        {
+          number: 50,
+          arabic: "وَلَوْ تَرَى إِذْ يَتَوَفَّى الَّذِينَ كَفَرُوا الْمَلَائِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَارَهُمْ وَذُوقُوا عَذَابَ الْحَرِيقِ",
+          english: "If only you could see, as the angels take away those who disbelieve, striking their faces and their backs: 'Taste the agony of the Burning.'"
+        },
+        {
+          number: 51,
+          arabic: "ذَلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ اللَّهَ لَيْسَ بِظَلَّامٍ لِلْعَبِيدِ",
+          english: "'That is because of what your hands have committed, and because God is not unjust to the servants.'"
+        },
+        {
+          number: 52,
+          arabic: "كَدَأْبِ آلِ فِرْعَوْنَ وَالَّذِينَ مِنْ قَبْلِهِمْ كَفَرُوا بِآيَاتِ اللَّهِ فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ إِنَّ اللَّهَ قَوِيٌّ شَدِيدُ الْعِقَابِ",
+          english: "Like the behavior of the people of Pharaoh, and those before them. They rejected the signs of God, so God seized them for their sins. God is Powerful, Severe in punishment."
+        },
+        {
+          number: 53,
+          arabic: "ذَلِكَ بِأَنَّ اللَّهَ لَمْ يَكُ مُغَيِّرًا نِعْمَةً أَنْعَمَهَا عَلَى قَوْمٍ حَتَّى يُغَيِّرُوا مَا بِأَنْفُسِهِمْ وَأَنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
+          english: "That is because God would never change a blessing He has bestowed on a people unless they change what is within themselves, and because God is Hearing and Knowing."
+        },
+        {
+          number: 54,
+          arabic: "كَدَأْبِ آلِ فِرْعَوْنَ وَالَّذِينَ مِنْ قَبْلِهِمْ كَذَّبُوا بِآيَاتِ رَبِّهِمْ فَأَهْلَكْنَاهُمْ بِذُنُوبِهِمْ وَأَغْرَقْنَا آلَ فِرْعَوْنَ وَكُلٌّ كَانُوا ظَالِمِينَ",
+          english: "Such was the case with the people of Pharaoh, and those before them. They denied the signs of their Lord, so We annihilated them for their wrongs, and We drowned the people of Pharaoh—they were all evildoers."
+        },
+        {
+          number: 55,
+          arabic: "إِنَّ شَرَّ الدَّوَابِّ عِنْدَ اللَّهِ الَّذِينَ كَفَرُوا فَهُمْ لَا يُؤْمِنُونَ",
+          english: "The worst of creatures in God's view are those who disbelieve. They have no faith."
+        },
+        {
+          number: 56,
+          arabic: "الَّذِينَ عَاهَدْتَ مِنْهُمْ ثُمَّ يَنْقُضُونَ عَهْدَهُمْ فِي كُلِّ مَرَّةٍ وَهُمْ لَا يَتَّقُونَ",
+          english: "Those of them with whom you made a treaty, but they violate their agreement every time. They are not righteous."
+        },
+        {
+          number: 57,
+          arabic: "فَإِمَّا تَثْقَفَنَّهُمْ فِي الْحَرْبِ فَشَرِّدْ بِهِمْ مَنْ خَلْفَهُمْ لَعَلَّهُمْ يَذَّكَّرُونَ",
+          english: "If you confront them in battle, make of them a fearsome example for those who follow them, that they may take heed."
+        },
+        {
+          number: 58,
+          arabic: "وَإِمَّا تَخَافَنَّ مِنْ قَوْمٍ خِيَانَةً فَانْبِذْ إِلَيْهِمْ عَلَى سَوَاءٍ إِنَّ اللَّهَ لَا يُحِبُّ الْخَائِنِينَ",
+          english: "If you fear treachery on the part of a people, break off with them in a like manner. God does not like the treacherous."
+        },
+        {
+          number: 59,
+          arabic: "وَلَا يَحْسَبَنَّ الَّذِينَ كَفَرُوا سَبَقُوا إِنَّهُمْ لَا يُعْجِزُونَ",
+          english: "Let not the disbelievers assume that they are ahead. They will not escape."
+        },
+        {
+          number: 60,
+          arabic: "وَأَعِدُّوا لَهُمْ مَا اسْتَطَعْتُمْ مِنْ قُوَّةٍ وَمِنْ رِبَاطِ الْخَيْلِ تُرْهِبُونَ بِهِ عَدُوَّ اللَّهِ وَعَدُوَّكُمْ وَآخَرِينَ مِنْ دُونِهِمْ لَا تَعْلَمُونَهُمُ اللَّهُ يَعْلَمُهُمْ وَمَا تُنْفِقُوا مِنْ شَيْءٍ فِي سَبِيلِ اللَّهِ يُوَفَّ إِلَيْكُمْ وَأَنْتُمْ لَا تُظْلَمُونَ",
+          english: "And prepare against them all the power you can muster, and all the cavalry you can mobilize, to terrify thereby God's enemies and your enemies, and others besides them whom you do not know, but God knows them. Whatever you spend in God's way will be repaid to you in full, and you will not be wronged."
+        },
+        {
+          number: 61,
+          arabic: "وَإِنْ جَنَحُوا لِلسَّلْمِ فَاجْنَحْ لَهَا وَتَوَكَّلْ عَلَى اللَّهِ إِنَّهُ هُوَ السَّمِيعُ الْعَلِيمُ",
+          english: "But if they incline towards peace, then incline towards it, and put your trust in God. He is the Hearer, the Knower."
+        },
+        {
+          number: 62,
+          arabic: "وَإِنْ يُرِيدُوا أَنْ يَخْدَعُوكَ فَإِنَّ حَسْبَكَ اللَّهُ هُوَ الَّذِي أَيَّدَكَ بِنَصْرِهِ وَبِالْمُؤْمِنِينَ",
+          english: "If they intend to deceive you—God is sufficient for you. It is He who supported you with His aid, and with the believers."
+        },
+        {
+          number: 63,
+          arabic: "وَأَلَّفَ بَيْنَ قُلُوبِهِمْ لَوْ أَنْفَقْتَ مَا فِي الْأَرْضِ جَمِيعًا مَا أَلَّفْتَ بَيْنَ قُلُوبِهِمْ وَلَكِنَّ اللَّهَ أَلَّفَ بَيْنَهُمْ إِنَّهُ عَزِيزٌ حَكِيمٌ",
+          english: "And He united their hearts. Had you spent everything on earth, you would not have united their hearts, but God united them together. He is Mighty and Wise."
+        },
+        {
+          number: 64,
+          arabic: "يَا أَيُّهَا النَّبِيُّ حَسْبُكَ اللَّهُ وَمَنِ اتَّبَعَكَ مِنَ الْمُؤْمِنِينَ",
+          english: "O prophet! Count on God, and on the believers who have followed you."
+        },
+        {
+          number: 65,
+          arabic: "يَا أَيُّهَا النَّبِيُّ حَرِّضِ الْمُؤْمِنِينَ عَلَى الْقِتَالِ إِنْ يَكُنْ مِنْكُمْ عِشْرُونَ صَابِرُونَ يَغْلِبُوا مِائَتَيْنِ وَإِنْ يَكُنْ مِنْكُمْ مِائَةٌ يَغْلِبُوا أَلْفًا مِنَ الَّذِينَ كَفَرُوا بِأَنَّهُمْ قَوْمٌ لَا يَفْقَهُونَ",
+          english: "O prophet! Rouse the believers to battle. If there are twenty steadfast among you, they will defeat two hundred; and if there are a hundred of you, they will defeat a thousand of those who disbelieve; because they are a people who do not understand."
+        },
+        {
+          number: 66,
+          arabic: "الْآنَ خَفَّفَ اللَّهُ عَنْكُمْ وَعَلِمَ أَنَّ فِيكُمْ ضَعْفًا فَإِنْ يَكُنْ مِنْكُمْ مِائَةٌ صَابِرَةٌ يَغْلِبُوا مِائَتَيْنِ وَإِنْ يَكُنْ مِنْكُمْ أَلْفٌ يَغْلِبُوا أَلْفَيْنِ بِإِذْنِ اللَّهِ وَاللَّهُ مَعَ الصَّابِرِينَ",
+          english: "God has now lightened your burden, knowing that there is weakness in you. If there are a hundred steadfast among you, they will defeat two hundred; and if there are a thousand of you, they will defeat two thousand by God's leave. God is with the steadfast."
+        },
+        {
+          number: 67,
+          arabic: "مَا كَانَ لِنَبِيٍّ أَنْ يَكُونَ لَهُ أَسْرَى حَتَّى يُثْخِنَ فِي الْأَرْضِ تُرِيدُونَ عَرَضَ الدُّنْيَا وَاللَّهُ يُرِيدُ الْآخِرَةَ وَاللَّهُ عَزِيزٌ حَكِيمٌ",
+          english: "It is not for a prophet to take prisoners before he has subdued the land. You desire the materials of this world, but God desires the Hereafter. God is Strong and Wise."
+        },
+        {
+          number: 68,
+          arabic: "لَوْلَا كِتَابٌ مِنَ اللَّهِ سَبَقَ لَمَسَّكُمْ فِيمَا أَخَذْتُمْ عَذَابٌ عَظِيمٌ",
+          english: "Were it not for a predetermined decree from God, an awful punishment would have afflicted you for what you have taken."
+        },
+        {
+          number: 69,
+          arabic: "فَكُلُوا مِمَّا غَنِمْتُمْ حَلَالًا طَيِّبًا وَاتَّقُوا اللَّهَ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
+          english: "So consume what you have gained, legitimate and wholesome; and remain conscious of God. God is Forgiving and Merciful."
+        },
+        {
+          number: 70,
+          arabic: "يَا أَيُّهَا النَّبِيُّ قُلْ لِمَنْ فِي أَيْدِيكُمْ مِنَ الْأَسْرَى إِنْ يَعْلَمِ اللَّهُ فِي قُلُوبِكُمْ خَيْرًا يُؤْتِكُمْ خَيْرًا مِمَّا أُخِذَ مِنْكُمْ وَيَغْفِرْ لَكُمْ وَاللَّهُ غَفُورٌ رَحِيمٌ",
+          english: "O prophet! Say to those you hold prisoners, 'If God finds any good in your hearts, He will give you better than what was taken from you, and He will forgive you. God is Forgiving and Merciful.'"
+        },
+        {
+          number: 71,
+          arabic: "وَإِنْ يُرِيدُوا خِيَانَتَكَ فَقَدْ خَانُوا اللَّهَ مِنْ قَبْلُ فَأَمْكَنَ مِنْهُمْ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+          english: "But if they intend to betray you, they have already betrayed God, and He has overpowered them. God is Knowing and Wise."
+        },
+        {
+          number: 72,
+          arabic: "إِنَّ الَّذِينَ آمَنُوا وَهَاجَرُوا وَجَاهَدُوا بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ فِي سَبِيلِ اللَّهِ وَالَّذِينَ آوَوْا وَنَصَرُوا أُولَئِكَ بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ وَالَّذِينَ آمَنُوا وَلَمْ يُهَاجِرُوا مَا لَكُمْ مِنْ وَلَايَتِهِمْ مِنْ شَيْءٍ حَتَّى يُهَاجِرُوا وَإِنِ اسْتَنْصَرُوكُمْ فِي الدِّينِ فَعَلَيْكُمُ النَّصْرُ إِلَّا عَلَى قَوْمٍ بَيْنَكُمْ وَبَيْنَهُمْ مِيثَاقٌ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+          english: "Those who believed, and emigrated, and struggled in God's cause with their possessions and their persons, and those who provided shelter and support—these are allies of one another. As for those who believed, but did not emigrate, you owe them no protection, until they have emigrated. But if they ask you for help in religion, you must come to their aid, except against a people with whom you have a treaty. God is Seeing of what you do."
+        },
+        {
+          number: 73,
+          arabic: "وَالَّذِينَ كَفَرُوا بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ إِلَّا تَفْعَلُوهُ تَكُنْ فِتْنَةٌ فِي الْأَرْضِ وَفَسَادٌ كَبِيرٌ",
+          english: "As for those who disbelieve, they are allies of one another. Unless you do this, there will be turmoil in the land, and much corruption."
+        },
+        {
+          number: 74,
+          arabic: "وَالَّذِينَ آمَنُوا وَهَاجَرُوا وَجَاهَدُوا فِي سَبِيلِ اللَّهِ وَالَّذِينَ آوَوْا وَنَصَرُوا أُولَئِكَ هُمُ الْمُؤْمِنُونَ حَقًّا لَهُمْ مَغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+          english: "Those who believed, and emigrated, and struggled for God's cause, and those who gave shelter and support—these are the true believers. They will have forgiveness, and a bountiful provision."
+        },
+        {
+          number: 75,
+          arabic: "وَالَّذِينَ آمَنُوا مِنْ بَعْدُ وَهَاجَرُوا وَجَاهَدُوا مَعَكُمْ فَأُولَئِكَ مِنْكُمْ وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَى بِبَعْضٍ فِي كِتَابِ اللَّهِ إِنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ",
+          english: "As for those who believed afterwards, and emigrated and struggled with you—these belong with you. But family members are nearer to one another in the Book of God. God is Cognizant of everything."
         }
+
       ]
     },
     {
@@ -5960,7 +6326,643 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
           number: 2,
           arabic: 'فَسِيحُوا فِي الْأَرْضِ أَرْبَعَةَ أَشْهُرٍ وَاعْلَمُوا أَنَّكُمْ غَيْرُ مُعْجِزِي اللَّهِ ۙ وَأَنَّ اللَّهَ مُخْزِي الْكَافِرِينَ',
           english: 'So as long as they are upright toward you, be upright toward them. Indeed, Allah loves the righteous [who fear Him].'
+        },
+        {
+          number: 3,
+          arabic: "وَأَذَانٌ مِنَ اللَّهِ وَرَسُولِهِ إِلَى النَّاسِ يَوْمَ الْحَجِّ الْأَكْبَرِ أَنَّ اللَّهَ بَرِيءٌ مِنَ الْمُشْرِكِينَ وَرَسُولُهُ فَإِنْ تُبْتُمْ فَهُوَ خَيْرٌ لَكُمْ وَإِنْ تَوَلَّيْتُمْ فَاعْلَمُوا أَنَّكُمْ غَيْرُ مُعْجِزِي اللَّهِ وَبَشِّرِ الَّذِينَ كَفَرُوا بِعَذَابٍ أَلِيمٍ",
+          english: "And a proclamation from God and His Messenger to the people on the day of the Greater Pilgrimage, that God has disowned the polytheists, and so did His Messenger. If you repent, it will be better for you. But if you turn away, know that you cannot escape God. And announce to those who disbelieve a painful punishment."
+        },
+        {
+          number: 4,
+          arabic: "إِلَّا الَّذِينَ عَاهَدْتُمْ مِنَ الْمُشْرِكِينَ ثُمَّ لَمْ يَنْقُصُوكُمْ شَيْئًا وَلَمْ يُظَاهِرُوا عَلَيْكُمْ أَحَدًا فَأَتِمُّوا إِلَيْهِمْ عَهْدَهُمْ إِلَى مُدَّتِهِمْ إِنَّ اللَّهَ يُحِبُّ الْمُتَّقِينَ",
+          english: "Except for those among the polytheists with whom you had made a treaty, and did not violate any of its terms, nor aided anyone against you. So fulfill the treaty with them to the end of its term. God loves the righteous."
+        },
+        {
+          number: 5,
+          arabic: "فَإِذَا انْسَلَخَ الْأَشْهُرُ الْحُرُمُ فَاقْتُلُوا الْمُشْرِكِينَ حَيْثُ وَجَدْتُمُوهُمْ وَخُذُوهُمْ وَاحْصُرُوهُمْ وَاقْعُدُوا لَهُمْ كُلَّ مَرْصَدٍ فَإِنْ تَابُوا وَأَقَامُوا الصَّلَاةَ وَآتَوُا الزَّكَاةَ فَخَلُّوا سَبِيلَهُمْ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
+          english: "When the Sacred Months have passed, kill the polytheists wherever you find them. And capture them, and besiege them, and lie in wait for them at every ambush. But if they repent, and perform the prayers, and pay the alms, then let them go their way. God is Most Forgiving, Most Merciful."
+        },
+        {
+          number: 6,
+          arabic: "وَإِنْ أَحَدٌ مِنَ الْمُشْرِكِينَ اسْتَجَارَكَ فَأَجِرْهُ حَتَّى يَسْمَعَ كَلَامَ اللَّهِ ثُمَّ أَبْلِغْهُ مَأْمَنَهُ ذَلِكَ بِأَنَّهُمْ قَوْمٌ لَا يَعْلَمُونَ",
+          english: "And if anyone of the polytheists asks you for protection, give him protection so that he may hear the Word of God; then escort him to his place of safety. That is because they are a people who do not know."
+        },
+        {
+          number: 7,
+          arabic: "كَيْفَ يَكُونُ لِلْمُشْرِكِينَ عَهْدٌ عِنْدَ اللَّهِ وَعِنْدَ رَسُولِهِ إِلَّا الَّذِينَ عَاهَدْتُمْ عِنْدَ الْمَسْجِدِ الْحَرَامِ فَمَا اسْتَقَامُوا لَكُمْ فَاسْتَقِيمُوا لَهُمْ إِنَّ اللَّهَ يُحِبُّ الْمُتَّقِينَ",
+          english: "How can there be a treaty with the polytheists on the part of God and His Messenger, except for those with whom you made a treaty at the Sacred Mosque? As long as they are upright with you, be upright with them. God loves the pious."
+        },
+        {
+          number: 8,
+          arabic: "كَيْفَ وَإِنْ يَظْهَرُوا عَلَيْكُمْ لَا يَرْقُبُوا فِيكُمْ إِلًّا وَلَا ذِمَّةً يُرْضُونَكُمْ بِأَفْوَاهِهِمْ وَتَأْبَى قُلُوبُهُمْ وَأَكْثَرُهُمْ فَاسِقُونَ",
+          english: "How? Whenever they overcome you, they respect neither kinship nor treaty with you. They satisfy you with lip service, but their hearts refuse, and most of them are immoral."
+        },
+        {
+          number: 9,
+          arabic: "اشْتَرَوْا بِآيَاتِ اللَّهِ ثَمَنًا قَلِيلًا فَصَدُّوا عَنْ سَبِيلِهِ إِنَّهُمْ سَاءَ مَا كَانُوا يَعْمَلُونَ",
+          english: "They traded away God's revelations for a cheap price, so they barred others from His path. How evil is what they did."
+        },
+        {
+          number: 10,
+          arabic: "لَا يَرْقُبُونَ فِي مُؤْمِنٍ إِلًّا وَلَا ذِمَّةً وَأُولَئِكَ هُمُ الْمُعْتَدُونَ",
+          english: "Towards a believer they respect neither kinship nor treaty. These are the transgressors."
+        },
+        {
+          number: 11,
+          arabic: "فَإِنْ تَابُوا وَأَقَامُوا الصَّلَاةَ وَآتَوُا الزَّكَاةَ فَإِخْوَانُكُمْ فِي الدِّينِ وَنُفَصِّلُ الْآيَاتِ لِقَوْمٍ يَعْلَمُونَ",
+          english: "But if they repent, and perform the prayers, and give the obligatory charity, then they are your brethren in faith. We detail the revelations for a people who know."
+        },
+        {
+          number: 12,
+          arabic: "وَإِنْ نَكَثُوا أَيْمَانَهُمْ مِنْ بَعْدِ عَهْدِهِمْ وَطَعَنُوا فِي دِينِكُمْ فَقَاتِلُوا أَئِمَّةَ الْكُفْرِ إِنَّهُمْ لَا أَيْمَانَ لَهُمْ لَعَلَّهُمْ يَنْتَهُونَ",
+          english: "But if they violate their oaths after their pledge, and attack your religion, then fight the leaders of disbelief—they have no faith—so that they may desist."
+        },
+        {
+          number: 13,
+          arabic: "أَلَا تُقَاتِلُونَ قَوْمًا نَكَثُوا أَيْمَانَهُمْ وَهَمُّوا بِإِخْرَاجِ الرَّسُولِ وَهُمْ بَدَءُوكُمْ أَوَّلَ مَرَّةٍ أَتَخْشَوْنَهُمْ فَاللَّهُ أَحَقُّ أَنْ تَخْشَوْهُ إِنْ كُنْتُمْ مُؤْمِنِينَ",
+          english: "Will you not fight a people who violated their oaths, and planned to exile the Messenger, and initiated hostilities against you? Do you fear them? It is God you should fear, if you are believers."
+        },
+        {
+          number: 14,
+          arabic: "قَاتِلُوهُمْ يُعَذِّبْهُمُ اللَّهُ بِأَيْدِيكُمْ وَيُخْزِهِمْ وَيَنْصُرْكُمْ عَلَيْهِمْ وَيَشْفِ صُدُورَ قَوْمٍ مُؤْمِنِينَ",
+          english: "Fight them. God will punish them at your hands, and humiliate them, and help you against them, and heal the hearts of a believing people."
+        },
+        {
+          number: 15,
+          arabic: "وَيُذْهِبْ غَيْظَ قُلُوبِهِمْ وَيَتُوبُ اللَّهُ عَلَى مَنْ يَشَاءُ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+          english: "And He will remove the anger of their hearts. God redeems whomever He wills. God is Knowledgeable and Wise."
+        },
+        {
+          number: 16,
+          arabic: "أَمْ حَسِبْتُمْ أَنْ تُتْرَكُوا وَلَمَّا يَعْلَمِ اللَّهُ الَّذِينَ جَاهَدُوا مِنْكُمْ وَلَمْ يَتَّخِذُوا مِنْ دُونِ اللَّهِ وَلَا رَسُولِهِ وَلَا الْمُؤْمِنِينَ وَلِيجَةً وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ",
+          english: "Or do you think that you will be left alone, without God identifying which of you will strive, and take no supporters apart from God, His Messenger, and the believers? God is well Aware of what you do."
+        },
+        {
+          number: 17,
+          arabic: "مَا كَانَ لِلْمُشْرِكِينَ أَنْ يَعْمُرُوا مَسَاجِدَ اللَّهِ شَاهِدِينَ عَلَى أَنْفُسِهِمْ بِالْكُفْرِ أُولَئِكَ حَبِطَتْ أَعْمَالُهُمْ وَفِي النَّارِ هُمْ خَالِدُونَ",
+          english: "It is not for the polytheists to attend God's places of worship while professing their disbelief. These—their works are in vain, and in the Fire they will abide."
+        },
+        {
+          number: 18,
+          arabic: "إِنَّمَا يَعْمُرُ مَسَاجِدَ اللَّهِ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَأَقَامَ الصَّلَاةَ وَآتَى الزَّكَاةَ وَلَمْ يَخْشَ إِلَّا اللَّهَ فَعَسَى أُولَئِكَ أَنْ يَكُونُوا مِنَ الْمُهْتَدِينَ",
+          english: "The only people to attend God's places of worship are those who believe in God and the Last Day, and pray regularly, and practice regular charity, and fear none but God. These are most likely to be guided."
+        },
+        {
+          number: 19,
+          arabic: "أَجَعَلْتُمْ سِقَايَةَ الْحَاجِّ وَعِمَارَةَ الْمَسْجِدِ الْحَرَامِ كَمَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَجَاهَدَ فِي سَبِيلِ اللَّهِ لَا يَسْتَوُونَ عِنْدَ اللَّهِ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
+          english: "Do you consider giving water to pilgrims and maintaining the Sacred Mosque the same as believing in God and the Last Day and striving in God's path? They are not equal in God's sight. God does not guide the unjust people."
+        },
+        {
+          number: 20,
+          arabic: "الَّذِينَ آمَنُوا وَهَاجَرُوا وَجَاهَدُوا فِي سَبِيلِ اللَّهِ بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ أَعْظَمُ دَرَجَةً عِنْدَ اللَّهِ وَأُولَئِكَ هُمُ الْفَائِزُونَ",
+          english: "Those who believe, and emigrate, and strive in God's path with their possessions and their persons, are of a higher rank with God. These are the winners."
+        },
+        {
+          number: 21,
+          arabic: "يُبَشِّرُهُمْ رَبُّهُمْ بِرَحْمَةٍ مِنْهُ وَرِضْوَانٍ وَجَنَّاتٍ لَهُمْ فِيهَا نَعِيمٌ مُقِيمٌ",
+          english: "Their Lord announces to them good news of mercy from Him, and acceptance, and gardens wherein they will have lasting bliss."
+        },
+        {
+          number: 22,
+          arabic: "خَالِدِينَ فِيهَا أَبَدًا إِنَّ اللَّهَ عِنْدَهُ أَجْرٌ عَظِيمٌ",
+          english: "Abiding therein forever. With God is a great reward."
+        },
+        {
+          number: 23,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا آبَاءَكُمْ وَإِخْوَانَكُمْ أَوْلِيَاءَ إِنِ اسْتَحَبُّوا الْكُفْرَ عَلَى الْإِيمَانِ وَمَنْ يَتَوَلَّهُمْ مِنْكُمْ فَأُولَئِكَ هُمُ الظَّالِمُونَ",
+          english: "O you who believe! Do not ally yourselves with your parents and your siblings if they prefer disbelief to belief. Whoever of you allies himself with them—these are the wrongdoers."
+        },
+        {
+          number: 24,
+          arabic: "قُلْ إِنْ كَانَ آبَاؤُكُمْ وَأَبْنَاؤُكُمْ وَإِخْوَانُكُمْ وَأَزْوَاجُكُمْ وَعَشِيرَتُكُمْ وَأَمْوَالٌ اقْتَرَفْتُمُوهَا وَتِجَارَةٌ تَخْشَوْنَ كَسَادَهَا وَمَسَاكِنُ تَرْضَوْنَهَا أَحَبَّ إِلَيْكُمْ مِنَ اللَّهِ وَرَسُولِهِ وَجِهَادٍ فِي سَبِيلِهِ فَتَرَبَّصُوا حَتَّى يَأْتِيَ اللَّهُ بِأَمْرِهِ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الْفَاسِقِينَ",
+          english: "Say, 'If your parents, and your children, and your siblings, and your spouses, and your relatives, and the wealth you have acquired, and a business you worry about, and homes you love, are more dear to you than God, and His Messenger, and the struggle in His cause, then wait until God executes His judgment.' God does not guide the sinful people."
+        },
+        {
+          number: 25,
+          arabic: "لَقَدْ نَصَرَكُمُ اللَّهُ فِي مَوَاطِنَ كَثِيرَةٍ وَيَوْمَ حُنَيْنٍ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنْكُمْ شَيْئًا وَضَاقَتْ عَلَيْكُمُ الْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُمْ مُدْبِرِينَ",
+          english: "God has given you victory in numerous regions; but on the day of Hunayn, your great number impressed you, but it availed you nothing; and the land, as spacious as it was, narrowed for you; and you turned your backs in retreat."
+        },
+        {
+          number: 26,
+          arabic: "ثُمَّ أَنْزَلَ اللَّهُ سَكِينَتَهُ عَلَى رَسُولِهِ وَعَلَى الْمُؤْمِنِينَ وَأَنْزَلَ جُنُودًا لَمْ تَرَوْهَا وَعَذَّبَ الَّذِينَ كَفَرُوا وَذَلِكَ جَزَاءُ الْكَافِرِينَ",
+          english: "Then God sent down His serenity upon His Messenger, and upon the believers; and He sent down troops you did not see; and He punished those who disbelieved. Such is the recompense of the disbelievers."
+        },
+        {
+          number: 27,
+          arabic: "ثُمَّ يَتُوبُ اللَّهُ مِنْ بَعْدِ ذَلِكَ عَلَى مَنْ يَشَاءُ وَاللَّهُ غَفُورٌ رَحِيمٌ",
+          english: "Then, after that, God will relent towards whomever He wills. God is Forgiving and Merciful."
+        },
+        {
+          number: 28,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا إِنَّمَا الْمُشْرِكُونَ نَجَسٌ فَلَا يَقْرَبُوا الْمَسْجِدَ الْحَرَامَ بَعْدَ عَامِهِمْ هَذَا وَإِنْ خِفْتُمْ عَيْلَةً فَسَوْفَ يُغْنِيكُمُ اللَّهُ مِنْ فَضْلِهِ إِنْ شَاءَ إِنَّ اللَّهَ عَلِيمٌ حَكِيمٌ",
+          english: "O you who believe! The polytheists are polluted, so let them not approach the Sacred Mosque after this year of theirs. And if you fear poverty, God will enrich you from His grace, if He wills. God is Aware and Wise."
+        },
+        {
+          number: 29,
+          arabic: "قَاتِلُوا الَّذِينَ لَا يُؤْمِنُونَ بِاللَّهِ وَلَا بِالْيَوْمِ الْآخِرِ وَلَا يُحَرِّمُونَ مَا حَرَّمَ اللَّهُ وَرَسُولُهُ وَلَا يَدِينُونَ دِينَ الْحَقِّ مِنَ الَّذِينَ أُوتُوا الْكِتَابَ حَتَّى يُعْطُوا الْجِزْيَةَ عَنْ يَدٍ وَهُمْ صَاغِرُونَ",
+          english: "Fight those who do not believe in God, nor in the Last Day, nor forbid what God and His Messenger have forbidden, nor abide by the religion of truth—from among those who received the Scripture—until they pay the due tax, willingly or unwillingly."
+        },
+        {
+          number: 30,
+          arabic: "وَقَالَتِ الْيَهُودُ عُزَيْرٌ ابْنُ اللَّهِ وَقَالَتِ النَّصَارَى الْمَسِيحُ ابْنُ اللَّهِ ذَلِكَ قَوْلُهُمْ بِأَفْوَاهِهِمْ يُضَاهِئُونَ قَوْلَ الَّذِينَ كَفَرُوا مِنْ قَبْلُ قَاتَلَهُمُ اللَّهُ أَنَّى يُؤْفَكُونَ",
+          english: "The Jews said, 'Ezra is the son of God,' and the Christians said, 'The Messiah is the son of God.' These are their statements, out of their mouths. They emulate the statements of those who blasphemed before. May God assail them! How deceived they are!"
+        },
+        {
+          number: 31,
+          arabic: "اتَّخَذُوا أَحْبَارَهُمْ وَرُهْبَانَهُمْ أَرْبَابًا مِنْ دُونِ اللَّهِ وَالْمَسِيحَ ابْنَ مَرْيَمَ وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا إِلَهًا وَاحِدًا لَا إِلَهَ إِلَّا هُوَ سُبْحَانَهُ عَمَّا يُشْرِكُونَ",
+          english: "They have taken their rabbis and their priests as lords instead of God, as well as the Messiah son of Mary. Although they were commanded to worship none but The One God. There is no god except He. Glory be to Him; High above what they associate with Him."
+        },
+        {
+          number: 32,
+          arabic: "يُرِيدُونَ أَنْ يُطْفِئُوا نُورَ اللَّهِ بِأَفْوَاهِهِمْ وَيَأْبَى اللَّهُ إِلَّا أَنْ يُتِمَّ نُورَهُ وَلَوْ كَرِهَ الْكَافِرُونَ",
+          english: "They want to extinguish God's light with their mouths, but God refuses except to complete His light, even though the disbelievers dislike it."
+        },
+        {
+          number: 33,
+          arabic: "هُوَ الَّذِي أَرْسَلَ رَسُولَهُ بِالْهُدَى وَدِينِ الْحَقِّ لِيُظْهِرَهُ عَلَى الدِّينِ كُلِّهِ وَلَوْ كَرِهَ الْمُشْرِكُونَ",
+          english: "It is He who sent His Messenger with the guidance and the religion of truth, in order to make it prevail over all religions, even though the idolaters dislike it."
+        },
+        {
+          number: 34,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا إِنَّ كَثِيرًا مِنَ الْأَحْبَارِ وَالرُّهْبَانِ لَيَأْكُلُونَ أَمْوَالَ النَّاسِ بِالْبَاطِلِ وَيَصُدُّونَ عَنْ سَبِيلِ اللَّهِ وَالَّذِينَ يَكْنِزُونَ الذَّهَبَ وَالْفِضَّةَ وَلَا يُنْفِقُونَهَا فِي سَبِيلِ اللَّهِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ",
+          english: "O you who believe! Many of the rabbis and priests consume people's wealth illicitly, and hinder from God's path. Those who hoard gold and silver, and do not spend them in God's cause, inform them of a painful punishment."
+        },
+        {
+          number: 35,
+          arabic: "يَوْمَ يُحْمَى عَلَيْهَا فِي نَارِ جَهَنَّمَ فَتُكْوَى بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ هَذَا مَا كَنَزْتُمْ لِأَنْفُسِكُمْ فَذُوقُوا مَا كُنْتُمْ تَكْنِزُونَ",
+          english: "On the Day when they will be heated in the Fire of Hell, then their foreheads, and their sides, and their backs will be branded with them: 'This is what you hoarded for yourselves; so taste what you used to hoard.'"
+        },
+        {
+          number: 36,
+          arabic: "إِنَّ عِدَّةَ الشُّهُورِ عِنْدَ اللَّهِ اثْنَا عَشَرَ شَهْرًا فِي كِتَابِ اللَّهِ يَوْمَ خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ مِنْهَا أَرْبَعَةٌ حُرُمٌ ذَلِكَ الدِّينُ الْقَيِّمُ فَلَا تَظْلِمُوا فِيهِنَّ أَنْفُسَكُمْ وَقَاتِلُوا الْمُشْرِكِينَ كَافَّةً كَمَا يُقَاتِلُونَكُمْ كَافَّةً وَاعْلَمُوا أَنَّ اللَّهَ مَعَ الْمُتَّقِينَ",
+          english: "The number of months, according to God, is twelve months—in the decree of God—since the Day He created the heavens and the earth, of which four are sacred. This is the correct religion. So do not wrong yourselves during them. And fight the polytheists collectively, as they fight you collectively, and know that God is with the righteous."
+        },
+        {
+          number: 37,
+          arabic: "إِنَّمَا النَّسِيءُ زِيَادَةٌ فِي الْكُفْرِ يُضَلُّ بِهِ الَّذِينَ كَفَرُوا يُحِلُّونَهُ عَامًا وَيُحَرِّمُونَهُ عَامًا لِيُوَاطِئُوا عِدَّةَ مَا حَرَّمَ اللَّهُ فَيُحِلُّوا مَا حَرَّمَ اللَّهُ زُيِّنَ لَهُمْ سُوءُ أَعْمَالِهِمْ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الْكَافِرِينَ",
+          english: "Postponement is an increase in disbelief—by which those who disbelieve are led astray. They allow it one year, and forbid it another year, in order to conform to the number made sacred by God, thus permitting what God has forbidden. The evil of their deeds seems good to them. God does not guide the disbelieving people."
+        },
+        {
+          number: 38,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا مَا لَكُمْ إِذَا قِيلَ لَكُمُ انْفِرُوا فِي سَبِيلِ اللَّهِ اثَّاقَلْتُمْ إِلَى الْأَرْضِ أَرَضِيتُمْ بِالْحَيَاةِ الدُّنْيَا مِنَ الْآخِرَةِ فَمَا مَتَاعُ الْحَيَاةِ الدُّنْيَا فِي الْآخِرَةِ إِلَّا قَلِيلٌ",
+          english: "O you who believe! What is the matter with you, when it is said to you, 'Mobilize in the cause of God,' you cling heavily to the earth? Do you prefer the present life to the Hereafter? The enjoyment of the present life, compared to the Hereafter, is only a little."
+        },
+        {
+          number: 39,
+          arabic: "إِلَّا تَنْفِرُوا يُعَذِّبْكُمْ عَذَابًا أَلِيمًا وَيَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ وَلَا تَضُرُّوهُ شَيْئًا وَاللَّهُ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          english: "Unless you mobilize, He will punish you most painfully, and will replace you with another people, and you will not harm Him at all. God has power over all things."
+        },
+        {
+          number: 40,
+          arabic: "إِلَّا تَنْصُرُوهُ فَقَدْ نَصَرَهُ اللَّهُ إِذْ أَخْرَجَهُ الَّذِينَ كَفَرُوا ثَانِيَ اثْنَيْنِ إِذْ هُمَا فِي الْغَارِ إِذْ يَقُولُ لِصَاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا فَأَنْزَلَ اللَّهُ سَكِينَتَهُ عَلَيْهِ وَأَيَّدَهُ بِجُنُودٍ لَمْ تَرَوْهَا وَجَعَلَ كَلِمَةَ الَّذِينَ كَفَرُوا السُّفْلَى وَكَلِمَةُ اللَّهِ هِيَ الْعُلْيَا وَاللَّهُ عَزِيزٌ حَكِيمٌ",
+          english: "If you do not help him, God has already helped him, when those who disbelieved expelled him, and he was the second of two in the cave. He said to his friend, 'Do not worry, God is with us.' And God made His tranquility descend upon him, and supported him with forces you did not see, and made the word of those who disbelieved the lowest, while the Word of God is the Highest. God is Mighty and Wise."
+        },
+        {
+          number: 41,
+          arabic: "انْفِرُوا خِفَافًا وَثِقَالًا وَجَاهِدُوا بِأَمْوَالِكُمْ وَأَنْفُسِكُمْ فِي سَبِيلِ اللَّهِ ذَلِكُمْ خَيْرٌ لَكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ",
+          english: "Mobilize, light or heavy, and strive with your possessions and your lives in the cause of God. That is better for you, if you only knew."
+        },
+        {
+          number: 42,
+          arabic: "لَوْ كَانَ عَرَضًا قَرِيبًا وَسَفَرًا قَاصِدًا لَاتَّبَعُوكَ وَلَكِنْ بَعُدَتْ عَلَيْهِمُ الشُّقَّةُ وَسَيَحْلِفُونَ بِاللَّهِ لَوِ اسْتَطَعْنَا لَخَرَجْنَا مَعَكُمْ يُهْلِكُونَ أَنْفُسَهُمْ وَاللَّهُ يَعْلَمُ إِنَّهُمْ لَكَاذِبُونَ",
+          english: "Had the gain been immediate, and the journey shorter, they would have followed you; but the distance seemed too long for them. Still they swear by God: 'Had we been able, we would have marched out with you.' They damn their own souls, and God knows that they are lying."
+        },
+        {
+          number: 43,
+          arabic: "عَفَا اللَّهُ عَنْكَ لِمَ أَذِنْتَ لَهُمْ حَتَّى يَتَبَيَّنَ لَكَ الَّذِينَ صَدَقُوا وَتَعْلَمَ الْكَاذِبِينَ",
+          english: "May God pardon you! Why did you give them permission before it became clear to you who are the truthful ones, and who are the liars?"
+        },
+        {
+          number: 44,
+          arabic: "لَا يَسْتَأْذِنُكَ الَّذِينَ يُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ أَنْ يُجَاهِدُوا بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ وَاللَّهُ عَلِيمٌ بِالْمُتَّقِينَ",
+          english: "Those who believe in God and the Last Day do not ask you for exemption from striving with their possessions and their lives. God is fully aware of the righteous."
+        },
+        {
+          number: 45,
+          arabic: "إِنَّمَا يَسْتَأْذِنُكَ الَّذِينَ لَا يُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَارْتَابَتْ قُلُوبُهُمْ فَهُمْ فِي رَيْبِهِمْ يَتَرَدَّدُونَ",
+          english: "Only those who do not believe in God and the Last Day ask you for exemption. Their hearts are full of doubts, so they waver in their doubts."
+        },
+        {
+          number: 46,
+          arabic: "وَلَوْ أَرَادُوا الْخُرُوجَ لَأَعَدُّوا لَهُ عُدَّةً وَلَكِنْ كَرِهَ اللَّهُ انْبِعَاثَهُمْ فَثَبَّطَهُمْ وَقِيلَ اقْعُدُوا مَعَ الْقَاعِدِينَ",
+          english: "Had they wanted to mobilize, they would have made preparations for it; but God disliked their participation, so he held them back, and it was said, 'Stay behind with those who stay behind.'"
+        },
+        {
+          number: 47,
+          arabic: "لَوْ خَرَجُوا فِيكُمْ مَا زَادُوكُمْ إِلَّا خَبَالًا وَلَأَوْضَعُوا خِلَالَكُمْ يَبْغُونَكُمُ الْفِتْنَةَ وَفِيكُمْ سَمَّاعُونَ لَهُمْ وَاللَّهُ عَلِيمٌ بِالظَّالِمِينَ",
+          english: "Had they mobilized with you, they would have added only to your difficulties, and they would have spread rumors in your midst, trying to sow discord among you. Some of you are avid listeners to them. God is Aware of the wrongdoers."
+        },
+        {
+          number: 48,
+          arabic: "لَقَدِ ابْتَغَوُا الْفِتْنَةَ مِنْ قَبْلُ وَقَلَّبُوا لَكَ الْأُمُورَ حَتَّى جَاءَ الْحَقُّ وَظَهَرَ أَمْرُ اللَّهِ وَهُمْ كَارِهُونَ",
+          english: "They tried to cause conflict before, and they hatched plots against you, until the truth prevailed, and the command of God became evident—in spite of their dislike."
+        },
+        {
+          number: 49,
+          arabic: "وَمِنْهُمْ مَنْ يَقُولُ ائْذَنْ لِي وَلَا تَفْتِنِّي أَلَا فِي الْفِتْنَةِ سَقَطُوا وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌ بِالْكَافِرِينَ",
+          english: "Among them is he who says, 'Excuse me, and do not trouble me.' In fact, they sunk into trouble. In fact, Hell will engulf the disbelievers."
+        },
+        {
+          number: 50,
+          arabic: "إِنْ تُصِبْكَ حَسَنَةٌ تَسُؤْهُمْ وَإِنْ تُصِبْكَ مُصِيبَةٌ يَقُولُوا قَدْ أَخَذْنَا أَمْرَنَا مِنْ قَبْلُ وَيَتَوَلَّوْا وَهُمْ فَرِحُونَ",
+          english: "If something good happens to you, it upsets them; and if a calamity befalls you, they say, 'We took our precautions in advance,' and they depart, happy."
+        },
+        {
+          number: 51,
+          arabic: "قُلْ لَنْ يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا هُوَ مَوْلَانَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
+          english: "Say, 'Nothing will happen to us except what God has ordained for us; He is our Protector.' In God let the faithful put their trust."
+        },
+        {
+          number: 52,
+          arabic: "قُلْ هَلْ تَرَبَّصُونَ بِنَا إِلَّا إِحْدَى الْحُسْنَيَيْنِ وَنَحْنُ نَتَرَبَّصُ بِكُمْ أَنْ يُصِيبَكُمُ اللَّهُ بِعَذَابٍ مِنْ عِنْدِهِ أَوْ بِأَيْدِينَا فَتَرَبَّصُوا إِنَّا مَعَكُمْ مُتَرَبِّصُونَ",
+          english: "Say, 'Are you expecting for us anything other than one of the two excellences? As for us: we are expecting that God will afflict you with a punishment from Himself, or at our hands. So wait, we are waiting with you.'"
+        },
+        {
+          number: 53,
+          arabic: "قُلْ أَنْفِقُوا طَوْعًا أَوْ كَرْهًا لَنْ يُتَقَبَّلَ مِنْكُمْ إِنَّكُمْ كُنْتُمْ قَوْمًا فَاسِقِينَ",
+          english: "Say, 'Whether you spend willingly or unwillingly, it will not be accepted from you. You are evil people.'"
+        },
+        {
+          number: 54,
+          arabic: "وَمَا مَنَعَهُمْ أَنْ تُقْبَلَ مِنْهُمْ نَفَقَاتُهُمْ إِلَّا أَنَّهُمْ كَفَرُوا بِاللَّهِ وَبِرَسُولِهِ وَلَا يَأْتُونَ الصَّلَاةَ إِلَّا وَهُمْ كُسَالَى وَلَا يُنْفِقُونَ إِلَّا وَهُمْ كَارِهُونَ",
+          english: "What prevents the acceptance of their contributions is nothing but the fact that they disbelieved in God and His Messenger, and that they do not approach the prayer except lazily, and that they do not spend except grudgingly."
+        },
+        {
+          number: 55,
+          arabic: "فَلَا تُعْجِبْكَ أَمْوَالُهُمْ وَلَا أَوْلَادُهُمْ إِنَّمَا يُرِيدُ اللَّهُ لِيُعَذِّبَهُمْ بِهَا فِي الْحَيَاةِ الدُّنْيَا وَتَزْهَقَ أَنْفُسُهُمْ وَهُمْ كَافِرُونَ",
+          english: "Let neither their possessions nor their children impress you. God intends to torment them through them in this worldly life, and that their souls depart while they are disbelievers."
+        },
+        {
+          number: 56,
+          arabic: "وَيَحْلِفُونَ بِاللَّهِ إِنَّهُمْ لَمِنْكُمْ وَمَا هُمْ مِنْكُمْ وَلَكِنَّهُمْ قَوْمٌ يَفْرَقُونَ",
+          english: "They swear by God that they are of you. But they are not of you. They are divisive people."
+        },
+        {
+          number: 57,
+          arabic: "لَوْ يَجِدُونَ مَلْجَأً أَوْ مَغَارَاتٍ أَوْ مُدَّخَلًا لَوَلَّوْا إِلَيْهِ وَهُمْ يَجْمَحُونَ",
+          english: "Were they to find a shelter, or a cave, or a hideout, they would go to it, rushing."
+        },
+        {
+          number: 58,
+          arabic: "وَمِنْهُمْ مَنْ يَلْمِزُكَ فِي الصَّدَقَاتِ فَإِنْ أُعْطُوا مِنْهَا رَضُوا وَإِنْ لَمْ يُعْطَوْا مِنْهَا إِذَا هُمْ يَسْخَطُونَ",
+          english: "And among them are those who criticize you in regard to charities. If they are given some of it, they become pleased; but if they are not given any, they grow resentful."
+        },
+        {
+          number: 59,
+          arabic: "وَلَوْ أَنَّهُمْ رَضُوا مَا آتَاهُمُ اللَّهُ وَرَسُولُهُ وَقَالُوا حَسْبُنَا اللَّهُ سَيُؤْتِينَا اللَّهُ مِنْ فَضْلِهِ وَرَسُولُهُ إِنَّا إِلَى اللَّهِ رَاغِبُونَ",
+          english: "If only they were content with what God and His Messenger have given them, and said, 'God is sufficient for us; God will give us of His bounty, and so will His Messenger; to God we eagerly turn.'"
+        },
+        {
+          number: 60,
+          arabic: "إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينَ وَالْعَامِلِينَ عَلَيْهَا وَالْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِي الرِّقَابِ وَالْغَارِمِينَ وَفِي سَبِيلِ اللَّهِ وَابْنِ السَّبِيلِ فَرِيضَةً مِنَ اللَّهِ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+          english: "Charities are for the poor, and the destitute, and those who administer them, and for reconciling hearts, and for freeing slaves, and for those in debt, and in the path of God, and for the traveler in need—an obligation from God. God is All-Knowing, Most Wise."
+        },
+        {
+          number: 61,
+          arabic: "وَمِنْهُمُ الَّذِينَ يُؤْذُونَ النَّبِيَّ وَيَقُولُونَ هُوَ أُذُنٌ قُلْ أُذُنُ خَيْرٍ لَكُمْ يُؤْمِنُ بِاللَّهِ وَيُؤْمِنُ لِلْمُؤْمِنِينَ وَرَحْمَةٌ لِلَّذِينَ آمَنُوا مِنْكُمْ وَالَّذِينَ يُؤْذُونَ رَسُولَ اللَّهِ لَهُمْ عَذَابٌ أَلِيمٌ",
+          english: "And among them are those who insult the Prophet, and say, 'He is all ears.' Say, 'He listens for your own good. He believes in God, and trusts the believers, and is mercy for those of you who believe.' Those who insult the Messenger of God will have a painful penalty."
+        },
+        {
+          number: 62,
+          arabic: "يَحْلِفُونَ بِاللَّهِ لَكُمْ لِيُرْضُوكُمْ وَاللَّهُ وَرَسُولُهُ أَحَقُّ أَنْ يُرْضُوهُ إِنْ كَانُوا مُؤْمِنِينَ",
+          english: "They swear to you by God to please you. But it is more proper for them to please God and His Messenger, if they are believers."
+        },
+        {
+          number: 63,
+          arabic: "أَلَمْ يَعْلَمُوا أَنَّهُ مَنْ يُحَادِدِ اللَّهَ وَرَسُولَهُ فَأَنَّ لَهُ نَارَ جَهَنَّمَ خَالِدًا فِيهَا ذَلِكَ الْخِزْيُ الْعَظِيمُ",
+          english: "Do they not know that whoever opposes God and His Messenger, will have the Fire of Hell, abiding in it forever? That is the supreme disgrace."
+        },
+        {
+          number: 64,
+          arabic: "يَحْذَرُ الْمُنَافِقُونَ أَنْ تُنَزَّلَ عَلَيْهِمْ سُورَةٌ تُنَبِّئُهُمْ بِمَا فِي قُلُوبِهِمْ قُلِ اسْتَهْزِئُوا إِنَّ اللَّهَ مُخْرِجٌ مَا تَحْذَرُونَ",
+          english: "The hypocrites worry lest a chapter may be revealed about them, informing them of what is in their hearts. Say, 'Go on mocking; God will bring out what you fear.'"
+        },
+        {
+          number: 65,
+          arabic: "وَلَئِنْ سَأَلْتَهُمْ لَيَقُولُنَّ إِنَّمَا كُنَّا نَخُوضُ وَنَلْعَبُ قُلْ أَبِاللَّهِ وَآيَاتِهِ وَرَسُولِهِ كُنْتُمْ تَسْتَهْزِئُونَ",
+          english: "If you ask them, they will say, 'We were just joking and playing.' Say, 'Were you making jokes about God, His revelations, and His Messenger?'"
+        },
+        {
+          number: 66,
+          arabic: "لَا تَعْتَذِرُوا قَدْ كَفَرْتُمْ بَعْدَ إِيمَانِكُمْ إِنْ نَعْفُ عَنْ طَائِفَةٍ مِنْكُمْ نُعَذِّبْ طَائِفَةً بِأَنَّهُمْ كَانُوا مُجْرِمِينَ",
+          english: "Do not apologize. You have disbelieved after your belief. If We pardon some of you, We will punish others, because they are guilty."
+        },
+        {
+          number: 67,
+          arabic: "الْمُنَافِقُونَ وَالْمُنَافِقَاتُ بَعْضُهُمْ مِنْ بَعْضٍ يَأْمُرُونَ بِالْمُنْكَرِ وَيَنْهَوْنَ عَنِ الْمَعْرُوفِ وَيَقْبِضُونَ أَيْدِيَهُمْ نَسُوا اللَّهَ فَنَسِيَهُمْ إِنَّ الْمُنَافِقِينَ هُمُ الْفَاسِقُونَ",
+          english: "The hypocrite men and hypocrite women are of one another. They advocate evil, and prohibit righteousness, and withhold their hands. They forgot God, so He forgot them. The hypocrites are the sinners."
+        },
+        {
+          number: 68,
+          arabic: "وَعَدَ اللَّهُ الْمُنَافِقِينَ وَالْمُنَافِقَاتِ وَالْكُفَّارَ نَارَ جَهَنَّمَ خَالِدِينَ فِيهَا هِيَ حَسْبُهُمْ وَلَعَنَهُمُ اللَّهُ وَلَهُمْ عَذَابٌ مُقِيمٌ",
+          english: "God has promised the hypocrite men and hypocrite women, and the disbelievers, the Fire of Hell, abiding therein forever. It is their due. And God has cursed them. They will have a lasting punishment."
+        },
+        {
+          number: 69,
+          arabic: "كَالَّذِينَ مِنْ قَبْلِكُمْ كَانُوا أَشَدَّ مِنْكُمْ قُوَّةً وَأَكْثَرَ أَمْوَالًا وَأَوْلَادًا فَاسْتَمْتَعُوا بِخَلَاقِهِمْ فَاسْتَمْتَعْتُمْ بِخَلَاقِكُمْ كَمَا اسْتَمْتَعَ الَّذِينَ مِنْ قَبْلِكُمْ بِخَلَاقِهِمْ وَخُضْتُمْ كَالَّذِي خَاضُوا أُولَئِكَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَأُولَئِكَ هُمُ الْخَاسِرُونَ",
+          english: "Like those before you. They were more powerful than you, and had more wealth and children. They enjoyed their share, and you enjoyed your share, as those before you enjoyed their share. And you indulged, as they indulged. It is they whose works will fail in this world and in the Hereafter. It is they who are the losers."
+        },
+        {
+          number: 70,
+          arabic: "أَلَمْ يَأْتِهِمْ نَبَأُ الَّذِينَ مِنْ قَبْلِهِمْ قَوْمِ نُوحٍ وَعَادٍ وَثَمُودَ وَقَوْمِ إِبْرَاهِيمَ وَأَصْحَابِ مَدْيَنَ وَالْمُؤْتَفِكَاتِ أَتَتْهُمْ رُسُلُهُمْ بِالْبَيِّنَاتِ فَمَا كَانَ اللَّهُ لِيَظْلِمَهُمْ وَلَكِنْ كَانُوا أَنْفُسَهُمْ يَظْلِمُونَ",
+          english: "Have they not heard the stories of those before them? The people of Noah, and Aad, and Thamood; and the people of Abraham, and the inhabitants of Median, and the Overturned Cities? Their messengers came to them with the clear proofs. God never wronged them, but they used to wrong their own selves."
+        },
+        {
+          number: 71,
+          arabic: "وَالْمُؤْمِنُونَ وَالْمُؤْمِنَاتُ بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ يَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنْكَرِ وَيُقِيمُونَ الصَّلَاةَ وَيُؤْتُونَ الزَّكَاةَ وَيُطِيعُونَ اللَّهَ وَرَسُولَهُ أُولَئِكَ سَيَرْحَمُهُمُ اللَّهُ إِنَّ اللَّهَ عَزِيزٌ حَكِيمٌ",
+          english: "The believing men and believing women are friends of one another. They advocate virtue, forbid evil, perform the prayers, practice charity, and obey God and His Messenger. These—God will have mercy on them. God is Noble and Wise."
+        },
+        {
+          number: 72,
+          arabic: "وَعَدَ اللَّهُ الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا وَمَسَاكِنَ طَيِّبَةً فِي جَنَّاتِ عَدْنٍ وَرِضْوَانٌ مِنَ اللَّهِ أَكْبَرُ ذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ",
+          english: "God promises the believers, men and women, gardens beneath which rivers flow, abiding therein forever, and fine homes in the Gardens of Eden. But approval from God is even greater. That is the supreme achievement."
+        },
+        {
+          number: 73,
+          arabic: "يَا أَيُّهَا النَّبِيُّ جَاهِدِ الْكُفَّارَ وَالْمُنَافِقِينَ وَاغْلُظْ عَلَيْهِمْ وَمَأْوَاهُمْ جَهَنَّمُ وَبِئْسَ الْمَصِيرُ",
+          english: "O Prophet! Strive against the disbelievers and the hypocrites, and be stern with them. Their abode is Hell—what a miserable destination!"
+        },
+        {
+          number: 74,
+          arabic: "يَحْلِفُونَ بِاللَّهِ مَا قَالُوا وَلَقَدْ قَالُوا كَلِمَةَ الْكُفْرِ وَكَفَرُوا بَعْدَ إِسْلَامِهِمْ وَهَمُّوا بِمَا لَمْ يَنَالُوا وَمَا نَقَمُوا إِلَّا أَنْ أَغْنَاهُمُ اللَّهُ وَرَسُولُهُ مِنْ فَضْلِهِ فَإِنْ يَتُوبُوا يَكُ خَيْرًا لَهُمْ وَإِنْ يَتَوَلَّوْا يُعَذِّبْهُمُ اللَّهُ عَذَابًا أَلِيمًا فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُمْ فِي الْأَرْضِ مِنْ وَلِيٍّ وَلَا نَصِيرٍ",
+          english: "They swear by God that they said nothing; but they did utter the word of blasphemy, and they renounced faith after their submission. And they plotted what they could not attain. They were resentful only because God and His Messenger have enriched them out of His grace. If they repent, it would be best for them; but if they turn away, God will afflict them with a painful punishment—in this life and in the Hereafter—and they will have on earth no protector and no savior."
+        },
+        {
+          number: 75,
+          arabic: "وَمِنْهُمْ مَنْ عَاهَدَ اللَّهَ لَئِنْ آتَانَا مِنْ فَضْلِهِ لَنَصَّدَّقَنَّ وَلَنَكُونَنَّ مِنَ الصَّالِحِينَ",
+          english: "Among them are those who promised God: 'If He gives us of His bounty, we will donate and be among the upright.'"
+        },
+        {
+          number: 76,
+          arabic: "فَلَمَّا آتَاهُمْ مِنْ فَضْلِهِ بَخِلُوا بِهِ وَتَوَلَّوْا وَهُمْ مُعْرِضُونَ",
+          english: "But when He has given them of His bounty, they became stingy with it, and turned away in aversion."
+        },
+        {
+          number: 77,
+          arabic: "فَأَعْقَبَهُمْ نِفَاقًا فِي قُلُوبِهِمْ إِلَى يَوْمِ يَلْقَوْنَهُ بِمَا أَخْلَفُوا اللَّهَ مَا وَعَدُوهُ وَبِمَا كَانُوا يَكْذِبُونَ",
+          english: "So He penalized them with hypocrisy in their hearts, until the Day they face Him—because they broke their promise to God, and because they used to lie."
+        },
+        {
+          number: 78,
+          arabic: "أَلَمْ يَعْلَمُوا أَنَّ اللَّهَ يَعْلَمُ سِرَّهُمْ وَنَجْوَاهُمْ وَأَنَّ اللَّهَ عَلَّامُ الْغُيُوبِ",
+          english: "Do they not know that God knows their secrets and their conspiracies? And that God is the Knower of the unseen?"
+        },
+        {
+          number: 79,
+          arabic: "الَّذِينَ يَلْمِزُونَ الْمُطَّوِّعِينَ مِنَ الْمُؤْمِنِينَ فِي الصَّدَقَاتِ وَالَّذِينَ لَا يَجِدُونَ إِلَّا جُهْدَهُمْ فَيَسْخَرُونَ مِنْهُمْ سَخِرَ اللَّهُ مِنْهُمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+          english: "Those who criticize the believers who give charity voluntarily, and ridicule those who find nothing to give except their own efforts—God ridicules them. They will have a painful punishment."
+        },
+        {
+          number: 80,
+          arabic: "اسْتَغْفِرْ لَهُمْ أَوْ لَا تَسْتَغْفِرْ لَهُمْ إِنْ تَسْتَغْفِرْ لَهُمْ سَبْعِينَ مَرَّةً فَلَنْ يَغْفِرَ اللَّهُ لَهُمْ ذَلِكَ بِأَنَّهُمْ كَفَرُوا بِاللَّهِ وَرَسُولِهِ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الْفَاسِقِينَ",
+          english: "Whether you ask forgiveness for them, or do not ask forgiveness for them—even if you ask forgiveness for them seventy times, God will not forgive them. That is because they disbelieved in God and His Messenger. God does not guide the immoral people."
+        },
+        {
+          number: 81,
+          arabic: "فَرِحَ الْمُخَلَّفُونَ بِمَقْعَدِهِمْ خِلَافَ رَسُولِ اللَّهِ وَكَرِهُوا أَنْ يُجَاهِدُوا بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ فِي سَبِيلِ اللَّهِ وَقَالُوا لَا تَنْفِرُوا فِي الْحَرِّ قُلْ نَارُ جَهَنَّمَ أَشَدُّ حَرًّا لَوْ كَانُوا يَفْقَهُونَ",
+          english: "Those who stayed behind rejoiced at their staying behind the Messenger of God. And they hated to strive with their wealth and their lives in God's way. And they said, 'Do not venture out in the heat.' Say, 'The Fire of Hell is much hotter, if they only understood.'"
+        },
+        {
+          number: 82,
+          arabic: "فَلْيَضْحَكُوا قَلِيلًا وَلْيَبْكُوا كَثِيرًا جَزَاءً بِمَا كَانُوا يَكْسِبُونَ",
+          english: "Let them laugh a little, and weep much; in recompense for what they used to earn."
+        },
+        {
+          number: 83,
+          arabic: "فَإِنْ رَجَعَكَ اللَّهُ إِلَى طَائِفَةٍ مِنْهُمْ فَاسْتَأْذَنُوكَ لِلْخُرُوجِ فَقُلْ لَنْ تَخْرُجُوا مَعِيَ أَبَدًا وَلَنْ تُقَاتِلُوا مَعِيَ عَدُوًّا إِنَّكُمْ رَضِيتُمْ بِالْقُعُودِ أَوَّلَ مَرَّةٍ فَاقْعُدُوا مَعَ الْخَالِفِينَ",
+          english: "If God brings you back to a party of them, and they ask your permission to go out, say, 'You will not go out with me, ever, nor will you ever fight an enemy with me. You were content to sit back the first time, so sit back with those who stay behind.'"
+        },
+        {
+          number: 84,
+          arabic: "وَلَا تُصَلِّ عَلَى أَحَدٍ مِنْهُمْ مَاتَ أَبَدًا وَلَا تَقُمْ عَلَى قَبْرِهِ إِنَّهُمْ كَفَرُوا بِاللَّهِ وَرَسُولِهِ وَمَاتُوا وَهُمْ فَاسِقُونَ",
+          english: "You are never to pray over anyone of them who dies, nor are you to stand at his graveside. They rejected God and His Messenger, and died while they were sinners."
+        },
+        {
+          number: 85,
+          arabic: "وَلَا تُعْجِبْكَ أَمْوَالُهُمْ وَأَوْلَادُهُمْ إِنَّمَا يُرِيدُ اللَّهُ أَنْ يُعَذِّبَهُمْ بِهَا فِي الدُّنْيَا وَتَزْهَقَ أَنْفُسُهُمْ وَهُمْ كَافِرُونَ",
+          english: "Do not let their possessions and their children impress you. God desires to torment them through them in this world, and their souls expire while they are disbelievers."
+        },
+        {
+          number: 86,
+          arabic: "وَإِذَا أُنْزِلَتْ سُورَةٌ أَنْ آمِنُوا بِاللَّهِ وَجَاهِدُوا مَعَ رَسُولِهِ اسْتَأْذَنَكَ أُولُو الطَّوْلِ مِنْهُمْ وَقَالُوا ذَرْنَا نَكُنْ مَعَ الْقَاعِدِينَ",
+          english: "When a chapter is revealed, stating: 'Believe in God and strive with His Messenger,' the prominent among them ask you for exemption. They say, 'Allow us to stay with those who stay behind.'"
+        },
+        {
+          number: 87,
+          arabic: "رَضُوا بِأَنْ يَكُونُوا مَعَ الْخَوَالِفِ وَطُبِعَ عَلَى قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ",
+          english: "They prefer to be with those who stay behind. Their hearts were sealed, so they do not understand."
+        },
+        {
+          number: 88,
+          arabic: "لَكِنِ الرَّسُولُ وَالَّذِينَ آمَنُوا مَعَهُ جَاهَدُوا بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ وَأُولَئِكَ لَهُمُ الْخَيْرَاتُ وَأُولَئِكَ هُمُ الْمُفْلِحُونَ",
+          english: "But the Messenger and those who believe with him struggle with their possessions and their lives. These have deserved the good things. These are the successful."
+        },
+        {
+          number: 89,
+          arabic: "أَعَدَّ اللَّهُ لَهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا ذَلِكَ الْفَوْزُ الْعَظِيمُ",
+          english: "God has prepared for them gardens beneath which rivers flow, wherein they will abide forever. That is the great victory."
+        },
+        {
+          number: 90,
+          arabic: "وَجَاءَ الْمُعَذِّرُونَ مِنَ الْأَعْرَابِ لِيُؤْذَنَ لَهُمْ وَقَعَدَ الَّذِينَ كَذَبُوا اللَّهَ وَرَسُولَهُ سَيُصِيبُ الَّذِينَ كَفَرُوا مِنْهُمْ عَذَابٌ أَلِيمٌ",
+          english: "Some of the Desert-Arabs came to make excuses, asking to be granted exemption, while those who were untrue to God and His Messenger stayed behind. A painful punishment will afflict those among them who disbelieved."
+        },
+        {
+          number: 91,
+          arabic: "لَيْسَ عَلَى الضُّعَفَاءِ وَلَا عَلَى الْمَرْضَى وَلَا عَلَى الَّذِينَ لَا يَجِدُونَ مَا يُنْفِقُونَ حَرَجٌ إِذَا نَصَحُوا لِلَّهِ وَرَسُولِهِ مَا عَلَى الْمُحْسِنِينَ مِنْ سَبِيلٍ وَاللَّهُ غَفُورٌ رَحِيمٌ",
+          english: "There is no blame on the weak, nor on the sick, nor on those who have nothing to give, provided they are true to God and His Messenger. In no way can the righteous be blamed. God is Forgiving and Merciful."
+        },
+        {
+          number: 92,
+          arabic: "وَلَا عَلَى الَّذِينَ إِذَا مَا أَتَوْكَ لِتَحْمِلَهُمْ قُلْتَ لَا أَجِدُ مَا أَحْمِلُكُمْ عَلَيْهِ تَوَلَّوْا وَأَعْيُنُهُمْ تَفِيضُ مِنَ الدَّمْعِ حَزَنًا أَلَّا يَجِدُوا مَا يُنْفِقُونَ",
+          english: "Nor on those who approach you, wishing to ride with you, and you said, 'I have nothing to carry you on.' So they went away, with their eyes overflowing with tears, sorrowing for not finding the means to spend."
+        },
+        {
+          number: 93,
+          arabic: "إِنَّمَا السَّبِيلُ عَلَى الَّذِينَ يَسْتَأْذِنُونَكَ وَهُمْ أَغْنِيَاءُ رَضُوا بِأَنْ يَكُونُوا مَعَ الْخَوَالِفِ وَطَبَعَ اللَّهُ عَلَى قُلُوبِهِمْ فَهُمْ لَا يَعْلَمُونَ",
+          english: "But blame is on those who ask you for exemption, although they are rich. They are content to be with those who stay behind. God has sealed their hearts, so they do not know."
+        },
+        {
+          number: 94,
+          arabic: "يَعْتَذِرُونَ إِلَيْكُمْ إِذَا رَجَعْتُمْ إِلَيْهِمْ قُلْ لَا تَعْتَذِرُوا لَنْ نُؤْمِنَ لَكُمْ قَدْ نَبَّأَنَا اللَّهُ مِنْ أَخْبَارِكُمْ وَسَيَرَى اللَّهُ عَمَلَكُمْ وَرَسُولُهُ ثُمَّ تُرَدُّونَ إِلَى عَالِمِ الْغَيْبِ وَالشَّهَادَةِ فَيُنَبِّئُكُمْ بِمَا كُنْتُمْ تَعْمَلُونَ",
+          english: "They present excuses to you when you return to them. Say, 'Do not offer excuses; we do not trust you; God has informed us of you. And God will watch your actions, and so will the Messenger; then you will be returned to the Knower of the Invisible and the Visible, and He will inform you of what you used to do.'"
+        },
+        {
+          number: 95,
+          arabic: "سَيَحْلِفُونَ بِاللَّهِ لَكُمْ إِذَا انْقَلَبْتُمْ إِلَيْهِمْ لِتُعْرِضُوا عَنْهُمْ فَأَعْرِضُوا عَنْهُمْ إِنَّهُمْ رِجْسٌ وَمَأْوَاهُمْ جَهَنَّمُ جَزَاءً بِمَا كَانُوا يَكْسِبُونَ",
+          english: "They will swear to you by God, when you return to them, that you may leave them alone. So leave them alone. They are a disgrace, and their destiny is Hell; a reward for what they used to earn."
+        },
+        {
+          number: 96,
+          arabic: "يَحْلِفُونَ لَكُمْ لِتَرْضَوْا عَنْهُمْ فَإِنْ تَرْضَوْا عَنْهُمْ فَإِنَّ اللَّهَ لَا يَرْضَى عَنِ الْقَوْمِ الْفَاسِقِينَ",
+          english: "They will swear to you that you may accept them. But even if you accept them, God does not accept the wicked people."
+        },
+        {
+          number: 97,
+          arabic: "الْأَعْرَابُ أَشَدُّ كُفْرًا وَنِفَاقًا وَأَجْدَرُ أَلَّا يَعْلَمُوا حُدُودَ مَا أَنْزَلَ اللَّهُ عَلَى رَسُولِهِ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+          english: "The Desert-Arabs are the most steeped in disbelief and hypocrisy, and the most likely to ignore the limits that God revealed to His Messenger. God is Knowing and Wise."
+        },
+        {
+          number: 98,
+          arabic: "وَمِنَ الْأَعْرَابِ مَنْ يَتَّخِذُ مَا يُنْفِقُ مَغْرَمًا وَيَتَرَبَّصُ بِكُمُ الدَّوَائِرَ عَلَيْهِمْ دَائِرَةُ السَّوْءِ وَاللَّهُ سَمِيعٌ عَلِيمٌ",
+          english: "And among the Desert-Arabs are those who consider their contribution to be a fine. And they wait for a reversal of your fortunes. Upon them will fall the cycle of misfortune. God is Hearing and Knowing."
+        },
+        {
+          number: 99,
+          arabic: "وَمِنَ الْأَعْرَابِ مَنْ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَيَتَّخِذُ مَا يُنْفِقُ قُرُبَاتٍ عِنْدَ اللَّهِ وَصَلَوَاتِ الرَّسُولِ أَلَا إِنَّهَا قُرْبَةٌ لَهُمْ سَيُدْخِلُهُمُ اللَّهُ فِي رَحْمَتِهِ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
+          english: "Yet among the Desert-Arabs are those who believe in God and the Last Day, and consider their contribution to be a means towards God, and the prayers of the Messenger. Surely it will draw them closer, and God will admit them into His mercy. God is Forgiving and Compassionate."
+        },
+        {
+          number: 100,
+          arabic: "وَالسَّابِقُونَ الْأَوَّلُونَ مِنَ الْمُهَاجِرِينَ وَالْأَنْصَارِ وَالَّذِينَ اتَّبَعُوهُمْ بِإِحْسَانٍ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ وَأَعَدَّ لَهُمْ جَنَّاتٍ تَجْرِي تَحْتَهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ذَلِكَ الْفَوْزُ الْعَظِيمُ",
+          english: "The Pioneers—The first of the Migrants and the Supporters, and those who followed them in righteousness. God is pleased with them, and they are pleased with Him. He has prepared for them Gardens beneath which rivers flow, where they will abide forever. That is the sublime triumph."
+        },
+        {
+          number: 101,
+          arabic: "وَمِمَّنْ حَوْلَكُمْ مِنَ الْأَعْرَابِ مُنَافِقُونَ وَمِنْ أَهْلِ الْمَدِينَةِ مَرَدُوا عَلَى النِّفَاقِ لَا تَعْلَمُهُمْ نَحْنُ نَعْلَمُهُمْ سَنُعَذِّبُهُمْ مَرَّتَيْنِ ثُمَّ يُرَدُّونَ إِلَى عَذَابٍ عَظِيمٍ",
+          english: "Among the Desert-Arabs around you there are some hypocrites, and among the inhabitants of Medina too. They have become adamant in hypocrisy. You do not know them, but We know them. We will punish them twice; then they will be returned to a severe torment."
+        },
+        {
+          number: 102,
+          arabic: "وَآخَرُونَ اعْتَرَفُوا بِذُنُوبِهِمْ خَلَطُوا عَمَلًا صَالِحًا وَآخَرَ سَيِّئًا عَسَى اللَّهُ أَنْ يَتُوبَ عَلَيْهِمْ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
+          english: "Others have confessed their sins, having mixed good deeds with bad deeds. Perhaps God will redeem them. God is Forgiving and Merciful."
+        },
+        {
+          number: 103,
+          arabic: "خُذْ مِنْ أَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِمْ بِهَا وَصَلِّ عَلَيْهِمْ إِنَّ صَلَاتَكَ سَكَنٌ لَهُمْ وَاللَّهُ سَمِيعٌ عَلِيمٌ",
+          english: "Receive contributions from their wealth, to purify them and sanctify them with it; and pray for them. Your prayer is comfort for them. God is Hearing and Knowing."
+        },
+        {
+          number: 104,
+          arabic: "أَلَمْ يَعْلَمُوا أَنَّ اللَّهَ هُوَ يَقْبَلُ التَّوْبَةَ عَنْ عِبَادِهِ وَيَأْخُذُ الصَّدَقَاتِ وَأَنَّ اللَّهَ هُوَ التَّوَّابُ الرَّحِيمُ",
+          english: "Do they not know that God accepts the repentance of His servants, and that He receives the contributions, and that God is the Acceptor of Repentance, the Merciful?"
+        },
+        {
+          number: 105,
+          arabic: "وَقُلِ اعْمَلُوا فَسَيَرَى اللَّهُ عَمَلَكُمْ وَرَسُولُهُ وَالْمُؤْمِنُونَ وَسَتُرَدُّونَ إِلَى عَالِمِ الْغَيْبِ وَالشَّهَادَةِ فَيُنَبِّئُكُمْ بِمَا كُنْتُمْ تَعْمَلُونَ",
+          english: "Say, 'Work. God will see your work, and so will His Messenger, and the believers. Then you will be returned to the Knower of secrets and declarations, and He will inform you of what you used to do.'"
+        },
+        {
+          number: 106,
+          arabic: "وَآخَرُونَ مُرْجَوْنَ لِأَمْرِ اللَّهِ إِمَّا يُعَذِّبُهُمْ وَإِمَّا يَتُوبُ عَلَيْهِمْ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+          english: "Others are held in suspense, awaiting God's decree, as to whether He will punish them, or accept their repentance. God is Aware and Wise."
+        },
+        {
+          number: 107,
+          arabic: "وَالَّذِينَ اتَّخَذُوا مَسْجِدًا ضِرَارًا وَكُفْرًا وَتَفْرِيقًا بَيْنَ الْمُؤْمِنِينَ وَإِرْصَادًا لِمَنْ حَارَبَ اللَّهَ وَرَسُولَهُ مِنْ قَبْلُ وَلَيَحْلِفُنَّ إِنْ أَرَدْنَا إِلَّا الْحُسْنَى وَاللَّهُ يَشْهَدُ إِنَّهُمْ لَكَاذِبُونَ",
+          english: "Then there are those who establish a mosque to cause harm, and disbelief, and disunity among the believers, and as an outpost for those who fight God and His Messenger. They will swear: 'Our intentions are nothing but good.' But God bears witness that they are liars."
+        },
+        {
+          number: 108,
+          arabic: "لَا تَقُمْ فِيهِ أَبَدًا لَمَسْجِدٌ أُسِّسَ عَلَى التَّقْوَى مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَنْ تَقُومَ فِيهِ فِيهِ رِجَالٌ يُحِبُّونَ أَنْ يَتَطَهَّرُوا وَاللَّهُ يُحِبُّ الْمُطَّهِّرِينَ",
+          english: "Do not stand in it, ever. A mosque founded upon piety from the first day is worthier of your standing in it. In it are men who love to be purified. God loves those who purify themselves."
+        },
+        {
+          number: 109,
+          arabic: "أَفَمَنْ أَسَّسَ بُنْيَانَهُ عَلَى تَقْوَى مِنَ اللَّهِ وَرِضْوَانٍ خَيْرٌ أَمْ مَنْ أَسَّسَ بُنْيَانَهُ عَلَى شَفَا جُرُفٍ هَارٍ فَانْهَارَ بِهِ فِي نَارِ جَهَنَّمَ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
+          english: "Is he who founds his structure upon piety and acceptance from God better, or he who founds his structure on the brink of a cliff that is about to tumble, so it tumbles with him into the Fire of Hell? God does not guide the unjust people."
+        },
+        {
+          number: 110,
+          arabic: "لَا يَزَالُ بُنْيَانُهُمُ الَّذِي بَنَوْا رِيبَةً فِي قُلُوبِهِمْ إِلَّا أَنْ تَقَطَّعَ قُلُوبُهُمْ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+          english: "The structure which they built will remain questionable in their hearts, until their hearts are stopped. God is Knowing and Wise."
+        },
+        {
+          number: 111,
+          arabic: "إِنَّ اللَّهَ اشْتَرَى مِنَ الْمُؤْمِنِينَ أَنْفُسَهُمْ وَأَمْوَالَهُمْ بِأَنَّ لَهُمُ الْجَنَّةَ يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ فَيَقْتُلُونَ وَيُقْتَلُونَ وَعْدًا عَلَيْهِ حَقًّا فِي التَّوْرَاةِ وَالْإِنْجِيلِ وَالْقُرْآنِ وَمَنْ أَوْفَى بِعَهْدِهِ مِنَ اللَّهِ فَاسْتَبْشِرُوا بِبَيْعِكُمُ الَّذِي بَايَعْتُمْ بِهِ وَذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ",
+          english: "God has purchased from the believers their lives and their properties in exchange for Paradise. They fight in God's way, and they kill and get killed. It is a promise binding on Him in the Torah, and the Gospel, and the Quran. And who is more true to his promise than God? So rejoice in making such an exchange—that is the supreme triumph."
+        },
+        {
+          number: 112,
+          arabic: "التَّائِبُونَ الْعَابِدُونَ الْحَامِدُونَ السَّائِحُونَ الرَّاكِعُونَ السَّاجِدُونَ الْآمِرُونَ بِالْمَعْرُوفِ وَالنَّاهُونَ عَنِ الْمُنْكَرِ وَالْحَافِظُونَ لِحُدُودِ اللَّهِ وَبَشِّرِ الْمُؤْمِنِينَ",
+          english: "Those who repent, those who worship, those who praise, those who journey, those who kneel, those who bow down, those who advocate righteousness and forbid evil, and those who keep God's limits—give good news to the believers."
+        },
+        {
+          number: 113,
+          arabic: "مَا كَانَ لِلنَّبِيِّ وَالَّذِينَ آمَنُوا أَنْ يَسْتَغْفِرُوا لِلْمُشْرِكِينَ وَلَوْ كَانُوا أُولِي قُرْبَى مِنْ بَعْدِ مَا تَبَيَّنَ لَهُمْ أَنَّهُمْ أَصْحَابُ الْجَحِيمِ",
+          english: "It is not for the Prophet and those who believe to ask forgiveness for the polytheists, even if they are near relatives, after it has become clear to them that they are people of Hellfire."
+        },
+        {
+          number: 114,
+          arabic: "وَمَا كَانَ اسْتِغْفَارُ إِبْرَاهِيمَ لِأَبِيهِ إِلَّا عَنْ مَوْعِدَةٍ وَعَدَهَا إِيَّاهُ فَلَمَّا تَبَيَّنَ لَهُ أَنَّهُ عَدُوٌّ لِلَّهِ تَبَرَّأَ مِنْهُ إِنَّ إِبْرَاهِيمَ لَأَوَّاهٌ حَلِيمٌ",
+          english: "Abraham asked forgiveness for his father only because of a promise he had made to him. But when it became clear to him that he was an enemy of God, he disowned him. Abraham was kind and clement."
+        },
+        {
+          number: 115,
+          arabic: "وَمَا كَانَ اللَّهُ لِيُضِلَّ قَوْمًا بَعْدَ إِذْ هَدَاهُمْ حَتَّى يُبَيِّنَ لَهُمْ مَا يَتَّقُونَ إِنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ",
+          english: "God would never lead a people astray, after He had guided them, until He makes clear to them what they should guard against. God has knowledge of all things."
+        },
+        {
+          number: 116,
+          arabic: "إِنَّ اللَّهَ لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ يُحْيِي وَيُمِيتُ وَمَا لَكُمْ مِنْ دُونِ اللَّهِ مِنْ وَلِيٍّ وَلَا نَصِيرٍ",
+          english: "To God belongs the dominion of the heavens and the earth. He gives life, and He causes death. And besides God, you have neither protector, nor supporter."
+        },
+        {
+          number: 117,
+          arabic: "لَقَدْ تَابَ اللَّهُ عَلَى النَّبِيِّ وَالْمُهَاجِرِينَ وَالْأَنْصَارِ الَّذِينَ اتَّبَعُوهُ فِي سَاعَةِ الْعُسْرَةِ مِنْ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍ مِنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ إِنَّهُ بِهِمْ رَءُوفٌ رَحِيمٌ",
+          english: "God has redeemed the Prophet, and the Emigrants, and the Supporters—those who followed him in the hour of difficulty—after the hearts of some of them almost swerved. Then He pardoned them. He is Kind towards them, Compassionate."
+        },
+        {
+          number: 118,
+          arabic: "وَعَلَى الثَّلَاثَةِ الَّذِينَ خُلِّفُوا حَتَّى إِذَا ضَاقَتْ عَلَيْهِمُ الْأَرْضُ بِمَا رَحُبَتْ وَضَاقَتْ عَلَيْهِمْ أَنْفُسُهُمْ وَظَنُّوا أَنْ لَا مَلْجَأَ مِنَ اللَّهِ إِلَّا إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوا إِنَّ اللَّهَ هُوَ التَّوَّابُ الرَّحِيمُ",
+          english: "Also towards the three who were left behind. Then, when the earth, as vast as it is, closed in on them, and their very souls closed in on them, and they realized that there was no refuge from God, except in Him, He redeemed them, so that they may repent. God is the Redeemer, the Merciful."
+        },
+        {
+          number: 119,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَكُونُوا مَعَ الصَّادِقِينَ",
+          english: "O you who believe! Be conscious of God, and be with the sincere."
+        },
+        {
+          number: 120,
+          arabic: "مَا كَانَ لِأَهْلِ الْمَدِينَةِ وَمَنْ حَوْلَهُمْ مِنَ الْأَعْرَابِ أَنْ يَتَخَلَّفُوا عَنْ رَسُولِ اللَّهِ وَلَا يَرْغَبُوا بِأَنْفُسِهِمْ عَنْ نَفْسِهِ ذَلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ ظَمَأٌ وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِي سَبِيلِ اللَّهِ وَلَا يَطَئُونَ مَوْطِئًا يَغِيظُ الْكُفَّارَ وَلَا يَنَالُونَ مِنْ عَدُوٍّ نَيْلًا إِلَّا كُتِبَ لَهُمْ بِهِ عَمَلٌ صَالِحٌ إِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ",
+          english: "It is not for the inhabitants of Medina and the Desert-Arabs around them to stay behind the Messenger of God, nor to prefer themselves to him. That is because they never suffer any thirst, nor fatigue, nor hunger in the cause of God, nor do they take one step that enrages the disbelievers, nor do they gain anything from an enemy, but it is recorded to their credit as a righteous deed. God does not waste the reward of the righteous."
+        },
+        {
+          number: 121,
+          arabic: "وَلَا يُنْفِقُونَ نَفَقَةً صَغِيرَةً وَلَا كَبِيرَةً وَلَا يَقْطَعُونَ وَادِيًا إِلَّا كُتِبَ لَهُمْ لِيَجْزِيَهُمُ اللَّهُ أَحْسَنَ مَا كَانُوا يَعْمَلُونَ",
+          english: "Nor do they spend any expenditure, small or large, nor do they cross any valley, but it is recorded to their credit. That God may reward them in accordance with the best of their deeds."
+        },
+        {
+          number: 122,
+          arabic: "وَمَا كَانَ الْمُؤْمِنُونَ لِيَنْفِرُوا كَافَّةً فَلَوْلَا نَفَرَ مِنْ كُلِّ فِرْقَةٍ مِنْهُمْ طَائِفَةٌ لِيَتَفَقَّهُوا فِي الدِّينِ وَلِيُنْذِرُوا قَوْمَهُمْ إِذَا رَجَعُوا إِلَيْهِمْ لَعَلَّهُمْ يَحْذَرُونَ",
+          english: "It is not advisable for the believers to march out altogether. Of every division that marches out, let a group remain behind, to gain understanding of the religion, and to notify their people when they have returned to them, that they may beware."
+        },
+        {
+          number: 123,
+          arabic: "يَا أَيُّهَا الَّذِينَ آمَنُوا قَاتِلُوا الَّذِينَ يَلُونَكُمْ مِنَ الْكُفَّارِ وَلْيَجِدُوا فِيكُمْ غِلْظَةً وَاعْلَمُوا أَنَّ اللَّهَ مَعَ الْمُتَّقِينَ",
+          english: "O you who believe! Fight those of the disbelievers who attack you, and let them find severity in you, and know that God is with the righteous."
+        },
+        {
+          number: 124,
+          arabic: "وَإِذَا مَا أُنْزِلَتْ سُورَةٌ فَمِنْهُمْ مَنْ يَقُولُ أَيُّكُمْ زَادَتْهُ هَذِهِ إِيمَانًا فَأَمَّا الَّذِينَ آمَنُوا فَزَادَتْهُمْ إِيمَانًا وَهُمْ يَسْتَبْشِرُونَ",
+          english: "Whenever a chapter is revealed, some of them say, 'Which of you has this increased in faith?' As for those who believe: it increases them in faith, and they rejoice."
+        },
+        {
+          number: 125,
+          arabic: "وَأَمَّا الَّذِينَ فِي قُلُوبِهِمْ مَرَضٌ فَزَادَتْهُمْ رِجْسًا إِلَى رِجْسِهِمْ وَمَاتُوا وَهُمْ كَافِرُونَ",
+          english: "But as for those in whose hearts is sickness: it adds disgrace to their disgrace, and they die as unbelievers."
+        },
+        {
+          number: 126,
+          arabic: "أَوَلَا يَرَوْنَ أَنَّهُمْ يُفْتَنُونَ فِي كُلِّ عَامٍ مَرَّةً أَوْ مَرَّتَيْنِ ثُمَّ لَا يَتُوبُونَ وَلَا هُمْ يَذَّكَّرُونَ",
+          english: "Do they not see that they are tested once or twice every year? Yet they do not repent, and they do not learn."
+        },
+        {
+          number: 127,
+          arabic: "وَإِذَا مَا أُنْزِلَتْ سُورَةٌ نَظَرَ بَعْضُهُمْ إِلَى بَعْضٍ هَلْ يَرَاكُمْ مِنْ أَحَدٍ ثُمَّ انْصَرَفُوا صَرَفَ اللَّهُ قُلُوبَهُمْ بِأَنَّهُمْ قَوْمٌ لَا يَفْقَهُونَ",
+          english: "And whenever a chapter is revealed, they look at one another, 'Does anyone see you?' Then they slip away. God has diverted their hearts, because they are a people who do not understand."
+        },
+        {
+          number: 128,
+          arabic: "لَقَدْ جَاءَكُمْ رَسُولٌ مِنْ أَنْفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُمْ بِالْمُؤْمِنِينَ رَءُوفٌ رَحِيمٌ",
+          english: "There has come to you a messenger from among yourselves, concerned over your suffering, anxious over you. Towards the believers, he is compassionate and merciful."
+        },
+        {
+          number: 129,
+          arabic: "فَإِنْ تَوَلَّوْا فَقُلْ حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
+          english: "If they turn away, say, 'God is enough for me; there is no god except He; in Him I have put my trust; He is the Lord of the Sublime Throne.'"
         }
+
       ]
     },
     {
@@ -5982,7 +6984,543 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
           number: 2,
           arabic: 'أَكَانَ لِلنَّاسِ عَجَبًا أَنْ أَوْحَيْنَا إِلَىٰ رَجُلٍ مِّنْهُمْ أَنْ أَنذِرِ النَّاسَ وَبَشِّرِ الَّذِينَ آمَنُوا أَنَّ لَهُمْ قَدَمَ صِدْقٍ عِندَ رَبِّهِمْ ۗ قَالَ الْكَافِرُونَ إِنَّ هَٰذَا لَسَاحِرٌ مُّبِينٌ',
           english: 'Have the people been amazed that We revealed [revelation] to a man from among them, [saying], "Warn mankind and give good tidings to those who believe that they will have a [firm] precedence of honor with their Lord"? [But] the disbelievers say, "Indeed, this is an obvious magician."'
+        },
+        {
+          number: 3,
+          arabic: "إِنَّ رَبَّكُمُ اللَّهُ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ ثُمَّ اسْتَوَى عَلَى الْعَرْشِ يُدَبِّرُ الْأَمْرَ مَا مِنْ شَفِيعٍ إِلَّا مِنْ بَعْدِ إِذْنِهِ ذَلِكُمُ اللَّهُ رَبُّكُمْ فَاعْبُدُوهُ أَفَلَا تَذَكَّرُونَ",
+          english: "Your Lord is God, who created the heavens and the earth in six days, then settled over the Throne, governing all things. There is no intercessor except after His permission. Such is God, your Lord—so serve Him. Will you not reflect?"
+        },
+        {
+          number: 4,
+          arabic: "إِلَيْهِ مَرْجِعُكُمْ جَمِيعًا وَعْدَ اللَّهِ حَقًّا إِنَّهُ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ لِيَجْزِيَ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ بِالْقِسْطِ وَالَّذِينَ كَفَرُوا لَهُمْ شَرَابٌ مِنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌ بِمَا كَانُوا يَكْفُرُونَ",
+          english: "To Him is your return, altogether. The promise of God is true. He originates creation, and then He repeats it, to reward those who believe and do good deeds with equity. As for those who disbelieve, for them is a drink of boiling water, and agonizing torment, on account of their disbelief."
+        },
+        {
+          number: 5,
+          arabic: "هُوَ الَّذِي جَعَلَ الشَّمْسَ ضِيَاءً وَالْقَمَرَ نُورًا وَقَدَّرَهُ مَنَازِلَ لِتَعْلَمُوا عَدَدَ السِّنِينَ وَالْحِسَابَ مَا خَلَقَ اللَّهُ ذَلِكَ إِلَّا بِالْحَقِّ يُفَصِّلُ الْآيَاتِ لِقَوْمٍ يَعْلَمُونَ",
+          english: "It is He who made the sun radiant, and the moon a light, and determined phases for it—that you may know the number of years and the calculation. God did not create all this except with truth. He details the revelations for a people who know."
+        },
+        {
+          number: 6,
+          arabic: "إِنَّ فِي اخْتِلَافِ اللَّيْلِ وَالنَّهَارِ وَمَا خَلَقَ اللَّهُ فِي السَّمَاوَاتِ وَالْأَرْضِ لَآيَاتٍ لِقَوْمٍ يَتَّقُونَ",
+          english: "In the alternation of night and day, and in what God created in the heavens and the earth, are signs for people who are aware."
+        },
+        {
+          number: 7,
+          arabic: "إِنَّ الَّذِينَ لَا يَرْجُونَ لِقَاءَنَا وَرَضُوا بِالْحَيَاةِ الدُّنْيَا وَاطْمَأَنُّوا بِهَا وَالَّذِينَ هُمْ عَنْ آيَاتِنَا غَافِلُونَ",
+          english: "Those who do not hope to meet Us, and are content with the worldly life, and are at ease in it, and those who pay no heed to Our signs."
+        },
+        {
+          number: 8,
+          arabic: "أُولَئِكَ مَأْوَاهُمُ النَّارُ بِمَا كَانُوا يَكْسِبُونَ",
+          english: "These—their dwelling is the Fire—on account of what they used to do."
+        },
+        {
+          number: 9,
+          arabic: "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ يَهْدِيهِمْ رَبُّهُمْ بِإِيمَانِهِمْ تَجْرِي مِنْ تَحْتِهِمُ الْأَنْهَارُ فِي جَنَّاتِ النَّعِيمِ",
+          english: "As for those who believe and do good deeds, their Lord guides them in their faith. Rivers will flow beneath them in the Gardens of Bliss."
+        },
+        {
+          number: 10,
+          arabic: "دَعْوَاهُمْ فِيهَا سُبْحَانَكَ اللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا سَلَامٌ وَآخِرُ دَعْوَاهُمْ أَنِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+          english: "Their call therein is, 'Glory be to You, our God.' And their greeting therein is, 'Peace.' And the last of their call is, 'Praise be to God, Lord of the Worlds.'"
+        },
+        {
+          number: 11,
+          arabic: "وَلَوْ يُعَجِّلُ اللَّهُ لِلنَّاسِ الشَّرَّ اسْتِعْجَالَهُمْ بِالْخَيْرِ لَقُضِيَ إِلَيْهِمْ أَجَلُهُمْ فَنَذَرُ الَّذِينَ لَا يَرْجُونَ لِقَاءَنَا فِي طُغْيَانِهِمْ يَعْمَهُونَ",
+          english: "If God were to accelerate the ill for the people, as they wish to accelerate the good, their term would have been fulfilled. But We leave those who do not expect Our encounter to blunder in their excesses."
+        },
+        {
+          number: 12,
+          arabic: "وَإِذَا مَسَّ الْإِنْسَانَ الضُّرُّ دَعَانَا لِجَنْبِهِ أَوْ قَاعِدًا أَوْ قَائِمًا فَلَمَّا كَشَفْنَا عَنْهُ ضُرَّهُ مَرَّ كَأَنْ لَمْ يَدْعُنَا إِلَى ضُرٍّ مَسَّهُ كَذَلِكَ زُيِّنَ لِلْمُسْرِفِينَ مَا كَانُوا يَعْمَلُونَ",
+          english: "Whenever adversity touches the human being, he prays to Us—reclining on his side, or sitting, or standing. But when We have relieved his adversity from him, he goes away, as though he had never called on Us for trouble that had afflicted him. Thus the deeds of the transgressors appear good to them."
+        },
+        {
+          number: 13,
+          arabic: "وَلَقَدْ أَهْلَكْنَا الْقُرُونَ مِنْ قَبْلِكُمْ لَمَّا ظَلَمُوا وَجَاءَتْهُمْ رُسُلُهُمْ بِالْبَيِّنَاتِ وَمَا كَانُوا لِيُؤْمِنُوا كَذَلِكَ نَجْزِي الْقَوْمَ الْمُجْرِمِينَ",
+          english: "We destroyed generations before you when they did wrong. Their messengers came to them with clear signs, but they would not believe. Thus We requite the sinful people."
+        },
+        {
+          number: 14,
+          arabic: "ثُمَّ جَعَلْنَاكُمْ خَلَائِفَ فِي الْأَرْضِ مِنْ بَعْدِهِمْ لِنَنْظُرَ كَيْفَ تَعْمَلُونَ",
+          english: "Then We made you successors on earth after them, to see how you would behave."
+        },
+        {
+          number: 15,
+          arabic: "وَإِذَا تُتْلَى عَلَيْهِمْ آيَاتُنَا بَيِّنَاتٍ قَالَ الَّذِينَ لَا يَرْجُونَ لِقَاءَنَا ائْتِ بِقُرْآنٍ غَيْرِ هَذَا أَوْ بَدِّلْهُ قُلْ مَا يَكُونُ لِي أَنْ أُبَدِّلَهُ مِنْ تِلْقَاءِ نَفْسِي إِنْ أَتَّبِعُ إِلَّا مَا يُوحَى إِلَيَّ إِنِّي أَخَافُ إِنْ عَصَيْتُ رَبِّي عَذَابَ يَوْمٍ عَظِيمٍ",
+          english: "And when Our clear revelations are recited to them, those who do not hope to meet Us say, 'Bring a Quran other than this, or change it.' Say, 'It is not for me to change it of my own accord. I only follow what is revealed to me. I fear, if I disobeyed my Lord, the torment of a terrible Day.'"
+        },
+        {
+          number: 16,
+          arabic: "قُلْ لَوْ شَاءَ اللَّهُ مَا تَلَوْتُهُ عَلَيْكُمْ وَلَا أَدْرَاكُمْ بِهِ فَقَدْ لَبِثْتُ فِيكُمْ عُمُرًا مِنْ قَبْلِهِ أَفَلَا تَعْقِلُونَ",
+          english: "Say, 'Had God willed, I would not have recited it to you, and He would not have made it known to you. I have lived among you for a lifetime before it. Do you not understand?'"
+        },
+        {
+          number: 17,
+          arabic: "فَمَنْ أَظْلَمُ مِمَّنِ افْتَرَى عَلَى اللَّهِ كَذِبًا أَوْ كَذَّبَ بِآيَاتِهِ إِنَّهُ لَا يُفْلِحُ الْمُجْرِمُونَ",
+          english: "Who does greater wrong than someone who fabricates lies about God, or denies His revelations? The guilty will never prosper."
+        },
+        {
+          number: 18,
+          arabic: "وَيَعْبُدُونَ مِنْ دُونِ اللَّهِ مَا لَا يَضُرُّهُمْ وَلَا يَنْفَعُهُمْ وَيَقُولُونَ هَؤُلَاءِ شُفَعَاؤُنَا عِنْدَ اللَّهِ قُلْ أَتُنَبِّئُونَ اللَّهَ بِمَا لَا يَعْلَمُ فِي السَّمَاوَاتِ وَلَا فِي الْأَرْضِ سُبْحَانَهُ وَتَعَالَى عَمَّا يُشْرِكُونَ",
+          english: "And they worship, besides God, what neither harms them nor benefits them. And they say, 'These are our intercessors with God.' Say, 'Are you informing God about what He does not know in the heavens or on earth?' Glorified be He, High above the associations they make."
+        },
+        {
+          number: 19,
+          arabic: "وَمَا كَانَ النَّاسُ إِلَّا أُمَّةً وَاحِدَةً فَاخْتَلَفُوا وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِنْ رَبِّكَ لَقُضِيَ بَيْنَهُمْ فِيمَا فِيهِ يَخْتَلِفُونَ",
+          english: "Mankind was a single community; then they differed. Were it not for a prior decree from your Lord, the matters over which they had disputed would have been settled."
+        },
+        {
+          number: 20,
+          arabic: "وَيَقُولُونَ لَوْلَا أُنْزِلَ عَلَيْهِ آيَةٌ مِنْ رَبِّهِ فَقُلْ إِنَّمَا الْغَيْبُ لِلَّهِ فَانْتَظِرُوا إِنِّي مَعَكُمْ مِنَ الْمُنْتَظِرِينَ",
+          english: "And they say, 'If only a miracle was sent down to him from his Lord.' Say, 'The realm of the unseen belongs to God; so wait, I am waiting with you.'"
+        },
+        {
+          number: 21,
+          arabic: "وَإِذَا أَذَقْنَا النَّاسَ رَحْمَةً مِنْ بَعْدِ ضَرَّاءَ مَسَّتْهُمْ إِذَا لَهُمْ مَكْرٌ فِي آيَاتِنَا قُلِ اللَّهُ أَسْرَعُ مَكْرًا إِنَّ رُسُلَنَا يَكْتُبُونَ مَا تَمْكُرُونَ",
+          english: "When We make the people taste mercy after some adversity has touched them, they begin to scheme against Our revelations. Say, 'God is swifter in scheming.' Our envoys are writing down what you scheme."
+        },
+        {
+          number: 22,
+          arabic: "هُوَ الَّذِي يُسَيِّرُكُمْ فِي الْبَرِّ وَالْبَحْرِ حَتَّى إِذَا كُنْتُمْ فِي الْفُلْكِ وَجَرَيْنَ بِهِمْ بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا بِهَا جَاءَتْهَا رِيحٌ عَاصِفٌ وَجَاءَهُمُ الْمَوْجُ مِنْ كُلِّ مَكَانٍ وَظَنُّوا أَنَّهُمْ أُحِيطَ بِهِمْ دَعَوُا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ لَئِنْ أَنْجَيْتَنَا مِنْ هَذِهِ لَنَكُونَنَّ مِنَ الشَّاكِرِينَ",
+          english: "It is He who transports you across land and sea. Until, when you are on ships, sailing in a favorable wind, and rejoicing in it, a raging wind arrives. The waves surge over them from every side, and they realize that they are besieged. Thereupon they pray to God, professing sincere devotion to Him: 'If You save us from this, we will be among the appreciative.'"
+        },
+        {
+          number: 23,
+          arabic: "فَلَمَّا أَنْجَاهُمْ إِذَا هُمْ يَبْغُونَ فِي الْأَرْضِ بِغَيْرِ الْحَقِّ يَا أَيُّهَا النَّاسُ إِنَّمَا بَغْيُكُمْ عَلَى أَنْفُسِكُمْ مَتَاعَ الْحَيَاةِ الدُّنْيَا ثُمَّ إِلَيْنَا مَرْجِعُكُمْ فَنُنَبِّئُكُمْ بِمَا كُنْتُمْ تَعْمَلُونَ",
+          english: "But then, when He has saved them, they commit violations on earth, and oppose justice. O people! Your violations are against your own souls. It is the enjoyment of the present life. Then to Us is your return, and We will inform you of what you used to do."
+        },
+        {
+          number: 24,
+          arabic: "إِنَّمَا مَثَلُ الْحَيَاةِ الدُّنْيَا كَمَاءٍ أَنْزَلْنَاهُ مِنَ السَّمَاءِ فَاخْتَلَطَ بِهِ نَبَاتُ الْأَرْضِ مِمَّا يَأْكُلُ النَّاسُ وَالْأَنْعَامُ حَتَّى إِذَا أَخَذَتِ الْأَرْضُ زُخْرُفَهَا وَازَّيَّنَتْ وَظَنَّ أَهْلُهَا أَنَّهُمْ قَادِرُونَ عَلَيْهَا أَتَاهَا أَمْرُنَا لَيْلًا أَوْ نَهَارًا فَجَعَلْنَاهَا حَصِيدًا كَأَنْ لَمْ تَغْنَ بِالْأَمْسِ كَذَلِكَ نُفَصِّلُ الْآيَاتِ لِقَوْمٍ يَتَفَكَّرُونَ",
+          english: "The likeness of the present life is this: water that We send down from the sky is absorbed by the plants of the earth, from which the people and the animals eat. Until, when the earth puts on its fine appearance, and is beautified, and its inhabitants think that they have mastered it, Our command descends upon it by night or by day, and We turn it into stubble, as if it had not flourished the day before. We thus clarify the revelations for people who reflect."
+        },
+        {
+          number: 25,
+          arabic: "وَاللَّهُ يَدْعُو إِلَى دَارِ السَّلَامِ وَيَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ",
+          english: "God invites to the Home of Peace, and guides whomever He wills to a straight path."
+        },
+        {
+          number: 26,
+          arabic: "لِلَّذِينَ أَحْسَنُوا الْحُسْنَى وَزِيَادَةٌ وَلَا يَرْهَقُ وُجُوهَهُمْ قَتَرٌ وَلَا ذِلَّةٌ أُولَئِكَ أَصْحَابُ الْجَنَّةِ هُمْ فِيهَا خَالِدُونَ",
+          english: "For those who have done good is goodness, and more. Neither gloom nor shame will come over their faces. These are the inhabitants of Paradise, abiding therein forever."
+        },
+        {
+          number: 27,
+          arabic: "وَالَّذِينَ كَسَبُوا السَّيِّئَاتِ جَزَاءُ سَيِّئَةٍ بِمِثْلِهَا وَتَرْهَقُهُمْ ذِلَّةٌ مَا لَهُمْ مِنَ اللَّهِ مِنْ عَاصِمٍ كَأَنَّمَا أُغْشِيَتْ وُجُوهُهُمْ قِطَعًا مِنَ اللَّيْلِ مُظْلِمًا أُولَئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
+          english: "As for those who have earned evil deeds: a reward of similar evil, and shame will cover them. They will have no defense against God—as if their faces are covered with dark patches of night. These are the inmates of the Fire, abiding therein forever."
+        },
+        {
+          number: 28,
+          arabic: "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا مَكَانَكُمْ أَنْتُمْ وَشُرَكَاؤُكُمْ فَزَيَّلْنَا بَيْنَهُمْ وَقَالَ شُرَكَاؤُهُمْ مَا كُنْتُمْ إِيَّانَا تَعْبُدُونَ",
+          english: "On the Day when We will gather them altogether, then say to those who ascribed partners, 'To your place, you and your partners.' Then We will separate between them, and their partners will say, 'It was not us you were worshiping.'"
+        },
+        {
+          number: 29,
+          arabic: "فَكَفَى بِاللَّهِ شَهِيدًا بَيْنَنَا وَبَيْنَكُمْ إِنْ كُنَّا عَنْ عِبَادَتِكُمْ لَغَافِلِينَ",
+          english: "'God is sufficient witness between us and you. We were unaware of your worshiping us.'"
+        },
+        {
+          number: 30,
+          arabic: "هُنَالِكَ تَبْلُو كُلُّ نَفْسٍ مَا أَسْلَفَتْ وَرُدُّوا إِلَى اللَّهِ مَوْلَاهُمُ الْحَقِّ وَضَلَّ عَنْهُمْ مَا كَانُوا يَفْتَرُونَ",
+          english: "There, every soul will experience what it had done previously; and they will be returned to God, their True Master; and what they used to invent will fail them."
+        },
+        {
+          number: 31,
+          arabic: "قُلْ مَنْ يَرْزُقُكُمْ مِنَ السَّمَاءِ وَالْأَرْضِ أَمَّنْ يَمْلِكُ السَّمْعَ وَالْأَبْصَارَ وَمَنْ يُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَيُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَمَنْ يُدَبِّرُ الْأَمْرَ فَسَيَقُولُونَ اللَّهُ فَقُلْ أَفَلَا تَتَّقُونَ",
+          english: "Say, 'Who provides for you from the heaven and the earth? And who controls the hearing and the sight? And who produces the living from the dead, and produces the dead from the living? And who governs the Order?' They will say, 'God.' Say, 'Will you not be careful?'"
+        },
+        {
+          number: 32,
+          arabic: "فَذَلِكُمُ اللَّهُ رَبُّكُمُ الْحَقُّ فَمَاذَا بَعْدَ الْحَقِّ إِلَّا الضَّلَالُ فَأَنَّى تُصْرَفُونَ",
+          english: "Such is God, your Lord—the True. What is there, beyond the truth, except falsehood? How are you turned away?"
+        },
+        {
+          number: 33,
+          arabic: "كَذَلِكَ حَقَّتْ كَلِمَتُ رَبِّكَ عَلَى الَّذِينَ فَسَقُوا أَنَّهُمْ لَا يُؤْمِنُونَ",
+          english: "Thus your Lord's Word proved true against those who disobeyed, for they do not believe."
+        },
+        {
+          number: 34,
+          arabic: "قُلْ هَلْ مِنْ شُرَكَائِكُمْ مَنْ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ قُلِ اللَّهُ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ فَأَنَّى تُؤْفَكُونَ",
+          english: "Say, 'Can any of your partners initiate creation, and then repeat it?' Say, 'God initiates creation, and then repeats it. How are you so deluded?'"
+        },
+        {
+          number: 35,
+          arabic: "قُلْ هَلْ مِنْ شُرَكَائِكُمْ مَنْ يَهْدِي إِلَى الْحَقِّ قُلِ اللَّهُ يَهْدِي لِلْحَقِّ أَفَمَنْ يَهْدِي إِلَى الْحَقِّ أَحَقُّ أَنْ يُتَّبَعَ أَمَّنْ لَا يَهِدِّي إِلَّا أَنْ يُهْدَى فَمَا لَكُمْ كَيْفَ تَحْكُمُونَ",
+          english: "Say, 'Can any of your partners guide to the truth?' Say, 'God guides to the truth. Is He who guides to the truth more worthy of being followed, or he who does not guide, unless he himself is guided? What is the matter with you? How do you judge?'"
+        },
+        {
+          number: 36,
+          arabic: "وَمَا يَتَّبِعُ أَكْثَرُهُمْ إِلَّا ظَنًّا إِنَّ الظَّنَّ لَا يُغْنِي مِنَ الْحَقِّ شَيْئًا إِنَّ اللَّهَ عَلِيمٌ بِمَا يَفْعَلُونَ",
+          english: "Most of them follow nothing but assumptions; and assumptions avail nothing against the truth. God is fully aware of what they do."
+        },
+        {
+          number: 37,
+          arabic: "وَمَا كَانَ هَذَا الْقُرْآنُ أَنْ يُفْتَرَى مِنْ دُونِ اللَّهِ وَلَكِنْ تَصْدِيقَ الَّذِي بَيْنَ يَدَيْهِ وَتَفْصِيلَ الْكِتَابِ لَا رَيْبَ فِيهِ مِنْ رَبِّ الْعَالَمِينَ",
+          english: "This Quran could not have been produced by anyone other than God. In fact, it is a confirmation of what preceded it, and an elaboration of the Book. There is no doubt about it—it is from the Lord of the Universe."
+        },
+        {
+          number: 38,
+          arabic: "أَمْ يَقُولُونَ افْتَرَاهُ قُلْ فَأْتُوا بِسُورَةٍ مِثْلِهِ وَادْعُوا مَنِ اسْتَطَعْتُمْ مِنْ دُونِ اللَّهِ إِنْ كُنْتُمْ صَادِقِينَ",
+          english: "Or do they say, 'He has forged it'? Say, 'Then produce a single chapter like it, and call upon whomever you can, apart from God, if you are truthful.'"
+        },
+        {
+          number: 39,
+          arabic: "بَلْ كَذَّبُوا بِمَا لَمْ يُحِيطُوا بِعِلْمِهِ وَلَمَّا يَأْتِهِمْ تَأْوِيلُهُ كَذَلِكَ كَذَّبَ الَّذِينَ مِنْ قَبْلِهِمْ فَانْظُرْ كَيْفَ كَانَ عَاقِبَةُ الظَّالِمِينَ",
+          english: "In fact, they deny what is beyond the limits of their knowledge, and whose explanation has not yet reached them. Thus those before them refused to believe. So note the consequences for the wrongdoers."
+        },
+        {
+          number: 40,
+          arabic: "وَمِنْهُمْ مَنْ يُؤْمِنُ بِهِ وَمِنْهُمْ مَنْ لَا يُؤْمِنُ بِهِ وَرَبُّكَ أَعْلَمُ بِالْمُفْسِدِينَ",
+          english: "Among them are those who believe in it, and among them are those who do not believe in it. Your Lord is fully aware of the mischief-makers."
+        },
+        {
+          number: 41,
+          arabic: "وَإِنْ كَذَّبُوكَ فَقُلْ لِي عَمَلِي وَلَكُمْ عَمَلُكُمْ أَنْتُمْ بَرِيئُونَ مِمَّا أَعْمَلُ وَأَنَا بَرِيءٌ مِمَّا تَعْمَلُونَ",
+          english: "If they accuse you of lying, say, 'I have my deeds, and you have your deeds. You are quit of what I do, and I am quit of what you do.'"
+        },
+        {
+          number: 42,
+          arabic: "وَمِنْهُمْ مَنْ يَسْتَمِعُونَ إِلَيْكَ أَفَأَنْتَ تُسْمِعُ الصُّمَّ وَلَوْ كَانُوا لَا يَعْقِلُونَ",
+          english: "And among them are those who listen to you. But can you make the deaf hear, even though they do not understand?"
+        },
+        {
+          number: 43,
+          arabic: "وَمِنْهُمْ مَنْ يَنْظُرُ إِلَيْكَ أَفَأَنْتَ تَهْدِي الْعُمْيَ وَلَوْ كَانُوا لَا يُبْصِرُونَ",
+          english: "And among them are those who look at you. But can you guide the blind, even though they do not see?"
+        },
+        {
+          number: 44,
+          arabic: "إِنَّ اللَّهَ لَا يَظْلِمُ النَّاسَ شَيْئًا وَلَكِنَّ النَّاسَ أَنْفُسَهُمْ يَظْلِمُونَ",
+          english: "God does not wrong the people in the least, but the people wrong their own selves."
+        },
+        {
+          number: 45,
+          arabic: "وَيَوْمَ يَحْشُرُهُمْ كَأَنْ لَمْ يَلْبَثُوا إِلَّا سَاعَةً مِنَ النَّهَارِ يَتَعَارَفُونَ بَيْنَهُمْ قَدْ خَسِرَ الَّذِينَ كَذَّبُوا بِلِقَاءِ اللَّهِ وَمَا كَانُوا مُهْتَدِينَ",
+          english: "On the Day when He rounds them up—as if they had tarried only one hour of a day—they will recognize one another. Those who denied the meeting with God will be the losers. They were not guided."
+        },
+        {
+          number: 46,
+          arabic: "وَإِمَّا نُرِيَنَّكَ بَعْضَ الَّذِي نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ فَإِلَيْنَا مَرْجِعُهُمْ ثُمَّ اللَّهُ شَهِيدٌ عَلَى مَا يَفْعَلُونَ",
+          english: "Whether We show you some of what We promise them, or take you, to Us is their return. God is witness to everything they do."
+        },
+        {
+          number: 47,
+          arabic: "وَلِكُلِّ أُمَّةٍ رَسُولٌ فَإِذَا جَاءَ رَسُولُهُمْ قُضِيَ بَيْنَهُمْ بِالْقِسْطِ وَهُمْ لَا يُظْلَمُونَ",
+          english: "Every community has a messenger. When their messenger has come, judgment will be passed between them with fairness, and they will not be wronged."
+        },
+        {
+          number: 48,
+          arabic: "وَيَقُولُونَ مَتَى هَذَا الْوَعْدُ إِنْ كُنْتُمْ صَادِقِينَ",
+          english: "And they say, 'When will this promise be fulfilled, if you are truthful?'"
+        },
+        {
+          number: 49,
+          arabic: "قُلْ لَا أَمْلِكُ لِنَفْسِي ضَرًّا وَلَا نَفْعًا إِلَّا مَا شَاءَ اللَّهُ لِكُلِّ أُمَّةٍ أَجَلٌ إِذَا جَاءَ أَجَلُهُمْ فَلَا يَسْتَأْخِرُونَ سَاعَةً وَلَا يَسْتَقْدِمُونَ",
+          english: "Say, 'I have no power to harm or benefit myself, except as God wills. To every nation is an appointed time. Then, when their time arrives, they can neither postpone it by one hour, nor advance it."
+        },
+        {
+          number: 50,
+          arabic: "قُلْ أَرَأَيْتُمْ إِنْ أَتَاكُمْ عَذَابُهُ بَيَاتًا أَوْ نَهَارًا مَاذَا يَسْتَعْجِلُ مِنْهُ الْمُجْرِمُونَ",
+          english: "Say, 'Have you considered? If His punishment overtakes you by night or by day, what part of it will the guilty seek to hasten?'"
+        },
+        {
+          number: 51,
+          arabic: "أَثُمَّ إِذَا مَا وَقَعَ آمَنْتُمْ بِهِ آلْآنَ وَقَدْ كُنْتُمْ بِهِ تَسْتَعْجِلُونَ",
+          english: "'Then, when it falls, will you believe in it? Now? When before you tried to hasten it?'"
+        },
+        {
+          number: 52,
+          arabic: "ثُمَّ قِيلَ لِلَّذِينَ ظَلَمُوا ذُوقُوا عَذَابَ الْخُلْدِ هَلْ تُجْزَوْنَ إِلَّا بِمَا كُنْتُمْ تَكْسِبُونَ",
+          english: "Then it will be said to those who did wrong, 'Taste the torment of eternity. Will you be rewarded except for what you used to do?'"
+        },
+        {
+          number: 53,
+          arabic: "وَيَسْتَنْبِئُونَكَ أَحَقٌّ هُوَ قُلْ إِي وَرَبِّي إِنَّهُ لَحَقٌّ وَمَا أَنْتُمْ بِمُعْجِزِينَ",
+          english: "And they inquire of you, 'Is it true?' Say, 'Yes, by my Lord, it is true, and you cannot evade it.'"
+        },
+        {
+          number: 54,
+          arabic: "وَلَوْ أَنَّ لِكُلِّ نَفْسٍ ظَلَمَتْ مَا فِي الْأَرْضِ لَافْتَدَتْ بِهِ وَأَسَرُّوا النَّدَامَةَ لَمَّا رَأَوُا الْعَذَابَ وَقُضِيَ بَيْنَهُمْ بِالْقِسْطِ وَهُمْ لَا يُظْلَمُونَ",
+          english: "Had every soul which had done wrong possessed everything on earth, it would offer it as a ransom. They will hide the remorse when they witness the suffering, and it will be judged between them equitably, and they will not be wronged."
+        },
+        {
+          number: 55,
+          arabic: "أَلَا إِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ أَلَا إِنَّ وَعْدَ اللَّهِ حَقٌّ وَلَكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+          english: "Assuredly, to God belongs everything in the heavens and the earth. Assuredly, the promise of God is true. But most of them do not know."
+        },
+        {
+          number: 56,
+          arabic: "هُوَ يُحْيِي وَيُمِيتُ وَإِلَيْهِ تُرْجَعُونَ",
+          english: "He gives life and causes death, and to Him you will be returned."
+        },
+        {
+          number: 57,
+          arabic: "يَا أَيُّهَا النَّاسُ قَدْ جَاءَتْكُمْ مَوْعِظَةٌ مِنْ رَبِّكُمْ وَشِفَاءٌ لِمَا فِي الصُّدُورِ وَهُدًى وَرَحْمَةٌ لِلْمُؤْمِنِينَ",
+          english: "O people! There has come to you advice from your Lord, and healing for what is in the hearts, and guidance and mercy for the believers."
+        },
+        {
+          number: 58,
+          arabic: "قُلْ بِفَضْلِ اللَّهِ وَبِرَحْمَتِهِ فَبِذَلِكَ فَلْيَفْرَحُوا هُوَ خَيْرٌ مِمَّا يَجْمَعُونَ",
+          english: "Say, 'In God's grace and mercy let them rejoice. That is better than what they hoard.'"
+        },
+        {
+          number: 59,
+          arabic: "قُلْ أَرَأَيْتُمْ مَا أَنْزَلَ اللَّهُ لَكُمْ مِنْ رِزْقٍ فَجَعَلْتُمْ مِنْهُ حَرَامًا وَحَلَالًا قُلْ آللَّهُ أَذِنَ لَكُمْ أَمْ عَلَى اللَّهِ تَفْتَرُونَ",
+          english: "Say, 'Have you considered the sustenance God has sent down for you, some of which you made unlawful, and some lawful?' Say, 'Did God give you permission, or do you fabricate lies and attribute them to God?'"
+        },
+        {
+          number: 60,
+          arabic: "وَمَا ظَنُّ الَّذِينَ يَفْتَرُونَ عَلَى اللَّهِ الْكَذِبَ يَوْمَ الْقِيَامَةِ إِنَّ اللَّهَ لَذُو فَضْلٍ عَلَى النَّاسِ وَلَكِنَّ أَكْثَرَهُمْ لَا يَشْكُرُونَ",
+          english: "What will they think—those who fabricate lies and attribute them to God—on the Day of Resurrection? God is bountiful towards the people, but most of them do not give thanks."
+        },
+        {
+          number: 61,
+          arabic: "وَمَا تَكُونُ فِي شَأْنٍ وَمَا تَتْلُو مِنْهُ مِنْ قُرْآنٍ وَلَا تَعْمَلُونَ مِنْ عَمَلٍ إِلَّا كُنَّا عَلَيْكُمْ شُهُودًا إِذْ تُفِيضُونَ فِيهِ وَمَا يَعْزُبُ عَنْ رَبِّكَ مِنْ مِثْقَالِ ذَرَّةٍ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَلَا أَصْغَرَ مِنْ ذَلِكَ وَلَا أَكْبَرَ إِلَّا فِي كِتَابٍ مُبِينٍ",
+          english: "You do not get into any situation, nor do you recite any Quran, nor do you do anything, but We are watching over you as you undertake it. Not even the weight of an atom, on earth or in the sky, escapes your Lord, nor is there anything smaller or larger, but is in a clear record."
+        },
+        {
+          number: 62,
+          arabic: "أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+          english: "Unquestionably, God's friends have nothing to fear, nor shall they grieve."
+        },
+        {
+          number: 63,
+          arabic: "الَّذِينَ آمَنُوا وَكَانُوا يَتَّقُونَ",
+          english: "Those who believe and are aware."
+        },
+        {
+          number: 64,
+          arabic: "لَهُمُ الْبُشْرَى فِي الْحَيَاةِ الدُّنْيَا وَفِي الْآخِرَةِ لَا تَبْدِيلَ لِكَلِمَاتِ اللَّهِ ذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ",
+          english: "For them is good news in this life, and in the Hereafter. There is no alteration to the words of God. That is the supreme triumph."
+        },
+        {
+          number: 65,
+          arabic: "وَلَا يَحْزُنْكَ قَوْلُهُمْ إِنَّ الْعِزَّةَ لِلَّهِ جَمِيعًا هُوَ السَّمِيعُ الْعَلِيمُ",
+          english: "And let not their sayings dishearten you. All power is God's. He is the Hearer, the Knower."
+        },
+        {
+          number: 66,
+          arabic: "أَلَا إِنَّ لِلَّهِ مَنْ فِي السَّمَاوَاتِ وَمَنْ فِي الْأَرْضِ وَمَا يَتَّبِعُ الَّذِينَ يَدْعُونَ مِنْ دُونِ اللَّهِ شُرَكَاءَ إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ",
+          english: "Certainly, to God belongs everyone in the heavens and everyone on earth. Those who invoke other than God do not follow partners; they follow only assumptions, and they only guess."
+        },
+        {
+          number: 67,
+          arabic: "هُوَ الَّذِي جَعَلَ لَكُمُ اللَّيْلَ لِتَسْكُنُوا فِيهِ وَالنَّهَارَ مُبْصِرًا إِنَّ فِي ذَلِكَ لَآيَاتٍ لِقَوْمٍ يَسْمَعُونَ",
+          english: "It is He who made the night for your rest, and the daylight for visibility. Surely in that are signs for people who listen."
+        },
+        {
+          number: 68,
+          arabic: "قَالُوا اتَّخَذَ اللَّهُ وَلَدًا سُبْحَانَهُ هُوَ الْغَنِيُّ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ إِنْ عِنْدَكُمْ مِنْ سُلْطَانٍ بِهَذَا أَتَقُولُونَ عَلَى اللَّهِ مَا لَا تَعْلَمُونَ",
+          english: "And they said, 'God has taken a son.' Be He glorified. He is the Self-Sufficient. His is everything in the heavens and everything on earth. Do you have any proof for this? Or are you saying about God what you do not know?"
+        },
+        {
+          number: 69,
+          arabic: "قُلْ إِنَّ الَّذِينَ يَفْتَرُونَ عَلَى اللَّهِ الْكَذِبَ لَا يُفْلِحُونَ",
+          english: "Say, 'Those who fabricate lies about God will not succeed.'"
+        },
+        {
+          number: 70,
+          arabic: "مَتَاعٌ فِي الدُّنْيَا ثُمَّ إِلَيْنَا مَرْجِعُهُمْ ثُمَّ نُذِيقُهُمُ الْعَذَابَ الشَّدِيدَ بِمَا كَانُوا يَكْفُرُونَ",
+          english: "Some enjoyment in this world; then to Us is their return; then We will make them taste the severe punishment on account of their disbelief."
+        },
+        {
+          number: 71,
+          arabic: "وَاتْلُ عَلَيْهِمْ نَبَأَ نُوحٍ إِذْ قَالَ لِقَوْمِهِ يَا قَوْمِ إِنْ كَانَ كَبُرَ عَلَيْكُمْ مَقَامِي وَتَذْكِيرِي بِآيَاتِ اللَّهِ فَعَلَى اللَّهِ تَوَكَّلْتُ فَأَجْمِعُوا أَمْرَكُمْ وَشُرَكَاءَكُمْ ثُمَّ لَا يَكُنْ أَمْرُكُمْ عَلَيْكُمْ غُمَّةً ثُمَّ اقْضُوا إِلَيَّ وَلَا تُنْظِرُونِ",
+          english: "And relate to them the story of Noah, when he said to his people, 'O my people, if my presence among you and my reminding you of God's signs is too much for you, then in God I have put my trust. So come to a decision, you and your partners, and do not let the matter perplex you; then carry out your decision on me, and do not hold back.'"
+        },
+        {
+          number: 72,
+          arabic: "فَإِنْ تَوَلَّيْتُمْ فَمَا سَأَلْتُكُمْ مِنْ أَجْرٍ إِنْ أَجْرِيَ إِلَّا عَلَى اللَّهِ وَأُمِرْتُ أَنْ أَكُونَ مِنَ الْمُسْلِمِينَ",
+          english: "'But if you turn away, I have not asked you for any wage. My wage falls only on God, and I was commanded to be of those who submit.'"
+        },
+        {
+          number: 73,
+          arabic: "فَكَذَّبُوهُ فَنَجَّيْنَاهُ وَمَنْ مَعَهُ فِي الْفُلْكِ وَجَعَلْنَاهُمْ خَلَائِفَ وَأَغْرَقْنَا الَّذِينَ كَذَّبُوا بِآيَاتِنَا فَانْظُرْ كَيْفَ كَانَ عَاقِبَةُ الْمُنْذَرِينَ",
+          english: "But they denounced him, so We saved him and those with him in the Ark, and We made them successors, and We drowned those who rejected Our signs. So consider the fate of those who were warned."
+        },
+        {
+          number: 74,
+          arabic: "ثُمَّ بَعَثْنَا مِنْ بَعْدِهِ رُسُلًا إِلَى قَوْمِهِمْ فَجَاءُوهُمْ بِالْبَيِّنَاتِ فَمَا كَانُوا لِيُؤْمِنُوا بِمَا كَذَّبُوا بِهِ مِنْ قَبْلُ كَذَلِكَ نَطْبَعُ عَلَى قُلُوبِ الْمُعْتَدِينَ",
+          english: "Then, after him, We sent messengers to their people. They came to them with the clear proofs, but they would not believe in anything they had already rejected. Thus We set a seal on the hearts of the hostile."
+        },
+        {
+          number: 75,
+          arabic: "ثُمَّ بَعَثْنَا مِنْ بَعْدِهِمْ مُوسَى وَهَارُونَ إِلَى فِرْعَوْنَ وَمَلَئِهِ بِآيَاتِنَا فَاسْتَكْبَرُوا وَكَانُوا قَوْمًا مُجْرِمِينَ",
+          english: "Then, after them, We sent Moses and Aaron with Our proofs to Pharaoh and his dignitaries. But they acted arrogantly. They were sinful people."
+        },
+        {
+          number: 76,
+          arabic: "فَلَمَّا جَاءَهُمُ الْحَقُّ مِنْ عِنْدِنَا قَالُوا إِنَّ هَذَا لَسِحْرٌ مُبِينٌ",
+          english: "And when the truth came to them from Us, they said, 'This is clearly sorcery.'"
+        },
+        {
+          number: 77,
+          arabic: "قَالَ مُوسَى أَتَقُولُونَ لِلْحَقِّ لَمَّا جَاءَكُمْ أَسِحْرٌ هَذَا وَلَا يُفْلِحُ السَّاحِرُونَ",
+          english: "Moses said, 'Is this what you say of the truth when it has come to you? Is this sorcery? Sorcerers do not succeed.'"
+        },
+        {
+          number: 78,
+          arabic: "قَالُوا أَجِئْتَنَا لِتَلْفِتَنَا عَمَّا وَجَدْنَا عَلَيْهِ آبَاءَنَا وَتَكُونَ لَكُمَا الْكِبْرِيَاءُ فِي الْأَرْضِ وَمَا نَحْنُ لَكُمَا بِمُؤْمِنِينَ",
+          english: "They said, 'Did you come to us to divert us from what we found our ancestors following, and so that you become prominent in the land? We will never believe in you.'"
+        },
+        {
+          number: 79,
+          arabic: "وَقَالَ فِرْعَوْنُ ائْتُونِي بِكُلِّ سَاحِرٍ عَلِيمٍ",
+          english: "Pharaoh said, 'Bring me every experienced sorcerer.'"
+        },
+        {
+          number: 80,
+          arabic: "فَلَمَّا جَاءَ السَّحَرَةُ قَالَ لَهُمْ مُوسَى أَلْقُوا مَا أَنْتُمْ مُلْقُونَ",
+          english: "And when the sorcerers came, Moses said to them, 'Throw whatever you have to throw.'"
+        },
+        {
+          number: 81,
+          arabic: "فَلَمَّا أَلْقَوْا قَالَ مُوسَى مَا جِئْتُمْ بِهِ السِّحْرُ إِنَّ اللَّهَ سَيُبْطِلُهُ إِنَّ اللَّهَ لَا يُصْلِحُ عَمَلَ الْمُفْسِدِينَ",
+          english: "And when they threw, Moses said, 'What you produced is sorcery, and God will make it fail. God does not foster the efforts of the corrupt.'"
+        },
+        {
+          number: 82,
+          arabic: "وَيُحِقُّ اللَّهُ الْحَقَّ بِكَلِمَاتِهِ وَلَوْ كَرِهَ الْمُجْرِمُونَ",
+          english: "'And God upholds the truth with His words, even though the sinners detest it.'"
+        },
+        {
+          number: 83,
+          arabic: "فَمَا آمَنَ لِمُوسَى إِلَّا ذُرِّيَّةٌ مِنْ قَوْمِهِ عَلَى خَوْفٍ مِنْ فِرْعَوْنَ وَمَلَئِهِمْ أَنْ يَفْتِنَهُمْ وَإِنَّ فِرْعَوْنَ لَعَالٍ فِي الْأَرْضِ وَإِنَّهُ لَمِنَ الْمُسْرِفِينَ",
+          english: "But none believed in Moses except some children of his people, for fear that Pharaoh and his chiefs would persecute them. Pharaoh was high and mighty in the land. He was a tyrant."
+        },
+        {
+          number: 84,
+          arabic: "وَقَالَ مُوسَى يَا قَوْمِ إِنْ كُنْتُمْ آمَنْتُمْ بِاللَّهِ فَعَلَيْهِ تَوَكَّلُوا إِنْ كُنْتُمْ مُسْلِمِينَ",
+          english: "Moses said, 'O my people, if you have believed in God, then put your trust in Him, if you have submitted.'"
+        },
+        {
+          number: 85,
+          arabic: "فَقَالُوا عَلَى اللَّهِ تَوَكَّلْنَا رَبَّنَا لَا تَجْعَلْنَا فِتْنَةً لِلْقَوْمِ الظَّالِمِينَ",
+          english: "They said, 'In God we have put our trust. Our Lord, do not make us victims of the oppressive people.'"
+        },
+        {
+          number: 86,
+          arabic: "وَنَجِّنَا بِرَحْمَتِكَ مِنَ الْقَوْمِ الْكَافِرِينَ",
+          english: "'And deliver us, by Your mercy, from the disbelieving people.'"
+        },
+        {
+          number: 87,
+          arabic: "وَأَوْحَيْنَا إِلَى مُوسَى وَأَخِيهِ أَنْ تَبَوَّآ لِقَوْمِكُمَا بِمِصْرَ بُيُوتًا وَاجْعَلُوا بُيُوتَكُمْ قِبْلَةً وَأَقِيمُوا الصَّلَاةَ وَبَشِّرِ الْمُؤْمِنِينَ",
+          english: "And We inspired Moses and his brother, 'Settle your people in Egypt, and make your homes places of worship, and perform the prayer, and give good news to the believers.'"
+        },
+        {
+          number: 88,
+          arabic: "وَقَالَ مُوسَى رَبَّنَا إِنَّكَ آتَيْتَ فِرْعَوْنَ وَمَلَأَهُ زِينَةً وَأَمْوَالًا فِي الْحَيَاةِ الدُّنْيَا رَبَّنَا لِيُضِلُّوا عَنْ سَبِيلِكَ رَبَّنَا اطْمِسْ عَلَى أَمْوَالِهِمْ وَاشْدُدْ عَلَى قُلُوبِهِمْ فَلَا يُؤْمِنُوا حَتَّى يَرَوُا الْعَذَابَ الْأَلِيمَ",
+          english: "Moses said, 'Our Lord, you have given Pharaoh and his chiefs splendor and wealth in the worldly life. Our Lord, for them to lead away from Your path. Our Lord, obliterate their wealth, and harden their hearts, they will not believe until they see the painful torment.'"
+        },
+        {
+          number: 89,
+          arabic: "قَالَ قَدْ أُجِيبَتْ دَعْوَتُكُمَا فَاسْتَقِيمَا وَلَا تَتَّبِعَانِّ سَبِيلَ الَّذِينَ لَا يَعْلَمُونَ",
+          english: "He said, 'Your prayer has been answered, so go straight, and do not follow the path of those who do not know.'"
+        },
+        {
+          number: 90,
+          arabic: "وَجَاوَزْنَا بِبَنِي إِسْرَائِيلَ الْبَحْرَ فَأَتْبَعَهُمْ فِرْعَوْنُ وَجُنُودُهُ بَغْيًا وَعَدْوًا حَتَّى إِذَا أَدْرَكَهُ الْغَرَقُ قَالَ آمَنْتُ أَنَّهُ لَا إِلَهَ إِلَّا الَّذِي آمَنَتْ بِهِ بَنُو إِسْرَائِيلَ وَأَنَا مِنَ الْمُسْلِمِينَ",
+          english: "And We delivered the Children of Israel across the sea. Pharaoh and his troops pursued them, defiantly and aggressively. Until, when he was about to drown, he said, 'I believe that there is no god except the One the Children of Israel believe in, and I am of those who submit.'"
+        },
+        {
+          number: 91,
+          arabic: "آلْآنَ وَقَدْ عَصَيْتَ قَبْلُ وَكُنْتَ مِنَ الْمُفْسِدِينَ",
+          english: "Now? When you have rebelled before, and been of the mischief-makers?"
+        },
+        {
+          number: 92,
+          arabic: "فَالْيَوْمَ نُنَجِّيكَ بِبَدَنِكَ لِتَكُونَ لِمَنْ خَلْفَكَ آيَةً وَإِنَّ كَثِيرًا مِنَ النَّاسِ عَنْ آيَاتِنَا لَغَافِلُونَ",
+          english: "Today We will preserve your body, so that you become a sign for those after you. But most people are heedless of Our signs."
+        },
+        {
+          number: 93,
+          arabic: "وَلَقَدْ بَوَّأْنَا بَنِي إِسْرَائِيلَ مُبَوَّأَ صِدْقٍ وَرَزَقْنَاهُمْ مِنَ الطَّيِّبَاتِ فَمَا اخْتَلَفُوا حَتَّى جَاءَهُمُ الْعِلْمُ إِنَّ رَبَّكَ يَقْضِي بَيْنَهُمْ يَوْمَ الْقِيَامَةِ فِيمَا كَانُوا فِيهِ يَخْتَلِفُونَ",
+          english: "And We settled the Children of Israel in a position of honor, and provided them with good things. They did not differ until knowledge came to them. Your Lord will judge between them on the Day of Resurrection regarding their differences."
+        },
+        {
+          number: 94,
+          arabic: "فَإِنْ كُنْتَ فِي شَكٍّ مِمَّا أَنْزَلْنَا إِلَيْكَ فَاسْأَلِ الَّذِينَ يَقْرَءُونَ الْكِتَابَ مِنْ قَبْلِكَ لَقَدْ جَاءَكَ الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُونَنَّ مِنَ الْمُمْتَرِينَ",
+          english: "If you are in doubt about what We revealed to you, ask those who read the Scripture before you. The truth has come to you from your Lord, so do not be of those who doubt."
+        },
+        {
+          number: 95,
+          arabic: "وَلَا تَكُونَنَّ مِنَ الَّذِينَ كَذَّبُوا بِآيَاتِ اللَّهِ فَتَكُونَ مِنَ الْخَاسِرِينَ",
+          english: "And do not be of those who deny God's revelations, lest you become one of the losers."
+        },
+        {
+          number: 96,
+          arabic: "إِنَّ الَّذِينَ حَقَّتْ عَلَيْهِمْ كَلِمَتُ رَبِّكَ لَا يُؤْمِنُونَ",
+          english: "Those against whom your Lord's Word is justified will not believe."
+        },
+        {
+          number: 97,
+          arabic: "وَلَوْ جَاءَتْهُمْ كُلُّ آيَةٍ حَتَّى يَرَوُا الْعَذَابَ الْأَلِيمَ",
+          english: "Even if every sign comes to them—until they see the painful punishment."
+        },
+        {
+          number: 98,
+          arabic: "فَلَوْلَا كَانَتْ قَرْيَةٌ آمَنَتْ فَنَفَعَهَا إِيمَانُهَا إِلَّا قَوْمَ يُونُسَ لَمَّا آمَنُوا كَشَفْنَا عَنْهُمْ عَذَابَ الْخِزْيِ فِي الْحَيَاةِ الدُّنْيَا وَمَتَّعْنَاهُمْ إِلَى حِينٍ",
+          english: "If only there was one town that believed and benefited by its belief. Except for the people of Jonah. When they believed, We removed from them the suffering of disgrace in the worldly life, and We gave them comfort for a while."
+        },
+        {
+          number: 99,
+          arabic: "وَلَوْ شَاءَ رَبُّكَ لَآمَنَ مَنْ فِي الْأَرْضِ كُلُّهُمْ جَمِيعًا أَفَأَنْتَ تُكْرِهُ النَّاسَ حَتَّى يَكُونُوا مُؤْمِنِينَ",
+          english: "Had your Lord willed, everyone on earth would have believed. Will you compel people to become believers?"
+        },
+        {
+          number: 100,
+          arabic: "وَمَا كَانَ لِنَفْسٍ أَنْ تُؤْمِنَ إِلَّا بِإِذْنِ اللَّهِ وَيَجْعَلُ الرِّجْسَ عَلَى الَّذِينَ لَا يَعْقِلُونَ",
+          english: "No soul can believe except by God's leave; and He lays disgrace upon those who refuse to understand."
+        },
+        {
+          number: 101,
+          arabic: "قُلِ انْظُرُوا مَاذَا فِي السَّمَاوَاتِ وَالْأَرْضِ وَمَا تُغْنِي الْآيَاتُ وَالنُّذُرُ عَنْ قَوْمٍ لَا يُؤْمِنُونَ",
+          english: "Say, 'Look at what is in the heavens and the earth.' But signs and warnings are of no avail for people who do not believe."
+        },
+        {
+          number: 102,
+          arabic: "فَهَلْ يَنْتَظِرُونَ إِلَّا مِثْلَ أَيَّامِ الَّذِينَ خَلَوْا مِنْ قَبْلِهِمْ قُلْ فَانْتَظِرُوا إِنِّي مَعَكُمْ مِنَ الْمُنْتَظِرِينَ",
+          english: "Do they expect anything but the likes of the days of those who passed away before them? Say, 'Then wait, I will be waiting with you.'"
+        },
+        {
+          number: 103,
+          arabic: "ثُمَّ نُنَجِّي رُسُلَنَا وَالَّذِينَ آمَنُوا كَذَلِكَ حَقًّا عَلَيْنَا نُنْجِ الْمُؤْمِنِينَ",
+          english: "Then We save Our messengers and those who believe. It is binding on Us to save the believers."
+        },
+        {
+          number: 104,
+          arabic: "قُلْ يَا أَيُّهَا النَّاسُ إِنْ كُنْتُمْ فِي شَكٍّ مِنْ دِينِي فَلَا أَعْبُدُ الَّذِينَ تَعْبُدُونَ مِنْ دُونِ اللَّهِ وَلَكِنْ أَعْبُدُ اللَّهَ الَّذِي يَتَوَفَّاكُمْ وَأُمِرْتُ أَنْ أَكُونَ مِنَ الْمُؤْمِنِينَ",
+          english: "Say, 'O people, if you are in doubt about my religion—I do not serve those you serve apart from God. But I serve God, the one who will terminate your lives. And I was commanded to be of the believers.'"
+        },
+        {
+          number: 105,
+          arabic: "وَأَنْ أَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا وَلَا تَكُونَنَّ مِنَ الْمُشْرِكِينَ",
+          english: "And dedicate yourself to the true religion—a monotheist—and never be of the polytheists."
+        },
+        {
+          number: 106,
+          arabic: "وَلَا تَدْعُ مِنْ دُونِ اللَّهِ مَا لَا يَنْفَعُكَ وَلَا يَضُرُّكُ فَإِنْ فَعَلْتَ فَإِنَّكَ إِذًا مِنَ الظَّالِمِينَ",
+          english: "And do not call, apart from God, on what neither benefits you nor harms you. If you do, you are then one of the wrongdoers."
+        },
+        {
+          number: 107,
+          arabic: "وَإِنْ يَمْسَسْكَ اللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُ إِلَّا هُوَ وَإِنْ يُرِدْكَ بِخَيْرٍ فَلَا رَادَّ لِفَضْلِهِ يُصِيبُ بِهِ مَنْ يَشَاءُ مِنْ عِبَادِهِ وَهُوَ الْغَفُورُ الرَّحِيمُ",
+          english: "If God afflicts you with harm, none can remove it except He. And if He wants good for you, none can repel His grace. He makes it reach whomever He wills of His servants. He is the Forgiver, the Merciful."
+        },
+        {
+          number: 108,
+          arabic: "قُلْ يَا أَيُّهَا النَّاسُ قَدْ جَاءَكُمُ الْحَقُّ مِنْ رَبِّكُمْ فَمَنِ اهْتَدَى فَإِنَّمَا يَهْتَدِي لِنَفْسِهِ وَمَنْ ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا وَمَا أَنَا عَلَيْكُمْ بِوَكِيلٍ",
+          english: "Say, 'O people, the truth has come to you from your Lord. Whoever accepts guidance is guided for his own soul; and whoever strays only strays to its detriment. I am not a guardian over you.'"
+        },
+        {
+          number: 109,
+          arabic: "وَاتَّبِعْ مَا يُوحَى إِلَيْكَ وَاصْبِرْ حَتَّى يَحْكُمَ اللَّهُ وَهُوَ خَيْرُ الْحَاكِمِينَ",
+          english: "And follow what is revealed to you, and be patient until God issues His judgment, for He is the Best of judges."
         }
+
       ]
     },
     {
@@ -6004,7 +7542,613 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
           number: 2,
           arabic: 'أَلَّا تَعْبُدُوا إِلَّا اللَّهَ ۚ إِنَّنِي لَكُم مِّنْهُ نَذِيرٌ وَبَشِيرٌ',
           english: '[Saying], "Do not worship except Allah. Indeed, I am to you from Him a warner and a bringer of good tidings."'
+        },
+        {
+          number: 3,
+          arabic: "وَأَنِ اسْتَغْفِرُوا رَبَّكُمْ ثُمَّ تُوبُوا إِلَيْهِ يُمَتِّعْكُمْ مَتَاعًا حَسَنًا إِلَى أَجَلٍ مُسَمًّى وَيُؤْتِ كُلَّ ذِي فَضْلٍ فَضْلَهُ وَإِنْ تَوَلَّوْا فَإِنِّي أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ كَبِيرٍ",
+          english: "\"And ask your Lord for forgiveness, and repent to Him. He will provide you with good sustenance until a stated term, and will bestow His grace on every possessor of virtue. But if you turn away, then I fear for you the punishment of a grievous Day.\""
+        },
+        {
+          number: 4,
+          arabic: "إِلَى اللَّهِ مَرْجِعُكُمْ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          english: "\"To God is your return, and He is Capable of all things.\""
+        },
+        {
+          number: 5,
+          arabic: "أَلَا إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ لِيَسْتَخْفُوا مِنْهُ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ",
+          english: "They wrap their chests to hide from Him. But even as they cover themselves with their clothes, He knows what they conceal and what they reveal. He knows what lies within the hearts."
+        },
+        {
+          number: 6,
+          arabic: "وَمَا مِنْ دَابَّةٍ فِي الْأَرْضِ إِلَّا عَلَى اللَّهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا وَمُسْتَوْدَعَهَا كُلٌّ فِي كِتَابٍ مُبِينٍ",
+          english: "There is no moving creature on earth but its sustenance depends on God. And He knows where it lives and where it rests. Everything is in a Clear Book."
+        },
+        {
+          number: 7,
+          arabic: "وَهُوَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ وَكَانَ عَرْشُهُ عَلَى الْمَاءِ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا وَلَئِنْ قُلْتَ إِنَّكُمْ مَبْعُوثُونَ مِنْ بَعْدِ الْمَوْتِ لَيَقُولَنَّ الَّذِينَ كَفَرُوا إِنْ هَذَا إِلَّا سِحْرٌ مُبِينٌ",
+          english: "It is He who created the heavens and the earth in six days—and His Throne was upon the waters—in order to test you—which of you is best in conduct. And if you were to say, 'You will be resurrected after death,' those who disbelieve would say, 'This is nothing but plain witchcraft.'"
+        },
+        {
+          number: 8,
+          arabic: "وَلَئِنْ أَخَّرْنَا عَنْهُمُ الْعَذَابَ إِلَى أُمَّةٍ مَعْدُودَةٍ لَيَقُولُنَّ مَا يَحْبِسُهُ أَلَا يَوْمَ يَأْتِيهِمْ لَيْسَ مَصْرُوفًا عَنْهُمْ وَحَاقَ بِهِمْ مَا كَانُوا بِهِ يَسْتَهْزِئُونَ",
+          english: "And if We postponed their punishment until a stated time, they would say, 'What holds it back?' On the Day when it reaches them, it will not be averted from them, and what they used to ridicule will besiege them."
+        },
+        {
+          number: 9,
+          arabic: "وَلَئِنْ أَذَقْنَا الْإِنْسَانَ مِنَّا رَحْمَةً ثُمَّ نَزَعْنَاهَا مِنْهُ إِنَّهُ لَيَئُوسٌ كَفُورٌ",
+          english: "If We give the human being a taste of mercy from Us, and then withdraw it from him, he becomes despairing and ungrateful."
+        },
+        {
+          number: 10,
+          arabic: "وَلَئِنْ أَذَقْنَاهُ نَعْمَاءَ بَعْدَ ضَرَّاءَ مَسَّتْهُ لَيَقُولَنَّ ذَهَبَ السَّيِّئَاتُ عَنِّي إِنَّهُ لَفَرِحٌ فَخُورٌ",
+          english: "And if We give him a taste of prosperity, after some adversity has afflicted him, he will say, 'Troubles have gone away from me.' He becomes excited and proud."
+        },
+        {
+          number: 11,
+          arabic: "إِلَّا الَّذِينَ صَبَرُوا وَعَمِلُوا الصَّالِحَاتِ أُولَئِكَ لَهُمْ مَغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
+          english: "Except those who are patient and do good deeds—these will have forgiveness and a great reward."
+        },
+        {
+          number: 12,
+          arabic: "فَلَعَلَّكَ تَارِكٌ بَعْضَ مَا يُوحَى إِلَيْكَ وَضَائِقٌ بِهِ صَدْرُكَ أَنْ يَقُولُوا لَوْلَا أُنْزِلَ عَلَيْهِ كَنْزٌ أَوْ جَاءَ مَعَهُ مَلَكٌ إِنَّمَا أَنْتَ نَذِيرٌ وَاللَّهُ عَلَى كُلِّ شَيْءٍ وَكِيلٌ",
+          english: "Perhaps you wish to disregard some of what is revealed to you, and you may be stressed because of it, since they say, 'If only a treasure was sent down to him, or an angel came with him.' You are only a warner, and God is Responsible for all things."
+        },
+        {
+          number: 13,
+          arabic: "أَمْ يَقُولُونَ افْتَرَاهُ قُلْ فَأْتُوا بِعَشْرِ سُوَرٍ مِثْلِهِ مُفْتَرَيَاتٍ وَادْعُوا مَنِ اسْتَطَعْتُمْ مِنْ دُونِ اللَّهِ إِنْ كُنْتُمْ صَادِقِينَ",
+          english: "Or do they say, 'He invented it?' Say, 'Then produce ten chapters like it, invented, and call upon whomever you can, besides God, if you are truthful.'"
+        },
+        {
+          number: 14,
+          arabic: "فَإِلَّمْ يَسْتَجِيبُوا لَكُمْ فَاعْلَمُوا أَنَّمَا أُنْزِلَ بِعِلْمِ اللَّهِ وَأَنْ لَا إِلَهَ إِلَّا هُوَ فَهَلْ أَنْتُمْ مُسْلِمُونَ",
+          english: "But if they fail to answer you, know that it was revealed with God's knowledge, and that there is no god but He. Will you then submit?"
+        },
+        {
+          number: 15,
+          arabic: "مَنْ كَانَ يُرِيدُ الْحَيَاةَ الدُّنْيَا وَزِينَتَهَا نُوَفِّ إِلَيْهِمْ أَعْمَالَهُمْ فِيهَا وَهُمْ فِيهَا لَا يُبْخَسُونَ",
+          english: "Whoever desires the worldly life and its glitter—We will fully recompense them for their deeds therein, and therein they will not be defrauded."
+        },
+        {
+          number: 16,
+          arabic: "أُولَئِكَ الَّذِينَ لَيْسَ لَهُمْ فِي الْآخِرَةِ إِلَّا النَّارُ وَحَبِطَ مَا صَنَعُوا فِيهَا وَبَاطِلٌ مَا كَانُوا يَعْمَلُونَ",
+          english: "These—they will have nothing but the Fire in the Hereafter. Their deeds are in vain therein, and their works are null."
+        },
+        {
+          number: 17,
+          arabic: "أَفَمَنْ كَانَ عَلَى بَيِّنَةٍ مِنْ رَبِّهِ وَيَتْلُوهُ شَاهِدٌ مِنْهُ وَمِنْ قَبْلِهِ كِتَابُ مُوسَى إِمَامًا وَرَحْمَةً أُولَئِكَ يُؤْمِنُونَ بِهِ وَمَنْ يَكْفُرْ بِهِ مِنَ الْأَحْزَابِ فَالنَّارُ مَوْعِدُهُ فَلَا تَكُ فِي مِرْيَةٍ مِنْهُ إِنَّهُ الْحَقُّ مِنْ رَبِّكَ وَلَكِنَّ أَكْثَرَ النَّاسِ لَا يُؤْمِنُونَ",
+          english: "Is he who possesses a clear proof from his Lord, recited by a witness from Him, and before it the Book of Moses, a guide and a mercy? These believe in it. But whoever defies it from among the various factions, the Fire is his promise. So have no doubt about it. It is the truth from your Lord, but most people do not believe."
+        },
+        {
+          number: 18,
+          arabic: "وَمَنْ أَظْلَمُ مِمَّنِ افْتَرَى عَلَى اللَّهِ كَذِبًا أُولَئِكَ يُعْرَضُونَ عَلَى رَبِّهِمْ وَيَقُولُ الْأَشْهَادُ هَؤُلَاءِ الَّذِينَ كَذَبُوا عَلَى رَبِّهِمْ أَلَا لَعْنَةُ اللَّهِ عَلَى الظَّالِمِينَ",
+          english: "Who does greater wrong than he who fabricates lies about God? These will be presented before their Lord, and the witnesses will say, 'These are they who lied about their Lord.' Indeed, the curse of God is upon the wrongdoers."
+        },
+        {
+          number: 19,
+          arabic: "الَّذِينَ يَصُدُّونَ عَنْ سَبِيلِ اللَّهِ وَيَبْغُونَهَا عِوَجًا وَهُمْ بِالْآخِرَةِ هُمْ كَافِرُونَ",
+          english: "Those who hinder others from the path of God, and seek to make it crooked; and regarding the Hereafter, they are in denial."
+        },
+        {
+          number: 20,
+          arabic: "أُولَئِكَ لَمْ يَكُونُوا مُعْجِزِينَ فِي الْأَرْضِ وَمَا كَانَ لَهُمْ مِنْ دُونِ اللَّهِ مِنْ أَوْلِيَاءَ يُضَاعَفُ لَهُمُ الْعَذَابُ مَا كَانُوا يَسْتَطِيعُونَ السَّمْعَ وَمَا كَانُوا يُبْصِرُونَ",
+          english: "These will not escape on earth, and they have no protectors besides God. The punishment will be doubled for them. They have failed to hear, and they have failed to see."
+        },
+        {
+          number: 21,
+          arabic: "أُولَئِكَ الَّذِينَ خَسِرُوا أَنْفُسَهُمْ وَضَلَّ عَنْهُمْ مَا كَانُوا يَفْتَرُونَ",
+          english: "Those are the ones who lost their souls, and what they had invented has strayed away from them."
+        },
+        {
+          number: 22,
+          arabic: "لَا جَرَمَ أَنَّهُمْ فِي الْآخِرَةِ هُمُ الْأَخْسَرُونَ",
+          english: "Without a doubt, in the Hereafter, they will be the biggest losers."
+        },
+        {
+          number: 23,
+          arabic: "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَأَخْبَتُوا إِلَى رَبِّهِمْ أُولَئِكَ أَصْحَابُ الْجَنَّةِ هُمْ فِيهَا خَالِدُونَ",
+          english: "As for those who believe and do good deeds, and humble themselves before their Lord—these are the inhabitants of Paradise, where they will abide forever."
+        },
+        {
+          number: 24,
+          arabic: "مَثَلُ الْفَرِيقَيْنِ كَالْأَعْمَى وَالْأَصَمِّ وَالْبَصِيرِ وَالسَّمِيعِ هَلْ يَسْتَوِيَانِ مَثَلًا أَفَلَا تَذَكَّرُونَ",
+          english: "The parable of the two groups is that of the blind and the deaf, and the seeing and the hearing. Are they equal in comparison? Will you not reflect?"
+        },
+        {
+          number: 25,
+          arabic: "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَى قَوْمِهِ إِنِّي لَكُمْ نَذِيرٌ مُبِينٌ",
+          english: "We sent Noah to his people, 'I am to you a clear warner.'"
+        },
+        {
+          number: 26,
+          arabic: "أَنْ لَا تَعْبُدُوا إِلَّا اللَّهَ إِنِّي أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ أَلِيمٍ",
+          english: "'That you shall worship none but God. I fear for you the agony of a painful Day.'"
+        },
+        {
+          number: 27,
+          arabic: "فَقَالَ الْمَلَأُ الَّذِينَ كَفَرُوا مِنْ قَوْمِهِ مَا نَرَاكَ إِلَّا بَشَرًا مِثْلَنَا وَمَا نَرَاكَ اتَّبَعَكَ إِلَّا الَّذِينَ هُمْ أَرَاذِلُنَا بَادِيَ الرَّأْيِ وَمَا نَرَى لَكُمْ عَلَيْنَا مِنْ فَضْلٍ بَلْ نَظُنُّكُمْ كَاذِبِينَ",
+          english: "The notables who disbelieved among his people said, 'We see in you nothing but a man like us, and we see that only the worst among us have followed you, those of immature judgment. And we see that you have no advantage over us. In fact, we think you are liars.'"
+        },
+        {
+          number: 28,
+          arabic: "قَالَ يَا قَوْمِ أَرَأَيْتُمْ إِنْ كُنْتُ عَلَى بَيِّنَةٍ مِنْ رَبِّي وَآتَانِي رَحْمَةً مِنْ عِنْدِهِ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنْتُمْ لَهَا كَارِهُونَ",
+          english: "He said, 'O my people, Have you considered? If I stand on clear evidence from my Lord, and He has given me a mercy from Himself, but you were blind to it, can we compel you to accept it, even though you dislike it?'"
+        },
+        {
+          number: 29,
+          arabic: "وَيَا قَوْمِ لَا أَسْأَلُكُمْ عَلَيْهِ مَالًا إِنْ أَجْرِيَ إِلَّا عَلَى اللَّهِ وَمَا أَنَا بِطَارِدِ الَّذِينَ آمَنُوا إِنَّهُمْ مُلَاقُو رَبِّهِمْ وَلَكِنِّي أَرَاكُمْ قَوْمًا تَجْهَلُونَ",
+          english: "'O my people! I ask of you no money for it. My reward lies only with God. And I am not about to dismiss those who believed; they will surely meet their Lord. And I see that you are ignorant people.'"
+        },
+        {
+          number: 30,
+          arabic: "وَيَا قَوْمِ مَنْ يَنْصُرُنِي مِنَ اللَّهِ إِنْ طَرَدْتُهُمْ أَفَلَا تَذَكَّرُونَ",
+          english: "'O my people! Who will support me against God, if I dismiss them? Will you not give a thought?'"
+        },
+        {
+          number: 31,
+          arabic: "وَلَا أَقُولُ لَكُمْ عِنْدِي خَزَائِنُ اللَّهِ وَلَا أَعْلَمُ الْغَيْبَ وَلَا أَقُولُ إِنِّي مَلَكٌ وَلَا أَقُولُ لِلَّذِينَ تَزْدَرِي أَعْيُنُكُمْ لَنْ يُؤْتِيَهُمُ اللَّهُ خَيْرًا اللَّهُ أَعْلَمُ بِمَا فِي أَنْفُسِهِمْ إِنِّي إِذًا لَمِنَ الظَّالِمِينَ",
+          english: "\"I do not say to you that I possess the treasures of God, nor do I know the future, nor do I say that I am an angel. Nor do I say of those who are despicable in your eyes that God will never give them any good. God is Aware of what lies in their souls. If I did, I would be one of the wrongdoers.\""
+        },
+        {
+          number: 32,
+          arabic: "قَالُوا يَا نُوحُ قَدْ جَادَلْتَنَا فَأَكْثَرْتَ جِدَالَنَا فَأْتِنَا بِمَا تَعِدُنَا إِنْ كُنْتَ مِنَ الصَّادِقِينَ",
+          english: "They said, \"O Noah, you have argued with us, and argued a great deal. Now bring upon us what you threaten us with, if you are truthful.\""
+        },
+        {
+          number: 33,
+          arabic: "قَالَ إِنَّمَا يَأْتِيكُمْ بِهِ اللَّهُ إِنْ شَاءَ وَمَا أَنْتُمْ بِمُعْجِزِينَ",
+          english: "He said, \"It is God who will bring it upon you, if He wills, and you will not be able to escape.\""
+        },
+        {
+          number: 34,
+          arabic: "وَلَا يَنْفَعُكُمْ نُصْحِي إِنْ أَرَدْتُ أَنْ أَنْصَحَ لَكُمْ إِنْ كَانَ اللَّهُ يُرِيدُ أَنْ يُغْوِيَكُمْ هُوَ رَبُّكُمْ وَإِلَيْهِ تُرْجَعُونَ",
+          english: "\"My advice will not benefit you, much as I may want to advise you, if God desires to confound you. He is your Lord, and to Him you will be returned.\""
+        },
+        {
+          number: 35,
+          arabic: "أَمْ يَقُولُونَ افْتَرَاهُ قُلْ إِنِ افْتَرَيْتُهُ فَعَلَيَّ إِجْرَامِي وَأَنَا بَرِيءٌ مِمَّا تُجْرِمُونَ",
+          english: "Or do they say, \"He made it up?\" Say, \"If I made it up, upon me falls my crime, and I am innocent of the crimes you commit.\""
+        },
+        {
+          number: 36,
+          arabic: "وَأُوحِيَ إِلَى نُوحٍ أَنَّهُ لَنْ يُؤْمِنَ مِنْ قَوْمِكَ إِلَّا مَنْ قَدْ آمَنَ فَلَا تَبْتَئِسْ بِمَا كَانُوا يَفْعَلُونَ",
+          english: "And it was revealed to Noah: \"None of your people will believe, except those who have already believed, so do not grieve over what they do.\""
+        },
+        {
+          number: 37,
+          arabic: "وَاصْنَعِ الْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَاطِبْنِي فِي الَّذِينَ ظَلَمُوا إِنَّهُمْ مُغْرَقُونَ",
+          english: "\"And build the Ark, under Our eyes, and with Our inspiration, and do not address Me regarding those who did wrong; they are to be drowned.\""
+        },
+        {
+          number: 38,
+          arabic: "وَيَصْنَعُ الْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌ مِنْ قَوْمِهِ سَخِرُوا مِنْهُ قَالَ إِنْ تَسْخَرُوا مِنَّا فَإِنَّا نَسْخَرُ مِنْكُمْ كَمَا تَسْخَرُونَ",
+          english: "As he was building the ark, whenever some of his people passed by him, they ridiculed him. He said, \"If you ridicule us, we will ridicule you, just as you ridicule.\""
+        },
+        {
+          number: 39,
+          arabic: "فَسَوْفَ تَعْلَمُونَ مَنْ يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَيَحِلُّ عَلَيْهِ عَذَابٌ مُقِيمٌ",
+          english: "\"You will surely know upon whom will come a torment that will abase him, and upon whom will fall a lasting torment.\""
+        },
+        {
+          number: 40,
+          arabic: "حَتَّى إِذَا جَاءَ أَمْرُنَا وَفَارَ التَّنُّورُ قُلْنَا احْمِلْ فِيهَا مِنْ كُلٍّ زَوْجَيْنِ اثْنَيْنِ وَأَهْلَكَ إِلَّا مَنْ سَبَقَ عَلَيْهِ الْقَوْلُ وَمَنْ آمَنَ وَمَا آمَنَ مَعَهُ إِلَّا قَلِيلٌ",
+          english: "Until, when Our command came, and the volcano erupted, We said, \"Board into it a pair of every kind, and your family—except those against whom the sentence has already been passed—and those who have believed.\" But those who believed with him were only a few."
+        },
+        {
+          number: 41,
+          arabic: "وَقَالَ ارْكَبُوا فِيهَا بِسْمِ اللَّهِ مَجْرَاهَا وَمُرْسَاهَا إِنَّ رَبِّي لَغَفُورٌ رَحِيمٌ",
+          english: "He said, \"Embark in it. In the name of God shall be its sailing and its anchorage. My Lord is indeed Forgiving and Merciful.\""
+        },
+        {
+          number: 42,
+          arabic: "وَهِيَ تَجْرِي بِهِمْ فِي مَوْجٍ كَالْجِبَالِ وَنَادَى نُوحٌ ابْنَهُ وَكَانَ فِي مَعْزِلٍ يَا بُنَيَّ ارْكَبْ مَعَنَا وَلَا تَكُنْ مَعَ الْكَافِرِينَ",
+          english: "And so it sailed with them amidst waves like hills. And Noah called to his son, who had kept away, \"On my son! Embark with us, and do not be with the disbelievers.\""
+        },
+        {
+          number: 43,
+          arabic: "قَالَ سَآوِي إِلَى جَبَلٍ يَعْصِمُنِي مِنَ الْمَاءِ قَالَ لَا عَاصِمَ الْيَوْمَ مِنْ أَمْرِ اللَّهِ إِلَّا مَنْ رَحِمَ وَحَالَ بَيْنَهُمَا الْمَوْجُ فَكَانَ مِنَ الْمُغْرَقِينَ",
+          english: "He said, \"I will take refuge on a mountain—it will protect me from the water.\" He said, \"There is no protection from God's decree today, except for him on whom He has mercy.\" And the waves surged between them, and he was among the drowned."
+        },
+        {
+          number: 44,
+          arabic: "وَقِيلَ يَا أَرْضُ ابْلَعِي مَاءَكِ وَيَا سَمَاءُ أَقْلِعِي وَغِيضَ الْمَاءُ وَقُضِيَ الْأَمْرُ وَاسْتَوَتْ عَلَى الْجُودِيِّ وَقِيلَ بُعْدًا لِلْقَوْمِ الظَّالِمِينَ",
+          english: "And it was said, \"O earth, swallow your waters,\" and \"O heaven, clear up.\" And the waters receded, and the event was concluded, and it settled on Judi, and it was proclaimed: \"Away with the wicked people.\""
+        },
+        {
+          number: 45,
+          arabic: "وَنَادَى نُوحٌ رَبَّهُ فَقَالَ رَبِّ إِنَّ ابْنِي مِنْ أَهْلِي وَإِنَّ وَعْدَكَ الْحَقُّ وَأَنْتَ أَحْكَمُ الْحَاكِمِينَ",
+          english: "And Noah called to his Lord. He said, \"O My Lord, my son is of my family, and Your promise is true, and You are the Wisest of the wise.\""
+        },
+        {
+          number: 46,
+          arabic: "قَالَ يَا نُوحُ إِنَّهُ لَيْسَ مِنْ أَهْلِكَ إِنَّهُ عَمَلٌ غَيْرُ صَالِحٍ فَلَا تَسْأَلْنِ مَا لَيْسَ لَكَ بِهِ عِلْمٌ إِنِّي أَعِظُكَ أَنْ تَكُونَ مِنَ الْجَاهِلِينَ",
+          english: "He said, \"O Noah, he is not of your family. It is an unrighteous deed. So do not ask Me about something you know nothing about. I admonish you, lest you be one of the ignorant.\""
+        },
+        {
+          number: 47,
+          arabic: "قَالَ رَبِّ إِنِّي أَعُوذُ بِكَ أَنْ أَسْأَلَكَ مَا لَيْسَ لِي بِهِ عِلْمٌ وَإِلَّا تَغْفِرْ لِي وَتَرْحَمْنِي أَكُنْ مِنَ الْخَاسِرِينَ",
+          english: "He said, \"O My Lord, I seek refuge with You, from asking You about what I have no knowledge of. Unless You forgive me, and have mercy on me, I will be one of the losers.\""
+        },
+        {
+          number: 48,
+          arabic: "قِيلَ يَا نُوحُ اهْبِطْ بِسَلَامٍ مِنَّا وَبَرَكَاتٍ عَلَيْكَ وَعَلَى أُمَمٍ مِمَّنْ مَعَكَ وَأُمَمٌ سَنُمَتِّعُهُمْ ثُمَّ يَمَسُّهُمْ مِنَّا عَذَابٌ أَلِيمٌ",
+          english: "It was said, \"O Noah, disembark with peace from Us; and with blessings upon you, and upon communities from those with you. And other communities We will grant prosperity, and then a painful torment from Us will befall them.\""
+        },
+        {
+          number: 49,
+          arabic: "تِلْكَ مِنْ أَنْبَاءِ الْغَيْبِ نُوحِيهَا إِلَيْكَ مَا كُنْتَ تَعْلَمُهَا أَنْتَ وَلَا قَوْمُكَ مِنْ قَبْلِ هَذَا فَاصْبِرْ إِنَّ الْعَاقِبَةَ لِلْمُتَّقِينَ",
+          english: "These are some stories from the past that we reveal to you. Neither you, nor your people knew them before this. So be patient. The future belongs to the pious."
+        },
+        {
+          number: 50,
+          arabic: "وَإِلَى عَادٍ أَخَاهُمْ هُودًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ إِنْ أَنْتُمْ إِلَّا مُفْتَرُونَ",
+          english: "And to Aad, their brother Hud. He said, \"O my people, worship God, you have no other god besides Him. You do nothing but invent lies.\""
+        },
+        {
+          number: 51,
+          arabic: "يَا قَوْمِ لَا أَسْأَلُكُمْ عَلَيْهِ أَجْرًا إِنْ أَجْرِيَ إِلَّا عَلَى الَّذِي فَطَرَنِي أَفَلَا تَعْقِلُونَ",
+          english: "\"O my people, I ask you no wage for it; my wage lies with Him who originated me. Do you not understand?\""
+        },
+        {
+          number: 52,
+          arabic: "وَيَا قَوْمِ اسْتَغْفِرُوا رَبَّكُمْ ثُمَّ تُوبُوا إِلَيْهِ يُرْسِلِ السَّمَاءَ عَلَيْكُمْ مِدْرَارًا وَيَزِدْكُمْ قُوَّةً إِلَى قُوَّتِكُمْ وَلَا تَتَوَلَّوْا مُجْرِمِينَ",
+          english: "\"O my people, ask forgiveness from your Lord, and repent to Him. He will release the sky pouring down upon you, and will add strength to your strength. And do not turn away and be wicked.\""
+        },
+        {
+          number: 53,
+          arabic: "قَالُوا يَا هُودُ مَا جِئْتَنَا بِبَيِّنَةٍ وَمَا نَحْنُ بِتَارِكِي آلِهَتِنَا عَنْ قَوْلِكَ وَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ",
+          english: "They said, \"O Hud, you did not bring us any evidence, and we are not about to abandon our gods at your word, and we are not believers in you.\""
+        },
+        {
+          number: 54,
+          arabic: "إِنْ نَقُولُ إِلَّا اعْتَرَاكَ بَعْضُ آلِهَتِنَا بِسُوءٍ قَالَ إِنِّي أُشْهِدُ اللَّهَ وَاشْهَدُوا أَنِّي بَرِيءٌ مِمَّا تُشْرِكُونَ",
+          english: "\"We only say that some of our gods have possessed you with evil.\" He said, \"I call God to witness, and you to witness, that I am innocent of what you associate."
+        },
+        {
+          number: 55,
+          arabic: "مِنْ دُونِهِ فَكِيدُونِي جَمِيعًا ثُمَّ لَا تُنْظِرُونِ",
+          english: "Besides Him. So scheme against me, all of you, and do not hesitate."
+        },
+        {
+          number: 56,
+          arabic: "إِنِّي تَوَكَّلْتُ عَلَى اللَّهِ رَبِّي وَرَبِّكُمْ مَا مِنْ دَابَّةٍ إِلَّا هُوَ آخِذٌ بِنَاصِيَتِهَا إِنَّ رَبِّي عَلَى صِرَاطٍ مُسْتَقِيمٍ",
+          english: "I have placed my trust in God, my Lord and your Lord. There is not a creature but He holds it by the forelock. My Lord is on a straight path."
+        },
+        {
+          number: 57,
+          arabic: "فَإِنْ تَوَلَّوْا فَقَدْ أَبْلَغْتُكُمْ مَا أُرْسِلْتُ بِهِ إِلَيْكُمْ وَيَسْتَخْلِفُ رَبِّي قَوْمًا غَيْرَكُمْ وَلَا تَضُرُّونَهُ شَيْئًا إِنَّ رَبِّي عَلَى كُلِّ شَيْءٍ حَفِيظٌ",
+          english: "If you turn away, I have conveyed to you what I was sent to you with; and my Lord will replace you with another people, and you will not cause Him any harm. My Lord is Guardian over all things."
+        },
+        {
+          number: 58,
+          arabic: "وَلَمَّا جَاءَ أَمْرُنَا نَجَّيْنَا هُودًا وَالَّذِينَ آمَنُوا مَعَهُ بِرَحْمَةٍ مِنَّا وَنَجَّيْنَاهُمْ مِنْ عَذَابٍ غَلِيظٍ",
+          english: "And when Our decree came, We saved Hud and those who believed with him, by a mercy from Us, and We delivered them from a harsh punishment."
+        },
+        {
+          number: 59,
+          arabic: "وَتِلْكَ عَادٌ جَحَدُوا بِآيَاتِ رَبِّهِمْ وَعَصَوْا رُسُلَهُ وَاتَّبَعُوا أَمْرَ كُلِّ جَبَّارٍ عَنِيدٍ",
+          english: "That was Aad; they denied the signs of their Lord, and defied His messengers, and followed the lead of every stubborn tyrant."
+        },
+        {
+          number: 60,
+          arabic: "وَأُتْبِعُوا فِي هَذِهِ الدُّنْيَا لَعْنَةً وَيَوْمَ الْقِيَامَةِ أَلَا إِنَّ عَادًا كَفَرُوا رَبَّهُمْ أَلَا بُعْدًا لِعَادٍ قَوْمِ هُودٍ",
+          english: "And they were pursued by a curse in this world, and on the Day of Resurrection. Indeed, Aad blasphemed against their Lord—so away with Aad, the people of Hud."
+        },
+        {
+          number: 61,
+          arabic: "وَإِلَى ثَمُودَ أَخَاهُمْ صَالِحًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ هُوَ أَنْشَأَكُمْ مِنَ الْأَرْضِ وَاسْتَعْمَرَكُمْ فِيهَا فَاسْتَغْفِرُوهُ ثُمَّ تُوبُوا إِلَيْهِ إِنَّ رَبِّي قَرِيبٌ مُجِيبٌ",
+          english: "And to Thamood, their brother Saleh. He said, \"O my people, worship God, you have no god other than Him. He initiated you from the earth, and settled you in it. So seek His forgiveness, and repent to Him. My Lord is Near and Responsive.\""
+        },
+        {
+          number: 62,
+          arabic: "قَالُوا يَا صَالِحُ قَدْ كُنْتَ فِينَا مَرْجُوًّا قَبْلَ هَذَا أَتَنْهَانَا أَنْ نَعْبُدَ مَا يَعْبُدُ آبَاؤُنَا وَإِنَّنَا لَفِي شَكٍّ مِمَّا تَدْعُونَا إِلَيْهِ مُرِيبٍ",
+          english: "They said, \"O Saleh, we had hopes in you before this. Are you trying to prevent us from worshiping what our parents worship? We are in serious doubt regarding what you are calling us to.\""
+        },
+        {
+          number: 63,
+          arabic: "قَالَ يَا قَوْمِ أَرَأَيْتُمْ إِنْ كُنْتُ عَلَى بَيِّنَةٍ مِنْ رَبِّي وَآتَانِي مِنْهُ رَحْمَةً فَمَنْ يَنْصُرُنِي مِنَ اللَّهِ إِنْ عَصَيْتُهُ فَمَا تَزِيدُونَنِي غَيْرَ تَخْسِيرٍ",
+          english: "He said, \"O my people, have you considered? If I stand upon clear evidence from my Lord, and He has given me mercy from Him, who would protect me from God, if I disobeyed Him? You add nothing for me except loss.\""
+        },
+        {
+          number: 64,
+          arabic: "وَيَا قَوْمِ هَذِهِ نَاقَةُ اللَّهِ لَكُمْ آيَةً فَذَرُوهَا تَأْكُلْ فِي أَرْضِ اللَّهِ وَلَا تَمَسُّوهَا بِسُوءٍ فَيَأْخُذَكُمْ عَذَابٌ قَرِيبٌ",
+          english: "\"O my people, this is the she-camel of God, a sign for you. Let her graze on God's land, and do not harm her, lest an imminent punishment overtakes you.\""
+        },
+        {
+          number: 65,
+          arabic: "فَعَقَرُوهَا فَقَالَ تَمَتَّعُوا فِي دَارِكُمْ ثَلَاثَةَ أَيَّامٍ ذَلِكَ وَعْدٌ غَيْرُ مَكْذُوبٍ",
+          english: "But they hamstrung her, and so He said, \"Enjoy yourselves in your homes for three days. This is a prophecy that is infallible.\""
+        },
+        {
+          number: 66,
+          arabic: "فَلَمَّا جَاءَ أَمْرُنَا نَجَّيْنَا صَالِحًا وَالَّذِينَ آمَنُوا مَعَهُ بِرَحْمَةٍ مِنَّا وَمِنْ خِزْيِ يَوْمِئِذٍ إِنَّ رَبَّكَ هُوَ الْقَوِيُّ الْعَزِيزُ",
+          english: "Then, when Our command came, We saved Saleh and those who believed with him, by a mercy from Us, from the disgrace of that day. Your Lord is the Strong, the Mighty."
+        },
+        {
+          number: 67,
+          arabic: "وَأَخَذَ الَّذِينَ ظَلَمُوا الصَّيْحَةُ فَأَصْبَحُوا فِي دِيَارِهِمْ جَاثِمِينَ",
+          english: "And the Scream struck those who transgressed, and they became motionless bodies in their homes."
+        },
+        {
+          number: 68,
+          arabic: "كَأَنْ لَمْ يَغْنَوْا فِيهَا أَلَا إِنَّ ثَمُودَ كَفَرُوا رَبَّهُمْ أَلَا بُعْدًا لِثَمُودَ",
+          english: "As if they had never prospered therein. Indeed, Thamood rejected their Lord, so away with Thamood."
+        },
+        {
+          number: 69,
+          arabic: "وَلَقَدْ جَاءَتْ رُسُلُنَا إِبْرَاهِيمَ بِالْبُشْرَى قَالُوا سَلَامًا قَالَ سَلَامٌ فَمَا لَبِثَ أَنْ جَاءَ بِعِجْلٍ حَنِيذٍ",
+          english: "Our messengers came to Abraham with good news. They said, \"Peace.\" He said, \"Peace.\" Soon after, he came with a roasted calf."
+        },
+        {
+          number: 70,
+          arabic: "فَلَمَّا رَأَى أَيْدِيَهُمْ لَا تَصِلُ إِلَيْهِ نَكِرَهُمْ وَأَوْجَسَ مِنْهُمْ خِيفَةً قَالُوا لَا تَخَفْ إِنَّا أُرْسِلْنَا إِلَى قَوْمِ لُوطٍ",
+          english: "But when he saw their hands not reaching towards it, he became suspicious of them, and conceived a fear of them. They said, \"Do not fear, we were sent to the people of Lot.\""
+        },
+        {
+          number: 71,
+          arabic: "وَامْرَأَتُهُ قَائِمَةٌ فَضَحِكَتْ فَبَشَّرْنَاهَا بِإِسْحَاقَ وَمِنْ وَرَاءِ إِسْحَاقَ يَعْقُوبَ",
+          english: "His wife was standing by, so she laughed. And We gave her good news of Isaac; and after Isaac, Jacob."
+        },
+        {
+          number: 72,
+          arabic: "قَالَتْ يَا وَيْلَتَى أَأَلِدُ وَأَنَا عَجُوزٌ وَهَذَا بَعْلِي شَيْخًا إِنَّ هَذَا لَشَيْءٌ عَجِيبٌ",
+          english: "She said, \"Alas for me. Shall I give birth, when I am an old woman, and this, my husband, is an old man? This is truly a strange thing.\""
+        },
+        {
+          number: 73,
+          arabic: "قَالُوا أَتَعْجَبِينَ مِنْ أَمْرِ اللَّهِ رَحْمَتُ اللَّهِ وَبَرَكَاتُهُ عَلَيْكُمْ أَهْلَ الْبَيْتِ إِنَّهُ حَمِيدٌ مَجِيدٌ",
+          english: "They said, \"Do you marvel at the decree of God? The mercy and blessings of God are upon you, O people of the house. He is Praiseworthy and Glorious.\""
+        },
+        {
+          number: 74,
+          arabic: "فَلَمَّا ذَهَبَ عَنْ إِبْرَاهِيمَ الرَّوْعُ وَجَاءَتْهُ الْبُشْرَى يُجَادِلُنَا فِي قَوْمِ لُوطٍ",
+          english: "When Abraham's fear subsided, and the good news had reached him, he started pleading with Us concerning the people of Lot."
+        },
+        {
+          number: 75,
+          arabic: "إِنَّ إِبْرَاهِيمَ لَحَلِيمٌ أَوَّاهٌ مُنِيبٌ",
+          english: "Abraham was gentle, kind, penitent."
+        },
+        {
+          number: 76,
+          arabic: "يَا إِبْرَاهِيمُ أَعْرِضْ عَنْ هَذَا إِنَّهُ قَدْ جَاءَ أَمْرُ رَبِّكَ وَإِنَّهُمْ آتِيهِمْ عَذَابٌ غَيْرُ مَرْدُودٍ",
+          english: "\"O Abraham, refrain from this. The command of your Lord has come; they have incurred an irreversible punishment.\""
+        },
+        {
+          number: 77,
+          arabic: "وَلَمَّا جَاءَتْ رُسُلُنَا لُوطًا سِيءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالَ هَذَا يَوْمٌ عَصِيبٌ",
+          english: "And when Our envoys came to Lot, he was anxious for them, and concerned for them. He said, \"This is a dreadful day.\""
+        },
+        {
+          number: 78,
+          arabic: "وَجَاءَهُ قَوْمُهُ يُهْرَعُونَ إِلَيْهِ وَمِنْ قَبْلُ كَانُوا يَعْمَلُونَ السَّيِّئَاتِ قَالَ يَا قَوْمِ هَؤُلَاءِ بَنَاتِي هُنَّ أَطْهَرُ لَكُمْ فَاتَّقُوا اللَّهَ وَلَا تُخْزُونِ فِي ضَيْفِي أَلَيْسَ مِنْكُمْ رَجُلٌ رَشِيدٌ",
+          english: "And his people came rushing towards him—they were in the habit of committing sins. He said, \"O my people, these are my daughters; they are purer for you. So fear God, and do not embarrass me before my guests. Is there not one reasonable man among you?\""
+        },
+        {
+          number: 79,
+          arabic: "قَالُوا لَقَدْ عَلِمْتَ مَا لَنَا فِي بَنَاتِكَ مِنْ حَقٍّ وَإِنَّكَ لَتَعْلَمُ مَا نُرِيدُ",
+          english: "They said, \"You know well that we have no right to your daughters, and you know well what we want.\""
+        },
+        {
+          number: 80,
+          arabic: "قَالَ لَوْ أَنَّ لِي بِكُمْ قُوَّةً أَوْ آوِي إِلَى رُكْنٍ شَدِيدٍ",
+          english: "He said, \"If only I had the strength to stop you, or could rely on some strong support.\""
+        },
+        {
+          number: 81,
+          arabic: "قَالُوا يَا لُوطُ إِنَّا رُسُلُ رَبِّكَ لَنْ يَصِلُوا إِلَيْكَ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِنَ اللَّيْلِ وَلَا يَلْتَفِتْ مِنْكُمْ أَحَدٌ إِلَّا امْرَأَتَكَ إِنَّهُ مُصِيبُهَا مَا أَصَابَهُمْ إِنَّ مَوْعِدَهُمُ الصُّبْحُ أَلَيْسَ الصُّبْحُ بِقَرِيبٍ",
+          english: "They said, \"O Lot, we are the envoys of your Lord; they will not reach you. So set out with your family during the cover of the night, and let none of you look back, except for your wife. She will be struck by what will strike them. Their appointed time is the morning. Is not the morning near?\""
+        },
+        {
+          number: 82,
+          arabic: "فَلَمَّا جَاءَ أَمْرُنَا جَعَلْنَا عَالِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِنْ سِجِّيلٍ مَنْضُودٍ",
+          english: "And when Our command came about, We turned it upside down, and We rained down on it stones of baked clay."
+        },
+        {
+          number: 83,
+          arabic: "مُسَوَّمَةً عِنْدَ رَبِّكَ وَمَا هِيَ مِنَ الظَّالِمِينَ بِبَعِيدٍ",
+          english: "Marked from your Lord, and never far from the wrongdoers."
+        },
+        {
+          number: 84,
+          arabic: "وَإِلَى مَدْيَنَ أَخَاهُمْ شُعَيْبًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ وَلَا تَنْقُصُوا الْمِكْيَالَ وَالْمِيزَانَ إِنِّي أَرَاكُمْ بِخَيْرٍ وَإِنِّي أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُحِيطٍ",
+          english: "And to Median, their brother Shuaib. He said, \"O my people, worship God; you have no god other than Him. And do not short measure or short weight. I see you in good circumstances, but I fear for you the agony of an encompassing Day.\""
+        },
+        {
+          number: 85,
+          arabic: "وَيَا قَوْمِ أَوْفُوا الْمِكْيَالَ وَالْمِيزَانَ بِالْقِسْطِ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تَعْثَوْا فِي الْأَرْضِ مُفْسِدِينَ",
+          english: "\"O my people! Give full measure and full weight, in all fairness, and do not cheat the people out of their rights, and do not spread corruption in the land."
+        },
+        {
+          number: 86,
+          arabic: "بَقِيَّتُ اللَّهِ خَيْرٌ لَكُمْ إِنْ كُنْتُمْ مُؤْمِنِينَ وَمَا أَنَا عَلَيْكُمْ بِحَفِيظٍ",
+          english: "What is left by God is best for you, if you are believers. And I am not a guardian over you.\""
+        },
+        {
+          number: 87,
+          arabic: "قَالُوا يَا شُعَيْبُ أَصَلَاتُكَ تَأْمُرُكَ أَنْ نَتْرُكَ مَا يَعْبُدُ آبَاؤُنَا أَوْ أَنْ نَفْعَلَ فِي أَمْوَالِنَا مَا نَشَاءُ إِنَّكَ لَأَنْتَ الْحَلِيمُ الرَّشِيدُ",
+          english: "They said, \"O Shuaib, does your prayer command you that we abandon what our ancestors worshiped, or doing with our wealth what we want? You are the one who is intelligent and wise.\""
+        },
+        {
+          number: 88,
+          arabic: "قَالَ يَا قَوْمِ أَرَأَيْتُمْ إِنْ كُنْتُ عَلَى بَيِّنَةٍ مِنْ رَبِّي وَرَزَقَنِي مِنْهُ رِزْقًا حَسَنًا وَمَا أُرِيدُ أَنْ أُخَالِفَكُمْ إِلَى مَا أَنْهَاكُمْ عَنْهُ إِنْ أُرِيدُ إِلَّا الْإِصْلَاحَ مَا اسْتَطَعْتُ وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ",
+          english: "He said, \"O my people, have you considered? What if I have clear evidence from my Lord, and He has given me good livelihood from Himself? I have no desire to do what I forbid you from doing. I desire nothing but reform, as far as I can. My success lies only with God. In Him I trust, and to Him I turn.\""
+        },
+        {
+          number: 89,
+          arabic: "وَيَا قَوْمِ لَا يَجْرِمَنَّكُمْ شِقَاقِي أَنْ يُصِيبَكُمْ مِثْلُ مَا أَصَابَ قَوْمَ نُوحٍ أَوْ قَوْمَ هُودٍ أَوْ قَوْمَ صَالِحٍ وَمَا قَوْمُ لُوطٍ مِنْكُمْ بِبَعِيدٍ",
+          english: "\"O my people, let not your hostility towards me cause you to suffer what was suffered by the people of Noah, or the people of Hud, or the people of Saleh. The people of Lot are not far away from you.\""
+        },
+        {
+          number: 90,
+          arabic: "وَاسْتَغْفِرُوا رَبَّكُمْ ثُمَّ تُوبُوا إِلَيْهِ إِنَّ رَبِّي رَحِيمٌ وَدُودٌ",
+          english: "\"And ask your Lord for forgiveness, and repent to Him. My Lord is Merciful and Loving.\""
+        },
+        {
+          number: 91,
+          arabic: "قَالُوا يَا شُعَيْبُ مَا نَفْقَهُ كَثِيرًا مِمَّا تَقُولُ وَإِنَّا لَنَرَاكَ فِينَا ضَعِيفًا وَلَوْلَا رَهْطُكَ لَرَجَمْنَاكَ وَمَا أَنْتَ عَلَيْنَا بِعَزِيزٍ",
+          english: "They said, \"O Shuaib, we do not understand much of what you say, and we see that you are weak among us. Were it not for your tribe, we would have stoned you. You are of no value to us.\""
+        },
+        {
+          number: 92,
+          arabic: "قَالَ يَا قَوْمِ أَرَهْطِي أَعَزُّ عَلَيْكُمْ مِنَ اللَّهِ وَاتَّخَذْتُمُوهُ وَرَاءَكُمْ ظِهْرِيًّا إِنَّ رَبِّي بِمَا تَعْمَلُونَ مُحِيطٌ",
+          english: "He said, \"O my people, is my tribe more important to you than God? And you have turned your backs on Him? My Lord comprehends everything you do.\""
+        },
+        {
+          number: 93,
+          arabic: "وَيَا قَوْمِ اعْمَلُوا عَلَى مَكَانَتِكُمْ إِنِّي عَامِلٌ سَوْفَ تَعْلَمُونَ مَنْ يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَمَنْ هُوَ كَاذِبٌ وَارْتَقِبُوا إِنِّي مَعَكُمْ رَقِيبٌ",
+          english: "\"O my people, do as you may, and so will I. You will know to whom will come a punishment that will shame him, and who is a liar. So look out; I am on the lookout with you.\""
+        },
+        {
+          number: 94,
+          arabic: "وَلَمَّا جَاءَ أَمْرُنَا نَجَّيْنَا شُعَيْبًا وَالَّذِينَ آمَنُوا مَعَهُ بِرَحْمَةٍ مِنَّا وَأَخَذَتِ الَّذِينَ ظَلَمُوا الصَّيْحَةُ فَأَصْبَحُوا فِي دِيَارِهِمْ جَاثِمِينَ",
+          english: "And when Our command came, We saved Shuaib and those who believed with him, by mercy from Us, and the Blast struck the wrongdoers, and they became motionless bodies in their homes."
+        },
+        {
+          number: 95,
+          arabic: "كَأَنْ لَمْ يَغْنَوْا فِيهَا أَلَا بُعْدًا لِمَدْيَنَ كَمَا بَعِدَتْ ثَمُودُ",
+          english: "As though they never flourished therein. Away with Median, as was done away with Thamood."
+        },
+        {
+          number: 96,
+          arabic: "وَلَقَدْ أَرْسَلْنَا مُوسَى بِآيَاتِنَا وَسُلْطَانٍ مُبِينٍ",
+          english: "And We sent Moses with Our signs and a clear mandate."
+        },
+        {
+          number: 97,
+          arabic: "إِلَى فِرْعَوْنَ وَمَلَئِهِ فَاتَّبَعُوا أَمْرَ فِرْعَوْنَ وَمَا أَمْرُ فِرْعَوْنَ بِرَشِيدٍ",
+          english: "To Pharaoh and his nobles, but they followed the command of Pharaoh, and the command of Pharaoh was not wise."
+        },
+        {
+          number: 98,
+          arabic: "يَقْدُمُ قَوْمَهُ يَوْمَ الْقِيَامَةِ فَأَوْرَدَهُمُ النَّارَ وَبِئْسَ الْوِرْدُ الْمَوْرُودُ",
+          english: "He will precede his people on the Day of Resurrection, and will lead them into the Fire. Miserable is the place he placed them in."
+        },
+        {
+          number: 99,
+          arabic: "وَأُتْبِعُوا فِي هَذِهِ لَعْنَةً وَيَوْمَ الْقِيَامَةِ بِئْسَ الرِّفْدُ الْمَرْفُودُ",
+          english: "They were followed by a curse in this, and on the Day of Resurrection. Miserable is the path they followed."
+        },
+        {
+          number: 100,
+          arabic: "ذَلِكَ مِنْ أَنْبَاءِ الْقُرَى نَقُصُّهُ عَلَيْكَ مِنْهَا قَائِمٌ وَحَصِيدٌ",
+          english: "These are of the reports of the towns—We relate them to you. Some are still standing, and some have withered away."
+        },
+        {
+          number: 101,
+          arabic: "وَمَا ظَلَمْنَاهُمْ وَلَكِنْ ظَلَمُوا أَنْفُسَهُمْ فَمَا أَغْنَتْ عَنْهُمْ آلِهَتُهُمُ الَّتِي يَدْعُونَ مِنْ دُونِ اللَّهِ مِنْ شَيْءٍ لَمَّا جَاءَ أَمْرُ رَبِّكَ وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ",
+          english: "We did not wrong them, but they wronged themselves. Their gods, whom they invoked besides God, availed them nothing when the command of your Lord arrived. In fact, they added only to their ruin."
+        },
+        {
+          number: 102,
+          arabic: "وَكَذَلِكَ أَخْذُ رَبِّكَ إِذَا أَخَذَ الْقُرَى وَهِيَ ظَالِمَةٌ إِنَّ أَخْذَهُ أَلِيمٌ شَدِيدٌ",
+          english: "Such is the grip of your Lord when He seizes the towns in the midst of their sins. His grip is most painful, most severe."
+        },
+        {
+          number: 103,
+          arabic: "إِنَّ فِي ذَلِكَ لَآيَةً لِمَنْ خَافَ عَذَابَ الْآخِرَةِ ذَلِكَ يَوْمٌ مَجْمُوعٌ لَهُ النَّاسُ وَذَلِكَ يَوْمٌ مَشْهُودٌ",
+          english: "In that is a sign for whoever fears the punishment of the Hereafter. That is a Day for which humanity will be gathered together—that is a Day to be witnessed."
+        },
+        {
+          number: 104,
+          arabic: "وَمَا نُؤَخِّرُهُ إِلَّا لِأَجَلٍ مَعْدُودٍ",
+          english: "We only postpone it until a predetermined time."
+        },
+        {
+          number: 105,
+          arabic: "يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ إِلَّا بِإِذْنِهِ فَمِنْهُمْ شَقِيٌّ وَسَعِيدٌ",
+          english: "On the Day when it arrives, no soul will speak without His permission. Some will be miserable, and some will be happy."
+        },
+        {
+          number: 106,
+          arabic: "فَأَمَّا الَّذِينَ شَقُوا فَفِي النَّارِ لَهُمْ فِيهَا زَفِيرٌ وَشَهِيقٌ",
+          english: "As for those who are miserable, they will be in the Fire. They will have therein sighing and wailing."
+        },
+        {
+          number: 107,
+          arabic: "خَالِدِينَ فِيهَا مَا دَامَتِ السَّمَاوَاتُ وَالْأَرْضُ إِلَّا مَا شَاءَ رَبُّكَ إِنَّ رَبَّكَ فَعَّالٌ لِمَا يُرِيدُ",
+          english: "Remaining therein for as long as the heavens and the earth endure, except as your Lord wills. Your Lord is Doer of whatever He wills."
+        },
+        {
+          number: 108,
+          arabic: "وَأَمَّا الَّذِينَ سُعِدُوا فَفِي الْجَنَّةِ خَالِدِينَ فِيهَا مَا دَامَتِ السَّمَاوَاتُ وَالْأَرْضُ إِلَّا مَا شَاءَ رَبُّكَ عَطَاءً غَيْرَ مَجْذُوذٍ",
+          english: "And as for those who are happy, they will be in Paradise, remaining therein for as long as the heavens and the earth endure, except as your Lord wills—a reward without end."
+        },
+        {
+          number: 109,
+          arabic: "فَلَا تَكُ فِي مِرْيَةٍ مِمَّا يَعْبُدُ هَؤُلَاءِ مَا يَعْبُدُونَ إِلَّا كَمَا يَعْبُدُ آبَاؤُهُمْ مِنْ قَبْلُ وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ مَنْقُوصٍ",
+          english: "So be not in doubt regarding what these people worship. They worship only as their ancestors worshiped before. We will pay them their due in full, without any reduction."
+        },
+        {
+          number: 110,
+          arabic: "وَلَقَدْ آتَيْنَا مُوسَى الْكِتَابَ فَاخْتُلِفَ فِيهِ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِنْ رَبِّكَ لَقُضِيَ بَيْنَهُمْ وَإِنَّهُمْ لَفِي شَكٍّ مِنْهُ مُرِيبٍ",
+          english: "We gave Moses the Scripture, but it was disputed. Were it not for a prior word from your Lord, it would have been settled between them. They are in serious doubt concerning it."
+        },
+        {
+          number: 111,
+          arabic: "وَإِنَّ كُلًّا لَمَّا لَيُوَفِّيَنَّهُمْ رَبُّكَ أَعْمَالَهُمْ إِنَّهُ بِمَا يَعْمَلُونَ خَبِيرٌ",
+          english: "Your Lord will repay each one of them in full for their deeds. He is Aware of everything they do."
+        },
+        {
+          number: 112,
+          arabic: "فَاسْتَقِمْ كَمَا أُمِرْتَ وَمَنْ تَابَ مَعَكَ وَلَا تَطْغَوْا إِنَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+          english: "So be upright, as you are commanded, along with those who repented with you, and do not transgress. He is Seeing of everything you do."
+        },
+        {
+          number: 113,
+          arabic: "وَلَا تَرْكَنُوا إِلَى الَّذِينَ ظَلَمُوا فَتَمَسَّكُمُ النَّارُ وَمَا لَكُمْ مِنْ دُونِ اللَّهِ مِنْ أَوْلِيَاءَ ثُمَّ لَا تُنْصَرُونَ",
+          english: "And do not incline towards those who do wrong, or the Fire may touch you; and you will have no protectors besides God, and you will not be saved."
+        },
+        {
+          number: 114,
+          arabic: "وَأَقِمِ الصَّلَاةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِنَ اللَّيْلِ إِنَّ الْحَسَنَاتِ يُذْهِبْنَ السَّيِّئَاتِ ذَلِكَ ذِكْرَى لِلذَّاكِرِينَ",
+          english: "Perform the prayer at the borders of the day, and during the approaches of the night. The good deeds take away the bad deeds. This is a reminder for those who remember."
+        },
+        {
+          number: 115,
+          arabic: "وَاصْبِرْ فَإِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ",
+          english: "And be patient. God will not waste the reward of the virtuous."
+        },
+        {
+          number: 116,
+          arabic: "فَلَوْلَا كَانَ مِنَ الْقُرُونِ مِنْ قَبْلِكُمْ أُولُو بَقِيَّةٍ يَنْهَوْنَ عَنِ الْفَسَادِ فِي الْأَرْضِ إِلَّا قَلِيلًا مِمَّنْ أَنْجَيْنَا مِنْهُمْ وَاتَّبَعَ الَّذِينَ ظَلَمُوا مَا أُتْرِفُوا فِيهِ وَكَانُوا مُجْرِمِينَ",
+          english: "If only there were, among the generations before you, people with wisdom, who spoke against corruption on earth—except for the few whom We saved. But the wrongdoers pursued the luxuries they were indulged in, and thus became guilty."
+        },
+        {
+          number: 117,
+          arabic: "وَمَا كَانَ رَبُّكَ لِيُهْلِكَ الْقُرَى بِظُلْمٍ وَأَهْلُهَا مُصْلِحُونَ",
+          english: "Your Lord would never destroy the towns wrongfully, while their inhabitants are righteous."
+        },
+        {
+          number: 118,
+          arabic: "وَلَوْ شَاءَ رَبُّكَ لَجَعَلَ النَّاسَ أُمَّةً وَاحِدَةً وَلَا يَزَالُونَ مُخْتَلِفِينَ",
+          english: "Had your Lord willed, He could have made humanity one community, but they continue to differ."
+        },
+        {
+          number: 119,
+          arabic: "إِلَّا مَنْ رَحِمَ رَبُّكَ وَلِذَلِكَ خَلَقَهُمْ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ الْجِنَّةِ وَالنَّاسِ أَجْمَعِينَ",
+          english: "Except those on whom your Lord has mercy—for that reason He created them. The Word of your Lord is final: 'I will fill Hell with jinn and humans, altogether.'"
+        },
+        {
+          number: 120,
+          arabic: "وَكُلًّا نَقُصُّ عَلَيْكَ مِنْ أَنْبَاءِ الرُّسُلِ مَا نُثَبِّتُ بِهِ فُؤَادَكَ وَجَاءَكَ فِي هَذِهِ الْحَقُّ وَمَوْعِظَةٌ وَذِكْرَى لِلْمُؤْمِنِينَ",
+          english: "Everything We narrate to you of the history of the messengers is to strengthen your heart therewith. The truth has come to you in this, and a lesson, and a reminder for the believers."
+        },
+        {
+          number: 121,
+          arabic: "وَقُلْ لِلَّذِينَ لَا يُؤْمِنُونَ اعْمَلُوا عَلَى مَكَانَتِكُمْ إِنَّا عَامِلُونَ",
+          english: "And say to those who do not believe, 'Act according to your ability; and so will we.'"
+        },
+        {
+          number: 122,
+          arabic: "وَانْتَظِرُوا إِنَّا مُنْتَظِرُونَ",
+          english: "'And wait; we too are waiting.'"
+        },
+        {
+          number: 123,
+          arabic: "وَلِلَّهِ غَيْبُ السَّمَاوَاتِ وَالْأَرْضِ وَإِلَيْهِ يُرْجَعُ الْأَمْرُ كُلُّهُ فَاعْبُدْهُ وَتَوَكَّلْ عَلَيْهِ وَمَا رَبُّكَ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
+          english: "To God belongs the future of the heavens and the earth, and to Him all authority goes back. So worship Him, and rely on Him. Your Lord is never unaware of what you do."
         }
+
       ]
     },
     {
@@ -6031,7 +8175,548 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
           number: 3,
           arabic: 'نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ الْقَصَصِ بِمَا أَوْحَيْنَا إِلَيْكَ هَٰذَا الْقُرْآنَ وَإِن كُنتَ مِن قَبْلِهِ لَمِنَ الْغَافِلِينَ',
           english: 'We relate to you, [O Muhammad], the best of stories in what We have revealed to you of this Quran although you were, before it, among the unaware.'
+        },
+        {
+          number: 4,
+          arabic: "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَا أَبَتِ إِنِّي رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا وَالشَّمْسَ وَالْقَمَرَ رَأَيْتُهُمْ لِي سَاجِدِينَ",
+          english: "When Joseph said to his father, \"O my father, I saw eleven planets, and the sun, and the moon; I saw them bowing down to me.\""
+        },
+        {
+          number: 5,
+          arabic: "قَالَ يَا بُنَيَّ لَا تَقْصُصْ رُؤْيَاكَ عَلَى إِخْوَتِكَ فَيَكِيدُوا لَكَ كَيْدًا إِنَّ الشَّيْطَانَ لِلْإِنْسَانِ عَدُوٌّ مُبِينٌ",
+          english: "He said, \"O my son, do not relate your vision to your brothers, lest they plot and scheme against you. Satan is man's sworn enemy."
+        },
+        {
+          number: 6,
+          arabic: "وَكَذَلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِنْ تَأْوِيلِ الْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُ عَلَيْكَ وَعَلَى آلِ يَعْقُوبَ كَمَا أَتَمَّهَا عَلَى أَبَوَيْكَ مِنْ قَبْلُ إِبْرَاهِيمَ وَإِسْحَاقَ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌ",
+          english: "And thus your Lord will choose you, and will teach you the interpretation of events, and will complete His blessing upon you and upon the family of Jacob, as He has completed it before upon your forefathers Abraham and Isaac. Your Lord is Knowing and Wise."
+        },
+        {
+          number: 7,
+          arabic: "لَقَدْ كَانَ فِي يُوسُفَ وَإِخْوَتِهِ آيَاتٌ لِلسَّائِلِينَ",
+          english: "In Joseph and his brothers are lessons for the seekers."
+        },
+        {
+          number: 8,
+          arabic: "إِذْ قَالُوا لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَى أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِي ضَلَالٍ مُبِينٍ",
+          english: "When they said, \"Joseph and his brother are dearer to our father than we are, although we are a whole group. Our father is obviously in the wrong."
+        },
+        {
+          number: 9,
+          arabic: "اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا مِنْ بَعْدِهِ قَوْمًا صَالِحِينَ",
+          english: "\"Kill Joseph, or throw him somewhere in the land, and your father's attention will be yours. Afterwards, you will be decent people.\""
+        },
+        {
+          number: 10,
+          arabic: "قَالَ قَائِلٌ مِنْهُمْ لَا تَقْتُلُوا يُوسُفَ وَأَلْقُوهُ فِي غَيَابَتِ الْجُبِّ يَلْتَقِطْهُ بَعْضُ السَّيَّارَةِ إِنْ كُنْتُمْ فَاعِلِينَ",
+          english: "One of them said, \"Do not kill Joseph, but throw him into the bottom of the well; some caravan may pick him up—if you must do something.\""
+        },
+        {
+          number: 11,
+          arabic: "قَالُوا يَا أَبَانَا مَا لَكَ لَا تَأْمَنَّا عَلَى يُوسُفَ وَإِنَّا لَهُ لَنَاصِحُونَ",
+          english: "They said, \"Father, why do you not trust us with Joseph, although we care for him?\""
+        },
+        {
+          number: 12,
+          arabic: "أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُ لَحَافِظُونَ",
+          english: "\"Send him with us tomorrow, that he may roam and play; we will take care of him.\""
+        },
+        {
+          number: 13,
+          arabic: "قَالَ إِنِّي لَيَحْزُنُنِي أَنْ تَذْهَبُوا بِهِ وَأَخَافُ أَنْ يَأْكُلَهُ الذِّئْبُ وَأَنْتُمْ عَنْهُ غَافِلُونَ",
+          english: "He said, \"It worries me that you would take him away. And I fear the wolf may eat him while you are careless of him.\""
+        },
+        {
+          number: 14,
+          arabic: "قَالُوا لَئِنْ أَكَلَهُ الذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّا إِذًا لَخَاسِرُونَ",
+          english: "They said, \"If the wolf ate him, and we are many, we would be good for nothing.\""
+        },
+        {
+          number: 15,
+          arabic: "فَلَمَّا ذَهَبُوا بِهِ وَأَجْمَعُوا أَنْ يَجْعَلُوهُ فِي غَيَابَتِ الْجُبِّ وَأَوْحَيْنَا إِلَيْهِ لَتُنَبِّئَنَّهُمْ بِأَمْرِهِمْ هَذَا وَهُمْ لَا يَشْعُرُونَ",
+          english: "So they went away with him, and agreed to put him at the bottom of the well. And We inspired him, \"You will inform them of this deed of theirs when they are unaware.\""
+        },
+        {
+          number: 16,
+          arabic: "وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ",
+          english: "And they came to their father in the evening weeping."
+        },
+        {
+          number: 17,
+          arabic: "قَالُوا يَا أَبَانَا إِنَّا ذَهَبْنَا نَسْتَبِقُ وَتَرَكْنَا يُوسُفَ عِنْدَ مَتَاعِنَا فَأَكَلَهُ الذِّئْبُ وَمَا أَنْتَ بِمُؤْمِنٍ لَنَا وَلَوْ كُنَّا صَادِقِينَ",
+          english: "They said, \"O father, we went off racing one another, and left Joseph by our belongings; and the wolf ate him. But you will not believe us, even though we are being truthful.\""
+        },
+        {
+          number: 18,
+          arabic: "وَجَاءُوا عَلَى قَمِيصِهِ بِدَمٍ كَذِبٍ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنْفُسُكُمْ أَمْرًا فَصَبْرٌ جَمِيلٌ وَاللَّهُ الْمُسْتَعَانُ عَلَى مَا تَصِفُونَ",
+          english: "And they brought his shirt, with fake blood on it. He said, \"Your souls enticed you to do something. But patience is beautiful, and God is my Help against what you describe.\""
+        },
+        {
+          number: 19,
+          arabic: "وَجَاءَتْ سَيَّارَةٌ فَأَرْسَلُوا وَارِدَهُمْ فَأَدْلَى دَلْوَهُ قَالَ يَا بُشْرَى هَذَا غُلَامٌ وَأَسَرُّوهُ بِضَاعَةً وَاللَّهُ عَلِيمٌ بِمَا يَعْمَلُونَ",
+          english: "A caravan passed by, and they sent their water-carrier. He lowered his bucket, and said, \"Good news. Here is a boy.\" And they hid him as merchandise. But God was aware of what they did."
+        },
+        {
+          number: 20,
+          arabic: "وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَاهِمَ مَعْدُودَةٍ وَكَانُوا فِيهِ مِنَ الزَّاهِدِينَ",
+          english: "And they sold him for a cheap price—a few coins—they considered him to be of little value."
+        },
+        {
+          number: 21,
+          arabic: "وَقَالَ الَّذِي اشْتَرَاهُ مِنْ مِصْرَ لِامْرَأَتِهِ أَكْرِمِي مَثْوَاهُ عَسَى أَنْ يَنْفَعَنَا أَوْ نَتَّخِذَهُ وَلَدًا وَكَذَلِكَ مَكَّنَّا لِيُوسُفَ فِي الْأَرْضِ وَلِنُعَلِّمَهُ مِنْ تَأْوِيلِ الْأَحَادِيثِ وَاللَّهُ غَالِبٌ عَلَى أَمْرِهِ وَلَكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
+          english: "The Egyptian who bought him said to his wife, \"Take good care of him; he may be useful to us, or we may adopt him as a son.\" We thus established Joseph in the land, to teach him the interpretation of events. God has control over His affairs, but most people do not know."
+        },
+        {
+          number: 22,
+          arabic: "وَلَمَّا بَلَغَ أَشُدَّهُ آتَيْنَاهُ حُكْمًا وَعِلْمًا وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ",
+          english: "When he reached his maturity, We gave him wisdom and knowledge. We thus reward the righteous."
+        },
+        {
+          number: 23,
+          arabic: "وَرَاوَدَتْهُ الَّتِي هُوَ فِي بَيْتِهَا عَنْ نَفْسِهِ وَغَلَّقَتِ الْأَبْوَابَ وَقَالَتْ هَيْتَ لَكَ قَالَ مَعَاذَ اللَّهِ إِنَّهُ رَبِّي أَحْسَنَ مَثْوَايَ إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+          english: "She in whose house he was living tried to seduce him. She shut the doors, and said, \"I am yours.\" He said, \"God forbid! He is my Lord. He has given me a good home. Sinners never succeed.\""
+        },
+        {
+          number: 24,
+          arabic: "وَلَقَدْ هَمَّتْ بِهِ وَهَمَّ بِهَا لَوْلَا أَنْ رَأَى بُرْهَانَ رَبِّهِ كَذَلِكَ لِنَصْرِفَ عَنْهُ السُّوءَ وَالْفَحْشَاءَ إِنَّهُ مِنْ عِبَادِنَا الْمُخْلَصِينَ",
+          english: "She desired him, and he desired her, had he not seen the proof of his Lord. It was thus that We diverted evil and indecency away from him. He was one of Our loyal servants."
+        },
+        {
+          number: 25,
+          arabic: "وَاسْتَبَقَا الْبَابَ وَقَدَّتْ قَمِيصَهُ مِنْ دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَى الْبَابِ قَالَتْ مَا جَزَاءُ مَنْ أَرَادَ بِأَهْلِكَ سُوءًا إِلَّا أَنْ يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+          english: "As they raced towards the door, she tore his shirt from behind. At the door, they ran into her husband. She said, \"What is the penalty for him who desired to dishonor your wife, except imprisonment or a painful punishment?\""
+        },
+        {
+          number: 26,
+          arabic: "قَالَ هِيَ رَاوَدَتْنِي عَنْ نَفْسِي وَشَهِدَ شَاهِدٌ مِنْ أَهْلِهَا إِنْ كَانَ قَمِيصُهُ قُدَّ مِنْ قُبُلٍ فَصَدَقَتْ وَهُوَ مِنَ الْكَاذِبِينَ",
+          english: "He said, \"It was she who tried to seduce me.\" A witness from her household suggested: \"If his shirt is torn from the front: then she has told the truth, and he is the liar."
+        },
+        {
+          number: 27,
+          arabic: "وَإِنْ كَانَ قَمِيصُهُ قُدَّ مِنْ دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ الصَّادِقِينَ",
+          english: "But if his shirt is torn from the back: then she has lied, and he is the truthful.\""
+        },
+        {
+          number: 28,
+          arabic: "فَلَمَّا رَأَى قَمِيصَهُ قُدَّ مِنْ دُبُرٍ قَالَ إِنَّهُ مِنْ كَيْدِكُنَّ إِنَّ كَيْدَكُنَّ عَظِيمٌ",
+          english: "And when he saw that his shirt was torn from the back, he said, \"This is a woman's scheme. Your scheming is serious indeed.\""
+        },
+        {
+          number: 29,
+          arabic: "يُوسُفُ أَعْرِضْ عَنْ هَذَا وَاسْتَغْفِرِي لِذَنْبِكِ إِنَّكِ كُنْتِ مِنَ الْخَاطِئِينَ",
+          english: "\"Joseph, turn away from this. And you, woman, ask forgiveness for your sin; you are indeed in the wrong.\""
+        },
+        {
+          number: 30,
+          arabic: "وَقَالَ نِسْوَةٌ فِي الْمَدِينَةِ امْرَأَتُ الْعَزِيزِ تُرَاوِدُ فَتَاهَا عَنْ نَفْسِهِ قَدْ شَغَفَهَا حُبًّا إِنَّا لَنَرَاهَا فِي ضَلَالٍ مُبِينٍ",
+          english: "Some ladies in the city said, \"The governor's wife is trying to seduce her servant. She is deeply in love with him. We see she has gone astray.\""
+        },
+        {
+          number: 31,
+          arabic: "فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَأً وَآتَتْ كُلَّ وَاحِدَةٍ مِنْهُنَّ سِكِّينًا وَقَالَتِ اخْرُجْ عَلَيْهِنَّ فَلَمَّا رَأَيْنَهُ أَكْبَرْنَهُ وَقَطَّعْنَ أَيْدِيَهُنَّ وَقُلْنَ حَاشَ لِلَّهِ مَا هَذَا بَشَرًا إِنْ هَذَا إِلَّا مَلَكٌ كَرِيمٌ",
+          english: "And when she heard of their gossip, she invited them, and prepared for them a banquet, and she gave each one of them a knife. She said, \"Come out before them.\" And when they saw him, they marveled at him, and cut their hands. They said, \"Good God, this is not a human, this must be a precious angel.\""
+        },
+        {
+          number: 32,
+          arabic: "قَالَتْ فَذَلِكُنَّ الَّذِي لُمْتُنَّنِي فِيهِ وَلَقَدْ رَاوَدْتُهُ عَنْ نَفْسِهِ فَاسْتَعْصَمَ وَلَئِنْ لَمْ يَفْعَلْ مَا آمُرُهُ لَيُسْجَنَنَّ وَلَيَكُونًا مِنَ الصَّاغِرِينَ",
+          english: "She said, \"Here he is, the one you blamed me for. I did try to seduce him, but he resisted. But if he does not do what I tell him to do, he will be imprisoned, and will be one of the despised.\""
+        },
+        {
+          number: 33,
+          arabic: "قَالَ رَبِّ السِّجْنُ أَحَبُّ إِلَيَّ مِمَّا يَدْعُونَنِي إِلَيْهِ وَإِلَّا تَصْرِفْ عَنِّي كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُنْ مِنَ الْجَاهِلِينَ",
+          english: "He said, \"My Lord, prison is more desirable to me than what they call me to. Unless You turn their scheming away from me, I may yield to them, and become one of the ignorant.\""
+        },
+        {
+          number: 34,
+          arabic: "فَاسْتَجَابَ لَهُ رَبُّهُ فَصَرَفَ عَنْهُ كَيْدَهُنَّ إِنَّهُ هُوَ السَّمِيعُ الْعَلِيمُ",
+          english: "Thereupon his Lord answered him, and diverted their scheming away from him. He is the Hearer, the Knower."
+        },
+        {
+          number: 35,
+          arabic: "ثُمَّ بَدَا لَهُمْ مِنْ بَعْدِ مَا رَأَوُا الْآيَاتِ لَيَسْجُنُنَّهُ حَتَّى حِينٍ",
+          english: "Then it occurred to them, after they had seen the signs, to imprison him for a while."
+        },
+        {
+          number: 36,
+          arabic: "وَدَخَلَ مَعَهُ السِّجْنَ فَتَيَانِ قَالَ أَحَدُهُمَا إِنِّي أَرَانِي أَعْصِرُ خَمْرًا وَقَالَ الْآخَرُ إِنِّي أَرَانِي أَحْمِلُ فَوْقَ رَأْسِي خُبْزًا تَأْكُلُ الطَّيْرُ مِنْهُ نَبِّئْنَا بِتَأْوِيلِهِ إِنَّا نَرَاكَ مِنَ الْمُحْسِنِينَ",
+          english: "Two youth entered the prison with him. One of them said, \"I see myself pressing wine.\" The other said, \"I see myself carrying bread on my head, from which the birds are eating. Tell us their interpretation—we see that you are one of the righteous.\""
+        },
+        {
+          number: 37,
+          arabic: "قَالَ لَا يَأْتِيكُمَا طَعَامٌ تُرْزَقَانِهِ إِلَّا نَبَّأْتُكُمَا بِتَأْوِيلِهِ قَبْلَ أَنْ يَأْتِيَكُمَا ذَلِكُمَا مِمَّا عَلَّمَنِي رَبِّي إِنِّي تَرَكْتُ مِلَّةَ قَوْمٍ لَا يُؤْمِنُونَ بِاللَّهِ وَهُمْ بِالْآخِرَةِ هُمْ كَافِرُونَ",
+          english: "He said, \"No food is served to you, but I have informed you about it before you have received it. That is some of what my Lord has taught me. I have forsaken the tradition of people who do not believe in God; and regarding the Hereafter, they are deniers.\""
+        },
+        {
+          number: 38,
+          arabic: "وَاتَّبَعْتُ مِلَّةَ آبَائِي إِبْرَاهِيمَ وَإِسْحَاقَ وَيَعْقُوبَ مَا كَانَ لَنَا أَنْ نُشْرِكَ بِاللَّهِ مِنْ شَيْءٍ ذَلِكَ مِنْ فَضْلِ اللَّهِ عَلَيْنَا وَعَلَى النَّاسِ وَلَكِنَّ أَكْثَرَ النَّاسِ لَا يَشْكُرُونَ",
+          english: "\"And I have followed the faith of my forefathers, Abraham, and Isaac, and Jacob. It is not for us to associate anything with God. This is by virtue of God's grace upon us and upon the people, but most people do not give thanks."
+        },
+        {
+          number: 39,
+          arabic: "يَا صَاحِبَيِ السِّجْنِ أَأَرْبَابٌ مُتَفَرِّقُونَ خَيْرٌ أَمِ اللَّهُ الْوَاحِدُ الْقَهَّارُ",
+          english: "\"O My fellow inmates, are diverse lords better, or God, the One, the Supreme?\""
+        },
+        {
+          number: 40,
+          arabic: "مَا تَعْبُدُونَ مِنْ دُونِهِ إِلَّا أَسْمَاءً سَمَّيْتُمُوهَا أَنْتُمْ وَآبَاؤُكُمْ مَا أَنْزَلَ اللَّهُ بِهَا مِنْ سُلْطَانٍ إِنِ الْحُكْمُ إِلَّا لِلَّهِ أَمَرَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ ذَلِكَ الدِّينُ الْقَيِّمُ وَلَكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
+          english: "\"You do not worship, besides Him, except names you have named, you and your ancestors, for which God has sent down no authority. Judgment belongs to none but God. He has commanded that you worship none but Him. This is the right religion, but most people do not know."
+        },
+        {
+          number: 41,
+          arabic: "يَا صَاحِبَيِ السِّجْنِ أَمَّا أَحَدُكُمَا فَيَسْقِي رَبَّهُ خَمْرًا وَأَمَّا الْآخَرُ فَيُصْلَبُ فَتَأْكُلُ الطَّيْرُ مِنْ رَأْسِهِ قُضِيَ الْأَمْرُ الَّذِي فِيهِ تَسْتَفْتِيَانِ",
+          english: "\"O my fellow inmates! One of you will serve his master wine; while the other will be crucified, and the birds will eat from his head. Thus the matter you are inquiring about is settled.\""
+        },
+        {
+          number: 42,
+          arabic: "وَقَالَ لِلَّذِي ظَنَّ أَنَّهُ نَاجٍ مِنْهُمَا اذْكُرْنِي عِنْدَ رَبِّكَ فَأَنْسَاهُ الشَّيْطَانُ ذِكْرَ رَبِّهِ فَلَبِثَ فِي السِّجْنِ بِضْعَ سِنِينَ",
+          english: "And he said to the one he thought would be released, \"Mention me to your master.\" But Satan caused him to forget mentioning him to his master, so he remained in prison for several years."
+        },
+        {
+          number: 43,
+          arabic: "وَقَالَ الْمَلِكُ إِنِّي أَرَى سَبْعَ بَقَرَاتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنْبُلَاتٍ خُضْرٍ وَأُخَرَ يَابِسَاتٍ يَا أَيُّهَا الْمَلَأُ أَفْتُونِي فِي رُؤْيَايَ إِنْ كُنْتُمْ لِلرُّؤْيَا تَعْبُرُونَ",
+          english: "The king said, \"I see seven fat cows being eaten by seven lean ones, and seven green spikes, and others dried up. O elders, explain to me my vision, if you are able to interpret visions.\""
+        },
+        {
+          number: 44,
+          arabic: "قَالُوا أَضْغَاثُ أَحْلَامٍ وَمَا نَحْنُ بِتَأْوِيلِ الْأَحْلَامِ بِعَالِمِينَ",
+          english: "They said, \"Jumbles of dreams, and we know nothing of the interpretation of dreams.\""
+        },
+        {
+          number: 45,
+          arabic: "وَقَالَ الَّذِي نَجَا مِنْهُمَا وَادَّكَرَ بَعْدَ أُمَّةٍ أَنَا أُنَبِّئُكُمْ بِتَأْوِيلِهِ فَأَرْسِلُونِ",
+          english: "The one who was released said, having remembered after a time, \"I will inform you of its interpretation, so send me out.\""
+        },
+        {
+          number: 46,
+          arabic: "يُوسُفُ أَيُّهَا الصِّدِّيقُ أَفْتِنَا فِي سَبْعِ بَقَرَاتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعِ سُنْبُلَاتٍ خُضْرٍ وَأُخَرَ يَابِسَاتٍ لَعَلِّي أَرْجِعُ إِلَى النَّاسِ لَعَلَّهُمْ يَعْلَمُونَ",
+          english: "\"Joseph, O man of truth, inform us concerning seven fat cows being eaten by seven lean ones, and seven green spikes, and others dried up, so that I may return to the people, so that they may know.\""
+        },
+        {
+          number: 47,
+          arabic: "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا فَمَا حَصَدْتُمْ فَذَرُوهُ فِي سُنْبُلِهِ إِلَّا قَلِيلًا مِمَّا تَأْكُلُونَ",
+          english: "He said, \"You will farm for seven consecutive years. But whatever you harvest, leave it in its spikes, except for the little that you eat.\""
+        },
+        {
+          number: 48,
+          arabic: "ثُمَّ يَأْتِي مِنْ بَعْدِ ذَلِكَ سَبْعٌ شِدَادٌ يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ إِلَّا قَلِيلًا مِمَّا تُحْصِنُونَ",
+          english: "Then after that will come seven difficult ones, which will consume what you have stored for them, except for the little that you have preserved."
+        },
+        {
+          number: 49,
+          arabic: "ثُمَّ يَأْتِي مِنْ بَعْدِ ذَلِكَ عَامٌ فِيهِ يُغَاثُ النَّاسُ وَفِيهِ يَعْصِرُونَ",
+          english: "Then after that will come a year that brings relief to the people, and during which they will press."
+        },
+        {
+          number: 50,
+          arabic: "وَقَالَ الْمَلِكُ ائْتُونِي بِهِ فَلَمَّا جَاءَهُ الرَّسُولُ قَالَ ارْجِعْ إِلَى رَبِّكَ فَاسْأَلْهُ مَا بَالُ النِّسْوَةِ اللَّاتِي قَطَّعْنَ أَيْدِيَهُنَّ إِنَّ رَبِّي بِكَيْدِهِنَّ عَلِيمٌ",
+          english: "The king said, \"Bring him to me.\" And when the envoy came to him, he said, \"Go back to your master, and ask him about the intentions of the women who cut their hands; my Lord is well aware of their schemes.\""
+        },
+        {
+          number: 51,
+          arabic: "قَالَ مَا خَطْبُكُنَّ إِذْ رَاوَدْتُنَّ يُوسُفَ عَنْ نَفْسِهِ قُلْنَ حَاشَ لِلَّهِ مَا عَلِمْنَا عَلَيْهِ مِنْ سُوءٍ قَالَتِ امْرَأَتُ الْعَزِيزِ الْآنَ حَصْحَصَ الْحَقُّ أَنَا رَاوَدْتُهُ عَنْ نَفْسِهِ وَإِنَّهُ لَمِنَ الصَّادِقِينَ",
+          english: "He said, \"What was the matter with you, women, when you tried to seduce Joseph?\" They said, \"God forbid! We knew of no evil committed by him.\" The governor's wife then said, \"Now the truth is out. It was I who tried to seduce him, and he is telling the truth.\""
+        },
+        {
+          number: 52,
+          arabic: "ذَلِكَ لِيَعْلَمَ أَنِّي لَمْ أَخُنْهُ بِالْغَيْبِ وَأَنَّ اللَّهَ لَا يَهْدِي كَيْدَ الْخَائِنِينَ",
+          english: "\"This is that he may know that I did not betray him in secret, and that God does not guide the scheming of the betrayers.\""
+        },
+        {
+          number: 53,
+          arabic: "وَمَا أُبَرِّئُ نَفْسِي إِنَّ النَّفْسَ لَأَمَّارَةٌ بِالسُّوءِ إِلَّا مَا رَحِمَ رَبِّي إِنَّ رَبِّي غَفُورٌ رَحِيمٌ",
+          english: "\"Yet I do not claim to be innocent. The soul commands evil, except those on whom my Lord has mercy. Truly my Lord is Forgiving and Merciful.\""
+        },
+        {
+          number: 54,
+          arabic: "وَقَالَ الْمَلِكُ ائْتُونِي بِهِ أَسْتَخْلِصْهُ لِنَفْسِي فَلَمَّا كَلَّمَهُ قَالَ إِنَّكَ الْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌ",
+          english: "The king said, \"Bring him to me, and I will reserve him for myself.\" And when he spoke to him, he said, \"This day you are with us established and secure.\""
+        },
+        {
+          number: 55,
+          arabic: "قَالَ اجْعَلْنِي عَلَى خَزَائِنِ الْأَرْضِ إِنِّي حَفِيظٌ عَلِيمٌ",
+          english: "He said, \"Put me in charge of the storehouses of the land; I am honest and knowledgeable.\""
+        },
+        {
+          number: 56,
+          arabic: "وَكَذَلِكَ مَكَّنَّا لِيُوسُفَ فِي الْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَاءُ نُصِيبُ بِرَحْمَتِنَا مَنْ نَشَاءُ وَلَا نُضِيعُ أَجْرَ الْمُحْسِنِينَ",
+          english: "And thus We established Joseph in the land, to live therein wherever he wished. We touch with Our mercy whomever We will, and We never waste the reward of the righteous."
+        },
+        {
+          number: 57,
+          arabic: "وَلَأَجْرُ الْآخِرَةِ خَيْرٌ لِلَّذِينَ آمَنُوا وَكَانُوا يَتَّقُونَ",
+          english: "But the reward of the Hereafter is better for those who believe and observed piety."
+        },
+        {
+          number: 58,
+          arabic: "وَجَاءَ إِخْوَةُ يُوسُفَ فَدَخَلُوا عَلَيْهِ فَعَرَفَهُمْ وَهُمْ لَهُ مُنْكِرُونَ",
+          english: "And Joseph's brothers came, and entered into his presence. He recognized them, but they did not recognize him."
+        },
+        {
+          number: 59,
+          arabic: "وَلَمَّا جَهَّزَهُمْ بِجَهَازِهِمْ قَالَ ائْتُونِي بِأَخٍ لَكُمْ مِنْ أَبِيكُمْ أَلَا تَرَوْنَ أَنِّي أُوفِي الْكَيْلَ وَأَنَا خَيْرُ الْمُنْزِلِينَ",
+          english: "When he provided them with their provisions, he said, \"Bring me a brother of yours from your father. Do you not see that I fill up the measure, and I am the best of hosts?\""
+        },
+        {
+          number: 60,
+          arabic: "فَإِنْ لَمْ تَأْتُونِي بِهِ فَلَا كَيْلَ لَكُمْ عِنْدِي وَلَا تَقْرَبُونِ",
+          english: "\"But if you do not bring him to me, you will have no measure from me, and you will not come near me.\""
+        },
+        {
+          number: 61,
+          arabic: "قَالُوا سَنُرَاوِدُ عَنْهُ أَبَاهُ وَإِنَّا لَفَاعِلُونَ",
+          english: "They said, \"We will solicit him from his father. We will surely do.\""
+        },
+        {
+          number: 62,
+          arabic: "وَقَالَ لِفِتْيَانِهِ اجْعَلُوا بِضَاعَتَهُمْ فِي رِحَالِهِمْ لَعَلَّهُمْ يَعْرِفُونَهَا إِذَا انْقَلَبُوا إِلَى أَهْلِهِمْ لَعَلَّهُمْ يَرْجِعُونَ",
+          english: "He said to his servants, \"Put their goods in their saddlebags; perhaps they will recognize them when they return to their families, and maybe they will come back.\""
+        },
+        {
+          number: 63,
+          arabic: "فَلَمَّا رَجَعُوا إِلَى أَبِيهِمْ قَالُوا يَا أَبَانَا مُنِعَ مِنَّا الْكَيْلُ فَأَرْسِلْ مَعَنَا أَخَانَا نَكْتَلْ وَإِنَّا لَهُ لَحَافِظُونَ",
+          english: "When they returned to their father, they said, \"O father, we were denied measure, but send our brother with us, and we will obtain measure. We will take care of him.\""
+        },
+        {
+          number: 64,
+          arabic: "قَالَ هَلْ آمَنُكُمْ عَلَيْهِ إِلَّا كَمَا أَمِنْتُكُمْ عَلَى أَخِيهِ مِنْ قَبْلُ فَاللَّهُ خَيْرٌ حَافِظًا وَهُوَ أَرْحَمُ الرَّاحِمِينَ",
+          english: "He said, \"Shall I trust you with him, as I trusted you with his brother before? God is the Best Guardian, and He is the Most Merciful of the merciful.\""
+        },
+        {
+          number: 65,
+          arabic: "وَلَمَّا فَتَحُوا مَتَاعَهُمْ وَجَدُوا بِضَاعَتَهُمْ رُدَّتْ إِلَيْهِمْ قَالُوا يَا أَبَانَا مَا نَبْغِي هَذِهِ بِضَاعَتُنَا رُدَّتْ إِلَيْنَا وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍ ذَلِكَ كَيْلٌ يَسِيرٌ",
+          english: "And when they opened their baggage, they found that their goods were returned to them. They said, \"Father, what more do we want? Here are our goods, returned to us. We will provide for our family, and protect our brother, and have an additional camel-load. This is easy commerce.\""
+        },
+        {
+          number: 66,
+          arabic: "قَالَ لَنْ أُرْسِلَهُ مَعَكُمْ حَتَّى تُؤْتُونِ مَوْثِقًا مِنَ اللَّهِ لَتَأْتُنَّنِي بِهِ إِلَّا أَنْ يُحَاطَ بِكُمْ فَلَمَّا آتَوْهُ مَوْثِقَهُمْ قَالَ اللَّهُ عَلَى مَا نَقُولُ وَكِيلٌ",
+          english: "He said, \"I will not send him with you, unless you give me a pledge before God that you will bring him back to me, unless you get trapped.\" And when they gave him their pledge, he said, \"God is witness to what we say.\""
+        },
+        {
+          number: 67,
+          arabic: "وَقَالَ يَا بَنِيَّ لَا تَدْخُلُوا مِنْ بَابٍ وَاحِدٍ وَادْخُلُوا مِنْ أَبْوَابٍ مُتَفَرِّقَةٍ وَمَا أُغْنِي عَنْكُمْ مِنَ اللَّهِ مِنْ شَيْءٍ إِنِ الْحُكْمُ إِلَّا لِلَّهِ عَلَيْهِ تَوَكَّلْتُ وَعَلَيْهِ فَلْيَتَوَكَّلِ الْمُتَوَكِّلُونَ",
+          english: "And he said, \"O my sons, do not enter by one gate, but enter by different gates. I cannot avail you anything against God. The decision rests only with God. On Him I rely, and on Him let the reliant rely.\""
+        },
+        {
+          number: 68,
+          arabic: "وَلَمَّا دَخَلُوا مِنْ حَيْثُ أَمَرَهُمْ أَبُوهُمْ مَا كَانَ يُغْنِي عَنْهُمْ مِنَ اللَّهِ مِنْ شَيْءٍ إِلَّا حَاجَةً فِي نَفْسِ يَعْقُوبَ قَضَاهَا وَإِنَّهُ لَذُو عِلْمٍ لِمَا عَلَّمْنَاهُ وَلَكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
+          english: "And when they entered as their father had instructed them, it did not avail them anything against God; it was just a need in the soul of Jacob, which he carried out. He was a person of knowledge inasmuch as We had taught him, but most people do not know."
+        },
+        {
+          number: 69,
+          arabic: "وَلَمَّا دَخَلُوا عَلَى يُوسُفَ آوَى إِلَيْهِ أَخَاهُ قَالَ إِنِّي أَنَا أَخُوكَ فَلَا تَبْتَئِسْ بِمَا كَانُوا يَعْمَلُونَ",
+          english: "And when they entered into the presence of Joseph, he embraced his brother, and said, \"I am your brother; do not be saddened by what they used to do.\""
+        },
+        {
+          number: 70,
+          arabic: "فَلَمَّا جَهَّزَهُمْ بِجَهَازِهِمْ جَعَلَ السِّقَايَةَ فِي رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا الْعِيرُ إِنَّكُمْ لَسَارِقُونَ",
+          english: "Then, when he provided them with their provisions, he placed the drinking-cup in his brother's saddlebag. Then an announcer called out, \"O people of the caravan, you are thieves.\""
+        },
+        {
+          number: 71,
+          arabic: "قَالُوا وَأَقْبَلُوا عَلَيْهِمْ مَاذَا تَفْقِدُونَ",
+          english: "They said, as they came towards them, \"What are you missing?\""
+        },
+        {
+          number: 72,
+          arabic: "قَالُوا نَفْقِدُ صُوَاعَ الْمَلِكِ وَلِمَنْ جَاءَ بِهِ حِمْلُ بَعِيرٍ وَأَنَا بِهِ زَعِيمٌ",
+          english: "They said, \"We are missing the king's goblet. Whoever brings it will have a camel-load; and I personally guarantee it.\""
+        },
+        {
+          number: 73,
+          arabic: "قَالُوا تَاللَّهِ لَقَدْ عَلِمْتُمْ مَا جِئْنَا لِنُفْسِدَ فِي الْأَرْضِ وَمَا كُنَّا سَارِقِينَ",
+          english: "They said, \"By God, you know we did not come to cause trouble in the land, and we are not thieves.\""
+        },
+        {
+          number: 74,
+          arabic: "قَالُوا فَمَا جَزَاؤُهُ إِنْ كُنْتُمْ كَاذِبِينَ",
+          english: "They said, \"What shall be his punishment, if you are lying?\""
+        },
+        {
+          number: 75,
+          arabic: "قَالُوا جَزَاؤُهُ مَنْ وُجِدَ فِي رَحْلِهِ فَهُوَ جَزَاؤُهُ كَذَلِكَ نَجْزِي الظَّالِمِينَ",
+          english: "They said, \"His punishment, if it is found in his bag: he will belong to you. Thus we penalize the guilty.\""
+        },
+        {
+          number: 76,
+          arabic: "فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَاءِ أَخِيهِ ثُمَّ اسْتَخْرَجَهَا مِنْ وِعَاءِ أَخِيهِ كَذَلِكَ كِدْنَا لِيُوسُفَ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِي دِينِ الْمَلِكِ إِلَّا أَنْ يَشَاءَ اللَّهُ نَرْفَعُ دَرَجَاتٍ مَنْ نَشَاءُ وَفَوْقَ كُلِّ ذِي عِلْمٍ عَلِيمٌ",
+          english: "So he began with their bags, before his brother's bag. Then he pulled it out of his brother's bag. Thus We devised a plan for Joseph; he could not have detained his brother under the king's law, unless God so willed. We elevate by degrees whomever We will; and above every person of knowledge, there is one more learned."
+        },
+        {
+          number: 77,
+          arabic: "قَالُوا إِنْ يَسْرِقْ فَقَدْ سَرَقَ أَخٌ لَهُ مِنْ قَبْلُ فَأَسَرَّهَا يُوسُفُ فِي نَفْسِهِ وَلَمْ يُبْدِهَا لَهُمْ قَالَ أَنْتُمْ شَرٌّ مَكَانًا وَاللَّهُ أَعْلَمُ بِمَا تَصِفُونَ",
+          english: "They said, \"If he has stolen, a brother of his has stolen before.\" But Joseph kept it to himself, and did not reveal it to them. He said, \"You are in a worse situation, and God is Aware of what you allege.\""
+        },
+        {
+          number: 78,
+          arabic: "قَالُوا يَا أَيُّهَا الْعَزِيزُ إِنَّ لَهُ أَبًا شَيْخًا كَبِيرًا فَخُذْ أَحَدَنَا مَكَانَهُ إِنَّا نَرَاكَ مِنَ الْمُحْسِنِينَ",
+          english: "They said, \"O noble prince, he has a father, a very old man, so take one of us in his place. We see that you are a good person.\""
+        },
+        {
+          number: 79,
+          arabic: "قَالَ مَعَاذَ اللَّهِ أَنْ نَأْخُذَ إِلَّا مَنْ وَجَدْنَا مَتَاعَنَا عِنْدَهُ إِنَّا إِذًا لَظَالِمُونَ",
+          english: "He said, \"God forbid that we should arrest anyone except him in whose possession we found our property; for then we would be unjust.\""
+        },
+        {
+          number: 80,
+          arabic: "فَلَمَّا اسْتَيْأَسُوا مِنْهُ خَلَصُوا نَجِيًّا قَالَ كَبِيرُهُمْ أَلَمْ تَعْلَمُوا أَنَّ أَبَاكُمْ قَدْ أَخَذَ عَلَيْكُمْ مَوْثِقًا مِنَ اللَّهِ وَمِنْ قَبْلُ مَا فَرَّطْتُمْ فِي يُوسُفَ فَلَنْ أَبْرَحَ الْأَرْضَ حَتَّى يَأْذَنَ لِي أَبِي أَوْ يَحْكُمَ اللَّهُ لِي وَهُوَ خَيْرُ الْحَاكِمِينَ",
+          english: "And when they despaired of him, they conferred privately. Their eldest said, \"Don't you know that your father received a pledge from you before God, and in the past you failed with regard to Joseph? I will not leave this land until my father permits me, or God decides for me; for He is the Best of Deciders.\""
+        },
+        {
+          number: 81,
+          arabic: "ارْجِعُوا إِلَى أَبِيكُمْ فَقُولُوا يَا أَبَانَا إِنَّ ابْنَكَ سَرَقَ وَمَا شَهِدْنَا إِلَّا بِمَا عَلِمْنَا وَمَا كُنَّا لِلْغَيْبِ حَافِظِينَ",
+          english: "\"Go back to your father, and say, 'Our father, your son has stolen. We testify only to what we know, and we could not have prevented the unforeseen.'\""
+        },
+        {
+          number: 82,
+          arabic: "وَاسْأَلِ الْقَرْيَةَ الَّتِي كُنَّا فِيهَا وَالْعِيرَ الَّتِي أَقْبَلْنَا فِيهَا وَإِنَّا لَصَادِقُونَ",
+          english: "\"Ask the town where we were, and the caravan in which we came. We are being truthful.\""
+        },
+        {
+          number: 83,
+          arabic: "قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنْفُسُكُمْ أَمْرًا فَصَبْرٌ جَمِيلٌ عَسَى اللَّهُ أَنْ يَأْتِيَنِي بِهِمْ جَمِيعًا إِنَّهُ هُوَ الْعَلِيمُ الْحَكِيمُ",
+          english: "He said, \"Rather, your souls have contrived something for you. Patience is a virtue. Perhaps God will bring them all back to me. He is the Knowing, the Wise.\""
+        },
+        {
+          number: 84,
+          arabic: "وَتَوَلَّى عَنْهُمْ وَقَالَ يَا أَسَفَى عَلَى يُوسُفَ وَابْيَضَّتْ عَيْنَاهُ مِنَ الْحُزْنِ فَهُوَ كَظِيمٌ",
+          english: "Then he turned away from them, and said, \"O my bitterness for Joseph.\" And his eyes turned white from sorrow, and he became depressed."
+        },
+        {
+          number: 85,
+          arabic: "قَالُوا تَاللَّهِ تَفْتَأُ تَذْكُرُ يُوسُفَ حَتَّى تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ الْهَالِكِينَ",
+          english: "They said, \"By God, you will not stop remembering Joseph, until you have ruined your health, or you have passed away.\""
+        },
+        {
+          number: 86,
+          arabic: "قَالَ إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ وَأَعْلَمُ مِنَ اللَّهِ مَا لَا تَعْلَمُونَ",
+          english: "He said, \"I only complain of my grief and sorrow to God, and I know from God what you do not know.\""
+        },
+        {
+          number: 87,
+          arabic: "يَا بَنِيَّ اذْهَبُوا فَتَحَسَّسُوا مِنْ يُوسُفَ وَأَخِيهِ وَلَا تَيْأَسُوا مِنْ رَوْحِ اللَّهِ إِنَّهُ لَا يَيْأَسُ مِنْ رَوْحِ اللَّهِ إِلَّا الْقَوْمُ الْكَافِرُونَ",
+          english: "\"O my sons, go and inquire about Joseph and his brother, and do not despair of God's comfort. None despairs of God's comfort except the disbelieving people.\""
+        },
+        {
+          number: 88,
+          arabic: "فَلَمَّا دَخَلُوا عَلَيْهِ قَالُوا يَا أَيُّهَا الْعَزِيزُ مَسَّنَا وَأَهْلَنَا الضُّرُّ وَجِئْنَا بِبِضَاعَةٍ مُزْجَاةٍ فَأَوْفِ لَنَا الْكَيْلَ وَتَصَدَّقْ عَلَيْنَا إِنَّ اللَّهَ يَجْزِي الْمُتَصَدِّقِينَ",
+          english: "Then, when they entered into his presence, they said, \"Mighty governor, adversity has befallen us, and our family. We have brought scant merchandise. But give us full measure, and be charitable towards us—God rewards the charitable.\""
+        },
+        {
+          number: 89,
+          arabic: "قَالَ هَلْ عَلِمْتُمْ مَا فَعَلْتُمْ بِيُوسُفَ وَأَخِيهِ إِذْ أَنْتُمْ جَاهِلُونَ",
+          english: "He said, \"Do you realize what you did with Joseph and his brother, in your ignorance?\""
+        },
+        {
+          number: 90,
+          arabic: "قَالُوا أَإِنَّكَ لَأَنْتَ يُوسُفُ قَالَ أَنَا يُوسُفُ وَهَذَا أَخِي قَدْ مَنَّ اللَّهُ عَلَيْنَا إِنَّهُ مَنْ يَتَّقِ وَيَصْبِرْ فَإِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ",
+          english: "They said, \"Is that you, Joseph?\" He said, \"I am Joseph, and this is my brother. God has been gracious to us. He who practices piety and patience—God never fails to reward the righteous.\""
+        },
+        {
+          number: 91,
+          arabic: "قَالُوا تَاللَّهِ لَقَدْ آثَرَكَ اللَّهُ عَلَيْنَا وَإِنْ كُنَّا لَخَاطِئِينَ",
+          english: "They said, \"By God, God has preferred you over us. We were definitely in the wrong.\""
+        },
+        {
+          number: 92,
+          arabic: "قَالَ لَا تَثْرِيبَ عَلَيْكُمُ الْيَوْمَ يَغْفِرُ اللَّهُ لَكُمْ وَهُوَ أَرْحَمُ الرَّاحِمِينَ",
+          english: "He said, \"There is no blame upon you today. God will forgive you. He is the Most Merciful of the merciful.\""
+        },
+        {
+          number: 93,
+          arabic: "اذْهَبُوا بِقَمِيصِي هَذَا فَأَلْقُوهُ عَلَى وَجْهِ أَبِي يَأْتِ بَصِيرًا وَأْتُونِي بِأَهْلِكُمْ أَجْمَعِينَ",
+          english: "\"Take this shirt of mine, and lay it over my father's face, and he will recover his sight. And bring your whole family to me.\""
+        },
+        {
+          number: 94,
+          arabic: "وَلَمَّا فَصَلَتِ الْعِيرُ قَالَ أَبُوهُمْ إِنِّي لَأَجِدُ رِيحَ يُوسُفَ لَوْلَا أَنْ تُفَنِّدُونِ",
+          english: "As the caravan set out, their father said, \"I sense the presence of Joseph, though you may think I am senile.\""
+        },
+        {
+          number: 95,
+          arabic: "قَالُوا تَاللَّهِ إِنَّكَ لَفِي ضَلَالِكَ الْقَدِيمِ",
+          english: "They said, \"By God, you are still in your old confusion.\""
+        },
+        {
+          number: 96,
+          arabic: "فَلَمَّا أَنْ جَاءَ الْبَشِيرُ أَلْقَاهُ عَلَى وَجْهِهِ فَارْتَدَّ بَصِيرًا قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ مِنَ اللَّهِ مَا لَا تَعْلَمُونَ",
+          english: "Then, when the bearer of good news arrived, he laid it over his face, and he regained his sight. He said, \"Did I not say to you that I know from God what you do not know?\""
+        },
+        {
+          number: 97,
+          arabic: "قَالُوا يَا أَبَانَا اسْتَغْفِرْ لَنَا ذُنُوبَنَا إِنَّا كُنَّا خَاطِئِينَ",
+          english: "They said, \"Father, pray for the forgiveness of our sins; we were indeed at fault.\""
+        },
+        {
+          number: 98,
+          arabic: "قَالَ سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّي إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ",
+          english: "He said, \"I will ask my Lord to forgive you. He is the Forgiver, the Most Merciful.\""
+        },
+        {
+          number: 99,
+          arabic: "فَلَمَّا دَخَلُوا عَلَى يُوسُفَ آوَى إِلَيْهِ أَبَوَيْهِ وَقَالَ ادْخُلُوا مِصْرَ إِنْ شَاءَ اللَّهُ آمِنِينَ",
+          english: "Then, when they entered into the presence of Joseph, he embraced his parents, and said, \"Enter Egypt, God willing, safe and secure.\""
+        },
+        {
+          number: 100,
+          arabic: "وَرَفَعَ أَبَوَيْهِ عَلَى الْعَرْشِ وَخَرُّوا لَهُ سُجَّدًا وَقَالَ يَا أَبَتِ هَذَا تَأْوِيلُ رُؤْيَايَ مِنْ قَبْلُ قَدْ جَعَلَهَا رَبِّي حَقًّا وَقَدْ أَحْسَنَ بِي إِذْ أَخْرَجَنِي مِنَ السِّجْنِ وَجَاءَ بِكُمْ مِنَ الْبَدْوِ مِنْ بَعْدِ أَنْ نَزَغَ الشَّيْطَانُ بَيْنِي وَبَيْنَ إِخْوَتِي إِنَّ رَبِّي لَطِيفٌ لِمَا يَشَاءُ إِنَّهُ هُوَ الْعَلِيمُ الْحَكِيمُ",
+          english: "And he elevated his parents on the throne, and they fell prostrate before him. He said, \"Father, this is the fulfillment of my vision of long ago. My Lord has made it come true. He has blessed me, when he released me from prison, and brought you out of the wilderness, after the devil had sown conflict between me and my brothers. My Lord is Most Kind towards whomever He wills. He is the All-knowing, the Most Wise.\""
+        },
+        {
+          number: 101,
+          arabic: "رَبِّ قَدْ آتَيْتَنِي مِنَ الْمُلْكِ وَعَلَّمْتَنِي مِنْ تَأْوِيلِ الْأَحَادِيثِ فَاطِرَ السَّمَاوَاتِ وَالْأَرْضِ أَنْتَ وَلِيِّي فِي الدُّنْيَا وَالْآخِرَةِ تَوَفَّنِي مُسْلِمًا وَأَلْحِقْنِي بِالصَّالِحِينَ",
+          english: "\"My Lord, You have given me some authority, and taught me some interpretation of events. Initiator of the heavens and the earth; You are my Protector in this life and in the Hereafter. Receive my soul in submission, and unite me with the righteous.\""
+        },
+        {
+          number: 102,
+          arabic: "ذَلِكَ مِنْ أَنْبَاءِ الْغَيْبِ نُوحِيهِ إِلَيْكَ وَمَا كُنْتَ لَدَيْهِمْ إِذْ أَجْمَعُوا أَمْرَهُمْ وَهُمْ يَمْكُرُونَ",
+          english: "This is news from the past that We reveal to you. You were not present with them when they plotted and agreed on a plan."
+        },
+        {
+          number: 103,
+          arabic: "وَمَا أَكْثَرُ النَّاسِ وَلَوْ حَرَصْتَ بِمُؤْمِنِينَ",
+          english: "But most people, for all your eagerness, are not believers."
+        },
+        {
+          number: 104,
+          arabic: "وَمَا تَسْأَلُهُمْ عَلَيْهِ مِنْ أَجْرٍ إِنْ هُوَ إِلَّا ذِكْرٌ لِلْعَالَمِينَ",
+          english: "You ask them no wage for it. It is only a reminder for all mankind."
+        },
+        {
+          number: 105,
+          arabic: "وَكَأَيِّنْ مِنْ آيَةٍ فِي السَّمَاوَاتِ وَالْأَرْضِ يَمُرُّونَ عَلَيْهَا وَهُمْ عَنْهَا مُعْرِضُونَ",
+          english: "How many a sign in the heavens and the earth do they pass by, paying no attention to them?"
+        },
+        {
+          number: 106,
+          arabic: "وَمَا يُؤْمِنُ أَكْثَرُهُمْ بِاللَّهِ إِلَّا وَهُمْ مُشْرِكُونَ",
+          english: "And most of them do not believe in God unless they associate others."
+        },
+        {
+          number: 107,
+          arabic: "أَفَأَمِنُوا أَنْ تَأْتِيَهُمْ غَاشِيَةٌ مِنْ عَذَابِ اللَّهِ أَوْ تَأْتِيَهُمُ السَّاعَةُ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
+          english: "Do they feel secure that a covering of God's punishment will not come upon them, or that the Hour will not come upon them suddenly, while they are unaware?"
+        },
+        {
+          number: 108,
+          arabic: "قُلْ هَذِهِ سَبِيلِي أَدْعُو إِلَى اللَّهِ عَلَى بَصِيرَةٍ أَنَا وَمَنِ اتَّبَعَنِي وَسُبْحَانَ اللَّهِ وَمَا أَنَا مِنَ الْمُشْرِكِينَ",
+          english: "Say, \"This is my way; I invite to God, based on clear knowledge—I and whoever follows me. Glory be to God; and I am not of the polytheists.\""
+        },
+        {
+          number: 109,
+          arabic: "وَمَا أَرْسَلْنَا مِنْ قَبْلِكَ إِلَّا رِجَالًا نُوحِي إِلَيْهِمْ مِنْ أَهْلِ الْقُرَى أَفَلَمْ يَسِيرُوا فِي الْأَرْضِ فَيَنْظُرُوا كَيْفَ كَانَ عَاقِبَةُ الَّذِينَ مِنْ قَبْلِهِمْ وَلَدَارُ الْآخِرَةِ خَيْرٌ لِلَّذِينَ اتَّقَوْا أَفَلَا تَعْقِلُونَ",
+          english: "We did not send before you except men, whom We inspired, from the people of the towns. Have they not roamed the earth and seen the consequences for those before them? The Home of the Hereafter is better for those who are righteous. Do you not understand?"
+        },
+        {
+          number: 110,
+          arabic: "حَتَّى إِذَا اسْتَيْأَسَ الرُّسُلُ وَظَنُّوا أَنَّهُمْ قَدْ كُذِبُوا جَاءَهُمْ نَصْرُنَا فَنُجِّيَ مَنْ نَشَاءُ وَلَا يُرَدُّ بَأْسُنَا عَنِ الْقَوْمِ الْمُجْرِمِينَ",
+          english: "Until, when the messengers have despaired, and thought that they were rejected, Our help came to them. We save whomever We will, and Our severity is not averted from the guilty people."
+        },
+        {
+          number: 111,
+          arabic: "لَقَدْ كَانَ فِي قَصَصِهِمْ عِبْرَةٌ لِأُولِي الْأَلْبَابِ مَا كَانَ حَدِيثًا يُفْتَرَى وَلَكِنْ تَصْدِيقَ الَّذِي بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً لِقَوْمٍ يُؤْمِنُونَ",
+          english: "In their stories is a lesson for those who possess intelligence. This is not a fabricated tale, but a confirmation of what came before it, and a detailed explanation of all things, and guidance, and mercy for people who believe."
         }
+
       ]
     },
     {
