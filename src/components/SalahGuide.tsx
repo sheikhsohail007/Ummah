@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Globe, Book, Play, ChevronDown, ChevronUp, Star, Heart, Clock, Moon, Sun } from 'lucide-react';
 
 interface Language {
@@ -2035,6 +2036,13 @@ function SalahGuide() {
 
   return (
     <div className="max-w-7xl mx-auto">
+      <Helmet>
+        <title>Correct Your Salah - Complete Prayer Guide | Islamic Pearls</title>
+        <meta name="description" content="Learn how to perform Salah (Islamic prayer) correctly with step-by-step guidance. Complete prayer guide with Arabic text, translations, and proper prayer methodology for all Muslims." />
+        <meta name="keywords" content="Salah Guide, How to Pray Islam, Islamic Prayer Guide, Correct Prayer Method, Salah Steps, Islamic Prayer Tutorial, Prayer in Islam, Namaz Guide" />
+        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/salah-guide" />
+      </Helmet>
+
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
           Complete Guide to Islamic Prayers

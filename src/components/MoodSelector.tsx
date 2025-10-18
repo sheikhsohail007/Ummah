@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Play, BookOpen, Heart, Star, ExternalLink, X } from 'lucide-react';
 import { Mood } from '../App';
 
@@ -666,6 +667,13 @@ function MoodSelector({ selectedMood, onMoodSelect }: MoodSelectorProps) {
 
   return (
     <div className="max-w-7xl mx-auto">
+      <Helmet>
+        <title>Islamic Mood Selector - Personalized Spiritual Guidance | Qalam Verse</title>
+        <meta name="description" content="Select your current mood to receive personalized Islamic guidance, Quranic verses, Hadith wisdom, and spiritual support tailored to your emotional state and spiritual needs." />
+        <meta name="keywords" content="Islamic Mood Selector, Personalized Islamic Guidance, Emotional Support Islam, Islamic Psychology, Spiritual Mood, Islamic Counseling, Faith-based Guidance" />
+        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/mood" />
+      </Helmet>
+
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
           Discover Your Inner Essence
@@ -682,11 +690,13 @@ function MoodSelector({ selectedMood, onMoodSelect }: MoodSelectorProps) {
             onClick={() => handleMoodClick(mood)}
             className={`p-6 rounded-2xl border-2 transition-all duration-300 hover:scale-105 hover:shadow-lg ${
               selectedMood?.id === mood.id
-                ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20 shadow-lg transform scale-105'
+                ? 'border-emerald-400 bg-emerald-50 dark:bg-emerald-900/20 shadow-lg transform scale-105'
                 : 'border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 hover:border-emerald-300'
             }`}
           >
-            <div className="text-4xl mb-3">{mood.emoji}</div>
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center mb-3 mx-auto">
+              <div className="w-6 h-6 bg-white rounded-full opacity-80"></div>
+            </div>
             <div className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
               {mood.label}
             </div>
@@ -700,7 +710,9 @@ function MoodSelector({ selectedMood, onMoodSelect }: MoodSelectorProps) {
       {selectedMood && !selectedDetailedMood && (
         <div className="mt-8 bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-gray-800 dark:to-gray-700 p-6 rounded-xl border border-emerald-200 dark:border-gray-600">
           <div className="flex items-center justify-center mb-4">
-            <div className="text-4xl mr-3">{selectedMood.emoji}</div>
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center mr-3">
+              <div className="w-6 h-6 bg-white rounded-full opacity-80"></div>
+            </div>
             <h3 className="text-2xl font-semibold text-emerald-800 dark:text-emerald-300">
               You're feeling {selectedMood.label}
             </h3>

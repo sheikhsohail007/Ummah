@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Search, BookOpen, Star, Clock, Heart, ChevronDown, ChevronUp, Filter, Globe, Moon, Sun, Home, Plane, ShoppingCart, Users, Baby, Skull, Leaf } from 'lucide-react';
 
 interface Dua {
@@ -884,6 +885,13 @@ function DuaAndDhikr() {
   if (selectedCategory && selectedCategoryData) {
     return (
       <div className="max-w-6xl mx-auto">
+        <Helmet>
+          <title>Dua & Dhikr - Essential Islamic Supplications | Islamic Pearls</title>
+          <meta name="description" content="Discover essential Islamic duas and dhikr for daily life. Learn authentic supplications for morning, evening, prayer, travel, protection, and various life situations with Arabic text and translations." />
+          <meta name="keywords" content="Islamic Dua, Dhikr, Islamic Supplications, Islamic Prayers, Morning Duas, Evening Duas, Travel Duas, Protection Duas, Islamic Remembrance" />
+          <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/dua" />
+        </Helmet>
+
         {/* Header */}
         <div className={`bg-gradient-to-r ${selectedCategoryData.color} text-white p-6 rounded-t-2xl`}>
           <div className="flex items-center justify-between">
@@ -1021,6 +1029,13 @@ function DuaAndDhikr() {
 
   return (
     <div className="max-w-7xl mx-auto">
+      <Helmet>
+        <title>Dua & Dhikr - Essential Islamic Supplications | Islamic Pearls</title>
+        <meta name="description" content="Discover essential Islamic duas and dhikr for daily life. Learn authentic supplications for morning, evening, prayer, travel, protection, and various life situations with Arabic text and translations." />
+        <meta name="keywords" content="Islamic Dua, Dhikr, Islamic Supplications, Islamic Prayers, Morning Duas, Evening Duas, Travel Duas, Protection Duas, Islamic Remembrance" />
+        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/dua" />
+      </Helmet>
+
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
           Dua & Dhikr Collection

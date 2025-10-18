@@ -1,57 +1,62 @@
 import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Moon, Sun, Menu, X } from 'lucide-react';
-
-interface NavigationItem {
-  id: string;
-  label: string;
-  icon: React.ReactNode;
-}
 
 interface HeaderProps {
   darkMode: boolean;
   setDarkMode: (value: boolean) => void;
   mobileMenuOpen: boolean;
   setMobileMenuOpen: (value: boolean) => void;
-  navigationItems: NavigationItem[];
-  activeSection: string;
-  setActiveSection: (section: string) => void;
 }
 
 function Header({ 
   darkMode, 
   setDarkMode, 
   mobileMenuOpen, 
-  setMobileMenuOpen,
-  navigationItems,
-  activeSection,
-  setActiveSection
+  setMobileMenuOpen
 }: HeaderProps) {
+  const location = useLocation();
+
+  const navigationItems = [
+    { path: '/', label: 'Home', icon: '🏠' },
+    { path: '/salah-guide', label: 'Correct Your Salah', icon: '🕌' },
+    { path: '/prayer-times', label: 'Prayer Times', icon: '⏰' },
+    { path: '/reflection', label: 'Daily Reflection', icon: '💭' },
+    { path: '/quran', label: 'Quran Verses', icon: '📖' },
+    { path: '/islamic-stories', label: 'Islamic Stories', icon: '📚' },
+    { path: '/prophet-stories', label: 'Story of Prophets', icon: '👥' },
+    { path: '/prophetic-wisdom', label: 'Prophetic Wisdom', icon: '💎' },
+    { path: '/mood', label: 'Mood Selector', icon: '😊' },
+    { path: '/dua', label: 'Dua & Dhikr', icon: '🤲' },
+    { path: '/islamic-ai', label: 'Islamic AI', icon: '🤖' }
+  ];
+
   return (
     <header className="bg-white dark:bg-gray-800 shadow-lg fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <button 
-            onClick={() => setActiveSection('home')}
+          <Link 
+            to="/"
             className="text-2xl font-bold text-emerald-800 dark:text-emerald-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
           >
-            ☪ Qalam Verse 
-          </button>
+            ☪ Qalam Verse
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {navigationItems.map((item) => (
-              <button
+              <Link
                 key={item.id}
-                onClick={() => setActiveSection(item.id)}
+                to={item.path}
                 className={`flex items-center space-x-2 px-3 py-2 rounded-md transition-colors ${
-                  activeSection === item.id
+                  location.pathname === item.path
                     ? 'bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-300'
                     : 'text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400'
                 }`}
               >
-                {item.icon}
+                <span>{item.icon}</span>
                 <span className="text-sm font-medium">{item.label}</span>
-              </button>
+              </Link>
             ))}
           </nav>
 
@@ -77,21 +82,19 @@ function Header({
           <div className="md:hidden border-t border-gray-200 dark:border-gray-700">
             <nav className="py-4 space-y-2">
               {navigationItems.map((item) => (
-                <button
+                <Link
                   key={item.id}
-                  onClick={() => {
-                    setActiveSection(item.id);
-                    setMobileMenuOpen(false);
-                  }}
+                  to={item.path}
+                  onClick={() => setMobileMenuOpen(false)}
                   className={`w-full flex items-center space-x-3 px-3 py-2 rounded-md transition-colors ${
-                    activeSection === item.id
+                    location.pathname === item.path
                       ? 'bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-300'
                       : 'text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400'
                   }`}
                 >
-                  {item.icon}
+                  <span>{item.icon}</span>
                   <span className="font-medium">{item.label}</span>
-                </button>
+                </Link>
               ))}
             </nav>
           </div>

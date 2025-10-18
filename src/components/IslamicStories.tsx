@@ -1,4 +1,5 @@
-import  { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Book, Heart, Star, User, Clock, RefreshCw } from 'lucide-react';
 import { Mood } from '../App';
 
@@ -138,6 +139,13 @@ The judge immediately knew the true owner. The man who showed genuine concern fo
 
   return (
     <div className="max-w-4xl mx-auto">
+      <Helmet>
+        <title>Islamic Stories - Inspiring Tales from Islamic Heritage | Islamic Pearls</title>
+        <meta name="description" content="Read inspiring Islamic stories from our rich heritage. Discover tales of faith, patience, gratitude, and wisdom that strengthen your Islamic beliefs and provide spiritual guidance." />
+        <meta name="keywords" content="Islamic Stories, Islamic Tales, Islamic Heritage, Faith Stories, Islamic Wisdom Stories, Moral Stories Islam, Islamic Inspiration" />
+        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/islamic-stories" />
+      </Helmet>
+
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-4">
           Islamic Stories

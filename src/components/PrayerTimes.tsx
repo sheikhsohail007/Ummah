@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Clock, MapPin, Bell, Sun, Sunset } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
+import { Clock, MapPin, Bell, Sun, Sunset, Settings, TestTube } from 'lucide-react';
+import { PrayerNotificationService } from "../service/notificationService";
+
 
 interface PrayerTime {
   name: string;
   nameArabic: string;
   time: string;
-  icon: React.ReactElement;
+  icon: React.ReactNode;
   passed: boolean;
   type: 'fard' | 'sunnah' | 'nafl';
   description: string;
@@ -16,7 +19,9 @@ function PrayerTimes() {
   const [location, setLocation] = useState({ city: 'Your Location', country: '' });
   const [notificationsEnabled, setNotificationsEnabled] = useState(false);
   const [notificationPermission, setNotificationPermission] = useState<NotificationPermission>('default');
-  const [scheduledNotifications, setScheduledNotifications] = useState<Set<string>>(new Set());
+  const [fcmToken, setFcmToken] = useState<string | null>(null);
+  const [notificationService] = useState(() => PrayerNotificationService.getInstance());
+  const [serviceWorkerAvailable, setServiceWorkerAvailable] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -26,164 +31,116 @@ function PrayerTimes() {
     // Check notification permission on component mount
     if ('Notification' in window) {
       setNotificationPermission(Notification.permission);
+      
+      // Initialize notification service if permission already granted
+      if (Notification.permission === 'granted') {
+        initializeNotificationService();
+      }
     }
+
+    // Check service worker availability
+    setServiceWorkerAvailable(notificationService.isServiceWorkerAvailable());
 
     return () => clearInterval(timer);
   }, []);
 
+  const initializeNotificationService = async () => {
+    const token = notificationService.getFCMToken();
+    setFcmToken(token);
+    
+    if (notificationsEnabled) {
+      notificationService.schedulePrayerNotifications(prayerTimes.filter(p => p.type === 'fard'));
+    }
+  };
+
   // Prayer times - in a real app, these would be calculated based on location
   const prayerTimes: PrayerTime[] = [
-    {
-      name: 'Fajr',
+    { 
+      name: 'Fajr', 
       nameArabic: 'الفجر',
-      time: '05:30',
-      icon: <Sun className="w-5 h-5" />,
+      time: '05:30', 
+      icon: <Sun className="w-5 h-5" />, 
       passed: currentTime.getHours() > 5 || (currentTime.getHours() === 5 && currentTime.getMinutes() >= 30),
       type: 'fard',
       description: 'Dawn prayer - The light that breaks the darkness'
     },
-    {
-      name: 'Ishraq',
+    { 
+      name: 'Ishraq', 
       nameArabic: 'الإشراق',
-      time: '06:45',
-      icon: <Sun className="w-5 h-5" />,
+      time: '06:45', 
+      icon: <Sun className="w-5 h-5" />, 
       passed: currentTime.getHours() > 6 || (currentTime.getHours() === 6 && currentTime.getMinutes() >= 45),
       type: 'nafl',
       description: 'Sunrise prayer - 15-20 minutes after sunrise'
     },
-    {
-      name: 'Doha',
+    { 
+      name: 'Doha', 
       nameArabic: 'الضحى',
-      time: '09:30',
-      icon: <Sun className="w-5 h-5" />,
+      time: '09:30', 
+      icon: <Sun className="w-5 h-5" />, 
       passed: currentTime.getHours() > 9 || (currentTime.getHours() === 9 && currentTime.getMinutes() >= 30),
       type: 'sunnah',
       description: 'Forenoon prayer - When the sun rises high'
     },
-    {
-      name: 'Dhuhr',
+    { 
+      name: 'Dhuhr', 
       nameArabic: 'الظهر',
-      time: '12:15',
-      icon: <Sun className="w-5 h-5" />,
+      time: '12:15', 
+      icon: <Sun className="w-5 h-5" />, 
       passed: currentTime.getHours() > 12 || (currentTime.getHours() === 12 && currentTime.getMinutes() >= 15),
       type: 'fard',
       description: 'Midday prayer - When the sun reaches its zenith'
     },
-    {
-      name: 'Asr',
+    { 
+      name: 'Asr', 
       nameArabic: 'العصر',
-      time: '15:45',
-      icon: <Sun className="w-5 h-5" />,
+      time: '15:45', 
+      icon: <Sun className="w-5 h-5" />, 
       passed: currentTime.getHours() > 15 || (currentTime.getHours() === 15 && currentTime.getMinutes() >= 45),
       type: 'fard',
       description: 'Afternoon prayer - The golden hour of reflection'
     },
-    {
-      name: 'Maghrib',
+    { 
+      name: 'Maghrib', 
       nameArabic: 'المغرب',
-      time: '18:20',
-      icon: <Sunset className="w-5 h-5" />,
+      time: '18:20', 
+      icon: <Sunset className="w-5 h-5" />, 
       passed: currentTime.getHours() > 18 || (currentTime.getHours() === 18 && currentTime.getMinutes() >= 20),
       type: 'fard',
       description: 'Sunset prayer - As the day surrenders to night'
     },
-    {
-      name: 'Isha',
+    { 
+      name: 'Isha', 
       nameArabic: 'العشاء',
-      time: '19:45',
-      icon: <Sun className="w-5 h-5" />,
+      time: '19:45', 
+      icon: <Sun className="w-5 h-5" />, 
       passed: currentTime.getHours() > 19 || (currentTime.getHours() === 19 && currentTime.getMinutes() >= 45),
       type: 'fard',
       description: 'Night prayer - Finding peace in the darkness'
     },
-    {
-      name: 'Tahajjud',
+    { 
+      name: 'Tahajjud', 
       nameArabic: 'التهجد',
-      time: '03:30',
-      icon: <Sun className="w-5 h-5" />,
+      time: '03:30', 
+      icon: <Sun className="w-5 h-5" />, 
       passed: currentTime.getHours() > 3 || (currentTime.getHours() === 3 && currentTime.getMinutes() >= 30),
       type: 'sunnah',
       description: 'Night vigil prayer - The secret conversation with Allah'
     },
   ];
 
-  // Function to convert time string to minutes since midnight
-  const timeToMinutes = (timeStr: string): number => {
-    const [hours, minutes] = timeStr.split(':').map(Number);
-    return hours * 60 + minutes;
-  };
-
-  // Function to schedule notification
-  const scheduleNotification = (prayer: PrayerTime) => {
-    if (!notificationsEnabled || prayer.type !== 'fard') return;
-
-    const prayerMinutes = timeToMinutes(prayer.time);
-    const notificationMinutes = prayerMinutes - 10; // 10 minutes before
-    const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
-
-    // Calculate time until notification (in milliseconds)
-    let timeUntilNotification = (notificationMinutes - currentMinutes) * 60 * 1000;
-
-    // If the notification time has passed today, schedule for tomorrow
-    if (timeUntilNotification <= 0) {
-      timeUntilNotification += 24 * 60 * 60 * 1000; // Add 24 hours
-    }
-
-    const notificationId = `${prayer.name}-${new Date().toDateString()}`;
-
-    // Don't schedule if already scheduled
-    if (scheduledNotifications.has(notificationId)) return;
-
-    setTimeout(() => {
-      if (notificationsEnabled && Notification.permission === 'granted') {
-        new Notification(`Prayer Reminder - ${prayer.name}`, {
-          body: `${prayer.name} prayer (${prayer.nameArabic}) is in 10 minutes at ${prayer.time}`,
-          icon: '/vite.svg',
-          badge: '/vite.svg',
-          tag: prayer.name,
-          requireInteraction: true,
-          // @ts-ignore: actions is experimental
-          actions: [
-            { action: 'view', title: 'View Prayer Times' }
-          ]
-        });
-
-      }
-
-      // Remove from scheduled set after notification is sent
-      setScheduledNotifications(prev => {
-        const newSet = new Set(prev);
-        newSet.delete(notificationId);
-        return newSet;
-      });
-    }, timeUntilNotification);
-
-    // Add to scheduled set
-    setScheduledNotifications(prev => new Set(prev).add(notificationId));
-  };
-
-  // Schedule notifications for all Fard prayers
-  useEffect(() => {
-    if (notificationsEnabled) {
-      const fardPrayers = prayerTimes.filter(prayer => prayer.type === 'fard');
-      fardPrayers.forEach(prayer => {
-        scheduleNotification(prayer);
-      });
-    }
-  }, [notificationsEnabled, currentTime.getDate()]); // Re-run daily
-
   const getNextPrayer = () => {
     const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
-
+    
     for (const prayer of prayerTimes) {
       const [hours, minutes] = prayer.time.split(':').map(Number);
       const prayerMinutes = hours * 60 + minutes;
-
+      
       if (prayerMinutes > currentMinutes) {
         return prayer;
       }
     }
-
+    
     return prayerTimes[0]; // Next day's Fajr
   };
 
@@ -199,24 +156,22 @@ function PrayerTimes() {
   const nextPrayer = getNextPrayer();
 
   const enableNotifications = async () => {
-    if (!('Notification' in window)) {
-      alert('This browser does not support notifications');
-      return;
-    }
-
     try {
-      const permission = await Notification.requestPermission();
-      setNotificationPermission(permission);
-
-      if (permission === 'granted') {
+      const granted = await notificationService.requestPermission();
+      setNotificationPermission(notificationService.getPermissionStatus());
+      
+      if (granted) {
         setNotificationsEnabled(true);
-
-        // Show confirmation notification
-        new Notification('Prayer Notifications Enabled! 🕌', {
-          body: 'You will receive reminders 10 minutes before each Fard prayer',
-          icon: '/vite.svg',
-          tag: 'notification-enabled'
-        });
+        await initializeNotificationService();
+        
+        // Schedule prayer notifications
+        const fardPrayers = prayerTimes.filter(prayer => prayer.type === 'fard');
+        notificationService.schedulePrayerNotifications(fardPrayers);
+        
+        // Show test notification
+        setTimeout(() => {
+          notificationService.sendTestNotification();
+        }, 1000);
       } else {
         alert('Please allow notifications to receive prayer reminders');
       }
@@ -228,11 +183,22 @@ function PrayerTimes() {
 
   const disableNotifications = () => {
     setNotificationsEnabled(false);
-    setScheduledNotifications(new Set());
+    notificationService.clearScheduledNotifications();
+  };
+
+  const sendTestNotification = () => {
+    notificationService.sendTestNotification();
   };
 
   return (
     <div className="max-w-4xl mx-auto">
+      <Helmet>
+        <title>Prayer Times - Accurate Islamic Prayer Schedule | Qalam Verse</title>
+        <meta name="description" content="Get accurate prayer times for Fajr, Dhuhr, Asr, Maghrib, and Isha. Set up prayer notifications and never miss your daily prayers with Islamic Pearls prayer time calculator." />
+        <meta name="keywords" content="Prayer Times, Salah Times, Islamic Prayer Schedule, Fajr, Dhuhr, Asr, Maghrib, Isha, Prayer Notifications, Islamic Calendar" />
+        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/prayer-times" />
+      </Helmet>
+
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-4">
           Prayer Times
@@ -278,18 +244,20 @@ function PrayerTimes() {
         {prayerTimes.map((prayer, index) => (
           <div
             key={prayer.name}
-            className={`flex items-center justify-between p-4 rounded-xl transition-all ${prayer.passed
+            className={`flex items-center justify-between p-4 rounded-xl transition-all ${
+              prayer.passed
                 ? 'bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400'
                 : 'bg-white dark:bg-gray-800 shadow-md hover:shadow-lg'
-              }`}
+            }`}
           >
             <div className="flex items-center">
-              <div className={`p-2 rounded-lg mr-4 ${prayer.passed
-                  ? 'bg-gray-200 dark:bg-gray-600'
+              <div className={`p-2 rounded-lg mr-4 ${
+                prayer.passed 
+                  ? 'bg-gray-200 dark:bg-gray-600' 
                   : 'bg-emerald-100 dark:bg-emerald-900'
-                }`}>
-                {React.cloneElement(prayer.icon, {
-                  className: `w-5 h-5 ${prayer.passed ? 'text-gray-400' : 'text-emerald-600 dark:text-emerald-400'}`
+              }`}>
+                {React.cloneElement(prayer.icon, { 
+                  className: `w-5 h-5 ${prayer.passed ? 'text-gray-400' : 'text-emerald-600 dark:text-emerald-400'}` 
                 })}
               </div>
               <div>
@@ -442,7 +410,7 @@ function PrayerTimes() {
       </div>
 
       {/* Notification Settings */}
-      <div className="bg-emerald-50 dark:bg-emerald-900/20 p-6 rounded-xl border border-emerald-200 dark:border-emerald-800">
+      <div className="bg-emerald-50 dark:bg-emerald-900/20 p-6 rounded-xl border border-emerald-200 dark:border-emerald-800 mb-6">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center">
             <Bell className="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2" />
@@ -461,8 +429,15 @@ function PrayerTimes() {
             ) : (
               <div className="flex gap-2">
                 <span className="px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-md font-medium">
-                  ✓ Enabled
+                  ✓ Enabled ({notificationService.getScheduledNotificationsCount()} scheduled)
                 </span>
+                <button
+                  onClick={sendTestNotification}
+                  className="px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 rounded-md font-medium hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors flex items-center"
+                >
+                  <TestTube className="w-4 h-4 mr-1" />
+                  Test
+                </button>
                 <button
                   onClick={disableNotifications}
                   className="px-4 py-2 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 rounded-md font-medium hover:bg-red-200 dark:hover:bg-red-900/50 transition-colors"
@@ -475,16 +450,21 @@ function PrayerTimes() {
         </div>
         <div className="space-y-2">
           <p className="text-emerald-700 dark:text-emerald-400 text-sm">
-            Get notified 10 minutes before each Fard prayer. Never miss your connection with Allah.
+            Get notified 10 minutes before each Fard prayer using Firebase Cloud Messaging. Works even when the website is closed!
           </p>
           {notificationsEnabled && (
             <div className="bg-emerald-100 dark:bg-emerald-900/30 p-3 rounded-lg">
               <p className="text-emerald-800 dark:text-emerald-300 text-sm font-medium">
-                🔔 Active Reminders: Fajr, Dhuhr, Asr, Maghrib, Isha
+                🔔 FCM Notifications Active: Fajr, Dhuhr, Asr, Maghrib, Isha
               </p>
               <p className="text-emerald-700 dark:text-emerald-400 text-xs mt-1">
-                Notifications will appear 10 minutes before each prayer time
+                Notifications will appear 10 minutes before each prayer time, even if the website is closed
               </p>
+              {fcmToken && (
+                <p className="text-emerald-600 dark:text-emerald-500 text-xs mt-1">
+                  FCM Token: {fcmToken.substring(0, 20)}...
+                </p>
+              )}
             </div>
           )}
           {notificationPermission === 'denied' && (
@@ -494,6 +474,114 @@ function PrayerTimes() {
               </p>
             </div>
           )}
+        </div>
+      </div>
+
+      {/* FCM Information */}
+      {notificationsEnabled && (
+        <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-800 mb-6">
+          <div className="flex items-center mb-3">
+            <Settings className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-2" />
+            <h3 className="font-semibold text-blue-800 dark:text-blue-300">
+              Firebase Cloud Messaging Status
+            </h3>
+          </div>
+          <div className="space-y-2 text-sm">
+            <div className="flex justify-between">
+              <span className="text-blue-700 dark:text-blue-400">Permission Status:</span>
+              <span className={`font-medium ${
+                notificationPermission === 'granted' 
+                  ? 'text-green-600 dark:text-green-400' 
+                  : 'text-red-600 dark:text-red-400'
+              }`}>
+                {notificationPermission}
+              </span>
+            </div>
+            <div className="flex justify-between">
+              <span className="text-blue-700 dark:text-blue-400">FCM Token:</span>
+              <span className="text-blue-600 dark:text-blue-300 font-mono">
+                {fcmToken ? 'Connected ✓' : 'Not Available ✗'}
+              </span>
+            </div>
+            <div className="flex justify-between">
+              <span className="text-blue-700 dark:text-blue-400">Scheduled Notifications:</span>
+              <span className="text-blue-600 dark:text-blue-300 font-medium">
+                {notificationService.getScheduledNotificationsCount()} active
+              </span>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Service Worker Status Warning */}
+      {!serviceWorkerAvailable && (
+        <div className="bg-yellow-50 dark:bg-yellow-900/20 p-6 rounded-xl border border-yellow-200 dark:border-yellow-800 mb-6">
+          <div className="flex items-center mb-3">
+            <Settings className="w-5 h-5 text-yellow-600 dark:text-yellow-400 mr-2" />
+            <h3 className="font-semibold text-yellow-800 dark:text-yellow-300">
+              Environment Limitation
+            </h3>
+          </div>
+          <div className="space-y-2 text-sm">
+            <p className="text-yellow-700 dark:text-yellow-400">
+              ⚠️ <strong>Background notifications are not available</strong> in this development environment.
+            </p>
+            <p className="text-yellow-600 dark:text-yellow-500">
+              Service Workers are not supported in StackBlitz. Background notifications will work when deployed to a live server.
+            </p>
+            <p className="text-yellow-600 dark:text-yellow-500">
+              <strong>What works:</strong> Foreground notifications (when website is open) may still function.
+            </p>
+          </div>
+        </div>
+      )}
+
+      {/* Notification Features */}
+      <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-xl border border-purple-200 dark:border-purple-800">
+        <h3 className="text-lg font-semibold text-purple-800 dark:text-purple-300 mb-4">
+          🔔 Advanced Notification Features
+        </h3>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="space-y-3">
+            <div className="flex items-start">
+              <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3"></div>
+              <p className="text-purple-700 dark:text-purple-400 text-sm">
+                <strong>Background Notifications:</strong> Receive alerts even when the website is closed
+              </p>
+            </div>
+            <div className="flex items-start">
+              <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3"></div>
+              <p className="text-purple-700 dark:text-purple-400 text-sm">
+                <strong>10-Minute Warning:</strong> Get notified exactly 10 minutes before each prayer
+              </p>
+            </div>
+            <div className="flex items-start">
+              <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3"></div>
+              <p className="text-purple-700 dark:text-purple-400 text-sm">
+                <strong>Islamic Themed:</strong> Beautiful, respectful notification messages
+              </p>
+            </div>
+          </div>
+          <div className="space-y-3">
+            <div className="flex items-start">
+              <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3"></div>
+              <p className="text-purple-700 dark:text-purple-400 text-sm">
+                <strong>Cross-Platform:</strong> Works on desktop and mobile browsers
+              </p>
+            </div>
+            <div className="flex items-start">
+              <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3"></div>
+              <p className="text-purple-700 dark:text-purple-400 text-sm">
+                <strong>Secure & Private:</strong> Firebase Cloud Messaging with encrypted tokens
+              </p>
+            </div>
+            <div className="flex items-start">
+              <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3"></div>
+              <p className="text-purple-700 dark:text-purple-400 text-sm">
+                <strong>Auto-Scheduling:</strong> Automatically schedules all 5 daily prayers
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 

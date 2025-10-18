@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Heart, Star, ArrowLeft, BookOpen, Lightbulb, Target, TrendingUp } from 'lucide-react';
 
 interface PropheticWisdom {
@@ -1340,6 +1341,13 @@ His teachings emphasize the importance of wisdom in leadership, gratitude for Al
 
   return (
     <div className="max-w-7xl mx-auto">
+      <Helmet>
+        <title>Prophetic Wisdom - Teachings & Lessons from 31 Prophets | Islamic Pearls</title>
+        <meta name="description" content="Learn from the wisdom and teachings of 31 Prophets in Islam. Discover practical guidance, moral lessons, and spiritual insights from their lives and messages for modern Muslim living." />
+        <meta name="keywords" content="Prophetic Wisdom, Prophet Teachings, Islamic Wisdom, Prophet Lessons, Islamic Guidance, Prophetic Traditions, Islamic Morals, Spiritual Wisdom" />
+        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/prophetic-wisdom" />
+      </Helmet>
+
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
           Prophetic Wisdom

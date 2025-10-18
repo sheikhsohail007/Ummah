@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-interface FooterProps {
-  setActiveSection: (section: string) => void;
-}
-
-const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
+const Footer: React.FC = () => {
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [showTerms, setShowTerms] = useState(false);
   const [showCookies, setShowCookies] = useState(false);
 
-  const PolicyModal: React.FC<{
-    isOpen: boolean;
-    onClose: () => void;
-    title: string;
-    children: React.ReactNode
+  const PolicyModal: React.FC<{ 
+    isOpen: boolean; 
+    onClose: () => void; 
+    title: string; 
+    children: React.ReactNode 
   }> = ({ isOpen, onClose, title, children }) => {
     if (!isOpen) return null;
 
@@ -49,29 +46,29 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
                   <span className="text-white font-bold text-lg">🕌</span>
                 </div>
                 <h3 className="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-                  Faith Lines
+                  Qalam Verse
                 </h3>
               </div>
               <p className="text-gray-300 mb-4 leading-relaxed">
-                Your comprehensive digital companion for Islamic guidance, prayers, and spiritual growth.
-                Discover authentic Islamic teachings, daily prayers, Quranic verses, and Prophetic wisdom
+                Your comprehensive digital companion for Islamic guidance, prayers, and spiritual growth. 
+                Discover authentic Islamic teachings, daily prayers, Quranic verses, and Prophetic wisdom 
                 to strengthen your faith and enhance your spiritual journey.
               </p>
               <div className="flex space-x-4">
                 <a href="https://www.instagram.com/qalamverse.official" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                   </svg>
                 </a>
-             
-                <a href="https://x.com/@FaithLines25345" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <a href="https://x.com/qalamverses" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                   </svg>
                 </a>
-                <a href="mailto:islamicpearlsofficialwork@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">
+               
+                <a href="mailto:qalamversehelp@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h.749L12 10.855 21.615 3.821h.749c.904 0 1.636.732 1.636 1.636z" />
+                    <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h.749L12 10.855 21.615 3.821h.749c.904 0 1.636.732 1.636 1.636z"/>
                   </svg>
                 </a>
               </div>
@@ -81,12 +78,11 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
             <div>
               <h4 className="text-lg font-semibold mb-4 text-yellow-400">Quick Links</h4>
               <ul className="space-y-2">
-                <li><button onClick={() => setActiveSection('salah')} className="text-gray-300 hover:text-white transition-colors text-left">Correct Your Salah</button></li>
-                <li><button onClick={() => setActiveSection('prayer-times')} className="text-gray-300 hover:text-white transition-colors text-left">Prayer Times</button></li>
-                <li><button onClick={() => setActiveSection('quran')} className="text-gray-300 hover:text-white transition-colors text-left">Quranic Verses</button></li>
-                <li><button onClick={() => setActiveSection('reflection')} className="text-gray-300 hover:text-white transition-colors text-left">Daily Reflection</button></li>
-                <li><button onClick={() => setActiveSection('stories')} className="text-gray-300 hover:text-white transition-colors text-left">Islamic Stories</button></li>
-                 <li><button onClick={() => setActiveSection('islamic-ai')} className="text-gray-300 hover:text-white transition-colors text-left">Islamic AI</button></li>
+                <li><Link to="/salah-guide" className="text-gray-300 hover:text-white transition-colors">Correct Your Salah</Link></li>
+                <li><Link to="/prayer-times" className="text-gray-300 hover:text-white transition-colors">Prayer Times</Link></li>
+                <li><Link to="/quran" className="text-gray-300 hover:text-white transition-colors">Quranic Verses</Link></li>
+                <li><Link to="/reflection" className="text-gray-300 hover:text-white transition-colors">Daily Reflection</Link></li>
+                <li><Link to="/islamic-stories" className="text-gray-300 hover:text-white transition-colors">Islamic Stories</Link></li>
               </ul>
             </div>
 
@@ -94,20 +90,20 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
             <div>
               <h4 className="text-lg font-semibold mb-4 text-yellow-400">Resources</h4>
               <ul className="space-y-2">
-                <li><button onClick={() => setActiveSection('dua-dhikr')} className="text-gray-300 hover:text-white transition-colors text-left">Dua & Dhikr</button></li>
-                <li><button onClick={() => setActiveSection('prophet-stories')} className="text-gray-300 hover:text-white transition-colors text-left">Story of Prophets</button></li>
-                <li><button onClick={() => setActiveSection('prophetic-wisdom')} className="text-gray-300 hover:text-white transition-colors text-left">Prophetic Wisdom</button></li>
-                <li><button onClick={() => setActiveSection('mood')} className="text-gray-300 hover:text-white transition-colors text-left">Mood Selector</button></li>
-                <li><button onClick={() => setActiveSection('home')} className="text-gray-300 hover:text-white transition-colors text-left">Home</button></li>
+                <li><Link to="/dua" className="text-gray-300 hover:text-white transition-colors">Dua & Dhikr</Link></li>
+                <li><Link to="/prophet-stories" className="text-gray-300 hover:text-white transition-colors">Story of Prophets</Link></li>
+                <li><Link to="/prophetic-wisdom" className="text-gray-300 hover:text-white transition-colors">Prophetic Wisdom</Link></li>
+                <li><Link to="/mood" className="text-gray-300 hover:text-white transition-colors">Mood Selector</Link></li>
+                <li><Link to="/islamic-ai" className="text-gray-300 hover:text-white transition-colors">Islamic AI</Link></li>
               </ul>
             </div>
           </div>
 
           {/* Bottom Section */}
           <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-300 text-sm mb-4 md:mb-0">
+             <div className="text-gray-300 text-sm mb-4 md:mb-0">
               © 2025 Qalam Verse | All rights reserved | Developed by Sheikh Sohail | Design by Huma Qureshi<br />
-              <span className="text-xs"> Built with Faith, for the Ummah 
+              <span className="text-xs"> Built with Faith, for the Ummah
               </span>
             </div>
             <div className="flex space-x-6 text-sm">
@@ -129,6 +125,15 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
               >
                 Cookie Policy
               </button>
+              <Link
+                to="/feedback"
+                className="text-gray-300 hover:text-yellow-400 transition-colors flex items-center"
+              >
+                <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 13.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm1-4.5h-2V6h2v5z"/>
+                </svg>
+                Feedback Message
+              </Link>
             </div>
           </div>
         </div>
@@ -142,7 +147,7 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
       >
         <div className="prose max-w-none">
           <p className="text-gray-600 mb-4"><strong>Last updated:</strong> December 2024</p>
-
+          
           <h3 className="text-xl font-semibold mb-3 text-gray-800">1. Information We Collect</h3>
           <p className="mb-4 text-gray-700">
             Islamic Pearls is committed to protecting your privacy. We collect minimal information necessary to provide our services:
@@ -175,7 +180,7 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">5. Contact Us</h3>
           <p className="text-gray-700">
-            If you have any questions about this Privacy Policy, please contact us at privacy@islamicpearls.com
+            If you have any questions about this Privacy Policy, please contact us at privacy@qalamversehelp.in
           </p>
         </div>
       </PolicyModal>
@@ -188,7 +193,7 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
       >
         <div className="prose max-w-none">
           <p className="text-gray-600 mb-4"><strong>Last updated:</strong> December 2024</p>
-
+          
           <h3 className="text-xl font-semibold mb-3 text-gray-800">1. Acceptance of Terms</h3>
           <p className="mb-4 text-gray-700">
             By accessing and using Islamic Pearls, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
@@ -225,7 +230,7 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">7. Contact Information</h3>
           <p className="text-gray-700">
-            For questions about these Terms of Service, contact us at terms@islamicpearls.com
+            For questions about these Terms of Service, contact us at terms@qalamversehelp.in
           </p>
         </div>
       </PolicyModal>
@@ -238,7 +243,7 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
       >
         <div className="prose max-w-none">
           <p className="text-gray-600 mb-4"><strong>Last updated:</strong> December 2024</p>
-
+          
           <h3 className="text-xl font-semibold mb-3 text-gray-800">1. What Are Cookies</h3>
           <p className="mb-4 text-gray-700">
             Cookies are small text files that are stored on your device when you visit our website. They help us provide you with a better experience by remembering your preferences and settings.
@@ -256,10 +261,10 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
           <div className="mb-4 text-gray-700">
             <p className="font-semibold">Session Cookies:</p>
             <p className="mb-2">Temporary cookies that expire when you close your browser.</p>
-
+            
             <p className="font-semibold">Persistent Cookies:</p>
             <p className="mb-2">Remain on your device for a set period to remember your preferences.</p>
-
+            
             <p className="font-semibold">Third-Party Cookies:</p>
             <p>Used by external services like prayer time calculators and Islamic content providers.</p>
           </div>
@@ -281,7 +286,7 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">7. Contact Us</h3>
           <p className="text-gray-700">
-            For questions about our Cookie Policy, contact us at cookies@islamicpearls.com
+            For questions about our Cookie Policy, contact us at cookies@qalamversehelp.in
           </p>
         </div>
       </PolicyModal>

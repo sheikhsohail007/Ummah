@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { BookOpen, Play, Star, ArrowLeft, Clock, User, Globe } from 'lucide-react';
 
 interface ProphetStory {
@@ -1176,8 +1177,15 @@ In just 23 years, the message of Islam spread throughout the Arabian Peninsula. 
     );
   }
 
-  return (
+return (
     <div className="max-w-7xl mx-auto">
+      <Helmet>
+        <title>Stories of Prophets - Complete Prophet Biographies | Islamic Pearls</title>
+        <meta name="description" content="Discover the complete stories of 31 Prophets in Islam. Learn about their lives, miracles, teachings, and lessons from Adam to Muhammad (PBUH) with Quranic references and historical context." />
+        <meta name="keywords" content="Prophet Stories, Islamic Prophets, Prophet Biographies, Stories of Messengers, Islamic History, Prophet Muhammad, Prophet Moses, Prophet Jesus, Quranic Stories" />
+        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/prophet-stories" />
+      </Helmet>
+
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
           Stories of the Prophets
@@ -1204,12 +1212,12 @@ In just 23 years, the message of Islam spread throughout the Arabian Peninsula. 
                 </div>
               </div>
             </div>
-
+            
             <div className="p-6">
               <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
                 {prophet.title}
               </h4>
-
+              
               <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400 mb-4">
                 <div className="flex items-center">
                   <Clock className="w-4 h-4 mr-2" />
@@ -1241,7 +1249,7 @@ In just 23 years, the message of Islam spread throughout the Arabian Peninsula. 
             Learn from the Best Examples
           </h3>
           <p className="text-emerald-700 dark:text-emerald-400 max-w-3xl mx-auto leading-relaxed">
-            The stories of the prophets are not just historical accounts, but timeless lessons for humanity.
+            The stories of the prophets are not just historical accounts, but timeless lessons for humanity. 
             Each prophet faced unique challenges and demonstrated unwavering faith, patience, and dedication to Allah's message.
           </p>
           <blockquote className="mt-6 text-lg italic text-emerald-600 dark:text-emerald-400">

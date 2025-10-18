@@ -1,4 +1,5 @@
-import  { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Heart, RefreshCw, Calendar, Star, BookOpen, Clock, User, Quote } from 'lucide-react';
 import { Mood } from '../App';
 
@@ -247,6 +248,13 @@ function DailyReflection({ selectedMood }: DailyReflectionProps) {
 
   return (
     <div className="max-w-5xl mx-auto">
+      <Helmet>
+        <title>Daily Islamic Reflection - Spiritual Guidance & Wisdom | Islamic Pearls</title>
+        <meta name="description" content="Find daily Islamic reflections, spiritual insights, and practical guidance. Discover Quranic verses, Hadith wisdom, and Islamic teachings for personal growth and faith strengthening." />
+        <meta name="keywords" content="Islamic Reflection, Daily Islamic Wisdom, Spiritual Guidance, Islamic Teachings, Quran Reflection, Hadith Wisdom, Islamic Personal Development" />
+        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/reflection" />
+      </Helmet>
+
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-4">
           Daily Reflection
