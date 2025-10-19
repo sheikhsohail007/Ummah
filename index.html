@@ -1,16 +1,386 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Qalam Verse</title>
-    <script type="module" crossorigin src="/Ummah/assets/index-BQ5PIM1_.js"></script>
-    <link rel="stylesheet" crossorigin href="/Ummah/assets/index-Rj1I8iGO.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Maintenance | Qalam Verse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+        }
+
+        .maintenance-container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 60px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 20px;
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .maintenance-container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transform: rotate(45deg);
+            animation: shine 3s ease-in-out infinite;
+        }
+
+        @keyframes shine {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            50% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+            100% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .maintenance-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+
+        .title {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+            animation: slideInUp 0.8s ease-out;
+        }
+
+        @keyframes slideInUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 40px;
+            line-height: 1.6;
+            animation: slideInUp 0.8s ease-out 0.2s both;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: #e0e0e0;
+            border-radius: 3px;
+            margin: 30px 0;
+            overflow: hidden;
+            animation: slideInUp 0.8s ease-out 0.4s both;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 3px;
+            animation: progress 3s ease-in-out infinite;
+        }
+
+        @keyframes progress {
+            0% { width: 0%; }
+            50% { width: 70%; }
+            100% { width: 0%; }
+        }
+
+        .social-container {
+            margin: 40px 0 20px 0;
+            animation: slideInUp 0.8s ease-out 0.6s both;
+        }
+
+        .social-title {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            transition: transform 0.3s ease;
+            z-index: -1;
+        }
+
+        .social-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .social-link:hover::before {
+            transform: scale(1.2);
+        }
+
+        .instagram {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+        .twitter {
+            background: linear-gradient(45deg, #1DA1F2, #0d8bd9);
+        }
+
+        .gmail {
+            background: linear-gradient(45deg, #D44638, #B23121);
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 10px;
+            animation: slideInUp 0.8s ease-out 0.8s both;
+        }
+
+        .contact-title {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .contact-email {
+            font-size: 1.1rem;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .contact-email:hover {
+            color: #764ba2;
+        }
+
+        .loading-dots {
+            display: inline-flex;
+            gap: 4px;
+            margin-left: 10px;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            background: #667eea;
+            border-radius: 50%;
+            animation: loading 1.5s ease-in-out infinite;
+        }
+
+        .dot:nth-child(2) { animation-delay: 0.3s; }
+        .dot:nth-child(3) { animation-delay: 0.6s; }
+
+        @keyframes loading {
+            0%, 60%, 100% { transform: scale(1); opacity: 0.7; }
+            30% { transform: scale(1.3); opacity: 1; }
+        }
+
+        @media (max-width: 768px) {
+            .maintenance-container {
+                padding: 40px 30px;
+                margin: 10px;
+            }
+            
+            .title {
+                font-size: 1.8rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+        }
+
+        /* Floating particles animation */
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .particle:nth-child(1) { top: 20%; left: 20%; animation-delay: 0s; }
+        .particle:nth-child(2) { top: 60%; left: 80%; animation-delay: 2s; }
+        .particle:nth-child(3) { top: 80%; left: 30%; animation-delay: 4s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.7; }
+            50% { transform: translateY(-20px) rotate(180deg); opacity: 1; }
+        }
+
+        .ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.6);
+            transform: scale(0);
+            animation: ripple 0.6s linear;
+            pointer-events: none;
+        }
+        
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+
+    <div class="maintenance-container">
+        <div class="logo">Qalam Verse</div>
+        
+        <div class="maintenance-icon">🔧</div>
+        
+        <h1 class="title">We'll Be Back Soon!</h1>
+        
+        <p class="subtitle">
+            Our website is currently undergoing scheduled maintenance.<br>
+            We're working hard to improve your experience and will be back shortly.
+            <span class="loading-dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </span>
+        </p>
+        
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+        
+        <div class="social-container">
+            <h3 class="social-title">Stay Connected With Us</h3>
+            <div class="social-links">
+                <a href="https://instagram.com/qalamverse.official" target="_blank" class="social-link instagram" title="Follow us on Instagram">
+                    🅾
+                </a>
+                <a href="https://twitter.com/qalamverses" target="_blank" class="social-link twitter" title="Follow us on Twitter">
+                    𝕏
+                </a>
+                <a href="islamicpearlsofficialwork@gmail.com" class="social-link gmail" title="Send us an email">
+                    📧
+                </a>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <div class="contact-title">Need Help? Contact Us:</div>
+            <a href="islamicpearlsofficialwork@gmail.com" class="contact-email">
+                support@qalamverse.in
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Add some interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add click animation to social links
+            const socialLinks = document.querySelectorAll('.social-link');
+            socialLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Create ripple effect
+                    const ripple = document.createElement('span');
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height);
+                    ripple.style.width = ripple.style.height = size + 'px';
+                    ripple.style.left = (e.clientX - rect.left - size / 2) + 'px';
+                    ripple.style.top = (e.clientY - rect.top - size / 2) + 'px';
+                    ripple.classList.add('ripple');
+                    
+                    this.appendChild(ripple);
+                    
+                    setTimeout(() => {
+                        ripple.remove();
+                    }, 600);
+                });
+            });
+            
+            // Add mouse move parallax effect
+            document.addEventListener('mousemove', function(e) {
+                const particles = document.querySelectorAll('.particle');
+                const mouseX = e.clientX / window.innerWidth;
+                const mouseY = e.clientY / window.innerHeight;
+                
+                particles.forEach((particle, index) => {
+                    const speed = (index + 1) * 2;
+                    const x = mouseX * speed;
+                    const y = mouseY * speed;
+                    
+                    particle.style.transform = `translate(${x}px, ${y}px)`;
+                });
+            });
+        });
+    </script>
+</body>
 </html>
