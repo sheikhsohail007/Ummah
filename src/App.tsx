@@ -18,6 +18,7 @@ import NotFound from './components/NotFound';
 import IslamicAI from './components/IslamicAI';
 import Feedback from './components/Feedback';
 import ThankYou from './components/ThankYou';
+import AllahNames from './components/AllahNames';
 
 export interface Mood {
   id: string;
@@ -96,6 +97,7 @@ function App() {
           <Route path="/prophetic-wisdom" element={<PropheticWisdom />} />
           <Route path="/dua" element={<DuaAndDhikr />} />
           <Route path="/islamic-ai" element={<IslamicAI />} />
+          <Route path="/allah-names" element={<AllahNames />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/thankyou" element={<ThankYou />} />
           <Route path="*" element={<NotFound />} />

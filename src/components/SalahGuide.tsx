@@ -60,7 +60,7 @@ function SalahGuide() {
       rakats: '2 Rakat',
       timing: 'Dawn',
       color: 'from-orange-400 to-red-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'MccE3-qSADg',
       content: {
         en: {
           description: 'The dawn prayer, performed before sunrise. It is the first of the five daily obligatory prayers and holds special significance in Islam.',
@@ -254,7 +254,7 @@ function SalahGuide() {
       rakats: '4 Rakat',
       timing: 'Midday',
       color: 'from-blue-400 to-indigo-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'ppNOfBWg16Q',
       content: {
         en: {
           description: 'The midday prayer performed when the sun reaches its zenith. It is the second of the five daily obligatory prayers.',
@@ -388,7 +388,7 @@ function SalahGuide() {
       rakats: '4 Rakat',
       timing: 'Afternoon',
       color: 'from-amber-400 to-yellow-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'LRKwE-8xQaQ',
       content: {
         en: {
           description: 'The afternoon prayer performed when the sun begins to decline. It is the third of the five daily obligatory prayers and holds great importance in Islam.',
@@ -522,7 +522,7 @@ function SalahGuide() {
       rakats: '3 Rakat',
       timing: 'Sunset',
       color: 'from-orange-500 to-red-600',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: '2ZddnL1GTK4',
       content: {
         en: {
           description: 'The sunset prayer performed immediately after sunset. It is the fourth of the five daily obligatory prayers and marks the transition from day to night.',
@@ -656,7 +656,7 @@ function SalahGuide() {
       rakats: '4 Rakat',
       timing: 'Night',
       color: 'from-indigo-500 to-purple-600',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'W2Ja5slpzcQ',
       content: {
         en: {
           description: 'The night prayer performed after the twilight has disappeared. It is the fifth and final of the daily obligatory prayers, completing the cycle of worship.',
@@ -791,7 +791,7 @@ function SalahGuide() {
       rakats: '2 Rakat',
       timing: 'After Sunrise',
       color: 'from-green-400 to-emerald-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'EQChPjGYqps',
       content: {
         en: {
           description: 'The festival prayer marking the end of Ramadan, the holy month of fasting. It is a celebration of spiritual achievement and community unity.',
@@ -937,7 +937,7 @@ function SalahGuide() {
       rakats: '2 Rakat',
       timing: 'After Sunrise',
       color: 'from-red-400 to-pink-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'fnNBW2AqKS8',
       content: {
         en: {
           description: 'The festival of sacrifice commemorating Prophet Ibrahim\'s willingness to sacrifice his son for Allah. It is celebrated during the Hajj pilgrimage season.',
@@ -1083,7 +1083,7 @@ function SalahGuide() {
       rakats: '8-20 Rakat',
       timing: 'After Isha in Ramadan',
       color: 'from-purple-400 to-indigo-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'BgfPzKegaxM',
       content: {
         en: {
           description: 'Special night prayers performed during the month of Ramadan after Isha prayer. It involves recitation of the Quran in a beautiful, melodious manner.',
@@ -1229,7 +1229,7 @@ function SalahGuide() {
       rakats: 'Variable',
       timing: '15th night of Sha\'ban',
       color: 'from-indigo-400 to-purple-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'i5J35a2Asug',
       content: {
         en: {
           description: 'The Night of Forgiveness, observed on the 15th night of Sha\'ban. It is believed to be a night when Allah\'s mercy and forgiveness are abundant.',
@@ -1375,7 +1375,7 @@ function SalahGuide() {
       rakats: 'Variable',
       timing: 'Last 10 nights of Ramadan',
       color: 'from-yellow-400 to-orange-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'RNdCOt9g7Wk',
       content: {
         en: {
           description: 'The Night of Power, better than a thousand months. It occurs in the last 10 nights of Ramadan, particularly on odd nights. This is when the Quran was first revealed.',
@@ -1522,7 +1522,7 @@ function SalahGuide() {
       rakats: '2-12 Rakat',
       timing: 'Last third of night',
       color: 'from-purple-400 to-pink-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'UAv2CnK9xPY',
       content: {
         en: {
           description: 'The night vigil prayer performed in the last third of the night. It is one of the most beloved prayers to Allah and brings the servant closest to their Creator.',
@@ -1700,7 +1700,7 @@ function SalahGuide() {
       rakats: '2 Rakat',
       timing: 'When making decisions',
       color: 'from-purple-500 to-pink-500',
-      videoId: 'dQw4w9WgXcQ',
+      videoId: 'cw8nazbJ-6k',
       content: {
         en: {
           description: 'Istikhara is a prayer of guidance performed when making important decisions, seeking Allah\'s guidance to choose what is best.',
@@ -2017,16 +2017,26 @@ function SalahGuide() {
                   <Play className="w-5 h-5 mr-2" />
                   Video Guide
                 </h3>
-                <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <Play className="w-12 h-12 text-gray-400 mx-auto mb-2" />
-                    <p className="text-gray-500 text-sm">Video Player</p>
-                    <p className="text-xs text-gray-400 mt-1">
-                      How to perform {getPrayerName(selectedPrayer)}
-                    </p>
-                  </div>
+
+                {/* ✅ YouTube video player */}
+                <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden shadow-lg">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src={`https://www.youtube.com/embed/${selectedPrayer.videoId}`}
+                    title={`How to perform ${getPrayerName(selectedPrayer)}`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="rounded-lg"
+                  ></iframe>
                 </div>
+
+                {/* Optional caption */}
+                <p className="text-center text-xs text-gray-500 mt-2 dark:text-gray-400">
+                  How to perform {getPrayerName(selectedPrayer)}
+                </p>
               </div>
+
             </div>
           </div>
         </div>
@@ -2037,7 +2047,7 @@ function SalahGuide() {
   return (
     <div className="max-w-7xl mx-auto">
       <Helmet>
-        <title>Correct Your Salah - Complete Prayer Guide | Islamic Pearls</title>
+        <title>Correct Your Salah - Complete Prayer Guide | Qalam Verse</title>
         <meta name="description" content="Learn how to perform Salah (Islamic prayer) correctly with step-by-step guidance. Complete prayer guide with Arabic text, translations, and proper prayer methodology for all Muslims." />
         <meta name="keywords" content="Salah Guide, How to Pray Islam, Islamic Prayer Guide, Correct Prayer Method, Salah Steps, Islamic Prayer Tutorial, Prayer in Islam, Namaz Guide" />
         <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/salah-guide" />
@@ -2058,11 +2068,10 @@ function SalahGuide() {
               <button
                 key={lang.code}
                 onClick={() => setSelectedLanguage(lang.code)}
-                className={`flex items-center px-4 py-2 rounded-md transition-all ${
-                  selectedLanguage === lang.code
+                className={`flex items-center px-4 py-2 rounded-md transition-all ${selectedLanguage === lang.code
                     ? 'bg-emerald-500 text-white shadow-md'
                     : 'text-gray-600 dark:text-gray-300 hover:bg-emerald-50 dark:hover:bg-gray-700'
-                }`}
+                  }`}
               >
                 <Globe className="w-4 h-4 mr-2" />
                 <span className="text-lg mr-2">{lang.flag}</span>
