@@ -1,15 +1,37 @@
-
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- 🔹 Favicon & App Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- 🔹 Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- 🔹 Viewport & Title -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Qalam Verse</title>
+
+    <!-- Optional meta -->
+    <meta name="theme-color" content="#0f172a" />
+    <meta
+      name="description"
+      content="An Islamic reflection and guidance platform to strengthen faith and mindfulness through Quranic verses and Hadith."
+    />
   </head>
-  <body>
+
+  <body class="bg-gray-50 dark:bg-gray-900">
     <div id="root"></div>
+
+    <!-- 🔹 React/Vite Script -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
