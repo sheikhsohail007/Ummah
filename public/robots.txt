@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://sheikhsohail007.github.io/Ummah/sitemap.xml
+Sitemap: https://www.qalamverse.site/sitemap.xml
 
 # Allow all major search engines
 User-agent: Googlebot

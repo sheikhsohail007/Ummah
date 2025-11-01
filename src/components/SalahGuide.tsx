@@ -1855,6 +1855,886 @@ function SalahGuide() {
           ]
         }
       }
+    },
+    {
+      id: 'salatul-hajat',
+      nameEn: 'Salatul Hajat',
+      nameAr: 'صلاة الحاجة',
+      nameHi: 'सलातुल हाजत',
+      nameBn: 'সালাতুল হাজাত',
+      category: 'sunnah',
+      rakats: '2-12 Rakat',
+      timing: 'When in need or difficulty (avoid forbidden times)',
+      color: 'from-emerald-500 to-teal-500',
+      videoId: 'dGdINZXh-kw',
+      bestTime: 'Last third of night, after Maghrib, between Maghrib and Isha',
+      duration: '15-30 minutes',
+      content: {
+        en: {
+          description: 'Salatul Hajat is the prayer of need performed when seeking Allah\'s help for any difficulty, requirement, or urgent matter. It is a powerful supplication for divine assistance and relief from hardships.',
+          method: [
+            'Perform complete ablution (Wudu) with intention',
+            'Choose a clean, quiet place facing Qiblah',
+            'Make sincere intention for Salatul Hajat',
+            'Pray 2-12 Rakats (preferably 2 or 4) in sets of 2',
+            'Recite longer Surahs if possible',
+            'After Salam, praise Allah extensively',
+            'Send abundant blessings on Prophet Muhammad',
+            'Recite the special Hajat duas',
+            'Make personal supplication for specific needs',
+            'End with Istighfar and gratitude'
+          ],
+          duas: [
+            {
+              arabic: 'لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ، سُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ الْعَظِيمِ، الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ',
+              translation: 'There is no god but Allah, the Forbearing, the Generous. Glory be to Allah, Lord of the Great Throne. All praise is due to Allah, Lord of all the worlds.'
+            },
+            {
+              arabic: 'أَسْأَلُكَ مُوجِبَاتِ رَحْمَتِكَ وَعَزَائِمَ مَغْفِرَتِكَ وَالْغَنِيمَةَ مِنْ كُلِّ بِرٍّ وَالسَّلَامَةَ مِنْ كُلِّ إِثْمٍ',
+              translation: 'I ask You for that which necessitates Your mercy, and that which ascertains Your forgiveness, and benefit from every good deed, and safety from every sin.'
+            }
+          ],
+          surahs: ['Al-Fatiha', 'Al-Ikhlas', 'Al-Falaq', 'An-Nas', 'Ayatul Kursi'],
+          conditions: [
+            'Must be in state of purity (Wudu/Ghusl)',
+            'Avoid forbidden prayer times',
+            'Face towards Qiblah',
+            'Have sincere intention and humility',
+            'Be persistent and patient for results'
+          ]
+        },
+        hi: {
+          description: 'सलातुल हाजत आवश्यकता की नमाज़ है जो किसी भी कठिनाई, आवश्यकता या तत्काल मामले के लिए अल्लाह की सहायता माँगते समय पढ़ी जाती है। यह दिव्य सहायता और कष्टों से राहत के लिए एक शक्तिशाली दुआ है।',
+          method: [
+            'पूर्ण वुज़ू करें नियत के साथ',
+            'साफ, शांत जगह चुनें जो किब्ला की ओर हो',
+            'सलातुल हाजत की सच्ची नियत करें',
+            '2-12 रकअत (बेहतर है 2 या 4) 2-2 रकअत के जोड़े में पढ़ें',
+            'अगर संभव हो तो लम्बी सूरतें पढ़ें',
+            'सलाम के बाद अल्लाह की बहुत प्रशंसा करें',
+            'हज़रत मुहम्मद पर खूब दरूद भेजें',
+            'विशेष हाजत की दुआएं पढ़ें',
+            'अपनी विशिष्ट आवश्यकताओं के लिए व्यक्तिगत दुआ करें',
+            'इस्तिगफार और कृतज्ञता के साथ समाप्त करें'
+          ],
+          duas: [
+            {
+              arabic: 'لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ، سُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ الْعَظِيمِ، الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ',
+              translation: 'अल्लाह के सिवा कोई माबूद नहीं, वह बर्दबार और करीम है। पाक है अल्लाह जो अर्श-ए-अज़ीम का रब है। तमाम तारीफें अल्लाह के लिए हैं जो तमाम जहानों का रब है।'
+            },
+            {
+              arabic: 'اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّ لَكَ الْحَمْدَ لَا إِلَهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيكَ لَكَ',
+              translation: 'ऐ अल्लाह! मैं तुझसे इसलिए माँगता हूँ कि तेरे लिए ही तमाम तारीफें हैं, तेरे सिवा कोई माबूद नहीं, तू अकेला है, तेरा कोई साझी नहीं।'
+            }
+          ],
+          surahs: ['अल-फातिहा', 'अल-इख़लास', 'अल-फलक़', 'अन-नास', 'आयतुल कुर्सी'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'अल्लाह पाक है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'अल्लाह की हम्द है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'अल्लाह सबसे बड़ा है',
+              count: '34 बार'
+            }
+          ],
+          benefits: [
+            'कठिनाइयों से राहत मिलती है',
+            'अल्लाह की विशेष रहमत प्राप्त होती है',
+            'दिल को सुकून मिलता है',
+            'आवश्यकताएं पूरी होती हैं',
+            'गुनाहों की माफी मिलती है',
+            'अल्लाह से विशेष निकटता प्राप्त होती है'
+          ],
+          conditions: [
+            'पवित्रता (वुज़ू/गुस्ल) की स्थिति में होना चाहिए',
+            'नमाज़ के निषिद्ध समयों से बचें',
+            'किब्ला की ओर मुंह करके पढ़ें',
+            'सच्ची नियत और विनम्रता रखें',
+            'परिणाम के लिए दृढ़ता और धैर्य रखें'
+          ]
+        },
+        bn: {
+          description: 'সালাতুল হাজাত হল প্রয়োজনের নামাজ যা কোনো কষ্ট, প্রয়োজন বা জরুরি বিষয়ে আল্লাহর সাহায্য চাওয়ার জন্য পড়া হয়। এটি ইলাহী সাহায্য ও কষ্ট থেকে মুক্তির জন্য একটি শক্তিশালী দোয়া।',
+          method: [
+            'পূর্ণ অজু করুন নিয়তসহ',
+            'পরিচ্ছন্ন, নিরিবিলি স্থান বেছে নিন যা কেবলামুখী',
+            'সালাতুল হাজাতের আন্তরিক নিয়ত করুন',
+            '২-১২ রাকাত (ভালো হয় ২ বা ৪) ২-২ রাকাত করে জোড়ায় পড়ুন',
+            'সম্ভব হলে দীর্ঘ সূরা পড়ুন',
+            'সালামের পর আল্লাহর প্রশংসা বেশি করুন',
+            'হযরত মুহাম্মদ (সা.) এর উপর প্রচুর দরুদ পাঠ করুন',
+            'বিশেষ হাজাতের দোয়া পড়ুন',
+            'নির্দিষ্ট প্রয়োজনের জন্য ব্যক্তিগত দোয়া করুন',
+            'ইস্তেগফার ও কৃতজ্ঞতা দিয়ে শেষ করুন'
+          ],
+          duas: [
+            {
+              arabic: 'لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ، سُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ الْعَظِيمِ، الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ',
+              translation: 'আল্লাহ ছাড়া কোন উপাস্য নেই, তিনি ধৈর্যশীল ও দয়ালু। পবিত্র আল্লাহ যিনি মহা আরশের প্রভু। সমস্ত প্রশংসা আল্লাহর জন্য যিনি সকল জগতের প্রতিপালক।'
+            },
+            {
+              arabic: 'اللَّهُمَّ إِنِّي أَسْأَلُكَ وَأَتَوَجَّهُ إِلَيْكَ بِنَبِيِّكَ مُحَمَّدٍ نَبِيِّ الرَّحْمَةِ',
+              translation: 'হে আল্লাহ! আমি তোমার কাছে প্রার্থনা করি এবং তোমার দরহামের নবী মুহাম্মদের অসিলায় তোমার কাছে আসি।'
+            }
+          ],
+          surahs: ['আল-ফাতিহা', 'আল-ইখলাস', 'আল-ফালাক', 'আন-নাস', 'আয়াতুল কুরসি'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'আল্লাহ পবিত্র',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'সমস্ত প্রশংসা আল্লাহর',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'আল্লাহ সবচেয়ে বড়',
+              count: '৩৪ বার'
+            }
+          ],
+          benefits: [
+            'কষ্ট থেকে মুক্তি পাওয়া যায়',
+            'আল্লাহর বিশেষ রহমত লাভ হয়',
+            'মনে প্রশান্তি আসে',
+            'প্রয়োজন পূরণ হয়',
+            'গুনাহ মাফ হয়',
+            'আল্লাহর বিশেষ নৈকট্য লাভ হয়'
+          ],
+          conditions: [
+            'পবিত্রতার (অজু/গোসল) অবস্থায় থাকতে হবে',
+            'নামাজের নিষিদ্ধ সময় এড়িয়ে চলুন',
+            'কেবলামুখী হয়ে পড়তে হবে',
+            'আন্তরিক নিয়ত ও বিনয় রাখতে হবে',
+            'ফলাফলের জন্য দৃঢ়তা ও ধৈর্য রাখতে হবে'
+          ]
+        }
+      }
+    },
+    {
+      id: 'salatul-tasbih',
+      nameEn: 'Salatul Tasbih',
+      nameAr: 'صلاة التسبيح',
+      nameHi: 'सलातुत तस्बीह',
+      nameBn: 'সালাতুত তাসবীহ',
+      category: 'sunnah',
+      rakats: '4 Rakat',
+      timing: 'Any time except forbidden times',
+      color: 'from-blue-500 to-indigo-500',
+      videoId: 'JKlbX1wigIw',
+      content: {
+        en: {
+          description: 'Salatul Tasbih is a special 4-Rakat prayer where a specific tasbih is recited 300 times throughout the prayer. Prophet Muhammad (PBUH) taught this to his uncle Abbas (RA) for complete forgiveness of sins.',
+          method: [
+            'Perform ablution and make intention',
+            'Pray 4 Rakats with one Salam',
+            'After Sana (opening dua): recite tasbih 15 times',
+            'After Quranic recitation: recite tasbih 10 times',
+            'In Ruku: recite tasbih 10 times',
+            'Standing after Ruku: recite tasbih 10 times',
+            'In first Sajdah: recite tasbih 10 times',
+            'Between Sajdahs (Jalsa): recite tasbih 10 times',
+            'In second Sajdah: recite tasbih 10 times',
+            'Total 75 times per Rakat, 300 times in complete prayer'
+          ],
+          duas: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ',
+              translation: 'Glory be to Allah, and all praise is due to Allah, and there is no god but Allah, and Allah is the Greatest.'
+            }
+          ],
+          surahs: ['Al-Fatiha', 'Any Surah (Al-Kafirun, Al-Ikhlas, Al-Falaq, An-Nas recommended)'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ',
+              translation: 'Glory be to Allah, all praise to Allah, there is no god but Allah, Allah is the Greatest',
+              count: '300 times total (75 per Rakat)'
+            }
+          ],
+          benefits: [
+            'Complete forgiveness of all sins (past and future)',
+            'Tremendous spiritual rewards',
+            'Purification of the soul',
+            'Increased closeness to Allah',
+            'Protection from difficulties'
+          ]
+        },
+        hi: {
+          description: 'सलातुत तस्बीह एक विशेष 4 रकअत की नमाज़ है जिसमें एक खास तस्बीह को पूरी नमाज़ में 300 बार पढ़ा जाता है। नबी करीम (सल्ल.) ने यह अपने चाचा अब्बास (र.अ.) को तमाम गुनाहों की माफी के लिए सिखाई थी।',
+          method: [
+            'वुज़ू करके नीयत करें',
+            'एक सलाम से 4 रकअत पढ़ें',
+            'सना के बाद: तस्बीह 15 बार पढ़ें',
+            'क़ुरआनी तिलावत के बाद: तस्बीह 10 बार पढ़ें',
+            'रुकू में: तस्बीह 10 बार पढ़ें',
+            'रुकू से उठकर: तस्बीह 10 बार पढ़ें',
+            'पहले सजदे में: तस्बीह 10 बार पढ़ें',
+            'दो सजदों के बीच (जल्सा): तस्बीह 10 बार पढ़ें',
+            'दूसरे सजदे में: तस्बीह 10 बार पढ़ें',
+            'हर रकअत में 75 बार, पूरी नमाज़ में 300 बार'
+          ],
+          duas: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ',
+              translation: 'अल्लाह पाक है, अल्लाह की हम्द है, अल्लाह के सिवा कोई माबूद नहीं, अल्लाह सबसे बड़ा है।'
+            }
+          ],
+          surahs: ['अल-फातिहा', 'कोई भी सूरह (अल-काफिरुन, अल-इखलास, अल-फलक, अन-नास बेहतर)'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ',
+              translation: 'अल्लाह पाक है, अल्लाह की हम्द है, अल्लाह के सिवा कोई माबूद नहीं, अल्लाह सबसे बड़ा है',
+              count: 'कुल 300 बार (हर रकअत में 75 बार)'
+            }
+          ],
+          benefits: [
+            'तमाम गुनाहों की पूरी माफी (पिछले और आने वाले)',
+            'बहुत बड़ा आध्यात्मिक सवाब',
+            'रूह की पाकीज़गी',
+            'अल्लाह से करीबी',
+            'मुश्किलों से बचाव'
+          ]
+        },
+        bn: {
+          description: 'সালাতুত তাসবীহ হল একটি বিশেষ ৪ রাকাত নামাজ যেখানে একটি নির্দিষ্ট তাসবীহ পুরো নামাজে ৩০০ বার পড়া হয়। নবী করীম (সা.) এটি তাঁর চাচা আব্বাস (রা.)-কে সমস্ত গুনাহ মাফের জন্য শিখিয়েছিলেন।',
+          method: [
+            'অজু করে নিয়ত করুন',
+            'এক সালামে ৪ রাকাত পড়ুন',
+            'সানার পর: তাসবীহ ১৫ বার পড়ুন',
+            'কোরআন তেলাওয়াতের পর: তাসবীহ ১০ বার পড়ুন',
+            'রুকুতে: তাসবীহ ১০ বার পড়ুন',
+            'রুকু থেকে উঠে: তাসবীহ ১০ বার পড়ুন',
+            'প্রথম সেজদায়: তাসবীহ ১০ বার পড়ুন',
+            'দুই সেজদার মাঝে (জলসা): তাসবীহ ১০ বার পড়ুন',
+            'দ্বিতীয় সেজদায়: তাসবীহ ১০ বার পড়ুন',
+            'প্রতি রাকাতে ৭৫ বার, পূর্ণ নামাজে ৩০০ বার'
+          ],
+          duas: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ',
+              translation: 'আল্লাহ পবিত্র, আল্লাহর প্রশংসা, আল্লাহ ছাড়া কোন ইলাহ নেই, আল্লাহ সবচেয়ে বড়।'
+            }
+          ],
+          surahs: ['আল-ফাতিহা', 'যে কোনো সূরা (আল-কাফিরুন, আল-ইখলাস, আল-ফালাক, আন-নাস উত্তম)'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ',
+              translation: 'আল্লাহ পবিত্র, আল্লাহর প্রশংসা, আল্লাহ ছাড়া কোন ইলাহ নেই, আল্লাহ সবচেয়ে বড়',
+              count: 'মোট ৩০০ বার (প্রতি রাকাতে ৭৫ বার)'
+            }
+          ],
+          benefits: [
+            'সমস্ত গুনাহের পূর্ণ ক্ষমা (অতীত ও ভবিষ্যতের)',
+            'অপরিসীম আধ্যাত্মিক সওয়াব',
+            'আত্মার পবিত্রতা',
+            'আল্লাহর সাথে ঘনিষ্ঠতা',
+            'বিপদ থেকে সুরক্ষা'
+          ]
+        }
+      }
+    },
+    {
+      id: 'salatul-ishraq',
+      nameEn: 'Salatul Ishraq',
+      nameAr: 'صلاة الإشراق',
+      nameHi: 'सलातुल इशराक़',
+      nameBn: 'সালাতুল ইশরাক',
+      category: 'sunnah',
+      rakats: '2-4 Rakat',
+      timing: '15-20 minutes after sunrise',
+      color: 'from-orange-500 to-yellow-500',
+      videoId: 'KzytQ5SEyK0',
+      content: {
+        en: {
+          description: 'Ishraq prayer is performed after sunrise, offering great rewards including the reward of Hajj and Umrah. It is the prayer that starts the day with gratitude and divine blessings.',
+          method: [
+            'Wait 15-20 minutes after sunrise',
+            'Perform fresh ablution',
+            'Make intention for Ishraq prayer',
+            'Pray 2-4 Rakats (2 minimum, 4 preferred)',
+            'Recite longer Surahs if possible',
+            'Make dua after completing the prayer',
+            'Remember Allah with tasbih'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ',
+              translation: 'O Allah, help me to remember You, thank You, and worship You in the best manner.'
+            }
+          ],
+          surahs: ['Al-Fatiha', 'Al-Ikhlas', 'Al-Falaq', 'An-Nas', 'Any other Surahs'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'Glory be to Allah',
+              count: '33 times'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'All praise is due to Allah',
+              count: '33 times'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'Allah is the Greatest',
+              count: '34 times'
+            }
+          ],
+          benefits: [
+            'Reward equivalent to Hajj and Umrah',
+            'Allah takes care of you throughout the day',
+            'Increased sustenance and blessings',
+            'Protection from difficulties'
+          ]
+        },
+        hi: {
+          description: 'इशराक की नमाज़ सूर्योदय के बाद पढ़ी जाती है, जो हज और उमरे के बराबर सवाब देती है। यह दिन की शुरुआत कृतज्ञता और दिव्य आशीर्वाद के साथ करने की नमाज़ है।',
+          method: [
+            'सूर्योदय के 15-20 मिनट बाद प्रतीक्षा करें',
+            'नया वजू करें',
+            'इशराक नमाज़ की नीयत करें',
+            '2-4 रकअत पढ़ें (2 कम से कम, 4 बेहतर)',
+            'यदि संभव हो तो लंबी सूरहें पढ़ें',
+            'नमाज़ पूरी करने के बाद दुआ करें',
+            'तस्बीह के साथ अल्लाह को याद करें'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ',
+              translation: 'ऐ अल्लाह! मुझे अपने जिक्र, शुक्र और बेहतरीन इबादत में मदद कर।'
+            }
+          ],
+          surahs: ['अल-फातिहा', 'अल-इखलास', 'अल-फलक', 'अन-नास', 'कोई अन्य सूरहें'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'अल्लाह पाक है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'अल्लाह की हम्द है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'अल्लाह सबसे बड़ा है',
+              count: '34 बार'
+            }
+          ],
+          benefits: [
+            'हज और उमरे के बराबर सवाब',
+            'अल्लाह दिन भर आपकी देखभाल करता है',
+            'रिजक और बरकत में वृद्धि',
+            'मुश्किलों से सुरक्षा'
+          ]
+        },
+        bn: {
+          description: 'ইশরাকের নামাজ সূর্যোদয়ের পর পড়া হয়, যা হজ ও উমরার সমান সওয়াব দেয়। এটি কৃতজ্ঞতা ও ঐশী বরকতের সাথে দিন শুরু করার নামাজ।',
+          method: [
+            'সূর্যোদয়ের ১৫-২০ মিনিট পর অপেক্ষা করুন',
+            'নতুন অজু করুন',
+            'ইশরাক নামাজের নিয়ত করুন',
+            '২-৪ রাকাত পড়ুন (২টি ন্যূনতম, ৪টি উত্তম)',
+            'সম্ভব হলে দীর্ঘ সূরা পড়ুন',
+            'নামাজ শেষে দোয়া করুন',
+            'তাসবীহের সাথে আল্লাহকে স্মরণ করুন'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ',
+              translation: 'হে আল্লাহ! আমাকে তোমার জিকির, কৃতজ্ঞতা ও উত্তম ইবাদতে সাহায্য কর।'
+            }
+          ],
+          surahs: ['আল-ফাতিহা', 'আল-ইখলাস', 'আল-ফালাক', 'আন-নাস', 'অন্য যে কোনো সূরা'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'আল্লাহ পবিত্র',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'সমস্ত প্রশংসা আল্লাহর',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'আল্লাহ সবচেয়ে বড়',
+              count: '৩৪ বার'
+            }
+          ],
+          benefits: [
+            'হজ ও উমরার সমান সওয়াব',
+            'আল্লাহ সারাদিন আপনার যত্ন নেন',
+            'রিজিক ও বরকত বৃদ্ধি',
+            'বিপদ থেকে সুরক্ষা'
+          ]
+        }
+      }
+    },
+    {
+      id: 'salatul-duha',
+      nameEn: 'Salatul Duha',
+      nameAr: 'صلاة الضحى',
+      nameHi: 'सलातुद दुहा / चाश्त',
+      nameBn: 'সালাতুদ দুহা / চাশত',
+      category: 'sunnah',
+      rakats: '2-12 Rakat',
+      timing: 'Mid-morning (between 9 AM - 12 PM)',
+      color: 'from-yellow-400 to-orange-400',
+      videoId: 'Yr1UjflpbuQ',
+      content: {
+        en: {
+          description: 'Duha prayer is performed during the forenoon hours when the sun is well risen. Prophet Muhammad (PBUH) recommended this prayer for maintaining good deeds and receiving Allah\'s blessings throughout the day.',
+          method: [
+            'Pray between 9 AM to 12 PM (forenoon time)',
+            'Perform ablution and make intention',
+            'Pray 2-12 Rakats in sets of 2',
+            'Start with minimum 2 Rakats',
+            'Recite Al-Fatiha and any Surah',
+            'Make extensive dua after prayer',
+            'Remember Allah with dhikr'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ إِنَّ الضُّحَى ضُحَاؤُكَ وَالْبَهَاءَ بَهَاؤُكَ وَالْجَمَالَ جَمَالُكَ',
+              translation: 'O Allah, the forenoon is Your forenoon, the beauty is Your beauty, and the splendor is Your splendor.'
+            }
+          ],
+          surahs: ['Al-Fatiha', 'Ad-Duha', 'Ash-Sharh', 'Al-Ikhlas', 'Any other Surahs'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'Glory be to Allah',
+              count: '33 times'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'All praise is due to Allah',
+              count: '33 times'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'Allah is the Greatest',
+              count: '34 times'
+            }
+          ],
+          benefits: [
+            'Charity on behalf of every joint in the body',
+            'Increased sustenance and blessings',
+            'Strength to continue good deeds',
+            'Divine protection and guidance'
+          ]
+        },
+        hi: {
+          description: 'दुहा या चाश्त की नमाज़ सुबह के समय (9 बजे से 12 बजे तक) पढ़ी जाती है। नबी करीम (सल्ल.) ने इस नमाज़ की सिफारिश अच्छे कर्म बनाए रखने और अल्लाह की बरकतें पाने के लिए की है।',
+          method: [
+            'सुबह 9 बजे से दोपहर 12 बजे के बीच पढ़ें',
+            'वजू करके नीयत करें',
+            '2-12 रकअत दो-दो रकअत के सेट में पढ़ें',
+            'न्यूनतम 2 रकअत से शुरुआत करें',
+            'अल-फातिहा और कोई भी सूरह पढ़ें',
+            'नमाज़ के बाद विस्तृत दुआ करें',
+            'जिक्र के साथ अल्लाह को याद करें'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ إِنَّ الضُّحَى ضُحَاؤُكَ وَالْبَهَاءَ بَهَاؤُكَ وَالْجَمَالَ جَمَالُكَ',
+              translation: 'ऐ अल्लाह! चाश्त का समय तेरा है, सुंदरता तेरी है, और शोभा तेरी है।'
+            }
+          ],
+          surahs: ['अल-फातिहा', 'अद-दुहा', 'अश-शर्ह', 'अल-इखलास', 'कोई अन्य सूरहें'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'अल्लाह पाक है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'अल्लाह की हम्द है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'अल्लाह सबसे बड़ा है',
+              count: '34 बार'
+            }
+          ],
+          benefits: [
+            'शरीर के हर जोड़ की तरफ से सदका',
+            'रिजक और बरकत में वृद्धि',
+            'अच्छे कर्म जारी रखने की शक्ति',
+            'दिव्य सुरक्षा और मार्गदर्शन'
+          ]
+        },
+        bn: {
+          description: 'দুহা বা চাশতের নামাজ সকালের সময় (৯টা থেকে ১২টা পর্যন্ত) পড়া হয়। নবী করীম (সা.) এই নামাজের সুপারিশ করেছেন ভালো কাজ অব্যাহত রাখতে এবং আল্লাহর বরকত পেতে।',
+          method: [
+            'সকাল ৯টা থেকে দুপুর ১২টার মধ্যে পড়ুন',
+            'অজু করে নিয়ত করুন',
+            '২-১২ রাকাত দুই দুই রাকাতের সেটে পড়ুন',
+            'ন্যূনতম ২ রাকাত দিয়ে শুরু করুন',
+            'আল-ফাতিহা ও যেকোনো সূরা পড়ুন',
+            'নামাজের পর বিস্তারিত দোয়া করুন',
+            'জিকিরের সাথে আল্লাহকে স্মরণ করুন'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ إِنَّ الضُّحَى ضُحَاؤُكَ وَالْبَهَاءَ بَهَاؤُكَ وَالْجَمَالَ جَمَالُكَ',
+              translation: 'হে আল্লাহ! চাশতের সময় তোমার, সৌন্দর্য তোমার, এবং শোভা তোমার।'
+            }
+          ],
+          surahs: ['আল-ফাতিহা', 'আদ-দুহা', 'আশ-শারহ', 'আল-ইখলাস', 'অন্য যেকোনো সূরা'],
+          tasbih: [
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'আল্লাহ পবিত্র',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'সমস্ত প্রশংসা আল্লাহর',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'আল্লাহ সবচেয়ে বড়',
+              count: '৩৪ বার'
+            }
+          ],
+          benefits: [
+            'শরীরের প্রতিটি জোড়ার পক্ষ থেকে সদকা',
+            'রিজিক ও বরকত বৃদ্ধি',
+            'ভালো কাজ অব্যাহত রাখার শক্তি',
+            'ঐশী সুরক্ষা ও পথনির্দেশনা'
+          ]
+        }
+      }
+    },
+    {
+      id: 'salatul-awwabeen',
+      nameEn: 'Salatul Awwabeen',
+      nameAr: 'صلاة الأوابين',
+      nameHi: 'सलातुल अव्वाबीन',
+      nameBn: 'সালাতুল আওয়াবীন',
+      category: 'sunnah',
+      rakats: '6-20 Rakat',
+      timing: 'Between Maghrib and Isha',
+      color: 'from-purple-500 to-indigo-500',
+      videoId: 'iHr2XNi7g80',
+      content: {
+        en: {
+          description: 'Salatul Awwabeen is performed between Maghrib and Isha prayers. It is the prayer of those who frequently turn to Allah in repentance. This prayer brings great spiritual rewards and closeness to Allah.',
+          method: [
+            'Pray between Maghrib and Isha prayers',
+            'Perform ablution and make intention',
+            'Pray 6-20 Rakats in sets of 2',
+            'Minimum 6 Rakats recommended',
+            'Recite Al-Fatiha and medium-length Surahs',
+            'Make tawbah (repentance) after prayer',
+            'Engage in dhikr and istighfar'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ اغْفِرْ لِي ذَنْبِي وَتُبْ عَلَيَّ إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ',
+              translation: 'O Allah, forgive my sins and accept my repentance, indeed You are the Oft-Forgiving, the Most Merciful.'
+            }
+          ],
+          surahs: ['Al-Fatiha', 'Al-Mulk', 'Ya-Sin', 'Al-Waqi\'ah', 'Medium-length Surahs'],
+          tasbih: [
+            {
+              arabic: 'أَسْتَغْفِرُ اللَّهَ',
+              translation: 'I seek forgiveness from Allah',
+              count: '100 times'
+            },
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'Glory be to Allah',
+              count: '33 times'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'All praise is due to Allah',
+              count: '33 times'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'Allah is the Greatest',
+              count: '34 times'
+            }
+          ],
+          benefits: [
+            'Sins are forgiven abundantly',
+            'High ranks in Paradise',
+            'Closeness to Allah through repentance',
+            'Peace and tranquility of heart',
+            'Protection from evil and difficulties'
+          ]
+        },
+        hi: {
+          description: 'सलातुल अव्वाबीन मगरिब और इशा की नमाज़ के बीच पढ़ी जाती है। यह उन लोगों की नमाज़ है जो बार-बार अल्लाह की तरफ तौबा के साथ लौटते हैं। यह नमाज़ बहुत बड़ा आध्यात्मिक सवाब और अल्लाह की निकटता लाती है।',
+          method: [
+            'मगरिब और इशा की नमाज़ के बीच पढ़ें',
+            'वजू करके नीयत करें',
+            '6-20 रकअत दो-दो रकअत के सेट में पढ़ें',
+            'न्यूनतम 6 रकअत की सिफारिश',
+            'अल-फातिहा और मध्यम लंबाई की सूरहें पढ़ें',
+            'नमाज़ के बाद तौबा करें',
+            'जिक्र और इस्तिगफार में व्यस्त रहें'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ اغْفِرْ لِي ذَنْبِي وَتُبْ عَلَيَّ إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ',
+              translation: 'ऐ अल्लाह! मेरे गुनाह माफ कर दे और मेरी तौबा कबूल कर, बेशक तू ही तौबा कबूल करने वाला और रहम करने वाला है।'
+            }
+          ],
+          surahs: ['अल-फातिहा', 'अल-मुल्क', 'या-सीन', 'अल-वाकिआ', 'मध्यम लंबाई की सूरहें'],
+          tasbih: [
+            {
+              arabic: 'أَسْتَغْفِرُ اللَّهَ',
+              translation: 'मैं अल्लाह से माफी मांगता हूं',
+              count: '100 बार'
+            },
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'अल्लाह पाक है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'अल्लाह की हम्द है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'अल्लाह सबसे बड़ा है',
+              count: '34 बार'
+            }
+          ],
+          benefits: [
+            'गुनाहों की भरपूर माफी',
+            'जन्नत में उच्च दर्जे',
+            'तौबा के द्वारा अल्लाह की निकटता',
+            'दिल की शांति और सकून',
+            'बुराई और मुश्किलों से सुरक्षा'
+          ]
+        },
+        bn: {
+          description: 'সালাতুল আওয়াবীন মাগরিব ও ইশার নামাজের মধ্যে পড়া হয়। এটি তাদের নামাজ যারা বার বার তওবার সাথে আল্লাহর দিকে ফিরে আসে। এই নামাজ মহান আধ্যাত্মিক সওয়াব ও আল্লাহর নৈকট্য এনে দেয়।',
+          method: [
+            'মাগরিব ও ইশার নামাজের মধ্যে পড়ুন',
+            'অজু করে নিয়ত করুন',
+            '৬-২০ রাকাত দুই দুই রাকাতের সেটে পড়ুন',
+            'ন্যূনতম ৬ রাকাত সুপারিশকৃত',
+            'আল-ফাতিহা ও মাঝারি দৈর্ঘ্যের সূরা পড়ুন',
+            'নামাজের পর তওবা করুন',
+            'জিকির ও ইস্তিগফারে মশগুল থাকুন'
+          ],
+          duas: [
+            {
+              arabic: 'اللَّهُمَّ اغْفِرْ لِي ذَنْبِي وَتُبْ عَلَيَّ إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ',
+              translation: 'হে আল্লাহ! আমার গুনাহ ক্ষমা কর এবং আমার তওবা কবুল কর, নিশ্চয় তুমিই তওবা কবুলকারী, পরম দয়ালু।'
+            }
+          ],
+          surahs: ['আল-ফাতিহা', 'আল-মুলক', 'ইয়া-সীন', 'আল-ওয়াকিয়া', 'মাঝারি দৈর্ঘ্যের সূরা'],
+          tasbih: [
+            {
+              arabic: 'أَسْتَغْفِرُ اللَّهَ',
+              translation: 'আমি আল্লাহর কাছে ক্ষমা চাই',
+              count: '১০০ বার'
+            },
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'আল্লাহ পবিত্র',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'সমস্ত প্রশংসা আল্লাহর',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'আল্লাহ সবচেয়ে বড়',
+              count: '৩৪ বার'
+            }
+          ],
+          benefits: [
+            'প্রচুর গুনাহ মাফ',
+            'জান্নাতে উচ্চ মর্যাদা',
+            'তওবার মাধ্যমে আল্লাহর নৈকট্য',
+            'হৃদয়ের শান্তি ও প্রশান্তি',
+            'অনিষ্ট ও কষ্ট থেকে সুরক্ষা'
+          ]
+        }
+      }
+    },
+    {
+      id: 'salatul-shukr',
+      nameEn: 'Salatul Shukr',
+      nameAr: 'صلاة الشكر',
+      nameHi: 'सलातुश शुक्र',
+      nameBn: 'সালাতুশ শুকর',
+      category: 'sunnah',
+      rakats: '2 Rakat',
+      timing: 'When receiving blessings or good news',
+      color: 'from-green-500 to-emerald-500',
+      videoId: 'YLfddWPe5Fc',
+      content: {
+        en: {
+          description: 'Salatul Shukr is the prayer of thanksgiving performed when Allah blesses you with good news, success, or any favor. It expresses gratitude and acknowledgment of Allah\'s countless blessings and mercy.',
+          method: [
+            'Perform ablution and make intention for thanksgiving',
+            'Pray 2 Rakats of gratitude prayer',
+            'In first Rakat: recite Al-Fatiha and Al-Ikhlas',
+            'In second Rakat: recite Al-Fatiha and Al-Kafirun',
+            'In Ruku and Sujud: add extra praise and gratitude',
+            'After Salam, make extensive dua of thanks',
+            'Engage in dhikr expressing gratitude to Allah'
+          ],
+          duas: [
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ شُكْرًا وَحَمْدًا',
+              translation: 'Praise be to Allah, gratitude and praise.'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ الَّذِي اسْتَجَابَ دُعَائِي وَأَعْطَانِي مَسْأَلَتِي',
+              translation: 'Praise be to Allah, Who accepted my prayer and fulfilled my need.'
+            }
+          ],
+          surahs: ['Al-Fatiha', 'Al-Ikhlas', 'Al-Kafirun', 'An-Nasr (The Victory)'],
+          tasbih: [
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'All praise is due to Allah',
+              count: '100 times'
+            },
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'Glory be to Allah',
+              count: '33 times'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'Allah is the Greatest',
+              count: '34 times'
+            }
+          ],
+          benefits: [
+            'Expressing proper gratitude increases blessings',
+            'Strengthens relationship with Allah',
+            'Brings peace and contentment to heart',
+            'Allah promises more blessings to grateful servants',
+            'Protection from ingratitude and arrogance'
+          ]
+        },
+        hi: {
+          description: 'सलातुश शुक्र कृतज्ञता की नमाज़ है जो तब पढ़ी जाती है जब अल्लाह आपको कोई अच्छी खबर, सफलता या कोई भी नेमत देता है। यह अल्लाह की अनगिनत नेमतों और रहमत के लिए शुक्रगुजारी और स्वीकृति व्यक्त करती है।',
+          method: [
+            'वजू करके कृतज्ञता की नीयत करें',
+            'शुक्राने की 2 रकअत नमाज़ पढ़ें',
+            'पहली रकअत में: अल-फातिहा और अल-इखलास पढ़ें',
+            'दूसरी रकअत में: अल-फातिहा और अल-काफिरुन पढ़ें',
+            'रुकू और सजदे में: अतिरिक्त प्रशंसा और आभार व्यक्त करें',
+            'सलाम के बाद, धन्यवाद की विस्तृत दुआ करें',
+            'अल्लाह के प्रति कृतज्ञता व्यक्त करने वाले जिक्र में व्यस्त रहें'
+          ],
+          duas: [
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ شُكْرًا وَحَمْدًا',
+              translation: 'अल्लाह की हम्द है, कृतज्ञता और प्रशंसा।'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ الَّذِي اسْتَجَابَ دُعَائِي وَأَعْطَانِي مَسْأَلَتِي',
+              translation: 'अल्लाह की हम्द है जिसने मेरी दुआ कबूल की और मेरी जरूरत पूरी की।'
+            }
+          ],
+          surahs: ['अल-फातिहा', 'अल-इखलास', 'अल-काफिरुन', 'अन-नस्र (विजय)'],
+          tasbih: [
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'अल्लाह की हम्द है',
+              count: '100 बार'
+            },
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'अल्लाह पाक है',
+              count: '33 बार'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'अल्लाह सबसे बड़ा है',
+              count: '34 बार'
+            }
+          ],
+          benefits: [
+            'उचित कृतज्ञता व्यक्त करने से नेमतें बढ़ती हैं',
+            'अल्लाह के साथ रिश्ता मजबूत होता है',
+            'दिल में शांति और संतुष्टि आती है',
+            'अल्लाह ने कृतज्ञ बंदों को और नेमतों का वादा किया है',
+            'कृतघ्नता और अहंकार से सुरक्षा'
+          ]
+        },
+        bn: {
+          description: 'সালাতুশ শুকর হল কৃতজ্ঞতার নামাজ যা তখন পড়া হয় যখন আল্লাহ আপনাকে কোনো সুসংবাদ, সফলতা বা কোনো নেয়ামত দান করেন। এটি আল্লাহর অসংখ্য নেয়ামত ও রহমতের জন্য কৃতজ্ঞতা ও স্বীকৃতি প্রকাশ করে।',
+          method: [
+            'অজু করে কৃতজ্ঞতার নিয়ত করুন',
+            'কৃতজ্ঞতার ২ রাকাত নামাজ পড়ুন',
+            'প্রথম রাকাতে: আল-ফাতিহা ও আল-ইখলাস পড়ুন',
+            'দ্বিতীয় রাকাতে: আল-ফাতিহা ও আল-কাফিরুন পড়ুন',
+            'রুকু ও সেজদায়: অতিরিক্ত প্রশংসা ও কৃতজ্ঞতা প্রকাশ করুন',
+            'সালামের পর, বিস্তারিত কৃতজ্ঞতার দোয়া করুন',
+            'আল্লাহর প্রতি কৃতজ্ঞতা প্রকাশক জিকিরে মশগুল থাকুন'
+          ],
+          duas: [
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ شُكْرًا وَحَمْدًا',
+              translation: 'আল্লাহর প্রশংসা, কৃতজ্ঞতা ও হামদ।'
+            },
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ الَّذِي اسْتَجَابَ دُعَائِي وَأَعْطَانِي مَسْأَلَتِي',
+              translation: 'আল্লাহর প্রশংসা যিনি আমার দোয়া কবুল করেছেন ও আমার প্রয়োজন পূরণ করেছেন।'
+            }
+          ],
+          surahs: ['আল-ফাতিহা', 'আল-ইখলাস', 'আল-কাফিরুন', 'আন-নাসর (বিজয়)'],
+          tasbih: [
+            {
+              arabic: 'الْحَمْدُ لِلَّهِ',
+              translation: 'সমস্ত প্রশংসা আল্লাহর',
+              count: '১০০ বার'
+            },
+            {
+              arabic: 'سُبْحَانَ اللَّهِ',
+              translation: 'আল্লাহ পবিত্র',
+              count: '৩৩ বার'
+            },
+            {
+              arabic: 'اللَّهُ أَكْبَرُ',
+              translation: 'আল্লাহ সবচেয়ে বড়',
+              count: '৩৪ বার'
+            }
+          ],
+          benefits: [
+            'যথাযথ কৃতজ্ঞতা প্রকাশ করলে নেয়ামত বৃদ্ধি পায়',
+            'আল্লাহর সাথে সম্পর্ক মজবুত হয়',
+            'হৃদয়ে শান্তি ও তৃপ্তি আসে',
+            'আল্লাহ কৃতজ্ঞ বান্দাদের আরো নেয়ামতের প্রতিশ্রুতি দিয়েছেন',
+            'অকৃতজ্ঞতা ও অহংকার থেকে সুরক্ষা'
+          ]
+        }
+      }
     }
   ];
 
@@ -1865,6 +2745,11 @@ function SalahGuide() {
   const getContent = (prayer: Prayer, field: keyof PrayerContent) => {
     const content = prayer.content[selectedLanguage as keyof typeof prayer.content];
     return content[field];
+  };
+  // ✅ Safe helper: prevents crash if field is missing
+  const getArrayContent = (prayer: Prayer, field: keyof PrayerContent): any[] => {
+    const data = getContent(prayer, field);
+    return Array.isArray(data) ? data : [];
   };
 
   const getPrayerName = (prayer: Prayer) => {
@@ -1922,7 +2807,8 @@ function SalahGuide() {
                   Prayer Method
                 </h3>
                 <ol className="space-y-2">
-                  {(getContent(selectedPrayer, 'method') as string[]).map((step, index) => (
+                  {getArrayContent(selectedPrayer, 'method').map((step, index) => (
+
                     <li key={index} className="flex items-start">
                       <span className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3 mt-0.5 flex-shrink-0">
                         {index + 1}
@@ -1940,7 +2826,8 @@ function SalahGuide() {
                   Duas & Supplications
                 </h3>
                 <div className="space-y-4">
-                  {(getContent(selectedPrayer, 'duas') as any[]).map((dua, index) => (
+                  {getArrayContent(selectedPrayer, 'duas').map((dua, index) => (
+
                     <div key={index} className="bg-white dark:bg-gray-700 p-4 rounded-lg">
                       <div className="text-2xl font-arabic text-green-800 dark:text-green-300 mb-2 text-right" dir="rtl">
                         {dua.arabic}
@@ -1960,7 +2847,8 @@ function SalahGuide() {
                   Recommended Surahs
                 </h3>
                 <div className="grid grid-cols-1 gap-2">
-                  {(getContent(selectedPrayer, 'surahs') as string[]).map((surah, index) => (
+                  {getArrayContent(selectedPrayer, 'surahs').map((surah, index) => (
+
                     <div key={index} className="flex items-center p-2 bg-white dark:bg-gray-700 rounded">
                       <Star className="w-4 h-4 text-purple-500 mr-2" />
                       <span className="text-purple-700 dark:text-purple-300">{surah}</span>
@@ -1979,7 +2867,8 @@ function SalahGuide() {
                   Tasbih & Dhikr
                 </h3>
                 <div className="space-y-4">
-                  {(getContent(selectedPrayer, 'tasbih') as any[]).map((tasbih, index) => (
+                  {getArrayContent(selectedPrayer, 'tasbih').map((tasbih, index) => (
+
                     <div key={index} className="bg-white dark:bg-gray-700 p-4 rounded-lg">
                       <div className="text-xl font-arabic text-amber-800 dark:text-amber-300 mb-2 text-right" dir="rtl">
                         {tasbih.arabic}
@@ -2002,7 +2891,8 @@ function SalahGuide() {
                   Benefits & Virtues
                 </h3>
                 <ul className="space-y-2">
-                  {(getContent(selectedPrayer, 'benefits') as string[]).map((benefit, index) => (
+                  {getArrayContent(selectedPrayer, 'benefits').map((benefit, index) => (
+
                     <li key={index} className="flex items-start">
                       <div className="w-2 h-2 bg-rose-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                       <span className="text-rose-700 dark:text-rose-300">{benefit}</span>
@@ -2049,8 +2939,8 @@ function SalahGuide() {
       <Helmet>
         <title>Correct Your Salah - Complete Prayer Guide | Qalam Verse</title>
         <meta name="description" content="Learn how to perform Salah (Islamic prayer) correctly with step-by-step guidance. Complete prayer guide with Arabic text, translations, and proper prayer methodology for all Muslims." />
-        <meta name="keywords" content="Salah Guide, How to Pray Islam, Islamic Prayer Guide, Correct Prayer Method, Salah Steps, Islamic Prayer Tutorial, Prayer in Islam, Namaz Guide" />
-        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/salah-guide" />
+        <meta name="keywords" content="Salah Guide, How to Pray Islam, Islamic Prayer Guide, Correct Prayer Method, Salah Steps, Islamic Prayer Tutorial, Prayer in Islam, Namaz Guide, how to pray taraweeh for ladies step by step, tahajjud ki namaz ki niyat kaise karen, short namaz of isha, tahajjud namaz niyam, witr ki namaz me kya padhe, tahajjud ki namaz ka tarika for ladies in hindi, best time for tahajjud in india, witr prayer surah, last time to pray isha, tahajjud namaz how many rakats, istikhara how to pray, magrib ki namaz kaise padhe, starting time of tahajjud, how many rakats of tahajjud, how to pray maghrib namaz, tahajjud ke namaz ki niyat, tahajjud ki niyat kaise karen, dua of tahajjud, tahajjud prayer tahajjud rakat table, nafil namaz list, Dhua ki namaz kaise padhe, awwabin ki namaz kaise padhe, how to pray salah steps, local pray time and guide, Islamic prayer etiquettes, muslim prayer guide for beginners, how to pray shukrana namaz, tahajjud in arabic, namaz before fajr, eid namaz rakat for ladies, rakat of tahajjud, isha namaj, eid ki namaj, benefits of fajr, how to perform eid namaz, praying tahajjud for 40 days, istikhara ki namaz ka tarika aur dua, how to offer taraweeh at home for ladies, power of tahajjud, salat al-istikharah isha namaz dua,isha salah, istikhara procedure, how to pray tahajjud, tahajjud timing, how to pray tahajjud namaz, tahajjud prayer, fajar ki namaz kaise padhe, chast ki namaz kaise padhe" />
+        <link rel="canonical" href="https://www.qalamverse.site/#/salah-guide" />
       </Helmet>
 
       <div className="text-center mb-8">
@@ -2069,8 +2959,8 @@ function SalahGuide() {
                 key={lang.code}
                 onClick={() => setSelectedLanguage(lang.code)}
                 className={`flex items-center px-4 py-2 rounded-md transition-all ${selectedLanguage === lang.code
-                    ? 'bg-emerald-500 text-white shadow-md'
-                    : 'text-gray-600 dark:text-gray-300 hover:bg-emerald-50 dark:hover:bg-gray-700'
+                  ? 'bg-emerald-500 text-white shadow-md'
+                  : 'text-gray-600 dark:text-gray-300 hover:bg-emerald-50 dark:hover:bg-gray-700'
                   }`}
               >
                 <Globe className="w-4 h-4 mr-2" />

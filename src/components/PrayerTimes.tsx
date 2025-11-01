@@ -195,8 +195,8 @@ function PrayerTimes() {
       <Helmet>
         <title>Prayer Times - Accurate Islamic Prayer Schedule | Qalam Verse</title>
         <meta name="description" content="Get accurate prayer times for Fajr, Dhuhr, Asr, Maghrib, and Isha. Set up prayer notifications and never miss your daily prayers with Islamic Pearls prayer time calculator." />
-        <meta name="keywords" content="Prayer Times, Salah Times, Islamic Prayer Schedule, Fajr, Dhuhr, Asr, Maghrib, Isha, Prayer Notifications, Islamic Calendar" />
-        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/prayer-times" />
+        <meta name="keywords" content="Prayer Times, Salah Times, Islamic Prayer Schedule, Fajr timing, Dhuhr timing, Asr timing, Maghrib timing, Isha timing, Prayer Notifications, Islamic Calendar, tahajjud timing, dhua namaz timing, awabeein namaz timing, how to pray eid namaz, chast namaz timing" />
+        <link rel="canonical" href="https://www.qalamverse.site/#/prayer-times" />
       </Helmet>
 
       <div className="text-center mb-8">

@@ -199,6 +199,204 @@ function DailyReflection({ selectedMood }: DailyReflectionProps) {
       readTime: '5 min',
       difficulty: 'Advanced',
       relatedTopics: ['Spiritual Contentment', 'Accepting Allah\'s Decree', 'Inner Peace']
+    },
+    {
+      id: '8',
+      title: 'The Mercy in Every Breath',
+      content: 'Every breath we take is an unasked favor from Allah, yet how often do we acknowledge this continuous mercy? The Arabic word "Rahman" (The Most Merciful) comes from the root that means "womb" - signifying the nurturing, encompassing nature of Allah\'s mercy that surrounds us like a mother\'s womb surrounds her child. This mercy is not conditional on our perfection; it flows to the righteous and the sinner alike. Recognizing Allah\'s mercy in the smallest details of our existence - from the beating of our heart to the changing of seasons - transforms our relationship with both gratitude and humility. When we truly understand that we are swimming in an ocean of divine mercy, our hearts soften toward others and our complaints dissolve into praise.',
+      author: 'Ibn Qayyim Al-Jawziyyah (adapted)',
+      category: 'Divine Mercy',
+      moods: ['grateful', 'humble', 'peaceful', 'contemplative'],
+      verse: 'And it is He who sends down rain from heaven, and We produce thereby the vegetation of every kind.',
+      verseReference: 'Quran 6:99',
+      hadith: 'The Prophet (PBUH) said: "Allah has one hundred parts of mercy, of which He sent down only one between the jinn, mankind, the animals and the insects."',
+      hadithReference: 'Sahih Bukhari',
+      practicalTips: [
+        'Begin each day by consciously acknowledging three mercies you received while sleeping (protection, rest, waking up healthy)',
+        'Practice the dhikr "Ar-Rahman" (The Most Merciful) 100 times daily while reflecting on His endless mercy',
+        'When you see rain, remember it as a sign of Allah\'s mercy and make dua for forgiveness',
+        'Before eating, pause to recognize the mercy in having sustenance when millions go hungry',
+        'End disagreements by remembering that both you and the other person are recipients of Allah\'s mercy'
+      ],
+      reflection: 'Mercy recognized becomes mercy multiplied. The more we see Allah\'s mercy in our lives, the more merciful we become toward His creation.',
+      tags: ['mercy', 'gratitude', 'awareness', 'compassion', 'divine attributes'],
+      readTime: '5 min',
+      difficulty: 'Beginner',
+      relatedTopics: ['Divine Attributes', 'Gratitude Practice', 'Mindful Living']
+    },
+
+    {
+      id: '9',
+      title: 'The Purification of the Heart',
+      content: 'The heart in Islamic tradition is not merely an organ that pumps blood, but the spiritual center of our being - the seat of faith, intention, and consciousness. A pure heart (qalb saleem) is one that is free from the spiritual diseases of pride, envy, hatred, and doubt. It is a heart that beats in harmony with divine guidance, finding peace in remembrance of Allah and unrest in His disobedience. The purification of the heart is a lifelong journey that requires constant vigilance, sincere repentance, and regular spiritual maintenance. Just as we clean our physical bodies daily, our hearts need daily cleansing through dhikr, reflection, seeking forgiveness, and avoiding sins. A purified heart becomes a mirror that reflects divine light, guiding us toward truth and away from falsehood in every decision we make.',
+      author: 'Imam Al-Ghazali (adapted)',
+      category: 'Spiritual Purification',
+      moods: ['reflective', 'determined', 'hopeful', 'serious'],
+      verse: 'The Day when there will not benefit [anyone] wealth or children. But only one who comes to Allah with a sound heart.',
+      verseReference: 'Quran 26:88-89',
+      hadith: 'The Prophet (PBUH) said: "Truly in the body there is a morsel of flesh which, if it be whole, all the body is whole and which, if it be diseased, all of it is diseased. Truly it is the heart."',
+      hadithReference: 'Sahih Bukhari & Muslim',
+      practicalTips: [
+        'Perform regular spiritual self-audits by asking: "What diseases might be in my heart today?" (pride, envy, anger, etc.)',
+        'Recite "Astaghfirullah" 100 times daily as spiritual detox for your heart',
+        'Avoid looking at, listening to, or engaging with content that hardens the heart',
+        'Spend 10 minutes in silent dhikr daily, focusing on "La hawla wa la quwwata illa billah"',
+        'Make sincere tawbah (repentance) before sleeping, asking Allah to purify your heart from any spiritual ailments'
+      ],
+      reflection: 'A clean heart is a compass that always points toward Allah. Every act of purification brings us closer to our true nature and divine purpose.',
+      tags: ['purification', 'heart', 'spirituality', 'tawbah', 'self-improvement'],
+      readTime: '6 min',
+      difficulty: 'Intermediate',
+      relatedTopics: ['Spiritual Development', 'Tawbah and Forgiveness', 'Inner Purification']
+    },
+
+    {
+      id: '10',
+      title: 'The Beauty of Consistent Small Acts',
+      content: 'In our achievement-oriented world, we often overlook the profound power of small, consistent actions. The Prophet (PBUH) emphasized that the most beloved deeds to Allah are those done consistently, even if they are small. A daily dhikr of 10 minutes is more valuable than an hour of remembrance done sporadically. Consistency (istiqamah) builds spiritual momentum - each small act becomes a foundation for the next, creating an upward spiral of righteousness. This principle applies not just to worship, but to character development, relationships, and personal growth. The drop that falls consistently will eventually fill the ocean. Small acts of kindness, brief moments of reflection, gentle words spoken daily - these create lasting transformation in ways that dramatic gestures cannot. Consistency is the bridge between intention and transformation.',
+      author: 'Based on Prophetic Guidance',
+      category: 'Consistent Practice',
+      moods: ['motivated', 'determined', 'practical', 'encouraged'],
+      verse: 'So whoever does an atom\'s weight of good will see it.',
+      verseReference: 'Quran 99:7',
+      hadith: 'The Prophet (PBUH) said: "The most beloved of deeds to Allah are those that are most consistent, even if they are few."',
+      hadithReference: 'Sahih Bukhari & Muslim',
+      practicalTips: [
+        'Choose one small Islamic practice (like saying "SubhanAllah" 10 times after each prayer) and commit to it for 40 days',
+        'Track your consistency in a simple chart - seeing your streak motivates continuation',
+        'Start with 2-minute practices rather than ambitious hour-long commitments',
+        'Link new small habits to existing ones (e.g., make istighfar every time you open your phone)',
+        'Celebrate small wins - acknowledge when you complete a week of consistent practice'
+      ],
+      reflection: 'Excellence is not an act but a habit. The tree that bears the sweetest fruit grows slowly but surely, rooted in daily nourishment.',
+      tags: ['consistency', 'habits', 'gradual improvement', 'perseverance', 'discipline'],
+      readTime: '4 min',
+      difficulty: 'Beginner',
+      relatedTopics: ['Building Islamic Habits', 'Spiritual Consistency', 'Personal Development']
+    },
+
+    {
+      id: '11',
+      title: 'The Wisdom in Divine Timing',
+      content: 'Allah\'s timing is perfect, even when our human understanding cannot comprehend its wisdom. What appears as delay might be divine preparation; what seems like closure might be divine protection. The concept of "Qadar" teaches us that every moment unfolds according to divine wisdom that encompasses past, present, and future in ways our limited perception cannot grasp. Sometimes we are not given what we want when we want it because we are not ready to handle it properly, or because something better awaits us at the appointed time. Learning to trust divine timing requires releasing our attachment to our own timeline and embracing the peace that comes from knowing that the One who created time itself knows exactly when each blessing, test, or opportunity should arrive in our lives. This trust transforms anxiety into anticipation and disappointment into curious wonder about what wisdom lies beneath the surface.',
+      author: 'Ibn Taymiyyah (adapted)',
+      category: 'Divine Decree',
+      moods: ['patient', 'trusting', 'peaceful', 'philosophical'],
+      verse: 'And Allah is the best of planners.',
+      verseReference: 'Quran 8:30',
+      hadith: 'The Prophet (PBUH) said: "How wonderful is the affair of the believer, for all his affairs are good, and this applies to no one except the believer."',
+      hadithReference: 'Sahih Muslim',
+      practicalTips: [
+        'When facing delays, repeat "HasbunAllahu wa ni\'mal wakeel" (Allah is sufficient for us and He is the best disposer of affairs)',
+        'Keep a "divine timing journal" - note instances where delays led to better outcomes',
+        'Practice saying "Tawakkaltu \'alAllah" (I trust in Allah) before important decisions or when feeling anxious about timing',
+        'Make du\'a asking Allah to grant you what is best for you at the best time for you',
+        'Study the seerah to see how Allah\'s timing worked perfectly in the Prophet\'s life, even through apparent setbacks'
+      ],
+      reflection: 'Divine timing is divine mercy. What feels like a detour to us is often the most direct path in Allah\'s perfect plan.',
+      tags: ['timing', 'qadar', 'patience', 'trust', 'divine wisdom'],
+      readTime: '5 min',
+      difficulty: 'Advanced',
+      relatedTopics: ['Trusting Allah\'s Decree', 'Patience in Trials', 'Divine Wisdom']
+    },
+    {
+      id: '8',
+      title: 'The Morning Intention: A Day of Worship',
+      content: 'Before the day\'s rush begins, we must set our spiritual compass with clear intention (niyyah). The Prophet (PBUH) taught us that all deeds are judged by their intentions, making this the foundation of a meaningful Islamic life. By sincerely dedicating your day\'s work, studies, relationships, and even rest to seeking Allah\'s pleasure, you transform every mundane task into an act of worship. This simple mental shift fills your entire day with barakah (divine blessing) and purpose. When you drive to work with the intention of earning halal sustenance for your family, that commute becomes worship. When you study with the intention of gaining knowledge to serve Allah\'s creation, that effort earns divine reward. The beauty of proper intention is that it doesn\'t require you to change your schedule - it transforms the spiritual value of everything you already do.',
+      author: 'Based on Prophetic Guidance',
+      category: 'Daily Intention',
+      moods: ['motivated', 'purposeful', 'focused', 'spiritual'],
+      verse: 'And I did not create the jinn and mankind except to worship Me.',
+      verseReference: 'Quran 51:56',
+      hadith: 'The Prophet (PBUH) said: "The most beloved deeds to Allah are the most consistent, even if they are small."',
+      hadithReference: 'Sahih Al-Bukhari',
+      practicalTips: [
+        'Upon waking, say the morning dua and verbally state: "O Allah, I intend to make this day for Your pleasure"',
+        'Before starting any specific task, make a quick silent intention (e.g., "I am doing this to provide halal sustenance for my family")',
+        'Renew your intention throughout the day when you feel distracted or weary',
+        'Write down 3 major activities of your day and set a clear Islamic intention for each',
+        'End your day by reflecting on which activities you performed with proper intention and which you forgot'
+      ],
+      reflection: 'Your entire life can be a continuous act of worship. The one who sleeps with the intention to gain strength to worship Allah is rewarded, just as the one who is praying.',
+      tags: ['intention', 'niyyah', 'productivity', 'worship', 'focus', 'sincerity'],
+      readTime: '4 min',
+      difficulty: 'Beginner',
+      relatedTopics: ['Islamic Productivity', 'Daily Worship', 'Spiritual Mindfulness']
+    },
+
+    {
+      id: '9',
+      title: 'The Anchor of Gratitude',
+      content: 'In our relentless pursuit of what we lack, we often overlook the immense blessings already present in our lives. Gratitude (Shukr) in Islam is not merely a feeling of appreciation - it is a comprehensive act of worship that involves the heart, tongue, and limbs. True gratitude recognizes Allah as the source of every blessing, expresses this recognition through praise and dhikr, and demonstrates it through righteous action and sharing with others. A grateful heart becomes a magnet for more blessings, as Allah promises to increase His favors upon those who are thankful. Moreover, gratitude serves as a powerful antidote to the spiritual diseases of envy, dissatisfaction, and anxiety. When we truly internalize that every breath, every meal, every moment of safety is a direct gift from our Creator, our entire perspective on life transforms from scarcity to abundance.',
+      author: 'Based on Quranic Teaching',
+      category: 'Spiritual Gratitude',
+      moods: ['grateful', 'content', 'joyful', 'mindful'],
+      verse: 'And [remember] when your Lord proclaimed, "If you are grateful, I will surely increase you [in favor]..."',
+      verseReference: 'Quran 14:7',
+      hadith: 'The Prophet (PBUH) said: "Whoever is not grateful to the people, he is not grateful to Allah."',
+      hadithReference: 'Sunan At-Tirmidhi',
+      practicalTips: [
+        'Every morning, verbally name three specific blessings you are grateful for (e.g., your sight, a comfortable bed, clean water)',
+        'Send a message to thank one person daily for something big or small they have done for you',
+        'When difficulty arises, consciously find one thing within it to be grateful for (e.g., a delayed train allows time for dhikr)',
+        'Keep a gratitude journal where you write down 5 blessings before sleeping each night',
+        'Replace complaints with "Alhamdulillah" - train your tongue to default to praise rather than criticism'
+      ],
+      reflection: 'Gratitude is recognizing that the Giver is more important than the gift. A grateful soul finds divine mercy even in life\'s difficulties, knowing that Allah\'s wisdom encompasses all.',
+      tags: ['gratitude', 'shukr', 'mindfulness', 'contentment', 'blessings'],
+      readTime: '4 min',
+      difficulty: 'Beginner',
+      relatedTopics: ['Contentment Practice', 'Divine Blessings', 'Positive Mindset']
+    },
+
+    {
+      id: '10',
+      title: 'The Patience of the Tongue',
+      content: 'The tongue, though small in size, wields enormous power in determining our spiritual destiny. How many lifelong regrets stem from words spoken in a moment of anger, frustration, or carelessness? Patience (Sabr) with our speech represents one of the most challenging yet rewarding forms of self-restraint in Islam. Every harsh word restrained, every piece of gossip avoided, every complaint transformed into dhikr becomes a mighty act of jihad (struggle) against our lower desires. The patient tongue is the guardian of the heart\'s purity and the protector of relationships. When we master our speech, we demonstrate mastery over our emotions, reactions, and impulses. This form of patience requires constant vigilance, as the tongue can destroy in seconds what took years to build. Yet for those who persevere, the reward is immense - preserved friendships, protected honor, and elevated rank with Allah.',
+      author: 'Imam An-Nawawi (adapted)',
+      category: 'Speech Control',
+      moods: ['patient', 'self-controlled', 'wise', 'reflective'],
+      verse: 'And the servants of the Most Merciful are those who walk upon the earth easily, and when the ignorant address them [harshly], they say [words of] peace.',
+      verseReference: 'Quran 25:63',
+      hadith: 'The Prophet (PBUH) said: "Whoever believes in Allah and the Last Day, let him speak good or remain silent."',
+      hadithReference: 'Sahih Al-Bukhari & Muslim',
+      practicalTips: [
+        'Practice the "3-second rule": Before speaking, especially when upset, pause and ask: Is it true? Is it kind? Is it necessary?',
+        'When feeling anger rising, immediately make wudu (ablution) - water extinguishes the fire of shaytan',
+        'Replace every complaint with "Alhamdulillah" or seek refuge in Allah from Satan by saying "A\'udhu billahi min ash-shaytani\'r-rajeem"',
+        'Set a daily goal to avoid saying anything negative about any person for the entire day',
+        'When someone speaks harshly to you, respond with "Barakallahu feek" (May Allah bless you) and walk away if necessary'
+      ],
+      reflection: 'A moment of patience in a moment of anger saves a thousand moments of regret. Your silence is not weakness; it is strength that protects your heart and preserves your good deeds.',
+      tags: ['patience', 'sabr', 'speech', 'anger management', 'self-restraint', 'character'],
+      readTime: '5 min',
+      difficulty: 'Intermediate',
+      relatedTopics: ['Character Development', 'Anger Management', 'Social Ethics']
+    },
+
+    {
+      id: '11',
+      title: 'Trust in the Divine Plan',
+      content: 'True peace emerges not when everything goes according to our plans, but when we align our hearts with Allah\'s perfect decree. Tawakkul (trust in Allah) represents the pinnacle of spiritual maturity - it means putting forth your absolute best effort while maintaining complete serenity about the outcome. This concept transcends passive resignation; it embodies active trust combined with diligent work. When we truly understand that Allah is Ar-Rahman (The Most Merciful), Al-Hakeem (The All-Wise), and Al-Khabeer (The All-Aware), we realize that His choices for us are always ultimately for our benefit, even when our limited understanding cannot perceive the wisdom. Tawakkul transforms anxiety into anticipation, disappointment into curious wonder about divine wisdom, and fear into confident reliance on Allah\'s perfect timing and infinite mercy.',
+      author: 'Ibn Rajab Al-Hanbali (adapted)',
+      category: 'Divine Trust',
+      moods: ['trusting', 'peaceful', 'surrendered', 'confident'],
+      verse: '...And whoever relies upon Allah - then He is sufficient for him. Indeed, Allah will accomplish His purpose.',
+      verseReference: 'Quran 65:3',
+      hadith: 'The Prophet (PBUH) said: "How wonderful is the affair of the believer, for all his affairs are good. If something good happens to him, he is thankful, and that is good for him. If something bad happens to him, he bears it with patience, and that is good for him."',
+      hadithReference: 'Sahih Muslim',
+      practicalTips: [
+        'After making du\'a for any need, conclude with: "...and make the outcome of my affair good for me in this life and the next"',
+        'When faced with unexpected results, say "Qadarullah wa ma sha\'a fa\'al" (This is Allah\'s decree and what He willed, He did)',
+        'Do your absolute best in any endeavor, then consciously release attachment to the outcome',
+        'Recite "Hasbunallahu wa ni\'mal wakeel" (Allah is sufficient for us and He is the best disposer of affairs) during times of uncertainty',
+        'Study the seerah to see how Allah\'s perfect timing worked in the Prophet\'s life, even through apparent setbacks'
+      ],
+      reflection: 'Tawakkul is the ship that carries you safely through storms of uncertainty. Allah\'s delays are not denials; His "no" to one thing is often His "yes" to something immeasurably better.',
+      tags: ['tawakkul', 'trust', 'surrender', 'peace', 'divine decree', 'qadar'],
+      readTime: '5 min',
+      difficulty: 'Advanced',
+      relatedTopics: ['Trusting Allah\'s Decree', 'Spiritual Surrender', 'Divine Wisdom']
     }
   ];
 
@@ -207,7 +405,7 @@ function DailyReflection({ selectedMood }: DailyReflectionProps) {
       return reflections[Math.floor(Math.random() * reflections.length)];
     }
 
-    const moodSpecificReflections = reflections.filter(reflection => 
+    const moodSpecificReflections = reflections.filter(reflection =>
       reflection.moods.includes(mood.id)
     );
 
@@ -249,9 +447,9 @@ function DailyReflection({ selectedMood }: DailyReflectionProps) {
   return (
     <div className="max-w-5xl mx-auto">
       <Helmet>
-        <title>Daily Islamic Reflection - Spiritual Guidance & Wisdom | Islamic Pearls</title>
+        <title>Daily Islamic Reflection - Spiritual Guidance & Wisdom | Qalam Verse</title>
         <meta name="description" content="Find daily Islamic reflections, spiritual insights, and practical guidance. Discover Quranic verses, Hadith wisdom, and Islamic teachings for personal growth and faith strengthening." />
-        <meta name="keywords" content="Islamic Reflection, Daily Islamic Wisdom, Spiritual Guidance, Islamic Teachings, Quran Reflection, Hadith Wisdom, Islamic Personal Development" />
+        <meta name="keywords" content="Islamic Reflection, Daily Islamic Wisdom, Spiritual Guidance, Islamic Teachings, Quran Reflection, Hadith Wisdom, Islamic Personal Development, daily reminder, daily journal about islam, daily Islamic reflection quotes, Islamic daily reminders, daily Quran lessons, Islamic motivational quotes for today" />
         <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/reflection" />
       </Helmet>
 
@@ -323,7 +521,7 @@ function DailyReflection({ selectedMood }: DailyReflectionProps) {
             <div className="px-6 py-4 bg-emerald-50 dark:bg-emerald-900/20 border-b border-gray-200 dark:border-gray-600">
               <div className="flex flex-wrap gap-2">
                 {currentReflection.tags.map((tag) => (
-                  <span 
+                  <span
                     key={tag}
                     className="px-3 py-1 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 text-sm rounded-full"
                   >
@@ -460,7 +658,7 @@ function DailyReflection({ selectedMood }: DailyReflectionProps) {
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {currentReflection.relatedTopics.map((topic) => (
-                        <span 
+                        <span
                           key={topic}
                           className="px-3 py-1 bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300 text-sm rounded-full"
                         >
@@ -478,11 +676,11 @@ function DailyReflection({ selectedMood }: DailyReflectionProps) {
               <div className="flex items-center">
                 <Calendar className="w-4 h-4 text-gray-500 mr-2" />
                 <span className="text-gray-500 text-sm">
-                  {new Date().toLocaleDateString('en-US', { 
-                    weekday: 'long', 
-                    year: 'numeric', 
-                    month: 'long', 
-                    day: 'numeric' 
+                  {new Date().toLocaleDateString('en-US', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
                   })}
                 </span>
               </div>
@@ -507,11 +705,10 @@ function DailyReflection({ selectedMood }: DailyReflectionProps) {
                 setCurrentReflection(reflection);
                 setExpandedSection(null);
               }}
-              className={`p-4 rounded-lg border-2 transition-all text-left hover:scale-[1.02] ${
-                currentReflection?.id === reflection.id
+              className={`p-4 rounded-lg border-2 transition-all text-left hover:scale-[1.02] ${currentReflection?.id === reflection.id
                   ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20'
                   : 'border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 hover:border-emerald-300'
-              }`}
+                }`}
             >
               <div className="flex items-center justify-between mb-2">
                 <h4 className="font-semibold text-gray-800 dark:text-white text-sm">

@@ -1780,8 +1780,9 @@ function MoodSelector({ selectedMood, onMoodSelect }: MoodSelectorProps) {
       <Helmet>
         <title>Islamic Mood Selector - Personalized Spiritual Guidance | Qalam Verse</title>
         <meta name="description" content="Select your current mood to receive personalized Islamic guidance, Quranic verses, Hadith wisdom, and spiritual support tailored to your emotional state and spiritual needs." />
-        <meta name="keywords" content="Islamic Mood Selector, Personalized Islamic Guidance, Emotional Support Islam, Islamic Psychology, Spiritual Mood, Islamic Counseling, Faith-based Guidance" />
-        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/mood" />
+        <meta name="keywords" content="Islamic Mood Selector, Personalized Islamic Guidance, Emotional Support Islam, Islamic Psychology, Spiritual Mood, Islamic Counseling, Faith-based Guidance, i am feeling, 
+Islamic mood selector app, spiritual mood tracker Islam, Islamic emotions and coping, mood-based Islamic content, dua for sad, dua for anger, dua for jealousy, dua for Frustrated, dua for happiness in life " />
+        <link rel="canonical" href="https://www.qalamverse.site/#/mood" />
       </Helmet>
 
       <div className="text-center mb-8">

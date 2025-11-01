@@ -4337,10 +4337,11 @@ function AllahNames() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-8 px-4">
             <Helmet>
-                <title>99 Names of Allah - Asma ul Husna | Qalam Verse</title>
-                <meta name="description" content="Learn the 99 beautiful names of Allah (Asma ul Husna) with meanings, benefits, and Quranic references. Complete Islamic guide with audio pronunciation." />
+                <title>99 Names of Allah - Qalam Verse</title>
+                <meta name="description" content="Learn the 99 beautiful names of Allah with meanings, benefits, and Quranic references. Complete Islamic guide with audio pronunciation." />
                 <meta name="keywords" content="99 Names of Allah, Asma ul Husna, Allah Names, Islamic Names, Quran, Islamic Learning, Beautiful Names of God" />
-                <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/allah-names" />
+                <link rel="canonical" href="https://www.qalamverse.site/#/allah-names" />
+
             </Helmet>
 
             <div className="max-w-7xl mx-auto">

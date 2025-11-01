@@ -886,10 +886,11 @@ function DuaAndDhikr() {
     return (
       <div className="max-w-6xl mx-auto">
         <Helmet>
-          <title>Dua & Dhikr - Essential Islamic Supplications | Islamic Pearls</title>
+          <title>Dua & Dhikr - Essential Islamic Supplications | Qalam Verse</title>
           <meta name="description" content="Discover essential Islamic duas and dhikr for daily life. Learn authentic supplications for morning, evening, prayer, travel, protection, and various life situations with Arabic text and translations." />
-          <meta name="keywords" content="Islamic Dua, Dhikr, Islamic Supplications, Islamic Prayers, Morning Duas, Evening Duas, Travel Duas, Protection Duas, Islamic Remembrance" />
-          <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/dua" />
+          <meta name="keywords" content="Islamic Dua, Dhikr, Islamic Supplications, Islamic Prayers, Morning Duas, Evening Duas, Travel Duas, Protection Duas, Islamic Remembrance, best dhikr, powerful dhikr in islam, morning adhkar, dhikr list, best zikr of allah, daily zikr, zikr tasbih list, evening dhikr, dua list for ramadan, allahumma dua, best duas, dua for guidance, dua for immediate help from allah, how to do dhikr, dua for parents" />
+          <link rel="canonical" href="https://www.qalamverse.site/#/dua" />
+
         </Helmet>
 
         {/* Header */}

@@ -16,6 +16,7 @@ import ProphetStories from './components/ProphetStories';
 import PropheticWisdom from './components/PropheticWisdom';
 import NotFound from './components/NotFound';
 import IslamicAI from './components/IslamicAI';
+import TasbihCounter from './components/TasbihCounter';
 import Feedback from './components/Feedback';
 import ThankYou from './components/ThankYou';
 import AllahNames from './components/AllahNames';
@@ -98,6 +99,7 @@ function App() {
           <Route path="/dua" element={<DuaAndDhikr />} />
           <Route path="/islamic-ai" element={<IslamicAI />} />
           <Route path="/allah-names" element={<AllahNames />} />
+          <Route path="/tasbih" element={<TasbihCounter />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/thankyou" element={<ThankYou />} />
           <Route path="*" element={<NotFound />} />

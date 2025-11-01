@@ -88,7 +88,7 @@ function Home({ selectedMood }: HomeProps) {
         <title>Qalam Verse - Your Digital Islamic Companion</title>
         <meta name="description" content="Welcome to Islamic Pearls - Your comprehensive digital companion for Islamic guidance, prayers, and spiritual growth. Explore Quranic verses, prophetic wisdom, prayer times, and more." />
         <meta name="keywords" content="Islamic Pearls, Islam, Quran, Prayer Times, Islamic Stories, Prophet Stories, Dua, Dhikr, Islamic Education, Muslim, Spiritual Guidance, Home" />
-        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/" />
+        <link rel="canonical" href="https://www.qalamverse.site/#/" />
       </Helmet>
 
       <div className="space-y-8">

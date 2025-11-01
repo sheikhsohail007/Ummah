@@ -35,7 +35,9 @@ function Header({
     { path: '/prophet-stories', label: 'Prophet Stories', icon: '👥' },
     { path: '/prophetic-wisdom', label: 'Prophetic Wisdom', icon: '💎' },
     { path: '/dua', label: 'Dua & Dhikr', icon: '🤲' },
-    { path: '/allah-names', label: '99 Names of Allah', icon: '📿' }
+    { path: '/allah-names', label: '99 Names of Allah', icon: '🕋' },
+    { path: '/tasbih', label: 'Tasbih Counter', icon: '📿' }
+
 
   ];
 
@@ -59,8 +61,8 @@ function Header({
                 key={item.path}
                 to={item.path}
                 className={`flex items-center space-x-1 px-3 py-2 rounded-md text-sm font-medium transition-colors ${location.pathname === item.path
-                    ? 'bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-300'
-                    : 'text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-gray-700'
+                  ? 'bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-300'
+                  : 'text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-gray-700'
                   }`}
               >
                 <span className="text-xs">{item.icon}</span>
@@ -87,8 +89,8 @@ function Header({
                       to={item.path}
                       onClick={() => setDropdownOpen(false)}
                       className={`flex items-center space-x-3 px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors ${location.pathname === item.path
-                          ? 'text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-900/20'
-                          : 'text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400'
+                        ? 'text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-900/20'
+                        : 'text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400'
                         }`}
                     >
                       <span>{item.icon}</span>
@@ -134,8 +136,8 @@ function Header({
                     to={item.path}
                     onClick={() => setMobileMenuOpen(false)}
                     className={`w-full flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors ${location.pathname === item.path
-                        ? 'bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-300'
-                        : 'text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-gray-700'
+                      ? 'bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-300'
+                      : 'text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-gray-700'
                       }`}
                   >
                     <span className="text-lg">{item.icon}</span>

@@ -991,3 +991,31 @@ textarea:focus-visible {
     font-size: 1.2rem;
   }
 }
+
+
+.bg-luxury-gradient {
+  background-image:
+    radial-gradient(ellipse at 20% 10%, #fffbe7cc 0%, transparent 60%),
+    radial-gradient(ellipse at 85% 92%, #ffe3b7aa 0%, transparent 65%),
+    linear-gradient(220deg, #106e6a 0%, #407d53 68%, #7b431a 100%);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.bg-glass-overlay {
+  background: rgba(24, 29, 42, 0.45);
+  backdrop-filter: blur(12px) saturate(130%);
+}
+.font-arabic {
+  font-family: 'Amiri', Arial, serif;
+}
+
+@media (max-width: 640px) {
+  .bg-luxury-gradient {
+    background-attachment: scroll !important;
+    min-height: 100vh;
+  }
+  .bg-glass-overlay {
+    backdrop-filter: blur(7px) saturate(115%);
+  }
+}

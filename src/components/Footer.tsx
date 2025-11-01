@@ -65,7 +65,11 @@ const Footer: React.FC = () => {
                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                   </svg>
                 </a>
-
+                <a href="https://facebook.com/profile.php?id=61582556711955" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                  </svg>
+                </a>
                 <a href="mailto:qalamversehelp@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h.749L12 10.855 21.615 3.821h.749c.904 0 1.636.732 1.636 1.636z" />
@@ -74,7 +78,6 @@ const Footer: React.FC = () => {
               </div>
             </div>
 
-            {/* Quick Links */}
             {/* Quick Links */}
             <div className="space-y-4">
               <div className="border-b border-gray-700 pb-2">
@@ -292,155 +295,444 @@ const Footer: React.FC = () => {
         </div>
       </footer>
 
-      {/* Privacy Policy Modal */}
+      {/* Enhanced Privacy Policy Modal */}
       <PolicyModal
         isOpen={showPrivacy}
         onClose={() => setShowPrivacy(false)}
         title="Privacy Policy"
       >
         <div className="prose max-w-none">
-          <p className="text-gray-600 mb-4"><strong>Last updated:</strong> December 2024</p>
+          <div className="bg-gradient-to-r from-green-50 to-blue-50 p-4 rounded-lg mb-6">
+            <p className="text-gray-800 mb-2"><strong>Effective Date:</strong> January 1, 2025</p>
+            <p className="text-gray-600 text-sm">Last Updated: October 30, 2025</p>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold mb-3 text-gray-800">Our Commitment to Your Privacy</h3>
+            <p className="mb-4 text-gray-700 leading-relaxed">
+              At Qalam Verse, protecting your privacy is one of our highest priorities. This Privacy Policy explains how we collect, use, protect, and share information about you when you use our Islamic educational platform. We are committed to transparency and giving you control over your personal information, guided by Islamic principles of trust (Amanah) and integrity.
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              If you have any questions about this Privacy Policy or our privacy practices, please don't hesitate to contact us at <strong>qalamversehelp@gmail.com</strong>.
+            </p>
+          </div>
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">1. Information We Collect</h3>
-          <p className="mb-4 text-gray-700">
-            Islamic Pearls is committed to protecting your privacy. We collect minimal information necessary to provide our services:
-          </p>
-          <ul className="list-disc pl-6 mb-4 text-gray-700">
-            <li>Usage data to improve our Islamic content and features</li>
-            <li>Device information for optimal app performance</li>
-            <li>Location data (optional) for accurate prayer times</li>
-            <li>Preferences for personalized Islamic content</li>
-          </ul>
+          <div className="mb-6">
+            <h4 className="text-lg font-medium mb-2 text-gray-700">Personal Information</h4>
+            <p className="mb-3 text-gray-700">We collect information you provide directly to us, such as:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li><strong>Account Information:</strong> Name, email address, and password when you create an account</li>
+              <li><strong>Profile Data:</strong> Prayer preferences, location for prayer times, and Islamic learning goals</li>
+              <li><strong>Communication Data:</strong> Messages you send us, feedback, and support requests</li>
+              <li><strong>User Content:</strong> Notes, bookmarks, and personal reflections you choose to save</li>
+            </ul>
+
+            <h4 className="text-lg font-medium mb-2 text-gray-700">Automatically Collected Information</h4>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li><strong>Device Information:</strong> Device type, operating system, browser type, and unique device identifiers</li>
+              <li><strong>Usage Data:</strong> Pages visited, time spent on features, interaction patterns, and app performance data</li>
+              <li><strong>Location Data:</strong> Approximate location (with your consent) for accurate prayer times and Qibla direction</li>
+              <li><strong>Log Files:</strong> IP addresses, access times, referring URLs, and error logs for security and performance</li>
+            </ul>
+          </div>
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">2. How We Use Your Information</h3>
-          <ul className="list-disc pl-6 mb-4 text-gray-700">
-            <li>Provide accurate prayer times based on your location</li>
-            <li>Customize Islamic content to your preferences</li>
-            <li>Send prayer reminders and Islamic notifications</li>
-            <li>Improve our services and develop new Islamic features</li>
-            <li>Ensure the security and integrity of our platform</li>
-          </ul>
+          <div className="mb-6">
+            <p className="mb-3 text-gray-700">We use the information we collect to:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li><strong>Provide Islamic Services:</strong> Deliver accurate prayer times, Quranic verses, Islamic stories, and educational content</li>
+              <li><strong>Personalize Experience:</strong> Customize content recommendations based on your interests and spiritual goals</li>
+              <li><strong>Send Notifications:</strong> Prayer reminders, daily reflections, and important Islamic dates (with your consent)</li>
+              <li><strong>Improve Our Platform:</strong> Analyze usage patterns to enhance features and develop new Islamic tools</li>
+              <li><strong>Ensure Security:</strong> Protect against fraud, abuse, and unauthorized access to your account</li>
+              <li><strong>Communication:</strong> Respond to your inquiries, provide customer support, and send service-related updates</li>
+            </ul>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">3. Data Protection</h3>
-          <p className="mb-4 text-gray-700">
-            We implement industry-standard security measures to protect your personal information. Your data is encrypted and stored securely. We never sell your personal information to third parties.
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">3. Information Sharing and Disclosure</h3>
+          <div className="mb-6">
+            <p className="mb-3 text-gray-700"><strong>We never sell your personal information.</strong> We may share your information only in these limited circumstances:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li><strong>Service Providers:</strong> Trusted third parties who help us operate our platform (hosting, analytics, customer support)</li>
+              <li><strong>Legal Requirements:</strong> When required by law, court orders, or to protect rights and safety</li>
+              <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of assets (with continued privacy protection)</li>
+              <li><strong>With Your Consent:</strong> Any other sharing will only occur with your explicit permission</li>
+            </ul>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">4. Islamic Values</h3>
-          <p className="mb-4 text-gray-700">
-            Our privacy practices are guided by Islamic principles of trust (Amanah) and respect. We handle your information with the same care and responsibility that Islam teaches us to treat all trusts.
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">4. Data Security and Protection</h3>
+          <div className="mb-6">
+            <p className="mb-3 text-gray-700">We implement comprehensive security measures to protect your information:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li><strong>Encryption:</strong> Data transmission and storage using industry-standard SSL/TLS encryption</li>
+              <li><strong>Access Controls:</strong> Limited access to personal information on a need-to-know basis</li>
+              <li><strong>Regular Audits:</strong> Ongoing security assessments and vulnerability testing</li>
+              <li><strong>Secure Infrastructure:</strong> Hosted on reputable, secure cloud platforms with backup systems</li>
+            </ul>
+            <p className="text-gray-700">However, no internet transmission is 100% secure. We cannot guarantee absolute security but continuously work to protect your information.</p>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">5. Contact Us</h3>
-          <p className="text-gray-700">
-            If you have any questions about this Privacy Policy, please contact us at privacy@qalamversehelp.in
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">5. Your Privacy Rights and Choices</h3>
+          <div className="mb-6">
+            <p className="mb-3 text-gray-700">You have the following rights regarding your personal information:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li><strong>Access:</strong> Request a copy of the personal information we hold about you</li>
+              <li><strong>Correction:</strong> Update or correct inaccurate personal information</li>
+              <li><strong>Deletion:</strong> Request deletion of your personal information (subject to legal requirements)</li>
+              <li><strong>Data Portability:</strong> Request a copy of your data in a structured, machine-readable format</li>
+              <li><strong>Opt-out:</strong> Unsubscribe from marketing communications at any time</li>
+              <li><strong>Location Services:</strong> Disable location sharing through your device settings</li>
+            </ul>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">6. Children's Privacy</h3>
+          <div className="mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              Qalam Verse is designed for users of all ages, including children learning about Islam with parental guidance. We do not knowingly collect personal information from children under 13 without parental consent. If we become aware that we have collected personal information from a child under 13 without parental consent, we will take steps to delete such information. Parents who believe their child has provided personal information to us can contact us at <strong>qalamversehelp@gmail.com</strong>.
+            </p>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">7. International Data Transfers</h3>
+          <div className="mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              Your information may be transferred to and processed in countries other than your country of residence. These countries may have different data protection laws. When we transfer your information internationally, we ensure appropriate safeguards are in place to protect your personal information in accordance with applicable privacy laws.
+            </p>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">8. Updates to This Privacy Policy</h3>
+          <div className="mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of material changes by email (if you have provided one) or through a prominent notice on our platform. Your continued use of Qalam Verse after such notification constitutes acceptance of the updated Privacy Policy.
+            </p>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">9. Islamic Values in Privacy</h3>
+          <div className="mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              Our privacy practices are guided by Islamic principles of Amanah (trustworthiness), Sidq (honesty), and respect for individual dignity. We handle your personal information with the same care and responsibility that Islam teaches us to treat all trusts. We are committed to being transparent, fair, and respectful in all our data practices.
+            </p>
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-lg">
+            <h3 className="text-xl font-semibold mb-3 text-gray-800">10. Contact Information</h3>
+            <p className="text-gray-700 mb-2">
+              If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us:
+            </p>
+            <ul className="text-gray-700 space-y-1">
+              <li><strong>Email:</strong> qalamversehelp@gmail.com</li>
+              <li><strong>Subject Line:</strong> Privacy Policy Inquiry</li>
+              <li><strong>Response Time:</strong> We aim to respond within 48 hours</li>
+            </ul>
+          </div>
         </div>
       </PolicyModal>
 
-      {/* Terms of Service Modal */}
+      {/* Enhanced Terms of Service Modal */}
       <PolicyModal
         isOpen={showTerms}
         onClose={() => setShowTerms(false)}
         title="Terms of Service"
       >
         <div className="prose max-w-none">
-          <p className="text-gray-600 mb-4"><strong>Last updated:</strong> December 2024</p>
+          <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-4 rounded-lg mb-6">
+            <p className="text-gray-800 mb-2"><strong>Effective Date:</strong> January 1, 2025</p>
+            <p className="text-gray-600 text-sm">Last Updated: October 30, 2025</p>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold mb-3 text-gray-800">Welcome to Qalam Verse</h3>
+            <p className="text-gray-700 leading-relaxed">
+              These Terms of Service ("Terms") govern your use of Qalam Verse, an Islamic educational platform designed to strengthen your faith and enhance your spiritual journey. By accessing or using our services, you agree to be bound by these Terms. Please read them carefully.
+            </p>
+          </div>
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">1. Acceptance of Terms</h3>
-          <p className="mb-4 text-gray-700">
-            By accessing and using Islamic Pearls, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
-          </p>
+          <div className="mb-6">
+            <p className="mb-4 text-gray-700">
+              By accessing, downloading, or using Qalam Verse in any way, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not agree with any part of these Terms, please do not use our service.
+            </p>
+            <p className="text-gray-700">
+              These Terms apply to all users, including visitors, registered users, and premium subscribers.
+            </p>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">2. Islamic Content Accuracy</h3>
-          <p className="mb-4 text-gray-700">
-            We strive to provide authentic Islamic content based on the Quran and authentic Hadith. However, users are encouraged to verify religious rulings with qualified Islamic scholars for important matters.
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">2. Description of Service</h3>
+          <div className="mb-6">
+            <p className="mb-3 text-gray-700">Qalam Verse provides:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li>Accurate prayer times and Qibla direction based on your location</li>
+              <li>Quranic verses with translations and interpretations</li>
+              <li>Islamic stories, daily reflections, and spiritual guidance</li>
+              <li>Educational content about Islamic practices and teachings</li>
+              <li>Dua and Dhikr collections for various occasions</li>
+              <li>Community features for Islamic discussions and learning</li>
+            </ul>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">3. User Responsibilities</h3>
-          <ul className="list-disc pl-6 mb-4 text-gray-700">
-            <li>Use the service in accordance with Islamic principles</li>
-            <li>Respect the religious nature of the content</li>
-            <li>Not misuse or distribute copyrighted Islamic materials</li>
-            <li>Report any inaccuracies in Islamic content</li>
-            <li>Maintain respectful behavior in community features</li>
-          </ul>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">3. Islamic Content and Accuracy</h3>
+          <div className="mb-6">
+            <p className="mb-4 text-gray-700">
+              We strive to provide authentic Islamic content based on the Holy Quran and authentic Hadith literature. Our content is reviewed by qualified Islamic scholars whenever possible. However, users should note:
+            </p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li>Content is provided for educational and informational purposes</li>
+              <li>For important religious rulings, consult qualified local Islamic scholars</li>
+              <li>Different Islamic schools of thought may have varying interpretations</li>
+              <li>We welcome corrections and suggestions to improve accuracy</li>
+            </ul>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">4. Prayer Times Disclaimer</h3>
-          <p className="mb-4 text-gray-700">
-            Prayer times are calculated based on standard astronomical calculations. Users should verify with local Islamic authorities for the most accurate prayer times in their area.
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">4. User Accounts and Responsibilities</h3>
+          <div className="mb-6">
+            <p className="mb-3 text-gray-700">When creating an account, you agree to:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li>Provide accurate and complete information</li>
+              <li>Maintain the security of your account credentials</li>
+              <li>Use the service in accordance with Islamic principles and ethics</li>
+              <li>Respect other users and maintain a respectful community environment</li>
+              <li>Not share content that is offensive, inappropriate, or against Islamic values</li>
+              <li>Report any technical issues or content inaccuracies you encounter</li>
+            </ul>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">5. Intellectual Property</h3>
-          <p className="mb-4 text-gray-700">
-            The Quran and Hadith are divine revelations and prophetic traditions belonging to all Muslims. Our translations, interpretations, and digital presentations are provided for educational purposes.
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">5. Prayer Times and Religious Information</h3>
+          <div className="mb-6">
+            <p className="mb-4 text-gray-700">
+              <strong>Important Disclaimer:</strong> Prayer times are calculated using standard astronomical calculations and established Islamic methodologies. However, local factors may affect actual prayer times:
+            </p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li>Local Islamic authorities may have specific guidelines for your area</li>
+              <li>Weather conditions and geographical factors may influence visibility</li>
+              <li>We recommend verifying with local mosques for community prayer times</li>
+              <li>Personal responsibility remains with each user for fulfilling religious obligations</li>
+            </ul>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">6. Limitation of Liability</h3>
-          <p className="mb-4 text-gray-700">
-            Islamic Pearls provides religious content for educational and spiritual purposes. We are not liable for any decisions made based solely on the content provided without proper scholarly consultation.
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">6. Intellectual Property Rights</h3>
+          <div className="mb-6">
+            <p className="mb-3 text-gray-700">Understanding of religious content ownership:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li>The Holy Quran and Prophetic traditions belong to all Muslims as divine guidance</li>
+              <li>Our translations, interpretations, and digital presentations are provided for educational purposes</li>
+              <li>Original content created by Qalam Verse (articles, graphics, features) is protected by copyright</li>
+              <li>Users may share religious content for educational purposes with proper attribution</li>
+              <li>Commercial use of our proprietary content requires explicit permission</li>
+            </ul>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">7. Contact Information</h3>
-          <p className="text-gray-700">
-            For questions about these Terms of Service, contact us at terms@qalamversehelp.in
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">7. Community Guidelines</h3>
+          <div className="mb-6">
+            <p className="mb-3 text-gray-700">To maintain a respectful Islamic learning environment:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li>Engage in discussions with wisdom (Hikmah) and good character (Akhlaq)</li>
+              <li>Respect different opinions within the bounds of authentic Islamic teachings</li>
+              <li>Avoid controversial topics that may lead to division among Muslims</li>
+              <li>Report inappropriate content or behavior to our moderation team</li>
+              <li>Help create a welcoming environment for Muslims at all levels of knowledge</li>
+            </ul>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">8. Limitation of Liability</h3>
+          <div className="mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              Qalam Verse provides religious and educational content for informational purposes. We are not liable for any decisions made based solely on the content provided without proper scholarly consultation. Users are responsible for their own religious practices and should seek guidance from qualified Islamic scholars for important matters. We do not guarantee uninterrupted service or error-free content, though we continuously strive for excellence.
+            </p>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">9. Service Availability and Modifications</h3>
+          <div className="mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              We aim to provide continuous service but may need to temporarily suspend access for maintenance, updates, or improvements. We reserve the right to modify, update, or discontinue features with reasonable notice. Premium features may require subscription fees, which will be clearly communicated before purchase.
+            </p>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">10. Termination</h3>
+          <div className="mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              You may terminate your account at any time. We may suspend or terminate accounts that violate these Terms or engage in behavior inconsistent with Islamic values and community standards. Upon termination, your access to premium features will cease, but basic religious information will remain available.
+            </p>
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-lg">
+            <h3 className="text-xl font-semibold mb-3 text-gray-800">11. Contact Information</h3>
+            <p className="text-gray-700 mb-2">
+              For questions about these Terms of Service or to report issues:
+            </p>
+            <ul className="text-gray-700 space-y-1">
+              <li><strong>Email:</strong> qalamversehelp@gmail.com</li>
+              <li><strong>Subject Line:</strong> Terms of Service Inquiry</li>
+              <li><strong>Islamic Guidance:</strong> For religious questions, we can connect you with qualified scholars</li>
+            </ul>
+          </div>
         </div>
       </PolicyModal>
 
-      {/* Cookie Policy Modal */}
+      {/* Enhanced Cookie Policy Modal */}
       <PolicyModal
         isOpen={showCookies}
         onClose={() => setShowCookies(false)}
         title="Cookie Policy"
       >
         <div className="prose max-w-none">
-          <p className="text-gray-600 mb-4"><strong>Last updated:</strong> December 2024</p>
-
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">1. What Are Cookies</h3>
-          <p className="mb-4 text-gray-700">
-            Cookies are small text files that are stored on your device when you visit our website. They help us provide you with a better experience by remembering your preferences and settings.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">2. How We Use Cookies</h3>
-          <ul className="list-disc pl-6 mb-4 text-gray-700">
-            <li><strong>Essential Cookies:</strong> Required for basic website functionality</li>
-            <li><strong>Preference Cookies:</strong> Remember your language and location settings</li>
-            <li><strong>Analytics Cookies:</strong> Help us understand how users interact with Islamic content</li>
-            <li><strong>Prayer Time Cookies:</strong> Store your location for accurate prayer times</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">3. Types of Cookies We Use</h3>
-          <div className="mb-4 text-gray-700">
-            <p className="font-semibold">Session Cookies:</p>
-            <p className="mb-2">Temporary cookies that expire when you close your browser.</p>
-
-            <p className="font-semibold">Persistent Cookies:</p>
-            <p className="mb-2">Remain on your device for a set period to remember your preferences.</p>
-
-            <p className="font-semibold">Third-Party Cookies:</p>
-            <p>Used by external services like prayer time calculators and Islamic content providers.</p>
+          <div className="bg-gradient-to-r from-orange-50 to-red-50 p-4 rounded-lg mb-6">
+            <p className="text-gray-800 mb-2"><strong>Effective Date:</strong> January 1, 2025</p>
+            <p className="text-gray-600 text-sm">Last Updated: October 30, 2025</p>
           </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">4. Managing Cookies</h3>
-          <p className="mb-4 text-gray-700">
-            You can control and manage cookies through your browser settings. However, disabling certain cookies may affect the functionality of Islamic features like prayer reminders and personalized content.
-          </p>
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold mb-3 text-gray-800">Understanding Cookies</h3>
+            <p className="text-gray-700 leading-relaxed">
+              This Cookie Policy explains how Qalam Verse uses cookies and similar technologies to enhance your Islamic learning experience. We believe in transparency about how we collect and use data, following Islamic principles of honesty (Sidq) and trustworthiness (Amanah).
+            </p>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">5. Islamic Perspective</h3>
-          <p className="mb-4 text-gray-700">
-            We use cookies responsibly and transparently, following Islamic principles of honesty (Sidq) and trustworthiness (Amanah) in our digital practices.
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">1. What Are Cookies?</h3>
+          <div className="mb-6">
+            <p className="mb-4 text-gray-700">
+              Cookies are small text files stored on your device when you visit our website or use our app. They help us remember your preferences and provide you with a personalized Islamic learning experience.
+            </p>
+            <div className="bg-blue-50 p-3 rounded-lg">
+              <p className="text-gray-700 text-sm">
+                <strong>Think of cookies like bookmarks:</strong> They help us remember where you left off in your Islamic studies, your preferred prayer calculation method, and your favorite content topics.
+              </p>
+            </div>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">6. Updates to Cookie Policy</h3>
-          <p className="mb-4 text-gray-700">
-            We may update this Cookie Policy periodically. Users will be notified of significant changes through our website or app notifications.
-          </p>
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">2. Types of Cookies We Use</h3>
+          <div className="mb-6">
+            <div className="space-y-4">
+              <div className="border-l-4 border-green-400 pl-4">
+                <h4 className="text-lg font-medium mb-2 text-gray-700">Essential Cookies</h4>
+                <p className="text-gray-600 text-sm mb-2">These are necessary for the website to function properly and cannot be disabled.</p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• User authentication and security</li>
+                  <li>• Basic website functionality</li>
+                  <li>• Language and region settings</li>
+                  <li>• Shopping cart functionality (for donations)</li>
+                </ul>
+              </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-gray-800">7. Contact Us</h3>
-          <p className="text-gray-700">
-            For questions about our Cookie Policy, contact us at cookies@qalamversehelp.in
-          </p>
+              <div className="border-l-4 border-blue-400 pl-4">
+                <h4 className="text-lg font-medium mb-2 text-gray-700">Preference Cookies</h4>
+                <p className="text-gray-600 text-sm mb-2">These remember your choices to provide a personalized experience.</p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Prayer time calculation preferences</li>
+                  <li>• Preferred language for Islamic content</li>
+                  <li>• Audio settings for Quranic recitation</li>
+                  <li>• Theme and display preferences</li>
+                  <li>• Location settings for prayer times and Qibla direction</li>
+                </ul>
+              </div>
+
+              <div className="border-l-4 border-purple-400 pl-4">
+                <h4 className="text-lg font-medium mb-2 text-gray-700">Analytics Cookies</h4>
+                <p className="text-gray-600 text-sm mb-2">These help us understand how users interact with Islamic content.</p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Most popular Quranic verses and Islamic stories</li>
+                  <li>• Feature usage patterns to improve user experience</li>
+                  <li>• Performance metrics to ensure fast loading</li>
+                  <li>• Error tracking to fix technical issues quickly</li>
+                </ul>
+              </div>
+
+              <div className="border-l-4 border-orange-400 pl-4">
+                <h4 className="text-lg font-medium mb-2 text-gray-700">Functional Cookies</h4>
+                <p className="text-gray-600 text-sm mb-2">These enable enhanced functionality and personalization.</p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Personalized Islamic content recommendations</li>
+                  <li>• Social media sharing capabilities</li>
+                  <li>• Remember prayer notification preferences</li>
+                  <li>• Save progress in Islamic learning modules</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">3. How We Use Cookies for Islamic Features</h3>
+          <div className="mb-6">
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li><strong>Prayer Times:</strong> Remember your location and calculation method preferences</li>
+              <li><strong>Quranic Study:</strong> Track your reading progress and favorite verses</li>
+              <li><strong>Islamic Calendar:</strong> Display relevant Islamic dates and events for your region</li>
+              <li><strong>Daily Reflections:</strong> Personalize content based on your spiritual interests</li>
+              <li><strong>Learning Path:</strong> Remember your progress in Islamic educational content</li>
+              <li><strong>Community Features:</strong> Maintain your participation in Islamic discussions</li>
+            </ul>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">4. Third-Party Cookies</h3>
+          <div className="mb-6">
+            <p className="mb-3 text-gray-700">We may use carefully selected third-party services that place cookies on your device:</p>
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li><strong>Prayer Time Services:</strong> Accurate calculation of Islamic prayer times</li>
+              <li><strong>Islamic Content Providers:</strong> Authentic Quranic texts and translations</li>
+              <li><strong>Analytics Services:</strong> Understanding user engagement with Islamic content</li>
+              <li><strong>Security Services:</strong> Protection against malicious activity</li>
+            </ul>
+            <p className="text-gray-700">
+              These services are chosen based on their commitment to privacy and their value in enhancing your Islamic learning experience.
+            </p>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">5. Managing Your Cookie Preferences</h3>
+          <div className="mb-6">
+            <p className="mb-4 text-gray-700">You have full control over cookies. Here are your options:</p>
+
+            <div className="bg-gray-50 p-4 rounded-lg mb-4">
+              <h4 className="text-lg font-medium mb-2 text-gray-700">Browser Settings</h4>
+              <ul className="text-gray-700 text-sm space-y-1">
+                <li>• <strong>Chrome:</strong> Settings {' > '} Privacy and Security {' > '} Cookies and other site data</li>
+                <li>• <strong>Firefox:</strong> Settings {' > '} Privacy &amp; Security {' > '} Cookies and Site Data</li>
+                <li>• <strong>Safari:</strong> Preferences {' > '} Privacy {' > '} Manage Website Data</li>
+                <li>• <strong>Edge:</strong> Settings {' > '} Cookies and site permissions</li>
+              </ul>
+
+            </div>
+
+            <div className="bg-yellow-50 p-4 rounded-lg">
+              <h4 className="text-lg font-medium mb-2 text-gray-700">⚠️ Important Note</h4>
+              <p className="text-gray-700 text-sm">
+                Disabling certain cookies may affect the functionality of Islamic features like prayer reminders, personalized content recommendations, and your saved progress in Islamic studies.
+              </p>
+            </div>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">6. Cookie Retention Periods</h3>
+          <div className="mb-6">
+            <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-1">
+              <li><strong>Session Cookies:</strong> Deleted when you close your browser</li>
+              <li><strong>Persistent Cookies:</strong> Remain for up to 2 years, or until you delete them</li>
+              <li><strong>Prayer Time Cookies:</strong> Updated daily for accuracy</li>
+              <li><strong>Preference Cookies:</strong> Stored until you change your settings</li>
+            </ul>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">7. Islamic Principles and Cookie Use</h3>
+          <div className="mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              Our use of cookies is guided by Islamic values of transparency, honesty, and respect for user privacy. We only collect information that genuinely improves your Islamic learning experience and we are always honest about how we use your data. We view the trust you place in us as an Amanah (trust) that we must handle responsibly.
+            </p>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-3 text-gray-800">8. Updates to Cookie Policy</h3>
+          <div className="mb-6">
+            <p className="text-gray-700 leading-relaxed">
+              We may update this Cookie Policy to reflect changes in our practices or legal requirements. We will notify you of significant changes through our website or app. Your continued use of Qalam Verse constitutes acceptance of the updated policy.
+            </p>
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-lg">
+            <h3 className="text-xl font-semibold mb-3 text-gray-800">9. Questions About Cookies</h3>
+            <p className="text-gray-700 mb-2">
+              If you have questions about our Cookie Policy or need help managing your cookie preferences:
+            </p>
+            <ul className="text-gray-700 space-y-1">
+              <li><strong>Email:</strong> qalamversehelp@gmail.com</li>
+              <li><strong>Subject Line:</strong> Cookie Policy Question</li>
+              <li><strong>Technical Support:</strong> We're here to help you customize your Islamic learning experience</li>
+            </ul>
+          </div>
         </div>
       </PolicyModal>
     </>
