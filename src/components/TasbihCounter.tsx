@@ -392,7 +392,7 @@ const TasbihPage: React.FC = () => {
           content="Tasbih counter, Islamic dhikr, digital tasbih, dua, hadith references, flip cards, prayer counter, Islamic supplications, tasbih beads, remembrance of Allah, tasbih digital, tasbih online, prayer counter, istighfar counter, digital tasbih counter, online zikir, dhikr counter online, tasbih beads online, tasbih counter on phone, dhikr tracker, counter zikir, online dhikr counter, long dhikr, tasbeeh counter app, free Islamic tasbih counter"
         />
         <meta name="author" content="Qalam Verse Islamic Education" />
-        <link rel="canonical" href="https://www.qalamverse.site/tasbih" />
+        <link rel="canonical" href="https://www.qalamverse.site/#/tasbih" />
       </Helmet>
 
       <div className="bg-luxury-gradient min-h-screen overflow-x-hidden">

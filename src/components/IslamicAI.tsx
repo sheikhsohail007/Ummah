@@ -260,7 +260,7 @@ USER_MESSAGE: ${userMessage}
           name="keywords"
           content="Islamic AI assistant, Quran guidance, Hadith explanation, Islamic spiritual growth, Dua help, AI Quran teacher, Islamic chatbot, Muslim prayer guidance, personal guidance, Islamic ai tools online, Ai quran teacher, ai muslim scholar, digital, islamic assistant, personal mufti ai, namaz main maan kaise lagaye, quran ko ramdam main kaise padhe"
         />
-        <link rel="canonical" href="https://www.qalamverse.site/islamic-ai" />
+        <link rel="canonical" href="https://www.qalamverse.site/#/islamic-ai" />
       </Helmet>
 
 

@@ -136,7 +136,7 @@ function Feedback() {
         <title>Feedback - Share Your Thoughts | Qalam Verse</title>
         <meta name="description" content="Share your feedback, suggestions, or report issues with Qalam Verse. We value your input to improve our Islamic learning platform." />
         <meta name="keywords" content="Feedback, Contact, Qalam Verse, Suggestions, Report Issues, User Feedback" />
-        <link rel="canonical" href="https://www.qalamverse.site/feedback" />
+        <link rel="canonical" href="https://www.qalamverse.site/#/feedback" />
       </Helmet>
 
       {/* Background Elements */}

@@ -682,7 +682,7 @@ Guided to the house of Al-Arqam where the Prophet and Muslims gathered, Umar kno
         <title>Islamic Stories - Inspiring Tales from Islamic Heritage | Qalam Verse</title>
         <meta name="description" content="Read inspiring Islamic stories from our rich heritage. Discover tales of faith, patience, gratitude, and wisdom that strengthen your Islamic beliefs and provide spiritual guidance." />
         <meta name="keywords" content="Islamic Stories, Islamic Tales, Islamic Heritage, Faith Stories, Islamic Wisdom Stories, Moral Stories Islam, Islamic Inspiration, true islamic story, true inspirational story, inspiring short stories, real incident islamic story" />
-        <link rel="canonical" href="https://www.qalamverse.site/islamic-stories" />
+        <link rel="canonical" href="https://www.qalamverse.site/#/islamic-stories" />
       </Helmet>
 
       <div className="text-center mb-8">

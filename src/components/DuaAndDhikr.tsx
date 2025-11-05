@@ -1034,7 +1034,7 @@ function DuaAndDhikr() {
         <title>Dua & Dhikr - Essential Islamic Supplications | Islamic Pearls</title>
         <meta name="description" content="Discover essential Islamic duas and dhikr for daily life. Learn authentic supplications for morning, evening, prayer, travel, protection, and various life situations with Arabic text and translations." />
         <meta name="keywords" content="Islamic Dua, Dhikr, Islamic Supplications, Islamic Prayers, Morning Duas, Evening Duas, Travel Duas, Protection Duas, Islamic Remembrance" />
-<link rel="canonical" href="https://www.qalamverse.site/dua" />
+<link rel="canonical" href="https://www.qalamverse.site/#/dua" />
       </Helmet>
 
       <div className="text-center mb-8">

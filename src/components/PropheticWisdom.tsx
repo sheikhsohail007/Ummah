@@ -1525,7 +1525,7 @@ His story shows us that even prophets can make mistakes, but sincere repentance 
         <title>Prophetic Wisdom - Teachings & Lessons from 31 Prophets | Islamic Pearls</title>
         <meta name="description" content="Learn from the wisdom and teachings of 31 Prophets in Islam. Discover practical guidance, moral lessons, and spiritual insights from their lives and messages for modern Muslim living." />
         <meta name="keywords" content="Prophetic Wisdom, Prophet Teachings, Islamic Wisdom, Prophet Lessons, Islamic Guidance, Prophetic Traditions, Islamic Morals, Spiritual Wisdom, Prophetic wisdom quotes, stories of the Prophet Muhammad ﷺ, lessons from Hadith, Islamic prophetic guidance videos, nuh as, dua for dua acceptance" />
-        <link rel="canonical" href="https://www.qalamverse.site/prophetic-wisdom" />
+        <link rel="canonical" href="https://www.qalamverse.site/#/prophetic-wisdom" />
       </Helmet>
 
       <div className="text-center mb-8">

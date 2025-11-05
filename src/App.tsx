@@ -35,21 +35,6 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();
 
-  // ✅ CORRECTED GITHUB PAGES SPA REDIRECT CODE
-  useEffect(() => {
-    // GitHub Pages SPA redirect handling - PROVEN SOLUTION
-    (function(l) {
-      if (l.search[1] === '/') {
-        var decoded = l.search.slice(1).split('&').map(function(s) { 
-          return s.replace(/~and~/g, '&');
-        }).join('?');
-        window.history.replaceState(null, null,
-          l.pathname.slice(0, -1) + decoded + l.hash
-        );
-      }
-    }(window.location));
-  }, []);
-
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark');
