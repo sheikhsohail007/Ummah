@@ -36,16 +36,18 @@ function App() {
   const location = useLocation();
 
   // ✅ YEH NAYA CODE ADD KARO - GitHub Pages Redirect Handle
-  useEffect(() => {
-    // Handle redirect from 404 page for GitHub Pages
-    if (sessionStorage.redirect) {
-      const redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect !== window.location.href) {
-        window.history.replaceState(null, '', redirect);
-      }
+ useEffect(() => {
+  // Handle redirect from 404 page - Enhanced version
+  const storedRedirect = sessionStorage.getItem('redirect');
+  if (storedRedirect) {
+    sessionStorage.removeItem('redirect');
+    // Only redirect if we're not already on the correct path
+    if (storedRedirect !== window.location.pathname + window.location.search + window.location.hash) {
+      window.history.replaceState(null, '', storedRedirect);
     }
-  }, []);
+  }
+}, []);
+
 
   useEffect(() => {
     if (darkMode) {
