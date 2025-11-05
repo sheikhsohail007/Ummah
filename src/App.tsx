@@ -35,19 +35,20 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();
 
-  // ✅ YEH NAYA CODE ADD KARO - GitHub Pages Redirect Handle
- useEffect(() => {
-  // Handle redirect from 404 page - Enhanced version
-  const storedRedirect = sessionStorage.getItem('redirect');
-  if (storedRedirect) {
-    sessionStorage.removeItem('redirect');
-    // Only redirect if we're not already on the correct path
-    if (storedRedirect !== window.location.pathname + window.location.search + window.location.hash) {
-      window.history.replaceState(null, '', storedRedirect);
-    }
-  }
-}, []);
-
+  // ✅ CORRECTED GITHUB PAGES SPA REDIRECT CODE
+  useEffect(() => {
+    // GitHub Pages SPA redirect handling - PROVEN SOLUTION
+    (function(l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&');
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location));
+  }, []);
 
   useEffect(() => {
     if (darkMode) {
