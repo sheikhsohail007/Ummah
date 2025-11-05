@@ -35,6 +35,18 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();
 
+  // ✅ YEH NAYA CODE ADD KARO - GitHub Pages Redirect Handle
+  useEffect(() => {
+    // Handle redirect from 404 page for GitHub Pages
+    if (sessionStorage.redirect) {
+      const redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect !== window.location.href) {
+        window.history.replaceState(null, '', redirect);
+      }
+    }
+  }, []);
+
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark');
@@ -71,11 +83,11 @@ function App() {
         <meta property="og:title" content="Qalam Verse - Your Digital Islamic Companion" />
         <meta property="og:description" content="Discover the beauty of Islam through prayer times, Quranic verses, prophetic wisdom, and spiritual guidance." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sheikhsohail007.github.io/Ummah/" />
+        <meta property="og:url" content="https://qalamverse.site/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Qalam Verse - Your Digital Islamic Companion" />
         <meta name="twitter:description" content="Discover the beauty of Islam through prayer times, Quranic verses, prophetic wisdom, and spiritual guidance." />
-        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/" />
+        <link rel="canonical" href="https://qalamverse.site/" />
       </Helmet>
 
       <Header

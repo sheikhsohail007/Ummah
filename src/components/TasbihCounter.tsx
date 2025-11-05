@@ -114,7 +114,7 @@ const DHIKR_LIST: Dhikr[] = [
     transliteration: "Subhan-Allahi wa bihamdihi, subhan-Allahil-azim",
     english: "Glory be to Allah and praise be to Him, glory be to Allah the Great",
     hadith:
-      "The Prophet ﷺ said: 'Two phrases are light on the tongue, heavy on the scales, and beloved to the Most Merciful: Subhan-Allahi wa bihamdihi, Subhan-Allahil-azim.' (Bukhari 6682)\n\nBenefit: These words are most beloved to Allah, easy to say, and carry immense reward.[web:76][web:88]",
+      "The Prophet ﷺ said: 'Two phrases are light on the tongue, heavy on the scales, and beloved to the Most Merciful: Subhan-Allahi wa bihamdihi, Subhan-Allahil-azim.' (Bukhari 6682)\n\nBenefit: These words are most beloved to Allah, easy to say, and carry immense reward.",
     target: 100,
     category: "medium",
   },
@@ -124,7 +124,7 @@ const DHIKR_LIST: Dhikr[] = [
     transliteration: "Ya hayyu ya qayyum bi rahmatika astagheet",
     english: "O Ever-Living, O Sustainer, I seek help with Your mercy",
     hadith:
-      "This profound dua was taught by the Prophet ﷺ to recite in difficulty and distress. He said to his daughter Fatima: 'Recite Ya Hayyu Ya Qayyum bi rahmatika astagheeth in the morning and evening.' (Mustadrak Hakim, Shu’abul Imaan)\n\nBenefit: Seek Allah's mercy and help in all affairs, and protection from self-sufficiency for even the blink of an eye.[web:77][web:83][web:89]",
+      "This profound dua was taught by the Prophet ﷺ to recite in difficulty and distress. He said to his daughter Fatima: 'Recite Ya Hayyu Ya Qayyum bi rahmatika astagheeth in the morning and evening.' (Mustadrak Hakim, Shu’abul Imaan)\n\nBenefit: Seek Allah's mercy and help in all affairs, and protection from self-sufficiency for even the blink of an eye.",
     target: 100,
     category: "medium",
   },
@@ -134,7 +134,7 @@ const DHIKR_LIST: Dhikr[] = [
     transliteration: "Subhan-Allah, wal-hamdu-lillah, wa la ilaha illallah, wa Allahu akbar",
     english: "Glory be to Allah, all praise is for Allah, there is no deity but Allah, Allah is the Greatest",
     hadith:
-      "The Prophet ﷺ said: 'Saying: Subhanallah, Alhamdulillah, La ilaha illallah, Allahu Akbar is dearer to me than all that the sun rises upon.' (Muslim 2695)\n\nBenefit: These are the four greatest words of remembrance, filling the scales of good deeds and beloved to Allah.[web:72][web:73]",
+      "The Prophet ﷺ said: 'Saying: Subhanallah, Alhamdulillah, La ilaha illallah, Allahu Akbar is dearer to me than all that the sun rises upon.' (Muslim 2695)\n\nBenefit: These are the four greatest words of remembrance, filling the scales of good deeds and beloved to Allah.",
     target: 100,
     category: "medium",
   },
@@ -144,7 +144,7 @@ const DHIKR_LIST: Dhikr[] = [
     transliteration: "La hawla wa la quwwata illa billah",
     english: "There is no power and no strength except with Allah",
     hadith:
-      "Abu Musa al-Ash’ari reported: The Prophet ﷺ said, 'Shall I not tell you a phrase which is one of the treasures of Paradise? It is: La hawla wa la quwwata illa billah.' (Bukhari 6384)\n\nBenefit: This dhikr brings comfort in hardship, removes anxiety, and is a treasure from Paradise.[web:78][web:84]",
+      "Abu Musa al-Ash’ari reported: The Prophet ﷺ said, 'Shall I not tell you a phrase which is one of the treasures of Paradise? It is: La hawla wa la quwwata illa billah.' (Bukhari 6384)\n\nBenefit: This dhikr brings comfort in hardship, removes anxiety, and is a treasure from Paradise.",
     target: 100,
     category: "medium",
   },
@@ -392,7 +392,7 @@ const TasbihPage: React.FC = () => {
           content="Tasbih counter, Islamic dhikr, digital tasbih, dua, hadith references, flip cards, prayer counter, Islamic supplications, tasbih beads, remembrance of Allah, tasbih digital, tasbih online, prayer counter, istighfar counter, digital tasbih counter, online zikir, dhikr counter online, tasbih beads online, tasbih counter on phone, dhikr tracker, counter zikir, online dhikr counter, long dhikr, tasbeeh counter app, free Islamic tasbih counter"
         />
         <meta name="author" content="Qalam Verse Islamic Education" />
-        <link rel="canonical" href="https://www.qalamverse.site/#/tasbih" />
+        <link rel="canonical" href="https://www.qalamverse.site/tasbih" />
       </Helmet>
 
       <div className="bg-luxury-gradient min-h-screen overflow-x-hidden">

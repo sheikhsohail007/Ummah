@@ -1183,7 +1183,7 @@ return (
         <title>Stories of Prophets - Complete Prophet Biographies | Qalam Verse</title>
         <meta name="description" content="Discover the complete stories of 31 Prophets in Islam. Learn about their lives, miracles, teachings, and lessons from Adam to Muhammad (PBUH) with Quranic references and historical context." />
         <meta name="keywords" content="Prophet Stories, Islamic Prophets, Prophet Biographies, Stories of Messengers, Islamic History, Prophet Muhammad, Prophet Moses, Prophet Jesus, Quranic Stories, muhammad sallallahu alaihi wasallam mother name, son of muhammad, children of muhammad, prophet muhammad father, story of prophet muhammad, muhammad saw ki jiban kahini, life story of prophet muhammad saw, 25 prophets of islam and their stories, saleh alaihissalam, musa alaihissalam, life story of popular 25 prophets, adam alahisslam ki lifestory" />
-        <link rel="canonical" href="https://www.qalamverse.site/#/prophet-stories" />
+        <link rel="canonical" href="https://www.qalamverse.site/prophet-stories" />
       </Helmet>
 
       <div className="text-center mb-8">

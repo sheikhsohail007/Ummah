@@ -4340,7 +4340,7 @@ function AllahNames() {
                 <title>99 Names of Allah - Qalam Verse</title>
                 <meta name="description" content="Learn the 99 beautiful names of Allah with meanings, benefits, and Quranic references. Complete Islamic guide with audio pronunciation." />
                 <meta name="keywords" content="99 Names of Allah, Asma ul Husna, Allah Names, Islamic Names, Quran, Islamic Learning, Beautiful Names of God" />
-                <link rel="canonical" href="https://www.qalamverse.site/#/allah-names" />
+                <link rel="canonical" href="https://www.qalamverse.site/allah-names" />
 
             </Helmet>
 

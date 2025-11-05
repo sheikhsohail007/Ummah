@@ -450,7 +450,7 @@ function DailyReflection({ selectedMood }: DailyReflectionProps) {
         <title>Daily Islamic Reflection - Spiritual Guidance & Wisdom | Qalam Verse</title>
         <meta name="description" content="Find daily Islamic reflections, spiritual insights, and practical guidance. Discover Quranic verses, Hadith wisdom, and Islamic teachings for personal growth and faith strengthening." />
         <meta name="keywords" content="Islamic Reflection, Daily Islamic Wisdom, Spiritual Guidance, Islamic Teachings, Quran Reflection, Hadith Wisdom, Islamic Personal Development, daily reminder, daily journal about islam, daily Islamic reflection quotes, Islamic daily reminders, daily Quran lessons, Islamic motivational quotes for today" />
-        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/#/reflection" />
+        <link rel="canonical" href="https://sheikhsohail007.github.io/Ummah/reflection" />
       </Helmet>
 
       <div className="text-center mb-8">

@@ -32840,7 +32840,7 @@ function QuranVerses({ selectedMood }: QuranVersesProps) {
         <title>Holy Quran - Read Complete Quran with Translation | Qalam Verse</title>
         <meta name="description" content="Read the complete Holy Quran with Arabic text and English translations. Explore 114 Surahs with detailed meanings, revelations, and spiritual guidance from Islamic Pearls." />
         <meta name="keywords" content="Quran, Holy Quran, Quran Translation, Quran Arabic, Surahs, Islamic Scripture, Quran Reading, Quran Online, Qalam Verse, al muhsi, qalam verse com, al mulk, Quranic verses with translation, learn Quran online free, Quran study for beginners, Quran tafsir Urdu, Quran daily recitation guide" />
-        <link rel="canonical" href="https://www.qalamverse.site/#/quran" />
+<link rel="canonical" href="https://www.qalamverse.site/quran" />
       </Helmet>
 
       <div className="text-center mb-8">
