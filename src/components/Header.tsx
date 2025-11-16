@@ -22,7 +22,7 @@ function Header({
   const primaryNavigation = [
     { path: '/', label: 'Home', icon: '🏠' },
     { path: '/salah-guide', label: 'Correct Salah', icon: '🕌' },
-    { path: '/prayer-times', label: 'Prayer Times', icon: '⏰' },
+    { path: '/tasbih', label: 'Tasbih Counter', icon: '📿' },
     { path: '/quran', label: 'Quran', icon: '📖' },
     { path: '/mood', label: 'Mood Selector', icon: '😊' },
     { path: '/islamic-ai', label: 'Islamic AI', icon: '🤖' }
@@ -34,9 +34,9 @@ function Header({
     { path: '/islamic-stories', label: 'Islamic Stories', icon: '📚' },
     { path: '/prophet-stories', label: 'Prophet Stories', icon: '👥' },
     { path: '/prophetic-wisdom', label: 'Prophetic Wisdom', icon: '💎' },
+    { path: '/prayer-times', label: 'Prayer Times', icon: '⏰' },
     { path: '/dua', label: 'Dua & Dhikr', icon: '🤲' },
-    { path: '/allah-names', label: '99 Names of Allah', icon: '🕋' },
-    { path: '/tasbih', label: 'Tasbih Counter', icon: '📿' }
+    { path: '/allah-names', label: '99 Names of Allah', icon: '🕋' }
 
 
   ];

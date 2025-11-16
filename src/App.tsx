@@ -63,20 +63,34 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-      <Helmet>
+       <Helmet>
         <title>Qalam Verse - Your Digital Islamic Companion</title>
-        <meta name="description" content="Discover the beauty of Islam through prayer times, Quranic verses, prophetic wisdom, Islamic stories, and spiritual guidance. Your comprehensive digital companion for Islamic learning." />
-        <meta name="keywords" content="Islam, Quran, Prayer Times, Islamic Stories, Prophet Stories, Dua, Dhikr, Islamic Education, Muslim, Spiritual Guidance" />
-        <meta name="author" content="Sheikh Sohail" />
-        <meta property="og:title" content="Qalam Verse - Your Digital Islamic Companion" />
-        <meta property="og:description" content="Discover the beauty of Islam through prayer times, Quranic verses, prophetic wisdom, and spiritual guidance." />
+        <meta 
+          name="description" 
+          content="Qalam Verse - Your digital Islamic companion for daily Quranic reflection, prayer times, Islamic stories, and spiritual guidance. Perfect for Muslim daily practice." 
+        />
+        <link rel="canonical" href="https://www.qalamverse.site/" />
+        
+        {/* ✅ DEFAULT OPEN GRAPH FOR ALL PAGES */}
+        <meta property="og:title" content="Qalam Verse - Digital Islamic Companion" />
+        <meta property="og:description" content="Daily Islamic companion for Quran, prayer times, stories and spiritual growth" />
+        <meta property="og:url" content="https://www.qalamverse.site/" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://qalamverse.site/" />
+        <meta property="og:image" content="https://www.qalamverse.site/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:site_name" content="Qalam Verse" />
+        
+        {/* ✅ DEFAULT TWITTER CARD FOR ALL PAGES */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Qalam Verse - Your Digital Islamic Companion" />
-        <meta name="twitter:description" content="Discover the beauty of Islam through prayer times, Quranic verses, prophetic wisdom, and spiritual guidance." />
-        <link rel="canonical" href="https://qalamverse.site/" />
+        <meta name="twitter:title" content="Qalam Verse - Digital Islamic Companion" />
+        <meta name="twitter:description" content="Your comprehensive Islamic platform for Quran, prayer times and spiritual guidance" />
+        <meta name="twitter:image" content="https://www.qalamverse.site/og-image.jpg" />
+        <meta name="twitter:image:alt" content="Qalam Verse - Digital Islamic Companion" />
+        <meta name="twitter:site" content="@qalamverse" />
       </Helmet>
+
 
       <Header
         darkMode={darkMode}

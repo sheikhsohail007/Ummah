@@ -1781,7 +1781,7 @@ function MoodSelector({ selectedMood, onMoodSelect }: MoodSelectorProps) {
         <title>Islamic Mood Selector - Personalized Spiritual Guidance | Qalam Verse</title>
         <meta name="description" content="Select your current mood to receive personalized Islamic guidance, Quranic verses, Hadith wisdom, and spiritual support tailored to your emotional state and spiritual needs." />
         <meta name="keywords" content="Islamic Mood Selector, Personalized Islamic Guidance, Emotional Support Islam, Islamic Psychology, Spiritual Mood, Islamic Counseling, Faith-based Guidance, i am feeling, 
-Islamic mood selector app, spiritual mood tracker Islam, Islamic emotions and coping, mood-based Islamic content, dua for sad, dua for anger, dua for jealousy, dua for Frustrated, dua for happiness in life " />
+Islamic mood selector app, spiritual mood tracker Islam, Islamic emotions and coping, mood-based Islamic content, dua for sad, dua for anger, dua for jealousy, dua for Frustrated, dua for happiness in life, i am so lonely, am i alone, am i alone, i am not happy, i am feeling lonel, lonely i am so lonely, i am so sad, i am lonely, i am very sad, i am really sad, i feel extremely lonely, i am not good, i am tired of everything, i am alone in life, i am feeling alone, i feel like i am losing myself, i am not happy with my life, i am feeling sad, i am not happy i am not sad, i feel so sad, i feel really sad, i feel very sad" />
         <link rel="canonical" href="https://www.qalamverse.site/#/mood" />
       </Helmet>
 
